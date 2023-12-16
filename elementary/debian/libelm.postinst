@@ -1,0 +1,9 @@
+#! /bin/sh
+cd /usr/lib
+if [ -e "libelementary-ver-pre-svn-09.so.0" ]; then
+        echo "libelm 09.so file exists"
+else
+        echo "creating libelm 09.so file"
+fi
+
+ln -sf libelementary.so.1.0.0 libelementary-ver-pre-svn-09.so.0

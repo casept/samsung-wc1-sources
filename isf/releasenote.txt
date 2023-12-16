@@ -1,0 +1,2693 @@
+ISF 2.4.7720 :
+ 1. Replace deprecated API of package manager
+ 2. Add missing dependency
+ 3. check Web IME package to use category instead of label
+ 4. [demo] code cleanup
+ 5. fix fail to launch Web IME in no OSP environment
+ 6. fix build warning in no minicontrol environment
+
+
+ISF 2.4.7709 :
+ 1. fix build error in no minicontrol library environment
+ 2. Set smack for Web IME
+ 3. Fix minicontrol layout
+ 4. Monitor Web IME install/uninstall/update and update engine list
+ 5. Fix _default_instance double free bug
+ 6. Fix bug infinite connection logs are found in no helper module
+ 7. Remove unnecessary repetition if the size of helpers is equal to 0
+ 8. Add ecore loop into frontend
+ 9. Set FD_CLOEXEC to release FD on exec
+
+
+ISF 2.4.7618 :
+ 1. [panel] Make minicontrol be transparent
+ 2. [panel] remove unused variables
+
+
+ISF 2.4.7610 :
+ 1. changed the obtaining time of input window
+
+
+ISF 2.4.7609 :
+ 1. Support conditional build related to ui-gadget library
+ 2. Support conditional build about notification library
+ 3. Replace deprecated ail_package prefix () API with new one
+ 4. adjust the timer value of hiding ISE
+ 5. Use timer not to hide and show IME again in focus-out and focus-in event between applications
+ 6. Add return value in Transaction::read_from_buffer
+ 7. [demo] remove code to set scale
+ 8. fix build warning
+ 9. [panel] Fix inappropriate X event mask
+
+
+ISF 2.4.7528 :
+ 1. removed wrong syntax and words in the po_file
+ 2. modified translated words and added vi.po, mn_mn.po
+ 3. [demo] Refactoring code in imcontrol demo
+ 4. change keyboard mode by touch & code refactoring about the keyboard mode
+
+
+ISF 2.4.7517 :
+ 1. Add API to get the number of S/W or H/W keyboard ISEs
+ 2. [demo] unselect menu item when pressing menu
+ 3. Refactoring ise selector code
+ 4. Add isf_control_show_ise_selector API
+ 5. Correct build error
+ 6. added hotkeys in the config file for hiding ise
+
+
+ISF 2.4.7510 :
+ 1. Support conditional build about minicontrol
+ 2. Writing description about some APIs in scim_helper.h
+ 3. Add preload keyboard ise feature
+ 4. Use appropriate return value enum type of callback func registered by ecore_event_handler_add
+ 5. Allow NULL pointer in isf_control_get_ise_info_and_module_name if programmer is not interested in
+ 6. Launch ISE on request
+ 7. fix event type in ecore key event handler
+ 8. Add aul in smack rule
+
+
+ISF 2.4.7426 :
+ 1. [panel] check NULL or not before deleting object
+ 2. Fix API description error
+ 3. Remove unused config path
+ 4. Commented out the code leaving isf file logs
+ 5. update the translated word for the supporting language
+ 6. fix memset buffer size of 0 issue detected by prevent
+ 7. fix smack label issue of some locale directories such as es_US, fa, th, and ur
+
+
+ISF 2.4.7424 :
+ 1. Add bt-service in isf.rule
+ 2. [panel] initialize variable after calling edbus del and close
+ 3. Experimetal code update for TAINTED_STRING issue
+
+
+ISF 2.4.7421 :
+ 1. Remove m4 directory
+
+
+ISF 2.4.7420 :
+ 1. Send ISM_TRANS_CMD_TURN_ON_LOG to helper ISE even though there is not focus in
+ 2. Separate out setting UG package
+ 3. Remove unused file: isfsetting.edc
+ 4. Writing description of some APIs
+ 5. systemd: can not set negative OOMScoreAdjust for user service
+ 6. Do not run scim in daemon mode
+ 7. Make systemd unit file as part of source code
+ 8. Remove unused define in specfile
+
+
+ISF 2.4.7413 :
+ 1. Add isf_control_get_ise_info_and_module_name ()
+ 2. [panel] Applied multi resolution support for candidate items
+ 3. fix prevent issue : uninitialized scalar variable
+ 4. Added sanitize_string to avoid TAINTED_STRING error in Prevent system
+ 5. Re-show ISE panel after scim-helper-launcher process is recovered.
+ 6. Fix prevent issue: integer overflow
+
+
+ISF 2.4.7410 :
+ 1. Remove unused dependency and directory
+
+
+ISF 2.4.7404 :
+ 1. fix bug keyboard remains on menu screen
+ 2. [panel] remove unused variable
+ 3. Remove ui-gadget dependency
+
+
+ISF 2.4.7323 :
+ 1. Remove unnecessary build dependency
+ 2. Remove the duplicated locales
+ 3. Fix the translated message of es_ES locale
+ 4. modified po_file for supported languages
+ 5. [setting] change the name of paramater in create_bg
+
+
+ISF 2.4.7320 :
+ 1. Add ComposeKeyFactory when no one IMEngine is installed
+ 2. modified minicontrol UI
+ 3. [setting] add right margin to the supported language list view
+
+
+ISF 2.4.7316 :
+ 1. Modified po_file for the supported languages
+ 2. add vconf smack rule
+ 3. Add writing permission about vconf_network
+
+
+ISF 2.4.7313 :
+ 1. Fix build warning
+ 2. compile with dlog headers and libs
+ 3. [panel] remove unused code
+ 4. [panel] rename function to get angle of window
+
+
+ISF 2.4.7307 :
+ 1. [panel] Freeze event of set up input methods button to avoid launch UG multiple times
+ 2. [panel] Use ecore_x_event_mask_set or unset instead of XSelectInput for considering the used property
+ 3. [panel] create function to get window rotate angle
+ 4. [panel] Use quickpanel window angle instead of root window angle
+
+
+ISF 2.4.7306 :
+ 1. code refinement related to key modifier and lock
+ 2. support super key (between ctrl and alt key)
+ 3. check the keyboard mode when the immodule init
+ 4. modified po_file for Uzbek
+ 5. Set active ISE to Helper ISE when unpluging USB keyboard
+ 6. showing S/W keyboard when the keyboard mode is changed from H/W to S/W
+
+
+ISF 2.4.7231 :
+ 1. Remove ctrl + alt + right key in Tizen
+
+
+ISF 2.4.7230 :
+ 1. Add latin-1 key codes
+ 2. changed root window to input window about the PROP_X_EXT_KEYBOARD_EXIST property
+ 3. [panel] Delete destroy timer after candidate window is shown
+
+
+ISF 2.4.7227 :
+ 1. Revert "Add missing table in __scim_key_by_name
+ 2. Do not detect H/W keyboard mode when Power + volume down key is pressed.
+
+
+ISF 2.4.7226 :
+ 1. changed the conditions of detecting H/W keyboard input
+ 2. set the root window property for other apps temporarily
+ 3. Add missing table in __scim_key_by_name
+
+
+ISF 2.4.7223 :
+ 1. Show warning when it failed to access ISE file
+ 2. [panel] Add focus rectangle for candidate TTS feature
+ 3. changed root_win property to control_win property about checking the keyboard mode
+
+
+ISF 2.4.7220 :
+ 1. [panel] Add flick event for candidate TTS feature
+ 2. Add missing key to unicode table
+ 3. [panel] rename variable for radio group for ISE selector
+
+
+ISF 2.4.7218 :
+ 1. modified unnecessary logic and variable for checking keyboard mode
+ 2. [panel] add log when it failed to access ise module
+ 3. Fix issue the support languages of IMEngine updates wrong when display language is changed
+
+
+ISF 2.4.7216 :
+ 1. [panel] delete ise selector when process exits
+ 2. Fix issue IME hide when 'set up input methods' button is pressed
+ 3. Calling ecore_evas_move_resize () with proper values to avoid candidate disappears unexpectedly
+ 4. destroy ISE selector even though it failed to launch UG
+
+
+ISF 2.4.7213 :
+ 1. [panel] fix prevent control flow issues
+ 2. [isf-panel-efl] Fix long candidate showing issue
+
+
+ISF 2.4.7212 :
+ 1. [panel] change list theme of ise selector
+ 2. [panel] Add icon for ise selector
+ 3. [panel] show ise selector if the size of helper is more than 1
+
+
+ISF 2.4.7211 :
+ 1. Create minicontrol class for reusability
+ 2. Modified the candidate window to respect the ISE's angle
+ 3. Modified the panel to hide ISE on app window's focus out event
+ 4. Change return type of get_ise_index ()
+ 5. Add IME selector
+ 6. Fix window stacking issue of ISE selector
+ 7. Fix issue multiple ISE selectors are created
+
+
+ISF 2.4.7210 :
+ 1. Added code for exceptional logic error case related to gettimeofday
+
+
+ISF 2.4.7209 :
+ 1. Fix prevent issue: dereference after null check
+ 2. Add Select input method, Set up input methods string
+ 3. Fixed the bug that dlopen'ed handle is not being closed
+ 4. Added translated text for select input method, set up input methods
+
+
+ISF 2.4.7206 :
+ 1. Separated angle updating code for candidate and ISE, and renamed _window_angle to _ise_angle
+ 2. Modified SCIM process for launching OSPIMEs with root privilege
+ 3. Revert "Modify manifest to execute isf-query-engines"
+ 4. Add rule for security-server smack
+ 5. Refactoring mini control for detecting H/W keyboard
+ 6. added the translated text for "Only %s is available"
+ 7. Check whether parameter is NULL or not before deleting edbus signal handler
+ 8. [isf-panel-efl] Check _candidate_pop_image_count
+
+
+ISF 2.4.7204 :
+ 1. Modify manifest to execute isf-query-engines
+ 2. fix bug not to send hide state event when window manager hides IME
+
+
+ISF 2.4.7130 :
+ 1. Remove ctrl+alt+up/down key
+ 2. [isfsetting]fixed some bug which the name of hardware ise is shown in ise language view
+ 3. change build feature for logging on user binary
+ 4. added notification message when the H/W keyboard engine is changed
+
+
+ISF 2.4.7128 :
+ 1. modified minicontrol GUI to fix hidden text
+ 2. Use timestamp to check whether key event is sent from S/W keyboard
+ 3. Temporarily modified not to limit the size of candidate object
+ 4. updated the translated text of the supporting language list
+ 5. Even when geometry is reported from ISE, set w/h to 0 when not in SHOW state
+ 6. Use LOGW when operation fails
+
+
+ISF 2.4.7125 :
+ 1. change manifest for security
+ 2. [panel] Accept ISE_SHOW request only when the toolbar mode is HELPER_MODE
+ 3. [panel] Modified to emit show/hide signals only when succeeded
+ 4. [panel] Add check condition
+
+
+ISF 2.4.7121 :
+ 1. Add es_US in languages
+ 2. Fix locale from no_NO to nb_NO for Norsk (Bokmal)
+
+
+ISF 2.4.7120 :
+ 1. Remove english keyboard in H/W keyboard list
+ 2. Modified to update keyboard geometry when a new application requests to show our already-visible ISE
+ 3. Added debug message for checking forward_key_event
+
+
+ISF 2.4.7118 :
+ 1. skip to analyze surrounding text for autocapital in case of updating preedit
+ 2. Fix P131114-00886 [Improve candidate expand performance]
+ 3. [isfsetting]add hardware ise languge view.
+ 4. Add log in case key event is ignored
+ 5. Modified to update keyboard geometry before CANDIDATE_HIDE event
+ 6. removed notification message(virtual keyboard is on)
+
+
+ISF 2.4.7112 :
+ 1. Added wm_ready waiting code in SCIM and increased retry count of scim_socket_open_connection in HelperAgent
+
+
+ISF 2.4.7111 :
+ 1. [efl_immodule] Hide candidate when ic is turn off
+ 2. Add missing table to convert from key to unicode
+ 3. Fixed the bug that keyboard geometry is invalid when forcefully hidden by window manager
+ 4. fix unchecked return value issue from prevent
+ 5. Added WILL_SHOW condition to the late XID-report recovery case
+ 6. Add warning log when minicontrol_win_add failed
+ 7. Remove code to wait appservice ready
+
+
+ISF 2.4.7107 :
+ 1. Set transient_for when XID notified, if reported later than show_ise request
+ 2. Added logs for checking the HelperAgent's open_connection() failure
+ 3. added checking code of candidate mode when candidate show, create functions are called
+ 4. Modified to retry scim_socket_open_connection() in HelperAgent
+ 5. modified GUI of the seperate bar with reference GUI guide
+ 6. Add isf_control_set_initial_ise_by_uuid () API
+ 7. Fixed the bug that keyboard geometry is invalid when forcefully hidden by window manager
+
+
+ISF 2.4.7106 :
+ 1. Changed retry counts for socket config
+ 2. Modified to cache client window id
+ 3. fixed autoscroll problem of candidate area
+ 4. fix coding style
+ 5. Modified to provide a little more information when leaving a log
+
+
+ISF 2.4.7102 :
+ 1. Modified socket connection wait time
+ 2. Modified to set show_requested to TRUE even when candidate is in SHOW state
+ 3. Added window checking code when _prop_change is called
+ 4. add to display focus window in show request log
+ 5. Modified to wait a certain time before launching a new socket FrontEnd
+ 6. Added more waiting code before launching a new socket FrontEnd
+ 7. change from LOGD to LOGW when connection is failed
+ 8. change check logic of IME state in input_panel_show request
+ 9. Show warning when client window is different from focus window
+
+
+ISF 2.4.7031 :
+ 1. Add monitor for OSP IME
+ 2. Fixed prevent defect
+ 3. [isfsetting] call update_ise_list() first to refresh the engine_list, then load the ise info.
+ 4. support feedback optionally in build environment
+
+
+ISF 2.4.7024 :
+ 1. Remove unused source codes from PanelAgent class
+ 2. Support ESC key to hide IME
+ 3. Optimization for utf8_read_wchar() and utf8_mbtowc()
+ 4. Optimization for open_connection()
+ 5. add NULL check of p->name in scim_string_to_key ()
+ 6. Add commit_string(char*) and update_preedit_string(char*)
+ 7. Modified to send HelperEvent only to the focused_ic
+ 8. Modified to update ISE geometry whenever reported
+ 9. Removed unreachable code
+10. Fix more button hide issue
+11. Reset keyboard ISE when hardware keyboard is disconnected
+12. added deinitialize code of callback function for bluetooth
+13. Modified to send candidate messages only to the focused_ic
+14. conditional use bluetooth library
+
+
+ISF 2.4.7021 :
+ 1. Add Soft ISE H/W keyboard support
+ 2. Add executable permission to xorg
+ 3. Fix crash issue when ic->impl is equal to NULL in slot_send_helper_event
+ 4. check whether length is NULL or not in imdata_get
+
+
+ISF 2.4.7017 :
+ 1. added Bluetooth connection callback for unrecognized BT Keyboard
+ 2. fix crash issue in case ecore_imf_context_del () is called in preedit-changed, commit, and so on callback
+ 3. Remove to set default IMEngine
+
+
+ISF 2.4.7015 :
+ 1. Fix bug candidate window disappears late when hardware keyboard is connected
+ 2. Set default ISE before running helper
+ 3. Fixed autoscroll update logic for previous window and window manager's forceful keyboard hide event
+ 4. fix bug hide request wasn't sent even though the client window lost focus
+
+
+ISF 2.4.7014 :
+ 1. Changed to launch panel process with socket config
+ 2. Change default IMEngine factory
+ 3. Revert "Change process account of scim-launcher, isf-panel-efl"
+ 4. [demo] check cursor position to disable return key in case of focus-in event
+ 5. Fixed the problem when candidate turns back to SHOW state from WILL_HIDE state
+ 6. Modified to hide candidate window when switching back to SW keyboard mode
+ 7. Modified to open candidate window whenever ISE is on, unless HIDE is requested explicitly
+ 8. Request to hide candidate when language is changed to English
+ 9. Update helper focus_ic by focus_in_helper/focus_out_helper even when H/W keyboard is connecting
+ 10.Applied new process launching policy
+
+
+ISF 2.4.7010 :
+ 1. fix bug keyboard remains on menu screen
+ 2. [setting] fix typo in comments
+ 3. Change process account of scim-launcher, isf-panel-efl
+ 4. [immodule] initialize cursor position as -1 in focus-out
+
+
+ISF 2.4.7007 :
+ 1. modified po file for the wrong word of French
+ 2. added the access info of more button for screen reader
+ 3. [immodule] remove unused dependency
+ 4. Modified to update keyboard geometry when STATE_OFF is received without OFF_PREPARE
+ 5. Added hw keyboard mode checking routine when settling candidate window
+
+
+ISF 2.4.7002 :
+ 1. modified the execution condition of candidate feedback depending on the keyboard setting
+
+
+ISF 2.4.7001 :
+ 1. fix prevent issue about uninitialized value
+ 2. Use temporary file when re-write ISE cache file
+ 3. Prevent fix
+ 4. [isfsetting] add protection when loading ise info
+ 5. Make sure the hidden keyboard is located outside of display area
+ 6. update po files
+ 7. fix bug the font of candidate word isn't changed according to the change of system font
+
+
+ISF 2.4.6926 :
+ 1. Fix P130924-00625
+ 2. [setting] Remove autoperiod menu
+ 3. fix P130925-00022: po issue
+
+
+ISF 2.4.6925 :
+ 1. fix bug hide event callback wasn't called when context is deleted
+ 2. Do not move candidate window if ISE and candidate window are both in WILL_HIDE state
+ 3. fix N_SE-52363
+ 4. Fixed some cases that CANDIDATE_WILL_HIDE does not work properly
+ 5. Assume ISE still active when settle candidate window even in WILL_HIDE state
+ 6. Changed LOGI to LOGD for isf_save_log messages
+ 7. initialize current helper uuid when stop_helper () is called
+ 8. Save current active X window ID in focus-in for candidate window
+ 9. Replace SocketConfig reload with HelperAgent reload
+ 10.Keyboard show/hide toggle key should work in input panel is controlled manually
+ 11.Changed set_keyboard_geom interface to support update_ise_geometry
+ 12.Modified to preserve geometry information provided by ISE
+ 13.Send input panel event to show_request client
+ 14.fix N_SE-50420
+
+
+ISF 2.4.6916 :
+ 1. Modified to hide candidate window when WILL_HIDE ack received
+
+
+ISF 2.4.6912 :
+ 1. Fix candidate window hide issue in email app
+
+
+ISF 2.4.6911 :
+ 1. Add dim background when candidate window is expanded
+ 2. Fix WILL_SHOW state missing issue
+ 3. Clarified the usage of keyboard geometry related functions
+ 4. Use ISE/candidate state variables instead of state-specific flags
+ 5. Added state checking code before transition to WILL_* state
+
+
+ISF 2.4.6910 :
+ 1. Remove send_candidate_will_hide_ack from IMControlClient
+ 2. Share single imengine between applications
+ 3. Add get_selection and set_selection
+ 4. Register render_flush callback for candidate window when KEYBOARD_STATE changes
+ 5. Fixed the candidate window being displayed improperly by hide timer
+ 6. Release configbase when App exiting
+
+
+ISF 2.4.6909 :
+ 1. Sends PANEL_HIDE message even candidate is visible
+
+
+ISF 2.4.6905 :
+ 1. Change pagesize to 2 bytes
+
+
+ISF 2.4.6904 :
+ 1. Fix bug IME remains show status even though application terminated
+ 2. [immodule] remove unused code
+ 3. [scim-launcher] set locale
+ 4. fix:when switching between hardware and software keyboard, the config reload signal isn't emitted to hardware ise.
+ 5. changed background image of candidate
+ 6. Added code for resetting candidate_will_hide flag
+ 7. Modified to show candidate window without visibility
+ 8. Modified to update window_angle when ROT_CHANGE_REQ
+ 9. Fix bug candidate window disappear after about 1 sec in H/W keyboard mode
+10. Fix bug candidate window hide after 1 sec when application is terminated
+11. delete candidate timer when candidate window is hidden
+
+
+ISF 2.4.6902 :
+ 1. [isf-panel-efl] Add logs
+ 2. Fix bug the name of heleper or engine displays as gettext ID
+
+
+ISF 2.4.6829 :
+ 1. [setting] fix nabi N_SE-49587
+ 2. skip checking autocapital in H/W keyboard mode
+ 3. Use non-blocking mode socket
+ 4. Add autocapital type in isecontext
+ 5. Revert "temporary disable to query engine name due to engine B/S issue"
+ 6. [setting] fix N_SE-50147
+ 7. Solve input_panel_state_get issue
+ 8. Change label of UG
+
+
+ISF 2.4.6823 :
+ 1. remove candidate rotation code in update_ise_geometry, Add candidate close code for rotation
+ 2. temporary disable to query engine name due to engine B/S issue
+
+
+ISF 2.4.6822 :
+ 1. Remove unused set_isf_language from PanelAgent
+ 2. [immodule] Hide IME when H/W back key is released even though there is no focus
+ 3. [demo] add exit test case
+ 4. [immodule] Send hide request in case of abnormal exit
+ 5. [immodule] call prediction_allow_set in IMEngine in case of only having focus
+
+
+ISF 2.4.6819 :
+ 1. Add candidate will hide feature (Merge from RSA)
+ 2. Update gtkimcontextscim.cpp and scim_x11_frontend.cpp for PanelClient
+ 3. Fix imdata_get issue
+
+
+ISF 2.4.6815 :
+ 1. Change "English/Keyboard" to "English Keyboard"
+ 2. Include unistd.h in scim_helper.cpp
+ 3. Reduce binary size by compiler option "gc-sections"
+
+
+ISF 2.4.6814 :
+ 1. Reduce the number of dlog lines in immodule
+ 2. Fix socket pair issue for PanelClient
+
+
+ISF 2.4.6813 :
+ 1. Support ondemand mode. IME will show according to only mouse up event (not focus) in on-demand mode
+ 2. [demo] Add ondemand demo code
+ 3. modify log information and level
+ 4. call ecore_imf_context_reset when H/W back key is released
+ 5. Revert "temporary disable to query engine name due to engine B/S issue"
+ 6. remove code to set ELM engine and fps
+ 7. merge from RSA (fix candidate rotation problem, candidate window settle problem)
+ 8. Fixed prevent defects
+
+
+ISF 2.4.6807 :
+ 1. Add SCIM_IME_SUPPORT_LANGUAGE_TOGGLE_KEY option for keyboard ISE
+ 2. [panel] temporary disable to query engine name due to engine B/S issue
+
+
+ISF 2.4.6806 :
+ 1. [setting] check NULL pointer before accessing pointer
+ 2. [panel] Enable feedback (sound & vibration) on candidate item
+ 3. [panel] set max width for candidate item
+
+
+ISF 2.4.6803 :
+ 1. [immodule] Fix bug of autocapital analysis
+ 2. [setting] fix bug H/W keyboard selection is enabled after disconnecting H/W keyboard
+ 3. Add Engineering mode for dlog
+ 4. Use LOGI instead of LOGD to display log
+
+
+ISF 2.4.6802 :
+ 1. Modified the scim_socket to connect in nonblocking way
+ 2. [setting] Remove autocapital option
+ 3. [setting] Remove unused code related to autocapital option
+ 4. Fix hide message missing issue when context is deleted
+
+
+ISF 2.4.6731 :
+ 1. [immodule/setting/helper_launcher] Use singleton config instance
+ 2. Add Engineering mode for dlog
+ 3. skip will show sync to improve the performance of show effect
+
+
+ISF 2.4.6730 :
+ 1. Fix hide message missing issue when focus out;
+ 2. Change SCIM_LOOKUP_TABLE_MAX_PAGESIZE to 300;
+
+
+ISF 2.4.6727 :
+ 1. [panel] fix N_SE-46950: reset _hw_ise_bak when switching software keyboard leads to hardware keyboard engine changed.
+ 2. [immodule] Merge IMControlClient function into PanelClient
+ 3. [panel] Update logs and format codes
+ 4. [panel] Disabled auto_throttle feature
+
+
+ISF 2.4.6717 :
+ 1. [panel] fix prevent issue - unchecked return value
+ 2. change the word as their language in keyboard selection windows
+ 3. [panel] Use dlog instead of std::cerr
+ 4. [immodule] Avoiding keyboard flickering when focus out,reset and commit string
+ 5. [panel] Changed to relocate candidate window instead of hiding it when H/W keyboard attached
+ 6. [panel] Refined the routine for updating ISE size information
+ 7. [immodule] fix crash because of invalid show request input context
+
+
+ISF 2.4.6715 :
+ 1. [setting] check hardware keyboard status before set active ise
+ 2. [demo] Use ea_editfield
+ 3. [immodule] fix crash issue on OSP application
+
+
+ISF 2.4.6711 :
+ 1. [setting] check return value of pkgmgr function
+ 2. [setting] keyboard setting view should be changed according to H/W keyboard connection
+ 3. Add smack rule for dbus
+ 4. [panel] fix bug of candidate window's stacking issue
+ 5. [setting] update current keyboard engine on on_resume
+ 6. Add dbus smack rule for setting UG
+ 7. Add Dbus code for remove unknown keyboard
+ 8. check hardware mode before back hw_keyboard_selection_view_set_cb
+
+
+ISF 2.4.6703 :
+ 1. fix bug back key isn't propagated in case of H/W keyboard mode
+ 2. fix prevent issue. check return value of ecore_x_window_prop_card32_get
+ 3. Add smack rule
+
+
+ISF 2.4.6628 :
+ 1. Add candidate will hide function
+ 2. Add user space smack rule for set_active_ise_by_uuid
+ 3. Change word to newly translated word
+
+
+ISF 2.4.6624 :
+ 1. add tts-server in smack rule
+ 2. fix bug hide request was dicarded
+
+
+ISF 2.4.6619 :
+ 1. [setting/demo] support back key
+ 2. [iimmodule] change DLOG tagname of immodule
+ 3. [panel] remove code to set power manager vconf key
+ 4. [immodule] fix issue IME is hidden late in application does heavy job
+ 5. [immodule] fix bug focus-in message couldn't be transferred
+ 6. [immodule] remove unnecessary prepare and send
+ 7. [setting] fix flicker problem in setting
+
+
+ISF 2.4.6617 :
+ 1. Add launch/destroy/show/hide logs for scim-helper-launcher
+
+
+ISF 2.4.6614 :
+ 1. Remove unused source codes
+ 2. Solve aux/candidate selection event broadcast issue
+ 3. support toggle key for hardware keyboard
+ 4. Remove gtk_panel source codes
+ 5. Remove keyboard wizard source codes
+ 6. Add interface update_preedit_string_with_caret()
+ 7. [demo] remove debug printf
+ 8. [panel] Separated GEOMETRY_EVENT from set_keyboard_geometry_atom_info()
+ 9. change input detect method for hardware keyboard
+10. [immodule] IME should not be shown in the disabled context
+11. [immodule] fix prevent issue
+12. [setting] fix BS issue when S/W keyboard selection is selected
+13. [immodule] Added log for checking the render_flush time
+14. [immodule] fix hardware detection code in filter_event (change compare statement of timestamp)
+15. [panel] Added timer for off_prepare_done
+
+
+ISF 2.4.6605 :
+ 1. [immodule] fix memory leak about ecore_imf_context_surrounding_get
+ 2. [immodule] fix back space issue in MBE
+
+
+ISF 2.4.6604 :
+ 1. Change notification smack rule
+ 2. Discard input keys that does not match with current ic value
+ 3. add fa.po th.po ur.po
+
+
+ISF 2.4.6531 :
+ 1. [immodule] send show callback when show is requested after focused context is deleted
+
+
+ISF 2.4.6530 :
+ 1. [immodule] Support japanese auto punctuation
+
+
+ISF 2.4.6529 :
+ 1. [immodule] Set shift_mode_enabled to false as default
+ 2. [demo] add datetime layout
+ 3. [immodule] Add focus window check routine
+ 4. Modified the update_preedit_string() function to work properly even the preedit string is empty
+
+
+ISF 2.4.6527 :
+ 1. [setting] Change naviframe back key event handling
+ 2. [immodule] Set shift_mode_enabled to false as default
+
+
+ISF 2.4.6523 :
+ 1. [setting] fix abort issue in case EFL abort option turn on
+ 2. [panel] fix candidate blink bug at angle 180, 270
+ 3. [demo] Use the window manager rotation
+
+
+ISF 2.4.6521 :
+ 1. fix build error on GCC 4.7.3
+ 2. [immodule] fix bug hide_lookup_table doesn't work in set_layout of IMEngine
+ 3. [immodule] prepare and send is needed when set_prediction_allow is called in IMEngine
+ 4. [panel] Add screen reader feature
+
+
+ISF 2.4.6516 :
+ 1. Fix display number defect;
+
+
+ISF 2.4.6515 :
+ 1. Change translation about auto punctuate
+ 2. [panel] Set SIP status in vconf
+
+
+ISF 2.4.6513 :
+ 1. Revert "Set Smack label for supporting OSP IMEs"
+
+
+ISF 2.4.6509 :
+ 1. check connection status of hardware keyboard for disconnect
+ 2. [panel] set keyboard geometry information for incorrect ise size
+ 3. Remove unnecessary config reload call
+ 4. Add smack rule for vconf
+ 5. Add msgid for minicontrol
+
+
+ISF 2.4.6507 :
+ 1. [immodule] support autocapital for continuous space
+ 2. [setting] fix isfsetting: hw/sw keyboard setup module issue while hw/sw have the same name
+ 3. [demo] remove code for terminating app when END key is pressed
+ 4. [immodule] fix bug show request was ignored after input panel hide is called but hide state callback wasn't called
+ 5. Set Smack label for supporting OSP IMEs
+ 6. Set default language for isf_get_normalized_language ()
+
+
+ISF 2.4.6502 :
+ 1. [immodule] use secure log
+ 2. [panel] Add minicontrol window for keyboard input detection
+ 3. [panel] fix candidate object background highlight size
+
+
+ISF 2.4.6430 :
+ 1. Remove hangul toggle key in config file
+ 2. [panel] change more and close button image when ui_candidate_show called
+ 3. [immodule] Moved the autocapital code to commit_string from process_key
+ 4. [immodule] Added autocapital_type checking code
+ 5. [immodule] fix prevent defect
+ 6. [immodule] Fix capslock bug in USB keyboard
+ 7. [immodule] move autocapital log
+ 8. [panel] Adjust the rotation angle when ISE delivers its ROT_CHANGE_REQ
+ 9. [immodule] Added layout checking code
+10. [setting] change directory ug-isfsetting-efl.xml not to uninstall
+11. [immodule] Fixed the problem that auto capitalization does not work properly when switching applications
+
+
+ISF 2.4.6429 :
+ 1. [panel] Support Deco Emoji in candidate window
+
+
+ISF 2.4.6425 :
+ 1. [immodule] remove code to check lockscreen
+
+
+ISF 2.4.6423 :
+ 1. [demo] change code to process back button
+ 2. update smack rule for xorg
+ 3. hide candidate_area_2 after resize candidate window
+ 4. fix H/W keyboard option menu is enabled even though there is no option module
+ 5. [setting] fix prevent issue
+ 6. [immodule] fix crash issue if cursor position value is more than the length of surrounding text
+ 7. Modified to update rotation angle when keyboard window is fully visible
+ 8. Notify shift mode when shift mode enabled
+
+
+ISF 2.4.6418 :
+ 1. [immodule] fix autoperiod bug
+
+
+ISF 2.4.6417 :
+ 1. [immodule] Make sure we call ecore_x_init/shutdown when we use ecore_x functions.
+ 2. [setting] add searching ime app setup module for osp
+ 3. [panel] change more and close button image when ui_candidate_show called
+
+
+ISF 2.4.6416 :
+ 1. manage show request control id for comparing hide request
+ 2. [panel] reduce timeout for destroying candidate window
+
+
+ISF 2.4.6415 :
+ 1. need to check active ID
+
+
+ISF 2.4.6413 :
+ 1. [setting] use eina_strbuf_trim instead of eina_strbuf_replace_all
+ 2. [panel] fix prevent issue
+
+
+ISF 2.4.6412 :
+ 1. [immodule] fix prevent issue
+ 2. [setting] modify CSC filename and keyname
+
+
+ISF 2.4.6411 :
+ 1. [panel] Added else statement to ensure the geometry excludes candidate window when hidden
+ 2. [panel] Added return value checking routine for rotation_geometry_get
+ 3. [immodule] Added shift_mode_en/disable
+ 4. [iimmodule] Added extra will_show timer deletion code
+ 5. [demo] add a variety of layout and return key type in return key disable test case
+ 6. [panel] Modified to register the control window's xid to root window
+ 7. [panel] Added NULL check, window param check and unified parameter names
+ 8. [panel] use enum for setting SIP status
+ 9. [immodule] set layout into imengine even though ecore_imf_context_input_panel_layout_set() is called after ecore_imf_context_focus_in()
+10. [setting] set default ISE and input language based on CSC information
+11. [immodule] don't save hide request context in the IME hide state
+
+
+ISF 2.4.6409 :
+ 1. fix:add <application-service> item in ug-isfsetting-efl.xml
+
+
+ISF 2.4.6408 :
+ 1. [immodule] Added extra will_show timer deletion code
+ 2. fix symbolic link for isfsetting ug
+
+
+ISF 2.4.6405 :
+ 1. [panel] hide candidate window when will_hide_ack received
+ 2. [immodule] add log for some input panel APIs
+ 3. [panel] add usleep to wait for Window Manager ready
+
+
+ISF 2.4.6404 :
+ 1. [panel] settle candidate window when keyboard state is changed
+ 2. [immodule] Fix bug shift key event for autocapital is generated.
+ 3. Added update_ise_exit
+
+
+ISF 2.4.6403 :
+ 1. Fix socket read timeout
+ 2. [panel] fix rotation error of candidate
+ 3. [setting] item should not be highlighted on dragging
+ 4. Fix defects according to prevent report
+ 5. [setting] separate ug package to support osp setting
+ 6. [immodule] avoid to send focus-in in the input panel disabled context
+ 7. Fix autocapital defect
+
+
+ISF 2.4.6328 :
+ 1. [immodule] reset input panel state if state callback will not be called in 5 seconds
+ 2. [immodule] support layout variation
+ 3. [demo] Add demo for a variety of layout variations
+
+
+ISF 2.4.6326 :
+ 1. [panel] Request to hide ISE before stop helper ISE
+ 2. [panel] fix default ISE launching issue
+ 3. [panel] add log in booting time
+ 4. set default input language in vconf
+
+
+ISF 2.4.6322 :
+ 1. Add visibility gcc options
+
+
+ISF 2.4.6319 :
+ 1. [isf-panel-efl] Update aux style
+ 2. Fix path for 3rd ISE development
+ 3. [immodule] Update context counter in order to avoid same ic for different app
+ 4. [immodule] Allow prediction as default in case of EMAIL and URL layout
+ 5. [panel] launch default IME when appservice is equal to 1
+
+
+ISF 2.4.6312 :
+ 1. [setting] change separate and dialogue style
+
+
+ISF 2.4.6311 :
+ 1. fix delete/get_surrounding_text call sequence problem
+
+
+ISF 2.4.6309 :
+ 1. [isf-panel-efl] remove ui_create_candidate_window() in slot_set_keyboard_ise
+ 2. [panel] fix bug panel hasn't handled onnection during booting
+
+
+ISF 2.4.6308 :
+ 1. [demo] change code for implementing editfield
+
+
+ISF 2.4.6307 :
+ 1. Split SMACK rule from manifest file
+ 2. Add SMACK rule
+ 3. [panel] Check X display to avoid crash
+
+
+ISF 2.4.6306 :
+ 1. [systemd] Fix Smack labels for systemd units
+ 2. [isfcontrol] Add isf_control_set_active_ise_to_default API
+ 3. [panel] Modified the keyboard size to be 0 when OFF mode specified
+ 4. [panel] set keyboard state and geometry in only window not zone
+ 5. Add Esperanto and Sindhi language.
+ 6. IME won't be hidden when lockscreen appears
+
+
+ISF 2.4.6228 :
+ 1. [panel] Add monitor for active ISE file
+ 2. [isfcontrol] Update control APIs for C application
+
+
+ISF 2.4.6227 :
+ 1. [panel] Add timer for system status check function, move elm_init() position
+ 2. Update control APIs for C application
+
+
+ISF 2.4.6226 :
+ 1. change smack label about app_loging
+ 2. add svi-data, sound_server, sys-assert rule in manifest
+
+
+ISF 2.4.6222 :
+ 1. [demo] IME will be hidden when back key in naviframe is pressed
+ 2. add smack rule for shared library
+ 3. [immodule] input panel event callback is moved into ecore_imf
+
+
+ISF 2.4.6221 :
+ 1. fix: "onoff" style genlist item, drag the check button to enable/disable
+ 2. [immodule] IME will be hidden when END_KEY is released.
+
+
+ISF 2.4.6218 :
+ 1.add po for es_MX
+
+
+ISF 2.4.6214 :
+ 1. modify isf.manifest to give permission for the executable files
+
+
+ISF 2.4.6213 :
+ 1. [isf-panel-efl] Fix 'v' button issue
+ 2. [immodule] display warning in case that mouse up event occurs without focus
+ 3. [immodule] fix bug hide event callback is delivered when canvas lost focus and IME is already hidden state
+ 4. [panel] set vconf value for power management
+ 5. [panel] set transient_for before showing window
+
+
+ISF 2.4.6207 :
+ 1. [setting] on_pause on_resume function update
+ 2. Set app privilege for scim process
+ 3. change trigger hotkey to shift+space according to H/W keyboard UI guide
+ 4. Check hardware keyboard when update ISE information
+ 5. [isf-panel-efl] Update candidate window resize
+ 6. [isf-panel-efl ] Added code for sending GEOMETRY_EVENT when there is a change
+ 7. [immodule] display the language on the notification bar when trigger key is pressed.
+
+
+ISF 2.4.6205 :
+ 1. Launch initial ISE when active soft ISE is removed
+ 2. fix bug wrong hide context is delivered.
+
+
+ISF 2.4.6202 :
+ 1. [isf-panel-efl] Call config->reload () in PanelAgent reload slot fucntion
+
+
+ISF 2.3.6131 :
+ 1. [immodule] Remove code to hide IME in case of Search, Go, so on return key type
+ 2. [panel] fix logic to create control window
+ 3. update isf.manifest for SMACK
+ 4. [immodule] fix bug preedit doesn't appear sometimes
+
+
+ISF 2.3.6130 :
+ 1. [immodule] fix bug not to send will hide ack
+
+
+ISF 2.3.6129 :
+ 1. [setting] fix: reset couldn't work well
+ 2. The feature for synchronization with window manager newly added
+
+
+ISF 2.3.6128 :
+ 1. [immodule] display a variety of event logs in dlog
+ 2. [immodule] change input panel state when root window property is changed
+ 3. [immodule] fix bug that language information hasn't be transfered in ISE Context.
+ 4. [demo] Add language demo
+ 5. fix for GCC 4.7 build
+
+
+ISF 2.3.6123 :
+ 1. ignore input panel event when hardware keyboard is connected.
+ 2. [immodule] Add dlog related to conformant status and geometry information
+ 3. [immodule] Use notification library instead of syspopup
+
+
+ISF 2.3.6122 :
+ 1. Remove unused ISF logs
+ 2. fix memory leak related to ecore_x_e_window_profile_get
+
+
+ISF 2.3.6119 :
+ 1. [immodule] Compare window ID in X window focus out callback function
+
+
+ISF 2.3.6118 :
+ 1. [immodule] Hide IME after rendering conformant area
+ 2. [immodule] add X window focus out handler for X based application
+
+
+ISF 2.3.6117 :
+ 1. [panel] Call elm_win_raise () when expand button is clicked
+ 2. Update boilerplate
+
+
+ISF 2.3.6116 :
+ 1. [immodule] use ecore_imf API to show or hide for debugging easily.
+ 2. [panel] fix candidate window blink issue when candidate window is expanded.
+
+
+ISF 2.3.6115 :
+ 1. change boilerplate
+ 2. [immodule] use dlog for printing error
+
+
+ISF 2.3.6114 :
+ 1. [immodule] Add interface to get imdata from isf_imf_context
+ 2. [demo] Add changed and preedit,changed event
+ 3. [immodule] fix bug state is changed to WILL_SHOW when ecore_imf_context_input_panel_show is called after IME is already s
+ 4. [immodule] refactoring
+ 5. Hide IME in case of Search, Go, Login, Signin, Join Return key type
+
+
+ISF 2.3.6109 :
+  1. Fix P130104-1615: toplevel window ID need be set when focus in
+
+ISF 2.3.6107 :
+  1. Add set_candidate_style () for keyboard ISE
+  2. Fix bug of ecore_imf_context_input_panel_imdata_get ()
+
+
+ISF 2.3.6031 :
+  1. [panel] Fix N_SE-17126: ecore_x_icccm_transient_for_set set wrong parent window id
+
+
+ISF 2.3.6028 :
+  1. [panel] Change font name to 'Tizen'
+  2. [immodule] fix bug wrong context is used when IME is hidden by flick gesture
+  3. [setting] fix:pressing Home key while in setup module in keyboard setting ug, popup the window to the main page of the ug to avoid syncing ise option data issue
+  4. [setting] remove useless hw_keyboard_selection_view_back_cb() and sw_keyboard_selection_view_back_cb()fix:default value for auto capitalization is true
+
+
+ISF 2.3.6027 :
+  1. When target is rotated, donot show candidate window until ISE send ECORE_IMF_INPUT_PANEL_STATE_SHOW
+  2. [isf-panel-efl] use elm_win_prop_focus_skip_set ()
+  3. Fix H/W keyboard engine selection issue in case of Japanese IME
+
+
+ISF 2.3.6020 :
+  1. Fix initial ISE reading issue
+  2. Fix bug not to hide IME when ecore_imf_context_del is called
+
+
+ISF 2.3.6017 :
+  1. Implement ISF control feature
+  2. fix PLM bug:isfsetting ug indicator problem
+
+
+ISF 2.3.6014 :
+  1. [immodule] refine log format
+
+
+ISF 2.3.6013 :
+  1. [gtkimmodule] Fix the issue 'Unable to input Chinese characters in Firefox or Thunderbird.'
+  2. [gtkimmodule] Fix the issue 'can't type in password field of chromium browser'
+  3. fix gtk immodule build error
+
+
+ISF 2.3.6011 :
+  1. [immodule] Fix P121127-4709: Add cursor position checking
+
+
+ISF 2.3.6006 :
+  1. [immodule] Set correct ic for input_panel_show () and input_panel_hide ()
+  2. [immodule] Fix prevent issue. c_str() returns temporary pointer
+  3. [immodule] Remove unused code
+
+
+ISF 2.3.6005 :
+  1. [immodule] Fix BS issue
+
+
+ISF 2.3.6004 :
+  1. [immodule] Add focus_in and focus_out for IMControl
+  2. Add ISF logs for no-ise-launching-at-first-boot in emulator
+
+
+ISF 2.3.5930 :
+  1. [immodule] Set using_ic in _event_callback_call
+
+
+ISF 2.3.5929 :
+  1. Add set_imdata () for keyboard ISE
+  2. Add update_displayed_candidate_number, candidate_more_window_show, candidate_more_window_hide for keyboard ISE
+  3. [isf-setting] fix the setup module reload issue
+  4. fix PLM P121127-0347: focusable description item
+  5. Fix memory leak when show ISE panel
+  6. Remove ISF log when load/unload ISE module
+  7. [immodule] Replace XKeycodeToKeysym () with XkbKeycodeToKeysym ()
+
+
+ISF 2.3.5927 :
+  1. Add update_cursor_position () for keyboard ISE
+  2. Disable check datasum feature for socket to reduce socket transmission delay
+  3. Fix issue N_SE-13248 candiate show inproperly when keyboard is connected
+
+
+ISF 2.3.5926 :
+  1. Donot create candidate window when focus in
+  2. [immodule] reduce time to process autocapital
+
+
+ISF 2.3.5923 :
+  1. Add expand_candidate (), contract_candidate () and update_candidate_item_layout () for keyboard ISE;
+
+
+ISF 2.3.5921 :
+  1. [demo] Use virtualkeypad,state,* smart callback of conformant
+  2. [demo] add a variety of layout in focus movement for test
+  3. create /etc/scim/conf directory for CSC
+
+
+ISF 2.3.5920 :
+  1. [demo] add focus movement on pressing 'next' button
+  2. [isf-setting] format and clean source codes && fix information item layout problem
+  3. Add Hangul key as trigger event key
+  4. [immodule] keep the lastest input method even though focus is changed
+  5. Add FLOATING_CANDIDATE_WINDOW in HelperAgent::set_candidate_style ()
+
+
+ISF 2.3.5916 :
+  1. Update po
+  2. Add set_path_info function to HelperModule to support OSP based keyboard
+  3. Add ISF log file to record keyboard ISE and helper ISE load/unload
+
+
+ISF 2.3.5915 :
+  1. Explicitly unload module before helper ISE process is finished
+  2. [isf-demo-efl] Apply indicator change
+
+
+ISF 2.3.5913 :
+  1.fix PLM P121107-5543 po problem
+
+
+ISF 2.3.5908 :
+  1.load_config before create_ui for ise setup module
+
+
+ISF 2.3.5830 :
+  1. [isf_imf_context] fix issue N_SE-11810: ise dose not show when H/W keyboard is disconnected
+
+
+ISF 2.3.5826 :
+  1. [isf-setting] Update hardware keyboard after software keyboard is changed
+
+
+ISF 2.3.5824 :
+  1. [isf-imf-context] Hide preedit string when soft ISE commit string
+  2. [isf-imf-context] Move reset () after panel_req_focus_in ()
+  3. fix Nabi issue N_SE-10561 and the setting part problem of N_SE-11100
+
+
+ISF 2.3.5823 :
+  1. [isf-setting] Fix reset defect when hardware keyboard is connected
+
+
+ISF 2.3.5822 :
+  1. Add color style of preedit feature
+
+
+ISF 2.3.5819 :
+  1. Remove request field in the manifest according to the security team's request
+  2. [isf-imf-context] Donot force to commit string in isf_imf_context_reset ()
+
+
+ISF 2.3.5818 :
+  1. Remove heynoti about hibernation
+  2. Fix po files
+
+
+ISF 2.3.5817 :
+  1. apply smack manifest
+
+
+ISF 2.3.5815 :
+  1. [isf-panel-efl] Donot show candidate when update lookup table
+  2. Remove unused source codes
+  3. Use /home for the datadir instead of /opt/home
+
+
+ISF 2.3.5810 :
+  1. Added urgent features that OSP applications need
+  2. install license file in /usr/share/license
+
+
+ISF 2.3.5808 :
+  1. [immodule] add spanish punctuations
+  2. Add IMEngineOption and get_option () for keyboard ISE
+  3. Add/install a systemd service file; package initscript symlinks
+  4. [demo] add code to use ecore_x_e_virtual_keyboard_state_get
+
+
+ISF 2.3.5725 :
+  1. Fixed autocapital issue:signal_connect_set_caps_mode not call when prediction ON
+
+
+ISF 2.3.5724 :
+  1. [isf-panel-efl] Add checking condition when change factory
+
+
+ISF 2.3.5723 :
+  1. Support candidate showing when target is rotated
+
+
+ISF 2.3.5721 :
+  1. Change S42isf-panel-efl to S47isf-panel-efl
+  2. [setting] update po files
+
+
+ISF 2.3.5718 :
+  1. Add reset_keyboard_ise () in HelperAgent class
+
+
+ISF 2.3.5717 :
+  1. [immodule] do not show or hide ISE in case of desktop mode
+  2. [setting] update po files to fix autocapital translation
+  3. [setting] Change default mode of autocapital option
+  4. [demo] add SIGNIN type
+  5. [isf-panel-efl] Update candidate displaying
+
+
+ISF 2.3.5712 :
+  1. [isf-panel-efl] Hide "v" button when only one line candidates
+  2. [isf-setting-efl] Add padding at bottom
+
+
+ISF 2.3.5707 :
+  1. [isf-panel-efl] Fix input panel geometry defect when target is rotating
+  2. Add notification of which keyboard ISE is selected by hotkey
+
+
+ISF 2.3.5706 :
+  1. [immodule] add cursor position in Ise_Context structure
+  2. [immodule] disable prediction in TERMINAL layout
+
+
+ISF 2.3.5704 :
+  1. fix if no option for ise , disable the ise option item instead of popup.
+  2. [setting] fix typo
+
+
+ISF 2.3.5631 :
+  1. [isf-panel-efl] Add longpress event for soft ISE.
+
+
+ISF 2.3.5627 :
+  1. [immodule] fix bug not to call hide event callback when context is deleted.
+
+
+ISF 2.3.5624 :
+  1. Add set_candidate_style () method for HelperAgent class
+
+
+ISF 2.3.5617 :
+  1. [isf-panel-efl] Update input panel geometry when soft ISE is hidden
+  2. [isf_imf_context] Remove unused start_default_ise
+  3. [immodule] fix bug that affect to receive any event of other window
+  4. [setting] display fullstop menu optionally
+
+
+ISF 2.3.5608 :
+  1. Add update_preedit_caret method for HelperAgent class
+
+
+ISF 2.3.5607 :
+  1. Add expand/contract candidate APIs for soft ISE
+
+
+ISF 2.3.5602 :
+  1. [isf_imf_context] Fix forward_key_event defect
+
+
+ISF 2.3.5531 :
+  1. [isf-panel-efl] Improve autoscroll performance for elm_conformant widget
+  2. [isf_imf_context] Call set_layout when turn on
+  3. [isf-panel-efl] Remove elm_win_raise ()
+  4. [isf_imf_context] Remove reset_option ()
+
+
+ISF 2.3.5526 :
+  1. Add set_layout for IMEngineInstanceBase
+  2. [scim_x11_frontend] Implement preedit function for helper ISE
+
+
+ISF 2.3.5520 :
+  1. Reverse arrow image for USB keyboard > ON
+  2. Update CommonLookupTable for add_attributes () and remove_attributes ()
+
+
+ISF 2.3.5517 :
+  1. [isf-panel-efl] Add ForeGround color and BackGround color
+
+
+ISF 2.3.5509 :
+  1. [immodule] fix bug related to input_panel_event_callback_del
+  2. add Ecore_X.h in ise_context.h
+
+
+ISF 2.3.5506 :
+  1. [immodule] supplement dlog
+  2. [immodule] remove code to handle 'HOME' key
+
+
+ISF 2.3.5505 :
+  1. fix candidate window doesn't show when BT keyboard is connected.
+  2. [isf-panel-efl] Update input panel geometry
+
+
+ISF 2.3.5503 :
+  1. [immodule] fix extended latin character input issue
+
+
+ISF 2.3.5502 :
+  1. [isf-panel-efl] Update rule for highlight item
+  2. [isf-panel-efl] Fix panel geometry defect
+
+
+ISF 2.3.5429 :
+  1. [immodule] add client X window ID in ise_context structure
+  2. [isf-panel-efl] Fix autoscroll defect
+
+
+ISF 2.3.5428 :
+  1. [isf-panel-efl] Implement fixed style;
+  2. [immodule] fix autocapital inssue in preediting
+
+
+ISF 2.3.5420 :
+  1. Update panel according to [Tizen_720x1280]Textinput GUI_v0.6_120426.ppt;
+
+
+ISF 2.3.5407 :
+  1. Change autocapital, autoperiod vconf key name
+
+
+ISF 2.3.5404 :
+  1. Replace hibernation vconf key with file
+  2. Fix default ISE random defect
+
+
+ISF 2.3.5401 :
+  1. remove input_lang vconf key
+  2. Use process key event of IMEngine instead of evas_event_feed
+  3. remove 'scim -d' in /etc/init.d/isf-panel-efl boot script
+
+
+ISF 2.3.5329 :
+  1. execute 'scim -d' in /etc/init.d/isf-panel-efl script for reducing booting time
+
+
+ISF 2.3.5326 :
+  1. Function keys event use XSendEvent
+
+
+ISF 2.3.5324 :
+  1. bug fix : not to insert some language such as japanese, russian
+
+
+ISF 2.3.5321 :
+  1. Update text in setting according to UI guide 2.4
+
+
+ISF 2.3.5320 :
+  1. set ECORE_IMF_MODULE explicitly
+
+
+ISF 2.3.5319 :
+  1. Update po files
+
+
+ISF 2.3.5318 :
+  1. [isf-setting-efl] Add hardware ise option
+  2. [isf-panel-efl] Remove disable language related source codes
+  3. [isf-demo-efl] Format text
+  4. Update en.po for Keyboard option
+  5. Set environment variable for GTK, X application
+
+
+ISF 2.3.5317 :
+  1. Remove theme vconf key
+  2. Update programming guide
+
+
+ISF 2.3.5316 :
+  1. Bug fix : uppercase letter wasn't inserted.
+
+
+ISF 2.3.5315 :
+  1. Enable X11 frontend for support Mobile PC
+  2. Set prediction allow as FALSE in case of EMAIL and URL layout
+  3. Use X key event to generate ecore key event
+
+
+ISF 2.3.5310 :
+  1. Add self-recovery feature;
+  2. Fix ABI issue in scim_imengine.h;
+
+
+ISF 2.3.5307 :
+  1. set prediction allow as FALSE in case of password mode
+  2. cleanup even though immodule unloads abnormally
+
+
+ISF 2.3.5225 :
+  1. support autoperiod in webkit based editor
+
+
+ISF 2.3.5223 :
+  1. fix shift key blink issue related to autocapital
+
+
+ISF 2.3.5218 :
+  1. Fix bug input panel doesn't hide
+  2. Use private vconfkey
+  3. Add X11 frontend
+
+
+ISF 2.3.5211 :
+  1. update po
+  2. Remove VCONFKEY_ISF_INPUT_LANG_STR
+
+
+ISF 2.3.5210 :
+  1. update po
+
+
+ISF 2.3.5209 :
+  1. Add password_mode for soft ISE
+  2. Check duplicated ise_show request
+  3. bug fix: wrong context was passed when IME is swept down
+
+
+ISF 2.3.5205 :
+  1. Add prediction_allow for soft ISE
+
+
+ISF 2.3.5204 :
+  1. [immodule] bug fix about ise_show
+  2. [setting] disable autocapital option when H/W keyboard is detected.
+
+
+ISF 2.3.5129 :
+  1. [immodule] check the status of ISE
+  2. remove isf-panel-efl.desktop
+
+
+ISF 2.3.5126 :
+  1. Code cleanup for scim_helper.h and scim_helper.cpp
+  2. [isf-setting-efl] Remove hard codes for XT9 ISE
+  3. [immodule] fix bug : input_panel_show is called twice
+  4. [isf-setting-efl] Rename setup module name for soft ISE
+  5. [immodule] fix bug : candidate widnow sometimes covers compositing string
+
+
+ISF 2.3.5119 :
+  1. fix bug related to XSelectInput
+
+
+ISF 2.3.5115 :
+  1. Add notification feature for candidate window
+  2. Add isf_imf_context_candidate_window_geometry_get ()
+  3. Add isf_imf_context_input_panel_language_locale_get ()
+  4. Update po files ()
+
+
+ISF 2.3.5113 :
+  1. [demo][setting][panel] efl update
+
+ISF 2.3.5112 :
+  1. [demo] apply the change of ecore_imf_context_input_panel_language_locale_get parameter
+
+
+ISF 2.3.5106 :
+  1. [immodule] deliver imdata when slot_ise_show is called
+  2. [demo] add language changed event demo
+  3. disable syslog
+
+
+ISF 2.3.5102 :
+  1. add return key type, disabled in ise_context
+
+
+ISF 2.3.5029 :
+  1. add caps_lock_mode
+  2. Change deprecated elm_editfield APIs
+
+
+ISF 2.3.5022 :
+  1. add return key type, disabled in ise_context
+
+
+ISF 2.3.5020 :
+  1. Support return_key_type_set, return_key_disabled_set
+
+
+ISF 2.3.5016 :
+  1. [panel] fix candidate window size issue
+
+
+ISF 2.3.5015 :
+  1. Applied EFL migration
+
+
+ISF 2.3.5009 :
+  1. fix according to the change of imdata_set/get API
+
+
+ISF 2.3.5002 :
+  1. fix bug not to insert some languages
+  2. feed capital letter instead of 'Shift+character'
+
+
+ISF 2.3.5001 :
+  1. Add control_privilege () in isf_query_engines.cpp
+  2. Create folder before saving engine list
+
+
+ISF 2.3.4931 :
+  1. Use synchronous ecore_imf callback API
+
+
+ISF 2.3.4926 :
+  1. Support to feed X key event in case of using only client window without canvas
+  2. Feed keyname, key, keystring, compose in evas_event_feed_key_{down/up}
+
+
+ISF 2.3.4919 :
+  1. Add get_surrounding_text() for soft ISE
+
+
+ISF 2.3.4912 :
+  1. change priviledge from root to inhouse
+
+
+ISF 2.3.4903 :
+  1. remove ECORE_IMF_INPUT_PANEL_ORIENT
+  2. Decrease socket IME creation time
+  3. [demo] fix parameter of client_window_set
+
+
+ISF 2.3.4821 :
+  1. [demo] remove OCR, barcode demo.
+
+
+ISF 2.3.4816 :
+  1. [immodule] support autocapital in webkit editor
+  2. [panel] change theme name
+
+
+ISF 2.3.4809 :
+  1. [isf-panel-efl/isfsetting] codes cleanup
+
+
+ISF 2.3.4807 :
+  1. Change initial ISE
+  2. remove CommonISE UUID
+  3. [isf-panel-efl] Fix rotation defect
+
+
+ISF 2.3.4806 :
+  1. Clean source codes
+
+
+ISF 2.3.4805 :
+  1. Implement prediction allow set/get functions
+  2. Remove license issue files
+
+
+ISF 2.3.4801 :
+  1. [isfsetting] add setting option reset
+  2. [isf-panel-efl] elm api update
+  3. [isfsetting] elm api update
+
+
+ISF 2.3.4721 :
+  1. [isf-panel-efl] Remove resize timer;
+  2. [isf-panel-efl] Remove unused source codes;
+
+
+ISF 2.3.4718 :
+  1. [immodule] use dlog for writing show/hide log;
+  2. [isf-panel-efl] apply show/hide for candidate window;
+  3. [isf-panel-efl] adjust rotation and show sequence;
+  4. Remove unused source codes;
+  5. Support custom global file for localization;
+
+
+ISF 2.3.4714 :
+  1. [immodule] remove unused interfaces
+
+
+ISF 2.3.4711 :
+  1. [isfwizard] change button to label in controlbar
+
+
+ISF 2.3.4709 :
+  1. change hide delay from 200ms to 50ms
+  2. [demo] editentry update
+  3. [isfwizard] naviframe update
+
+
+ISF 2.3.4704 :
+  1. Add reset option command for setting
+
+
+ISF 2.3.4703 :
+  1. [isfwizard] fix bug
+
+
+ISF 2.3.4702 :
+  1. [isfwizard] change isfwizard.log to /tmp directory
+  2. [isf-panel-efl] Fix empty candidate defect when click "More" button for landscape
+
+
+ISF 2.3.4701 :
+  1. [isf-panel-efl] Update "More" and "Close" buttons.
+
+
+ISF 2.3.4631 :
+  1. add wizard log file to analyze loading problem in 1st time booting
+
+
+ISF 2.3.4628 :
+  1. update po
+  2. remove instant hide in shutdown.
+
+
+ISF 2.2.4627 :
+  1. [immodule] hide input panel instantly when program is terminated.
+
+
+ISF 2.2.4625 :
+  1. [immodule] support autocapital type
+  2. [demo] add autocapital type demo
+  3. disable common ISE feature
+
+
+ISF 2.2.4624 :
+  1. [immodule] fix autoperid bug
+
+
+ISF 2.2.4620 :
+  1. [immodule] use hide timer for supporting entry's theme change
+
+
+ISF 2.2.4619 :
+  1. [isfsetting] update padding to 25 pixels
+
+
+ISF 2.2.4617 :
+  1. [immodule] check whether cursor position is changed or not
+
+
+ISF 2.2.4614 :
+  1. [demo] set scale factor
+  2. [isfsetting] fix naviframe popup item problem
+  3. [immodule] support autocapital related to CR and PS
+
+
+ISF 2.2.4613 :
+  1. [isf-panel-efl] Fix candidate UI broken when rotation
+  2. [isf-panel-efl] Update aux for ise-engine-xt9-chinese 2.0
+  3. [isf-panel-efl] Update tizen-black-hd and tizen-hd
+  4. [immodule] Implement ISF control APIs
+  5. [isf-demo-efl] modify demo code for Nbeat layout
+  6. [immodule] fix autocapital bugs
+
+
+ISF 2.2.4606 :
+  1. Use Naviframe widget
+
+
+ISF 2.2.4604 :
+  1. [isfsetting] fix option title : Option -> Options
+  2. [immodule] do not hide input panel even though end key is pressed.
+
+
+ISF 2.2.4529 :
+  1. [settingwizard] Use dlog for collecting log
+
+
+ISF 2.2.4520 :
+  1. [isfsetting] fix supporting languages wrap
+
+
+ISF 2.2.4515 :
+  1. [immodule] fix callback issue
+  2. [immodule] reduce redundant vconf API call
+
+
+ISF 2.2.4506 :
+  1. [immodule] hide input panel when the canvas loses focus
+
+
+ISF 2.2.4505 :
+  1. [immodule] call imcontrol API after checking whether the context has focus
+  2. [immodule] change the double space interval from 0.6 sec to 1 sec
+  3. Fix defects according to klocwork test report
+
+
+ISF 2.2.4418 :
+  1. [setting] genlist seperator style api update
+  2. remove STK demo and document
+  3. [immodule] set hide request input context after checking state
+
+
+ISF 2.2.4403 :
+  1. [setting-wizard] bug fix white screen
+  2. [immodule] add cursor position api
+
+ISF 2.2.4402 :
+  1. tizen layout update
+  2. [isfwizard] Fix socket config defect
+  3. [setting] change 2 line text style
+  4. [socket frontend] Use cache file
+  5. [immodule] Cursor location is transfered by ecore_imf_context_cursor_location_set
+
+
+ISF 2.2.4325 :
+  1. [efl_setting] Fix socket config defect
+  2. [immodule] Add autoperiod, autocapital function
+
+
+ISF 2.2.4321 :
+  1. Update for Elementary API Changes
+
+
+ISF 2.2.4314 :
+  1. [immodule] include appropriate header
+  2. [isf-panel-efl] Fix defect according to prevent report
+  3. Update boilerplate
+
+
+ISF 2.2.4311 :
+  1. [immodule] add cursor_location_set.
+  2. [immodule] change client_canvas type
+
+
+ISF 2.2.4306 :
+  1. [immodule] bug fix : input panel was not hidden when input_panel_hide is called during show animation is being progressed.
+
+
+ISF 2.2.4230 :
+  1. [setting-wizard] remove icon and modify alignment of text in the navibar button
+  2. [immodule] hide input panel instantly when context is destoryed or END key is preassed.
+
+
+ISF 2.2.4229 :
+  1. [immodule] move IME control to immodule
+
+
+ISF 2.2.4227 :
+  1. [setting] use default back button instead of text button
+
+
+ISF 2.2.4223 :
+  1. apply tizen-black theme in the candidate window
+
+
+ISF 2.2.4222 :
+  1. update for genlist API changes;
+
+
+ISF 2.2.4215 :
+  1. update po;
+  2. update language label (Hong Kong) and group title
+
+
+ISF 2.2.4207 :
+  1. Fix language issue for ISE cache file;
+  2. [isf-panel-efl] update aux scroll issue;
+  3. Update Chinese po files;
+
+
+ISF 2.2.4131 :
+  1. [immodule] bug fix : hide state is not delivered when ecore_imf_context_input_panel_hide is called
+
+
+ISF 2.2.4130 :
+  1. Fix hibernation issue for ISE cache file
+  2. Fix defects according to K9 test report
+  3. fix defect caused by common ISE switch while setting layout in app
+
+
+ISF 2.2.4125 :
+  1. Use ISE info cache file
+  2. Inject key event such as tab, backspace regardless of focus for controlling UI
+
+
+ISF 2.2.4118 :
+  1. Delete elm_dialoguegroup APIs
+  2. Bug fix : hide/show context is passed wrong
+
+
+ISF 2.2.4104 :
+  1. Upload the dynamic load/unload of keyboardISE
+
+
+ISF 2.2.4027 :
+  1. [isf-setting/wizard]remove ise_option_view_back_cb()
+  2. [isf-setting/wizard]move the ug clear up work to on_destroy() func
+  3. [isf-panel-efl] Reset flag when candidate window is destroyed
+  4. fix debian/rules according to mike's noticement
+
+
+ISF 2.2.4025 :
+  1. [isf-setting/wizard] use genlist "dialogue" style
+  2. [isf-setting] module delete move to back_cb()
+  3. fix 2 scim-helper-launcher processes bug when boot up
+
+
+ISF 2.2.4019 :
+  1. [isf-setting] hide "XT9" item in hw ise list
+  2. [isf-panel-efl] fix hw/sw switch bug when reboot target with hw keyboard connected and actived
+
+
+ISF 2.2.4014 :
+  1. [isf-setting/wizard] config read error caused bs
+
+
+ISF 2.2.4012 :
+  1. [isf-setting/wizard] remove beat theme;
+  2. [isf-setting/wizard] click on text to select the genlist item;
+
+
+ISF 2.2.4011 :
+  1. [efl_immodule] Bug fix in isf_imf_context_filter_event
+
+
+ISF 2.2.4007 :
+  1. [isf-panel-efl] Fix candidate GUI faults
+  2. [efl_immodule] Turn on hotkey to support H/W keyboard
+
+
+ISF 2.2.4005 :
+  1. [setting-wizard] add previous / next icon
+  2. [setting] change genlist style
+
+
+ISF 2.2.4002 :
+  1. [immodule] event callback bug fix;
+  2. [immodule] add the method to get the root window even though the canvas is NULL
+  3. [isf-setting] Fix AUTO_PERIOD bug
+  4. [Programming Guide] write the description of the reason why ecore_imf_context_canvas_set
+
+
+ISF 2.2.3931 :
+  1. rollback to 3923;
+
+
+ISF 2.2.3928 :
+  1. [isf-panel-efl] Add 90 and 180 rotation support;
+  2. [isf-setting-efl] Change dialoggroup to genlist; Add h/w listener;
+  3. [isf-setting-efl] Use check widget instead of toggle widget; Fix tizen title_ellipsize style;
+  4. Implementation of dynamic load/unload of keyboardISE;
+  5. Fix c++ test defects;
+
+
+ISF 2.2.3923 :
+  1. [isf-panel-efl] wait until window manager is launched in normal boot
+  2. [isf-setting/wizard] fix dummy config problem
+  3. code refactoring
+
+
+ISF 2.2.3921 :
+  1. [isf-setting/wizard] add tizen theme
+  2. [isf-setting/wizard] ecore_imf_context_del/add pair to fix memory issue
+  3. [isf-setting/wizard] ecore_imf_context_init/shutdown remove
+
+
+ISF 2.2.3918 :
+  1. [isf-panel-efl] add tizen theme
+  2. remove trailing whitespace and tab
+
+
+ISF 2.2.3915 :
+  1. [isf-panel-efl] change boot sequence in normal boot
+
+
+ISF 2.2.3911 :
+  1. [isf-panel-efl] fix _ecore_main_fd_handlers_bads_rem() error log
+  2. [setting] change Keyboard to Back for left button
+
+
+ISF 2.2.3909 :
+  1. [isf-panel-efl] Add reload when hibernation leave
+
+
+ISF 2.2.3907 :
+  1. Create candidate window on focus-in, delete it on focus-out event for minimizing the usage of memory
+  2. [immodule] add canvas, window NULL check routine
+  3. [efl_setting] Fix BS issue;
+  4. [isf-panel-efl] Fix defect for vconf and hibernation;
+
+
+ISF 2.2.3825 :
+  1. Fix candidate dummy window defect; Fix ISE name defect when display language is changed;
+  2. modify h/w keyboard setting, apply title_ellipsize style
+
+
+ISF 2.2.3823 :
+  1. add script for normal booting
+
+
+ISF 2.2.3821 :
+  1. [isf-panel-efl] Optimize .png files
+  2. [scim_utility] add NULL checker
+
+
+ISF 2.2.3816 :
+  1. [isf] support imengine installed in /opt path
+  2. [isf-panel-efl] fix locale bug
+  3. [Programming guide] change the image of each layout
+
+
+ISF 2.2.3807 :
+  1. [isfsetting] Rollback feature related to END KEY
+
+
+ISF 2.2.3727 :
+  1. [isfsetting] fix isfsetting bs problem
+  2. [isfsetting] fix KEY_END exit problem
+  3. [isf-panel-efl] update locale info when display language is changed
+  4. [scim-panel-agent] Fix reload command for IMControl
+  5. [isf.sh] replace SCIM_MODULE_PATH
+  6. [isfsetting] fix active name is blank in setting app
+  7. [isfsetting] isfsetting bug about key_end event
+
+
+ISF 2.2.3721 :
+  1. [scim-panel-agent] Fix the bug that mutiple common processes run will be
+    be invoked after switching ISEs.
+
+
+ISF 2.2.3720 :
+  1. [isf-panel-efl] change the sequence of launching common and default ISE
+  2. [immodule] key down event is generated
+  3. Remove hard coded png file name from src file
+  4. change ug path and seperate the ug locale file from scim.mo
+
+
+ISF 2.2.3719 :
+  1. Fix defects according to prevent result
+  2. [isf-setting-wizard] Add end key event callback function
+  3. [isf-panel-efl] Update More/Close press event
+
+
+ISF 2.2.3718 :
+  1. i18n update
+  2. [isfsetting] using one navigationbar
+
+
+ISF 2.2.3714 :
+  1. Support ISEs installed in /opt path
+
+
+ISF 2.2.3713 :
+  1. [efl_immodule] hide keyboard when END KEY is pressed
+  2. fix libisf-bin.postinst because of vconf security
+
+
+ISF 2.2.3712 :
+  1. [efl_setting] fix isf setting bs problem in case of no optimization
+  2. [efl_immodule] detect bluetooth keyboard
+  3. [isf-panel-efl] fix build error
+  4. [demo] Change the deprecated API
+
+
+ISF 2.2.3711 :
+  1. [efl_immodule] fix BS in C++ application;
+
+
+ISF 2.2.3707 :
+  1. [efl_immodule] fix crash;
+  2. [efl_immodule] fix ecore magic check bug in key_press_cb
+  3. [isf-demo-efl] Fix BS defect
+
+
+ISF 2.2.3704 :
+  1. [setting] item will be highlighted when it is pressed;
+  2. [Programming guide] stk examples are modified
+
+
+ISF 2.2.3630 :
+  1. [isf-panel-efl] Replace evas_object_hide with evas_object_move for lockup issue
+
+
+ISF 2.2.3622 :
+  1. [setting] change UI
+
+
+ISF 2.2.3621 :
+  1. [Programming guide] Fix example code
+  2. [Programming guide] Add return value of key press callback
+  3. Add libisf-bin.postinst for vconf key
+
+
+ISF 2.2.3616 :
+  1. [isf-panel-efl] add malloc_trim
+
+
+ISF 2.2.3615 :
+  1. [isf-setting-efl] Change the order of menu in S/W keyboard group
+  2. Modify ISF programming guide
+
+
+ISF 2.2.3614 :
+  1. [isf-setting-efl] Add keyboard select wizard
+  2. Fix defects according to prevent result
+  3. Fix isf-setting BS issue
+  4. [efl_immodule] use idler instead of timer
+  5. [isf-demo-efk] add test code related to language
+
+
+ISF 2.2.3613 :
+  1. [isf-panel-efl] runtime memory optimization
+  2. [isf-immodule-efl] fix crash related to timer
+
+
+ISF 2.2.3610 :
+  1. [isfsetting-ug] 'Quit' -> 'Back' in left button of navigationbar
+
+
+ISF 2.2.3609 :
+  1. [isf-panel-efl] defer to create candidate window until hibernation leave
+  2. modify Makefile.am files in each directory
+
+
+ISF 2.2.3606 :
+  1. apply as-needed option;
+
+
+ISF 2.2.3601 :
+  1. Change the initial ise when the initial ise in global files doesn't exist
+  2. Fix ISF programming guide document
+
+
+ISF 2.2.3526 :
+  1. Fix loading added keyboard ISE issue;
+  2. Update isf-demo-efl for layout test;
+  3. [efl_immodule] fix attribute;
+  4. Add image of private key set in ISF programming guide
+
+
+ISF 2.2.3523 :
+  1. Use common ISE;
+  2. Support new ISE installation for hibernation booting;
+  3. Fix defects according to prevent result;
+  4. add ise_context.h
+  5. Change hibernation ready key
+
+
+ISF 2.2.3522 :
+  1. [efl_immodule] support attribute of imengine;
+
+
+ISF 2.2.3518 :
+  1. Add idm source codes;
+  2. Cleanup source codes for LiMo Contribution;
+  3. Update contacts;
+  4. [efl_panel] Fix "More" button highlight defect;
+
+
+ISF 2.2.3515 :
+  1. set hibernation ready flag in vconf
+  2. [efl_immodule] commit preedit string when mouse down event is occured
+
+
+ISF 2.2.3509 :
+  1. add set_ise_language for supporting password mode
+
+
+ISF 2.2.3508 :
+  1. Modify ISF Programming guide
+
+
+ISF 2.2.3504 :
+  1. [isf-panel-efl] Modify hibernation_leave callback
+
+
+ISF 2.2.3503 :
+
+  1. [isf-panel-efl] Revert isf-panel-efl.desktop
+  2. [STK] set autoperiod, autocapital to root window's property
+
+
+ISF 2.2.3502 :
+  1. [isf-panel-efl] support hibernation
+  2. [isf-panel-efl] set ELM_ENGINE, ELM_FPS to avoid to use gles backend
+  3. [efl_immodule] fix 3rd parameter in preedit_string_get
+  4. Change /usr/lib/scim-1.0/ to /opt/lib/scim-1.0, change /usr/share/scim to /opt/share/scim
+  5. Update for LiMo Contribution
+
+
+ISF 2.2.3427 :
+  1. Modify ISF Programming guide
+  2. remove evas_font_path_prepend from isf-panel-efl
+
+
+ISF 2.2.3421 :
+  1. Use evas_font_path_prepend;
+
+
+ISF 2.2.3418 :
+  1. Add each layout image in doxygen;
+
+
+ISF 2.2.3413 :
+  1. [setting] add autocapital, autoperiod option menu;
+  2. [efl_immodule] change return type;
+  3. Change font : GT font -> SLP:style=medium;
+
+
+ISF 2.2.3406 :
+  1. Add libisf-bin.postinst for gtkimmodule;
+
+
+ISF 2.2.3330 :
+  1. Fix build error related to the change of Ecore_IMF;
+
+
+ISF 2.2.3328 :
+  1. Set window role for not using effect;
+
+
+ISF 2.2.3327 :
+  1. Bug fix about back button in isfsetting;
+
+
+ISF 2.2.3317 :
+  1. Support autocapital, autoperiod;
+
+
+ISF 2.2.3310 :
+  1. Fix for EFL 1.0 alpha;
+  2. efl_immodule refactoring;
+
+
+ISF 2.2.3307 :
+  1. Fix isfsetting;
+
+
+ISF 2.2.3307 :
+  1. Add multi-selected ISEs function in efl-setting;
+  2. [isf-demo-stk] fix build error;
+
+
+ISF 2.2.3301 :
+  1. [isfsetting] fix for i18n;
+  2. [efl_immodule] Bug fix : key up event
+  3. [isf-demo-efl] add example code about IP layout
+
+
+ISF 2.2.3231 :
+  1. [isf-demo-stk] fix build errors for stk_main_window_new () and so on;
+
+
+ISF 2.2.3225 :
+  1. [isf-demo-efl] code refactoring;
+  2. [isf-demo-efl] add MONTH, NUMBERONLY layout test code;
+  3. [isf-demo-stk] add IP, MONTH, NUMBERONLY Layout;
+  4. Added experimental modification for avoiding multiple scim process problem;
+  5. [isfsetting] set background;
+  6. Remove GTK word from IMControl;
+
+
+ISF 2.2.3219 :
+  1. Fix the bug not to install libui-isfsetting-efl.so;
+  2. Update efl_setting;
+
+
+ISF 2.2.3218 :
+  1. Update candidate images for beat;
+  2. Update efl_setting according to Beat GUI PPT;
+
+
+ISF 2.2.3207 :
+  1. Remove kessler ELM_THEME and intl folder;
+  2. Update efl_setting according to appcore change;
+  3. Remove applog from efl_setting;
+
+
+ISF 2.2.3202 :
+  1. Add hardware keyboard support;
+  2. Remove unused functions of efl_immodule;
+
+
+ISF 2.2.3120 :
+  1. Change deprecated Ecore_IMF API in isf_imf_context
+  2. Fix rotating code in isf-demo-efl
+
+
+ISF 2.2.3112 :
+  1. Fix the routine about event_callback_add;
+  2. Modify isf-demo-efl example code;
+  3. Bug fix about event_callback_add and event_callback_del
+
+
+ISF 2.2.3108 :
+  1. Support revised Ecore_IMF;
+
+
+ISF 2.2.3107 :
+  1. Fix defects according to klocwork report and c++ test report;
+  2. Update isf-panel-efl for multi-resolution;
+
+
+ISF 2.2.3025 :
+  1. Fix defects according to klocwork report;
+  2. Add ingroup and defgroup;
+
+
+ISF 2.2.3017 :
+  1. Change font name to "GT45_ArabCJK_TouchWiz" in isf_panel_efl.cpp;
+  2. Update isf-demo for build issue;
+  3. Fix defects according to klocwork report;
+  4. Add comments;
+
+
+ISF 2.2.3011 :
+  1. Update efl_setting for share gadget;
+  2. Update isf-demo-stk for build issue;
+
+
+ISF 2.2.3004 :
+  1. Change appfwk to appcore;
+  2. Remove "app-fwk.h";
+
+
+ISF 2.2.3002 :
+  1. Update isf_imf_context.cpp to fix backspace problem;
+  2. Add comments;
+  3. Fix one defect for isf-setting-efl;
+
+
+ISF 2.2.2930 :
+  1. Rollback to 2.2.2919 because of backspace problem;
+
+
+ISF 2.2.2928 :
+  1. Fix defects according to prevent and klocwork result;
+  2. Add logs in scim_panel_client.cpp;
+
+ISF 2.2.2919 :
+  1. Fix to problem not to find vconf.h;
+
+
+ISF 2.2.2913 :
+  1. Fix candidate window resize issue;
+  2. Add CUSTOM1_CANDIDATE_STYLE;
+  3. Add isf-demo-stk;
+
+
+ISF 2.2.2906 :
+  1. Fix candidate scrolling defect;
+  2. Merge aux window into candidate window;
+  3. Update isf-demo-efl;
+  4. Remove idm directory;
+  5. Fix preedit cursor position defect;
+
+
+ISF 2.2.2822 :
+  1. Update isf_imf_context.cpp for focused IC;
+  2. Fix aux select issue;
+  3. Add more window for Chinese ISE;
+  4. Fix cursor position can not updated when commit string;
+  5. Add ISE switch function from ISE window;
+
+
+ISF 2.2.2819 :
+  1. Update isf_imf_context.cpp;
+
+
+ISF 2.2.2815 :
+  1. Update isf_panel_efl.cpp;
+
+
+ISF 2.2.2807 :
+  1. Fix the issue that char is displaying twice in RSS;
+  2. Hide ISE when application is crashed;
+  3. Update isf-setting;
+
+
+ISF 2.2.2801 :
+  1. Update isf-setting and isf_candidate.edc;
+  2. Remove unused source codes from isf_panel_efl.cpp;
+
+
+ISF 2.2.2723 :
+  1. Change how to grab key
+
+ISF 2.2.2722 :
+  1. Fix isfsetting bug;
+  2. Fix isf-panel-efl memory leak issue;
+
+ISF 2.2.2717 :
+  1. Add elementary dependency in isf-imf-module
+  2. Append transparent rectangle to avoid overwrapping with softkey
+
+ISF 2.2.2716 :
+  1. Fix isfsetting bug;
+  2. Update candidate positon when indicator and candidate are overlapped;
+
+
+ISF 2.2.2711 :
+  1. Change isfsetting into shared gadget;
+  2. Change ISF theme from pantheon to kessler;
+  3. Fix candidate background defect;
+  4. Update Chinese ISE;
+
+
+ISF 2.2.2704 :
+  1. Update IMControl;
+  2. Add multi-candidates for each row of candidate UI;
+  3. Update isf-setting;
+  4. Fix defects according to prevent report;
+
+
+ISF 2.2.2625 :
+  1. Update IMControl;
+  2. Add candidate auto-adjust location and landscape mode;
+  3. Add HelperAgent::update_input_context, remove two unused APIs;
+  4. Update isf-setting;
+  5. Update Chinese ISE;
+
+
+ISF 2.2.2610 :
+  1. Add libisf-dbg;
+  2. Update isf-setting;
+  3. Update candidate aux for Chinese ISE;
+
+
+ISF 2.2.2609 :
+  1. Update isf-setting;
+  2. Update isf_panel_efl.cpp for aux;
+
+
+ISF 2.2.2608 :
+  1. Remove UI_softkey, UI_titlebar and so on from isf-setting;
+
+
+ISF 2.2.2607 :
+  1. Update isf-setting for BS issue when press "Back";
+
+
+ISF 2.2.2605 :
+  1. Update isf-setting;
+  2. Update isf_event_demo.cpp
+
+
+ISF 2.2.2604 :
+  1. Update isf_imf_context.cpp for Home ane End keyevent;
+
+
+ISF 2.2.2603 :
+  1. Update isf-setting;
+
+
+ISF 2.2.2602 :
+  1. Update language po files;
+
+
+ISF 2.2.2601 :
+  1. Update language po files;
+  2. Update efl_setting;
+
+
+ISF 2.2.2530 :
+  1. Add SYSLOG for ISF launching;
+
+
+ISF 2.2.2529 :
+  1. Add GTK in ISF depends;
+
+
+ISF 2.2.2528 :
+  1. Fix BlueScreen issue when switching ISEs;
+  2. Update aux UI of candidate;
+
+
+ISF 2.2.2526 :
+  1. Update isfimcontrolapi.cpp;
+  2. Change SLP functions according to KHQ release;
+  3. Update chinese ISE;
+  4. Add fifty one alpha languages in xt9 ISE;
+  5. Add setup module in input-pad ISE;
+
+
+ISF 2.2.2523 :
+  1. Update efl_setting;
+  2. Update xt9/xt9chinese/chinese ISEs;
+
+
+ISF 2.2.2522 :
+  1. Fix isf_demo crash issue;
+  2. Fix issue of candidate window shows on lock screen;
+  3. Update isf-setting;
+  4. Support candidate window move according to cursor position;
+
+
+ISF 2.2.2520 :
+  1. Update isf_demo;
+  2. Add isf_imf_context_preedit_string_get () in efl_immodule;
+
+
+ISF 2.2.2515 :
+  1. Update isf_setting;
+  2. Update isf_candidate.edc;
+  3. Fix one defect for IM Control;
+
+
+ISF 2.2.2514 :
+  1. Add efl_setting;
+
+
+ISF 2.2.2513 :
+  1. Fix browser crash issue;
+
+
+ISF 2.0.2513 :
+  1. Add PORTRAIT_VERTICAL_CANDIDATE_MODE for EFL candidate UI;
+  2. Fix two candidate defects;
+  3. Update IMControl functions;
+  4. Update keyboard ise when application calls get_ise_list ();
+  5. Update xt9 ise;
+  6. Add xt9_chinese ISE and Chinese ISE;
+
+
+ISF 2.0.2506 :
+  1. Seperate isf package to libisf-bin and libisf-dev;
+  2. Add aux string in EFL candidate UI;
+  3. Remove Ecore_X_Rectangle related functions in IMControl;
+  4. Update ise list when application calls get_ise_list ();
+
+
+ISF 2.0.2429 :
+  1. Add new functions in IMControl;
+
+
+ISF 2.0.2424 :
+  1. Add IMControl in efl_immodule;
+  2. Fix the issue that ISF/ISE are activated twice by application;
+  3. Set pantheon as Candidate UI theme;
+
+
+ISF 2.0.2422 :
+  1. Fix the issue that space cannot be input;
+  2. Move PanelAgent thread into main thread;
+  3. Provide temp candidate UI;
+
+
+ISF 2.0.2418 :
+  1. Fix some EFL IMModule's bugs;
+  2. Update EFL panel;
+  3. Set European ISE as default ISE;
+
+
+ISF 2.0.2414 :
+  1. isf_panel_efl.cpp is written by EFL, isf-panel-efl process can run;
+  2. Set input-pad ISE as default ISE;
+  3. Fix one EFL IMModule's bug;
+  4. Add EFL supporting in input-pad ISE;
+  5. Fix XT9 ISE error in Aquila simulator environment;
+  6. Update ISF debian files;
+
+
+ISF 2.0.2403 :
+  1. Begin to porting ISF into slp 2.0 platform;
+  2. Add EFL Panel and EFL IMModule;
+
+
+ISF 1.0.2226 :
+  1. Remove New ISEs related source codes;
+  2. Remove uncessary source codes for scim-panel-gtk;
+  3. Update ISF according to review result;
+  4. Fix one candudate UI defect;
+  5. Merge KHQ ISF;
+
+
+ISF 1.0.2219 :
+  1. Add 200ms timer to show candidate for volans target;
+  2. Fix two PanelAgent defects for Gesture ISE;
+  3. This is the final version for volans target;
+
+
+ISF 1.0.2125 :
+  1. Add check condition for panel_agent->stop () and config->flush ();
+  2. Adjust helper manager reconnection number from 6 to 200;
+  3. Improve focus-in speed in gtkimcontextscim.cpp;
+  4. Update xt9 ISE;
+  5. This is the final version for protector target;
+
+
+ISF 1.0.2110 :
+  1. Fix memory leak when scim-launcher and scim-panel-gtk exit;
+  2. Add isf-log to enable/disable ISF log online;
+  3. Set PanelAgent to non-block mode;
+  4. Improve input speed for embedded editor;
+  5. Update xt9 ISE;
+
+
+ISF 1.0.2031 :
+  1. Fix defects according to prevent result;
+  2. Update xt9 ISE;
+
+
+ISF 1.0.2025 :
+  1. Fix defects according to prevent result;
+  2. Improve input speed;
+  3. Update xt9 ISE;
+
+
+ISF 1.0.2018 :
+  1. Remove redundant source codes for candidate window;
+  2. Fix two memory leak issues for scim-panel-gtk exception;
+  3. Change preedit fg color and bg color according to theme color;
+  4. Update xt9 ISE;
+
+
+ISF 1.0.2010 :
+  1. Reduce booting time of scim and scim-panel-gtk;
+  2. Fix defects according to prevent result;
+
+
+ISF 1.0.2003 :
+  1. Change candidate background color;
+  2. Remove scim_get_newise_module_list from scim.cpp and scim_panel_gtk.cpp;
+  3. Fix the issue (control panel can not be showed in target);
+  4. Show candidate window when update candidate string;
+  5. xt9 ISE : fixed auto-substitution function;
+  6. xt9 ISE : fixed only english char committed defect, when the input sequence char length exceeds 72;
+  7. xt9 ISE : fixed defect of inexplicable string to be displayed, when using delete key to remove all normal input sequence chars;
+
+
+ISF 1.0.1928 :
+  1. Fix defects according to prevent result;
+  2. Fix XT9 config reload issue;
+  3. Reduce gtkimcontextscim loading time;
+  4. Update candidate according to GUI spec;
+  5. Remove unnessary ISE_SHOWED message;
+  6. Change dynamic_cast to static_cast for scim_signals;
+  7. Update xt9 ISE;
+
+
+ISF 1.0.1920 :
+  1. Fix two "preedit-changed" issue;
+  2. Removing unnessary ACK message;
+  3. Fix the issue "When using GtkIMEmbeddedEditor, clicking the hide button of ISE does not refresh the app window."
+  4. Fix HelperAgent memory leak issue;
+  5. Update candidate UI;
+  6. Change candidate display method;
+  7. Update xt9 ISE;
+
+
+ISF 1.0.1913 :
+  1. Support ISE without GtkSocket/GtkPlug;
+  2. Update xt9 and input-pad ISE;
+
+
+ISF 1.0.1906 :
+  1. Remove gtk_im_context_scim_set_ime_window_rectangle;
+  2. Add XT9 option subscribe in scim-panel-gtk;
+  3. Update xt9 and input-pad ISE;
+
+
+ISF 1.0.1829 :
+  1. Add macro "USING_ISF_MAINWINDOW_AUTOSCROLL";
+  2. Add gtk_im_context_scim_set_ime_window_rectangle;
+  3. Update xt9 ISE;
+
+
+ISF 1.0.1828 :
+  1. Fix build errors for volans;
+  2. Improve candidate scroll;
+  3. Update xt9 ISE;
+
+
+ISF 1.0.1825 :
+  1. Fix candidate flick issue;
+  2. Remove debug information;
+  3. Update xt9 ISE;
+
+
+ISF 1.0.1822 :
+  1. Add landscape mode supporting for candidate UI;
+  2. Update xt9, handwriting and input-pad ISEs;
+
+
+ISF 1.0.1819 :
+  1. Fix memory leak issue for HelperAgent;
+  2. Change HelperAgent IPC from block mode to non-block mode;
+  3. Change read_from_socket's timeout from infinity to 3 seconds;
+  4. Change ISM_TRAN_CMD_SET_ISE_SCREEN_DIRECTION to ISM_TRANS_CMD_SET_ISE_SCREEN_DIRECTION;
+  5. Optimize candidate moving;
+  6. Set mfc-now as default helper ISE;
+  7. Update xt9, and input-pad ISEs;
+  8. Add moakey-chinese ISE (It should work with Chinese pinyin keyboard ISE);
+
+
+ISF 1.0.1815 :
+  1. Fix one dead lock issue and memory leak issue for PanelAgent;
+  2. Add HelperAgent::get_candidate_window_rect (const String &uuid) and update_candidate_rect signal;
+  3. Add reset_ise_context signal and set_screen_direction signal for helper ISE;
+  4. Improve candidate UI for height and scroll bar;
+  5. Set xt9 as default keyboard ISE and set now+ as default helper ISE;
+  6. Update xt9, now+, handwriting and input-pad ISEs;
+
+
+ISF 1.0.1810 :
+  1. Fix one issue for Helper ISE restart;
+  2. Add HelperAgent::set_candidate_position (int left, int top) and HelperAgent::candidate_hide ();
+  3. Fix one language setting issue;
+  4. Fix one issue for gtk_ise_set_active_ise_by_uuid;
+  5. Improve key event process of panel_slot_process_key_event ();
+  6. Update handwriting, XT9 and input-pad ISEs;
+  7. Add gesture and now+ ISEs;
+
+
+ISF 1.0.1721 :
+  1. Fix embedded editor issue;
+  2. Support that helper ISE sends key event to Non-GTKIMContext application;
+  3. Support shared ISE for all entrys;
+      We can set shared ISE to true or false by "/FrontEnd/SharedInputMethod" of config file "isf/ism/configs/config"
+  4. Fix some bugs for ISF;
+  5. Update handwriting, XT9 and input-pad ISEs;
+
+
+ISF 1.0.1710 :
+  1. Update handwriting, xt9 and input-pad ISEs;
+  2. Update PanelAgent for context management;
+  3. Fix one issue for candidate position;
+  4. Fix one issue for default ise starting;
+
+
+ISF 1.0.1703 :
+  1. Update handwriting, xt9 and input-pad ISEs;
+  2. Change get_candidate_ui (), get_keyboard_ise () and get_keyboard_ise_list () for HelperAgent and PanelAgent;
+  3. Update ISF for xt9 language;
+  4. Fix 2 bugs for ISF;
+
+
+ISF 1.0.1626 :
+  1. Add postrm.in for automaticlly remove "/usr/lib/scim-1.0" when uninstall isf*.ipk.
+  2. Update ISF.
+  3. Fix bugs for input-pad and pinyin.
+  4. Update handwriting for using ISF 2.0 candidate.
+  5. Add XT9 ISE
+
+
+ISF 1.0.1621 :
+  1. Add isf.pc.in for ISF version management, current ISF version is 1.0.1621;
+     After you build and install isf, you can run below command to find ISF version.
+              [sbox-floater-i686: ~] > pkg-config isf --modversion
+              1.0.1621
+  2. Change HelperAgent::set_keyboard_ise () to HelperAgent::set_keyboard_ise_by_name (), add HelperAgent::set_keyboard_ise_by_uuid ();
+     Update input-pad for this modification;
+  3. Add ISM_ISE_HIDE_IN_CONTROL_PANEL for helper ISE option;
+  4. Fix one bug for control panel;

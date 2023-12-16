@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+################# Not necessary to match the IDS, just merge to other languages. It can be removed after cleaning the code ##############
+#: src/lib/elc_fileselector.c
+msgid "Up"
+msgstr ""
+
+#: src/lib/elc_fileselector.c
+msgid "Home"
+msgstr ""
+
+#: src/lib/elc_fileselector.c
+msgid "OK"
+msgstr ""
+
+#: src/lib/elc_popup.c
+msgid "Popup_list"
+msgstr " "
+
+#: src/lib/elm_bubble.c
+msgid "Bubble"
+msgstr ""
+
+#: src/lib/elm_button.c
+msgid "Clicked"
+msgstr " "
+
+#: src/lib/elm_check.c
+msgid "State"
+msgstr " "
+
+#: src/lib/elm_calendar.c
+msgid "%B %Y"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar item"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar decrement button"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar increment button"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar month"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "clock increment button for am,pm"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "clock decrement button for am,pm"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "State: Editable"
+msgstr " "
+
+#: src/lib/elm_clock.c
+msgid "Clock"
+msgstr ""
+
+#: src/lib/elm_colorselector.c
+msgid "color selector palette item"
+msgstr ""
+
+#: src/lib/elm_entry.c
+msgid "State: Not Editable"
+msgstr " "
+
+#: src/lib/elm_entry.c
+msgid ", Not Editable"
+msgstr " "
+
+#: src/lib/elm_colorselector.c
+msgid "Alpha control slider"
+msgstr " "
+
+#: src/lib/elm_diskselector.c
+msgid "diskselector item"
+msgstr ""
+
+#: src/lib/elm_label.c
+msgid "Label"
+msgstr " "
+
+#: src/lib/elm_progressbar.c
+msgid "progressbar"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "incremented"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "decremented"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "spinner increment button"
+msgstr ""
+
+#: src/lib/elm_spinner.c
+msgid "spinner decrement button"
+msgstr ""
+
+#: src/lib/elm_toolbar.c
+msgid "Separator"
+msgstr ""
+
+#: src/lib/elm_toolbar.c
+msgid "Has menu"
+msgstr ""
+#####################For detection of RTL language, if this language supports RTL the translated string should be "default:TRL"##########
+#: src/lib/elm_config.c, elm_win.c
+msgid "default:LTR"
+msgstr ""
+#########################################################################################################################################
+msgid "IDS_SMEMO_BODY_BLACK"
+msgstr "கருப்பு"
+
+msgid "IDS_SMEMO_BODY_BLUE_VIOLET"
+msgstr "நீல-ஊதா"
+
+msgid "IDS_SMEMO_BODY_CORAL"
+msgstr "பவழம்"
+
+msgid "IDS_SMEMO_BODY_DARK_BLUE"
+msgstr "அடர் நீலம்"
+
+msgid "IDS_SMEMO_BODY_DARK_GREY"
+msgstr "கரும் சாம்பல்"
+
+msgid "IDS_SMEMO_BODY_FOREST_GREEN"
+msgstr "ஃபாரெஸ்ட் கிரீன்"
+
+msgid "IDS_SMEMO_BODY_HOTPINK"
+msgstr "ஹாட்பிங்க்"
+
+msgid "IDS_SMEMO_BODY_LIME_GREEN"
+msgstr "லெமன் பச்சை"
+
+msgid "IDS_SMEMO_BODY_PLUM"
+msgstr "ப்ளம்"
+
+msgid "IDS_SMEMO_BODY_RED"
+msgstr "சிவப்பு"
+
+msgid "IDS_SMEMO_BODY_ROYAL_BLUE"
+msgstr "ராயல் புளூ"
+
+msgid "IDS_SMEMO_BODY_SKY_BLUE"
+msgstr "வான் நீலம்"
+
+msgid "IDS_SMEMO_BODY_TOMATO"
+msgstr "தக்காளி"
+
+msgid "IDS_SMEMO_BODY_WHITE"
+msgstr "வெள்ளை"
+
+msgid "IDS_SMEMO_BODY_YELLOW"
+msgstr "மஞ்சள்"
+
+msgid "IDS_TPLATFORM_BODY_BRIGHTNESS_CONTROL_SLIDER_T_TALKBACK"
+msgstr "ஒளிர்வு கட்டுப்பாட்டு ஸ்லைடர்"
+
+msgid "IDS_ACCS_BODY_DATE_TTS"
+msgstr "தேதி"
+
+msgid "IDS_ACCS_BODY_PD_CHARACTERS_TTS"
+msgstr "%d எழுத்துக்கள்."
+
+msgid "IDS_ACCS_BODY_PD_M_DAY"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_HOUR"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_MINUTES"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_YEAR"
+msgstr "%d"
+
+msgid "IDS_CLOCK_BUTTON_SPINNER"
+msgstr "ஸ்பின்னர்"
+
+msgid "IDS_COM_BODY_CLIPBOARD"
+msgstr "கிளிப்போர்டு"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "நகல்"
+
+msgid "IDS_COM_BODY_CUT"
+msgstr "வெட்டு"
+
+msgid "IDS_COM_BODY_DECREASE_DAY"
+msgstr "நாளை குறை"
+
+msgid "IDS_COM_BODY_DECREASE_HOUR"
+msgstr "மணியைக் குறை"
+
+msgid "IDS_COM_BODY_DECREASE_MINUTE"
+msgstr "நிமிடத்தைக் குறை"
+
+msgid "IDS_COM_BODY_DECREASE_MONTH"
+msgstr "மாதத்தைக் குறை"
+
+msgid "IDS_COM_BODY_DECREASE_YEAR"
+msgstr "வருடத்தைக் குறை"
+
+msgid "IDS_COM_BODY_INCREASE_DAY"
+msgstr "நாளை அதிகரி"
+
+msgid "IDS_COM_BODY_INCREASE_HOUR"
+msgstr "மணியை அதிகரி"
+
+msgid "IDS_COM_BODY_INCREASE_MINUTE"
+msgstr "நிமிடத்தை அதிகரி"
+
+msgid "IDS_COM_BODY_INCREASE_MONTH"
+msgstr "மாதத்தை அதிகரி"
+
+msgid "IDS_COM_BODY_INCREASE_YEAR"
+msgstr "வருடத்தை அதிகரி"
+
+msgid "IDS_COM_BODY_PASTE"
+msgstr "ஒட்டு"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "எல்லாம் தேர்வு"
+
+msgid "IDS_COM_POP_SET"
+msgstr "அமை."
+
+msgid "IDS_COM_POP_TITLE"
+msgstr "தலைப்பு"
+
+msgid "IDS_COM_SK_SELECT"
+msgstr "தேர்வு"
+
+msgid "IDS_IDLE_BODY_TAP_TO_CHANGE"
+msgstr "மாற்றுவதற்கு டேப் செய்."
+
+msgid "IDS_MSG_HEADER_TRANSLATE"
+msgstr "மொழிபெயர்ப்பு"
+
+msgid "IDS_SCR_BODY_FLICK_UP_AND_DOWN_TO_ADJUST_PS_OR_DOUBLE_TAP_TO_OPEN_KEYBOARD_T_TTS"
+msgstr "%s ஐச் சரிசெய்ய மேலே அல்லது கீழே ஃப்ளிக் செய்யவும் அல்லது விசைப்பலகையைத் திறக்க இருமுறை டேப் செய்யவும்."
+
+msgid "IDS_SCR_BODY_LANDSCAPE_MODE"
+msgstr "லேண்ட்ஸ்கேப் முறைமை"
+
+msgid "IDS_SCR_BODY_PORTRAIT_MODE_TTS"
+msgstr "நீளவாக்கு முறை"
+
+msgid "IDS_SCR_OPT_CENTRAL_POP_UP_TTS"
+msgstr "மைய பாப்-அப்"
+
+msgid "IDS_SCR_OPT_MENU_POP_UP_TTS"
+msgstr "மெனு பாப்-அப்"
+
+msgid "IDS_SMEMO_BODY_CUSTOM_COLOUR_PALETTE"
+msgstr "தனிப்பயன் வண்ணப் பலகை"
+
+msgid "IDS_SMEMO_BODY_TAP_TO_APPLY_T_TTS"
+msgstr "பயன்படுத்தவென டேப் செய்க."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_MENU_T_TTS"
+msgstr "மெனுவை மூடுவதற்கு இருமுறை டேப் செய்க."
+
+msgid "IDS_ST_HEADER_COLOUR_PICKER_ABB"
+msgstr "நிறத் தேர்வுக்கருவி"
+
+msgid "IDS_TPLATFORM_BODY_COLOUR_CONTROL_SLIDER_T_TALKBACK"
+msgstr "நிற கட்டுப்பாட்டு ஸ்லைடர்"
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_ENABLE_FAST_SCROLLING_T_TTS"
+msgstr "அதிவேக ஸ்க்ராலிங்கை இயலச்செய்வதற்கு இருமுறை டேப் செய்க."
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_MOVE_TO_CONTENT_T_TTS"
+msgstr "உள்ளடக்கத்திற்குச் செல்ல இருமுறை டேப் செய்க."
+
+msgid "IDS_TPLATFORM_BODY_FAST_SCROLL_BAR_T_TTS"
+msgstr "துரித ஸ்க்ரால் பட்டை"
+
+msgid "IDS_TPLATFORM_BODY_HOUR_LC"
+msgstr "மணிநேரம்"
+
+msgid "IDS_TPLATFORM_BODY_PD_PERCENT_T_TTS"
+msgstr "%d சதவிகிதம்"
+
+msgid "IDS_TPLATFORM_BODY_POP_UP_HEADER_T_TALKBACK"
+msgstr "பாப்-அப் தலைப்புக்குறிப்பு"
+
+msgid "IDS_TPLATFORM_BODY_SATURATION_CONTROL_SLIDER_T_TALKBACK"
+msgstr "செறிவு கட்டுப்பாட்டு ஸ்லைடர்"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "தேர்வுசெய்யப்பட்டது"
+
+msgid "IDS_TPLATFORM_BODY_TAB_T_TTS"
+msgstr "டேப்"
+
+msgid "IDS_TPLATFORM_BODY_TEXT_IN_BODY_OF_POP_UP_T_TALKBACK"
+msgstr "பாப்-அப் உரைபகுதியிலுள்ள உரை"
+
+msgid "IDS_TPLATFORM_HEADER_SET_DATE"
+msgstr "தேதி அமைக"
+
+msgid "IDS_TPLATFORM_HEADER_SET_TIME"
+msgstr "நேரம் அமைக்கவும்"
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_EDIT_THE_RECIPIENTS_T_TTS"
+msgstr "பெறுநர்களைத் திருத்துவதற்கு இருமுறை டேப் செய்க."
+
+msgid "IDS_TPLATFORM_BODY_ICON"
+msgstr "சின்னம்"
+
+msgid "IDS_ACCS_BODY_DOUBLE_TAP_TO_CLOSE_DRAWER_MENU_TTS"
+msgstr "ட்ராயர் மெனுவை மூட இருமுறை டேப் செய்யவும்."
+
+msgid "IDS_TPLATFORM_BODY_A_DRAWER_IS_OPEN_T_TTS"
+msgstr "ஒரு ட்ராயர் திறந்துள்ளது."
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "பொத்தான்"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "செயல்நீக்கப்பட்டது."
+
+msgid "IDS_ACCS_BODY_TICKBOX_TTS"
+msgstr "டிக்பாக்ஸ்"
+
+msgid "IDS_ACCS_OPT_NOT_SELECTED_TTS"
+msgstr "தேர்வு செய்யப்படவில்லை"
+
+msgid "IDS_ACCS_OPT_SELECTED_TTS"
+msgstr "தேர்வுசெய்யப்பட்டது"
+
+msgid "IDS_ACCS_OPT_TICKED_TTS"
+msgstr "தேர்வு செய்யப்பட்டது"
+
+msgid "IDS_ACCS_OPT_UNTICKED_TTS"
+msgstr "தேர்வு நீக்கப்பட்டது"
+
+msgid "IDS_COM_BODY_AM"
+msgstr "AM"
+
+msgid "IDS_COM_BODY_MINUTE"
+msgstr "நிமிடம்"
+
+msgid "IDS_COM_BODY_PM"
+msgstr "PM"
+
+msgid "IDS_COM_BODY_PROCESSING_ING"
+msgstr "செயலில்..."
+
+msgid "IDS_SCR_OPT_CURSOR_AT_BEGINNING_OF_TEXT_TTS"
+msgstr "சுட்டி - உரையின் துவக்கத்தில்"
+
+msgid "IDS_SCR_OPT_CURSOR_AT_END_OF_TEXT_TTS"
+msgstr "சுட்டி - உரையின் முடிவில்"
+
+msgid "IDS_TPLATFORM_BODY_CONTEXTUAL_POP_UP_T_TTS"
+msgstr "சூழ்நிலைக்கேற்ற பாப்-அப்"
+
+msgid "IDS_TPLATFORM_BODY_EDITING_T_TTS"
+msgstr "திருத்துகிறது."
+
+msgid "IDS_TPLATFORM_BODY_EDIT_FIELD_M_NOUN_T_TTS"
+msgstr "புலம் திருத்துக"
+
+msgid "IDS_TPLATFORM_BODY_FLICK_UP_AND_DOWN_TO_ADJUST_THE_POSITION_T_TTS"
+msgstr "நிலையை சரிசெய்துகொள்ள மேலும் கீழுமாய் ஃப்ளிக் செய்க."
+
+msgid "IDS_TPLATFORM_BODY_OFF"
+msgstr "ஆஃப்"
+
+msgid "IDS_TPLATFORM_BODY_ON"
+msgstr "ஆன்"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "ஆன்/ஆஃப் பொத்தான்"
+
+msgid "IDS_TPLATFORM_BODY_SLIDER_T_TTS"
+msgstr "ஸ்லைடர்"
+
+msgid "WDS_ST_OPT_DAY_ABB"
+msgstr "நாள்"
+
+msgid "WDS_ST_OPT_HRS_ABB"
+msgstr "மணி"
+
+msgid "WDS_ST_OPT_MINS_ABB"
+msgstr "நிமி."
+
+msgid "WDS_ST_OPT_MONTH_ABB"
+msgstr "மாதம்"
+
+msgid "WDS_ST_OPT_YEAR_ABB"
+msgstr "ஆண்டு"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "ரத்து"
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_P1SS_TO_ADJUST_P2SS"
+msgstr "%2$s-ஐ சரிசெய்ய, %1$s-ஐ சுழற்றவும்."
+
+msgid "IDS_COM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "ரேடியோ பொத்தான்"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_CHANGE"
+msgstr "மாற்ற, இருமுறை டேப் செய்க."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_CLOSE_THE_POP_UP"
+msgstr "பாப்-அப்பை மூட, இருமுறை டேப் செய்க."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_EDIT"
+msgstr "திருத்த, இருமுறை டேப் செய்க."
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_PS_TO_NAVIGATE_ITEMS"
+msgstr "உருப்படிகளை நகர்த்த, %s-ஐச் சுழற்றவும்."
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_PS_TO_SEARCH_INDEX"
+msgstr "அட்டவணையைத் தேட, %s-ஐச் சுழற்றவும்."
+
+msgid "WDS_TTS_TBOPT_ALERT"
+msgstr "விழிப்பூட்டல்"
+
+msgid "WDS_TTS_TBOPT_INDEX_SCROLL"
+msgstr "அட்டவணை ஸ்க்ரால்"
+
+msgid "WDS_TTS_TBOPT_MORE_OPTIONS"
+msgstr "மேலும் தெரிவுகள்"
+
+msgid "WDS_TTS_TBOPT_PICKER"
+msgstr "தேர்வி"
+
+msgid "WDS_TTS_TBOPT_SELECT_MODE_POP_UP"
+msgstr "தேர்வு முறை பாப்-அப்"
+
+msgid "IDS_ST_BODY_P1SD_OF_P2SD_TTS"
+msgstr "%2$d-ல் %1$d."
+
+msgid "WDS_ST_HEADER_HR_ABB"
+msgstr "ம."
+
+msgid "WDS_ST_HEADER_MIN_ABB"
+msgstr "நி."
+
+msgid "WDS_ST_HEADER_SEC_ABB"
+msgstr "வி."

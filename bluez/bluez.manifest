@@ -1,0 +1,106 @@
+<manifest>
+    <define>
+        <domain name="bluez"/>
+        <request>
+            <smack request="syslogd" type="w"/>
+            <smack request="_" type="rwx"/>
+            <smack request="system::sys_logging" type="rwx"/>
+	    <smack request="sys-assert::core" type="rwx"/>
+	    <smack request="system::media" type="rwx"/>
+        </request>
+        <permit>
+            <smack permit="systemd::script::bluez" type="rx"/>
+        </permit>
+    </define>
+    <assign>
+        <filesystem path="/usr/bin/ciptool" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/gatttool" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/hcitool" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/l2ping" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/rfcomm" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/sdptool" label="bluez" exec_label="bluez"/>
+
+        <filesystem path="/etc/bluetooth/audio.conf" label="bluez"/>
+        <filesystem path="/etc/bluetooth/main.conf" label="bluez"/>
+        <filesystem path="/etc/bluetooth/network.conf" label="bluez"/>
+        <filesystem path="/etc/bluetooth/rfcomm.conf" label="bluez"/>
+
+        <filesystem path="/usr/lib/bluetooth/bluetoothd" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/lib/udev/hid2hci" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/hciattach" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/hciconfig" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/mpris-proxy" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/btmon" label="bluez" exec_label="bluez"/>
+        <filesystem path="/usr/bin/btsnoop" label="bluez" exec_label="bluez"/>
+
+        <dbus name="org.bluez" own="bluez" bus="system">
+            <node name="/org/bluez/device/connection">
+                <interface name="org.bluez.Device1">
+                    <method name="ConnectProfile">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="DisconnectProfile">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="DiscoverServices">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="GetPrimServices">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                    </method>
+                </interface>
+            </node>
+            <node name="/org/bluez/gatt/char">
+                <interface name="org.bluez.Characteristic">
+                    <annotation name="com.tizen.smack" value="bt-service::public" />
+                </interface>
+            </node>
+            <node name="/org/bluez/hdp/manager">
+                <interface name="org.bluez.HealthManager1">
+                    <annotation name="com.tizen.smack" value="bt-service::public" />
+                </interface>
+            </node>
+            <node name="/org/bluez/hdp/device">
+                <interface name="org.bluez.HealthDevice1">
+                    <annotation name="com.tizen.smack" value="bt-service::public" />
+                </interface>
+            </node>
+            <node name="/org/bluez/hdp/channel">
+                <interface name="org.bluez.HealthChannel1">
+                    <annotation name="com.tizen.smack" value="bt-service::public" />
+                </interface>
+            </node>
+            <node name="/org/bluez/profile/manager">
+                <interface name="org.bluez.ProfileManager1">
+                    <method name="RegisterProfile">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="UnregisterProfile">
+                        <annotation name="com.tizen.smack" value="bt-service::public" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="RegisterProfile1">
+                        <annotation name="com.tizen.smack" value="bt-service::platform" />
+                        <annotation name="com.tizen.smack" value="obexd::public" />
+                        <annotation name="com.tizen.smack" value="bt_agent::public" />
+                    </method>
+                    <method name="RegisterProfile2">
+                        <annotation name="com.tizen.smack" value="bt-service::platform" />
+                    </method>
+                </interface>
+            </node>
+        </dbus>
+    </assign>
+    <request>
+        <domain name="_"/>
+    </request>
+</manifest>

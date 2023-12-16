@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Vali"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Vali kõik"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Ava uues aknas"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Lõika"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Lõikelaud"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Kopeeri"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Kopeeri pilt"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Kleebi"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Valikurežiim"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Valige sõna"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Kontrollige veebilehe URL-i"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Lehe tõrge"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Raamide laadimine nurjus"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Võrguühendus ei taastunud normaalselt"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Laadi veebileht hiljem"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Allpool on esitatud kõige tõenäolisem põhjus"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Veebilehte ei saa tuua. (Veebileht võib olla ajutiselt maas või viidud uuele URL-ile)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Veebileht pole saadaval"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Veebileht pole ajutiselt saadaval"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Veebilehe %s toomisel ilmnes järgmine tõrge."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Valmis"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Salvesta link"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Mine edasi"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Mine tagasi"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Laadi uuesti"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Kopeeri lõikelauale"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Kopeeri video URL"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Akt./desakt. meediumi kordus"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Täisekraanvaade"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Ava video uues aknas"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Kuva/peida meediumi juhtnupud"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Sisestage e-posti aadress"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Sisestage loend e-posti aadressidest, eraldades need komadega"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Saate otsida seda registrit. Sisestage võtmesõnad:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Lae fail üles"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Lae mitu faili üles"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Kopeeri heli URL"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Ava pilt uuel vahekaardil"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Ava link uuel vahekaardil"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Esita heli uuel vahekaardil"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Salvesta pilt"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Otsi internetist"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Sisestage URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Väli ei tohi olla tühi"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Sisestati vale vorming"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Sisestati vale väärtus"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Ühtegi faili pole valitud"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Lisandmoodul puudub"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Väärtus peab olema vähemalt %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Väärtus peab olema lühem kui %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Lohistage"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Kopeeritud lõikelauale"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Üksikasjad"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Lähtesta"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Edasta"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Kopeeri lingi URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Vaigista"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Peata"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Esita"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Tõlgi"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Tühista vaigistus"
+

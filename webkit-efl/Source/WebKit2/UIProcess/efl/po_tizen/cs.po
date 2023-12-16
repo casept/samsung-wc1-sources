@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Vybrat"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Vybrat vše"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Otevřít v novém okně"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Vyjm."
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Schránka"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Kopírovat"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Kopírovat obrázek"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Vložit"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Režim výběru"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Vybrat slovo"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Zkontrolujte adresu URL webové stránky"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Chybová stránka"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Rámce se nepodařilo načíst"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Síťové připojení nebylo normálně navázáno"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Načtěte webovou stránku znovu později"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Nejčastější příčina je uvedena níže"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Webovou stránku se nepodařilo načíst. (Webová stránka může být dočasně vypnutá nebo byla přesunuta na novou adresu URL.)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Webová stránka není k dispozici"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Webová stránka dočasně není k dispozici"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Při načítání webové stránky %s došlo k následující chybě."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Hot."
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Uložit odkaz"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Dopředu"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Zpátky"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Načíst znovu"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Kopírovat do schránky"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Kopírovat adresu URL videa"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Zapnout/vypnout opak. média"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Celý displej"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Otevřít video v novém okně"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Zobrazit/skrýt ovládací prvky"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Zadejte e-mailovou adresu"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Zadejte seznam e-mailových adres oddělených čárkami"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Můžete hledat tento index. Zadejte klíčová slova:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Uložit soubor"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Uložit více souborů"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Kopírovat URL zvukového soub."
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Otevřít obrázek na nové kartě"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Otevřít odkaz na nové kartě"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Přehrát zvuk na nové kartě"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Uložit obrázek"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Hledat na Internetu"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Zadejte adresu URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Pole nesmí být prázdné"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Zadán neplatný formát"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Zadána neplatná hodnota"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Nebyly vybrány žádné soubory"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Chybí modul plug-in"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Hodnota musí být alespoň %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Hodnota nesmí být vyšší než %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Přetáhnout"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Zkopírováno do schránky"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Podrobnosti"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Vynulovat"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Odeslat"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Kopírovat URL odkazu"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Ztlumit"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Pozastavit"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Přehrát"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Přeložit"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Nahlas"
+

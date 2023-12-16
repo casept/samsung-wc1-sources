@@ -1,0 +1,178 @@
+#!/usr/bin/python
+###################################################################
+# Helper script to build with various options.
+###################################################################
+import sys, os
+import getopt
+import signal
+
+# defines global options
+machines = ("armv7l", "i586")
+profiles = ("tv", "wearable")
+
+extraOptions = ""
+
+enableDebug = False
+
+enableInjectedProfile = False
+directoryPath = ""
+enableDryRun = False # To debug
+buildMachine = machines[0] # default machie is armv7el
+buildProfile = profiles[0] # default profile is tv
+gMakeOption = ""
+gFixVersion = False
+incrementalOption = " --incremental"
+includeAllOption = " --include-all"
+cleanBuildOption = ""
+noinitOption = ""
+buildRoot = ""
+
+def signalHandler(signal, frame):
+    print ' # SIGINT will be ignored for stable work'
+
+def execute(command):
+    if enableDryRun:
+        print(command)
+    else:
+        os.system(command)
+
+def help():
+    print("""# helper scripts to build webkit-efl with dynamic options"
+#
+# tizen-scripts/build-webkit.py [options]
+#
+
+[options]
+  -h, --help : print this message.
+  -m, --machine [ %s ] (default is %s)
+  -p, --profile [ %s ] : choose profile. (default is %s)
+  -d, --debug : build with debug info.
+  -n, --dry-run : Don't actually run any commands; just print them.
+  -c, --clean : delete old build root before initialization.
+  -b, --buildroot : specify build root to setup chroot environment.
+  -r, --no-incremental : turn off the '--incremental' gbs build option.
+  -a, --no-include-all : turn off the '--include-all' gbs build option.
+  -v : Fix package version to 123997_0.999.0. It will prevent CMakeCache Errors although version is changed.
+  -i, --injected-profile : build with injected profile code
+  -l, --layouttest : build for layout test
+  -u, --unittest : build for unit test
+  -0, --disable-tizen-options : build without tizen options (not supported yet)
+  --makeargs [ targets ] : Just call make targets instead of calling 'cmake ... && make'
+                           Below are possible targets ( /fast would be faster but not safe )
+
+    wtf_efl javascriptcore_efl jsc_efl webcore_efl WebKit2StaticForDebug ewebkit2
+    WebCoreTestSupport gtest
+    forwarding-headerEfl forwarding-headerSoup
+    PluginProcess WebProcess
+    aboutFeatures po
+    ewk2UnitTestUtils
+    test_ewk2_context test_ewk2_cookie_manager test_ewk2_download_job test_ewk2_settings test_ewk2_view
+    wk2-web-inspector-resources
+    DefaultTheme MiniBrowser
+
+""" % (' | '.join(machines), buildMachine,  ' | '.join(profiles), buildProfile))
+
+specFileName = "packaging/webkit2-efl.spec"
+def prepare():
+
+    if enableInjectedProfile:
+        execute("python TizenScripts/code-injecter.py")
+
+    if gFixVersion:
+        execute("cp %s backupForSpecfile.spec" % specFileName)
+
+        execute("python TizenScripts/fix-version-of-spec.py")
+
+def cleanup():
+    if enableInjectedProfile:
+        execute("python TizenScripts/code-injecter.py reset")
+
+    if gFixVersion:
+        execute("mv backupForSpecfile.spec %s" % specFileName)
+
+def build():
+    prepare()
+
+    directoryDefine = ""
+    optionsDefine = ""
+    debugDefine = ' --define=\"nodebug 1\"'
+    simulatorDefine = ""
+    profileDefine = ""
+
+    if directoryPath:
+        directoryDefine = '--define=\"_webkit_build_dir %s\"' % directoryPath
+    if extraOptions:
+        optionsDefine = ' --define=\"_webkit_cmake_options %s\"' % extraOptions
+    if gMakeOption:
+        optionsDefine = optionsDefine + ' --define=\"_make_option %s\"' % gMakeOption
+
+    if enableDebug:
+        debugDefine = ""
+
+    if buildMachine == "i586":
+        simulatorDefine = ' --define=\"simulator 1\"'
+
+    if buildProfile == "tv":
+        profileDefine = ' --define=\"TIZEN_PROFILE_TV 1\"'
+    elif buildProfile == "wearable":
+        profileDefine = ' --define=\"sec_product_feature_profile_wearable 1\"'
+
+    execute('gbs build -A %s %s %s %s %s %s %s %s %s %s %s' % (buildMachine, debugDefine, directoryDefine, optionsDefine, simulatorDefine, profileDefine, incrementalOption, includeAllOption, buildRoot, cleanBuildOption, noinitOption))
+    cleanup()
+
+def main():
+    global directoryPath, enableDebug, extraOptions, enableInjectedProfile, buildMachine, buildProfile,  enableDryRun, gMakeOption, gFixVersion, incrementalOption, includeAllOption, buildRoot, cleanBuildOption, noinitOption
+
+    optlist, args = getopt.getopt(sys.argv[1:], 'hdilunmacap:b:vt', [ 'help', 'debug', 'injected-profile', 'layouttest', 'unittest', 'dry-run', 'machine=', 'makeargs=', 'profile=', 'noinit', 'no-incremental', 'no-include-all'])
+    for opt, var in optlist:
+        if opt in ('--help', '-h'):
+            help()
+            exit()
+        if opt in ('--debug', '-d'):
+            enableDebug = True
+        if opt in ('--injected-profile', '-i'):
+            enableInjectedProfile = True
+            extraOptions += " -DENABLE_TIZEN_PROFILE=On"
+        if opt in ('--layouttest', '-l'):
+            directoryPath = "WebKitBuild/Release"
+            extraOptions += " -DENABLE_TIZEN_WEBKIT2_EFL_WTR=1"
+        if opt in ('--unittest', '-u'):
+            directoryPath = "WebKitBuild/Release"
+            # TIZEN_GESTURE and TIZEN_WEBKIT2_TEXT_SELECTION cause segmentation fault while running unit tests.
+            extraOptions += " '-DENABLE_API_TESTS=1 -DENABLE_TIZEN_WEBKIT2_UNIT_TESTS=1 -DENABLE_TIZEN_WEBKIT2_TEXT_SELECTION=0 -DENABLE_TIZEN_GESTURE=0'"
+        if opt in ('--dry-run', '-n'):
+            enableDryRun = True
+        if opt in ('--profile', '-p'):
+            if var not in profiles:
+                print "## ! Error : profile should be %s or %s" % profiles
+                print
+                help()
+                exit()
+            buildProfile = var
+        if opt in ('--buildroot', '-b'):
+            buildRoot = " -B %s" % var
+        if opt in ('--machine', '-m'):
+            if var not in machines:
+                print "## ! Error : machine should be %s or %s" % machines
+                print
+                help()
+                exit()
+            buildMachine = var
+        if opt == '-v':
+            gFixVersion = True
+        if opt in ('--noinit', '-t'):
+            noinitOption = " --noinit"
+        if opt in ('--clean', '-c'):
+            cleanBuildOption = " --clean"
+        if opt in ('--no-incremental', '-r'):
+            incrementalOption = ""
+        if opt in ('--no-include-all', '-a'):
+            includeAllOption = ""
+        if opt == '--makeargs':
+            print "make args" + var
+            gMakeOption = var
+
+    build()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,23 @@
+# - Try to find ewebkit2-ext
+# Once done, this will define
+#
+#  TBM_FOUND - system has TBM_INFO
+#  TBM_INCLUDE_DIRS - the TBM include directories
+#  TBM_LIBRARIES - link these to use TBM_INFO
+
+INCLUDE(FindPkgConfig)
+
+PKG_CHECK_MODULES(PC_TBM
+    libtbm
+)
+
+FIND_PATH(TBM_INCLUDE_DIRS NAMES tbm_bufmgr.h
+    HINTS ${PC_TBM_INCLUDE_DIRS} ${PC_TBM_INCLUDEDIR}
+)
+
+FIND_LIBRARY(TBM_LIBRARIES NAMES tbm
+    HINTS ${PC_TBM_LIBRARY_DIRS} ${PC_TBM_LIBDIR}
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(TBM DEFAULT_MSG TBM_INCLUDE_DIRS TBM_LIBRARIES)

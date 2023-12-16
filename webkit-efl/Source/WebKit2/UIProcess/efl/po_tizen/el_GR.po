@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Επιλογή"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Επιλ. όλων"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Άνοιγμα σε νέο παράθυρο"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Αποκ."
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Πρόχειρο"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Αντιγραφή"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Αντιγραφή εικόνας"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Επικόλληση"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Λειτουργία επιλογής"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Επιλογή λέξης"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Ελέγξτε τη διεύθυνση URL της ιστοσελίδας"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Σελίδα σφάλματος"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Η φόρτωση των πλαισίων απέτυχε"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Η σύνδεση στο δίκτυο δεν έγινε κανονικά"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Να γίνει επαναφόρτωση της ιστοσελίδας αργότερα"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Παρακάτω θα βρείτε την πιο πιθανή αιτία για αυτό"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Δεν είναι δυνατή η ανάκτηση της ιστοσελίδας. (Η ιστοσελίδα ενδέχεται να μην είναι διαθέσιμη προσωρινά ή να έχει μετακινηθεί σε νέα διεύθυνση URL)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Η ιστοσελίδα δεν είναι διαθέσιμη"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Η ιστοσελίδα δεν είναι διαθέσιμη προσωρινά"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Προέκυψε το παρακάτω σφάλμα κατά την ανάκτηση της ιστοσελίδας %s."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Τέλος"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Αποθήκευση σύνδεσης"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Μετάβαση προς τα εμπρός"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Μετάβαση προς τα πίσω"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Επαναφόρτιση"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Αντιγραφή δ/νσης URL βίντεο"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Ενεργ./απενεργ.επανάλ.πολυμέσ."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Πλήρης προβολή"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Άνοιγμα βίντεο σε νέο παράθυρο"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Εμφ./απόκρ.στοιχ.ελέγχ.πολυμ."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Εισαγωγή διεύθυνσης email"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Εισαγάγετε μια λίστα διευθύνσεων email διαχωρισμένες με κόμματα"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Μπορείτε να κάνετε αναζήτηση σε αυτό το ευρετήριο. Εισαγάγετε λέξεις-κλειδιά:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Φόρτωση αρχείου"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Φόρτωση πολλών αρχείων"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Αντιγραφή URL ήχου"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Άνοιγμα εικόνας σε νέα καρτέλα"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Άνοιγμα συνδέσ. σε νέα καρτέλα"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Αναπαρ. ήχου σε νέα καρτέλα"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Αποθήκευση εικόνας"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Αναζήτηση στο Internet"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Εισαγωγή διεύθυνσης URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Το πεδίο δεν μπορεί να είναι κενό"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Καταχωρίστηκε μη έγκυρη μορφή"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Μη έγκυρη τιμή"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Δεν έχουν επιλεγεί αρχεία"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Λείπει κάποιο πρόσθετο"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Η τιμή δεν πρέπει να είναι μικρότερη από %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Η τιμή δεν πρέπει να είναι μεγαλύτερη από %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Μεταφορά και απόθεση"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Αντιγράφηκε στο πρόχειρο"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Λεπτομέρειες"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Μηδενισμ."
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Υποβολή"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Αντιγραφή URL συνδ."
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Σίγαση"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Παύση"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Αναπαραγωγή"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Μετάφραση"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Κατάργηση σίγασης"
+

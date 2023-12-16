@@ -1,0 +1,10 @@
+<manifest>
+	<request>
+		<domain name="tizen-fonts"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/share/fonts/*" label="_"/>
+		<filesystem path="/usr/share/app_fonts/*" label="_"/>
+		<filesystem path="/usr/share/fallback_fonts/*" label="_"/>
+	</assign>
+</manifest>

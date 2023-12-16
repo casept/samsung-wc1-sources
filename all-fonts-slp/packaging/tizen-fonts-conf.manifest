@@ -1,0 +1,31 @@
+<manifest>
+	<define>
+                <domain name="tizen-fonts"/>
+	</define>
+	<request>
+		<domain name="tizen-fonts"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/opt/" label="_"/>
+		<filesystem path="/usr/opt/etc/" label="_"/>
+		<filesystem path="/usr/opt/etc/fonts/" label="_"/>
+		<filesystem path="/usr/opt/etc/fonts/conf.avail/" label="_"/>
+		<filesystem path="/usr/opt/etc/fonts/conf.avail/*" label="_"/>
+		<filesystem path="/usr/etc/" label="_"/>
+		<filesystem path="/usr/etc/fonts/" label="_"/>
+		<filesystem path="/usr/etc/fonts/conf.d/" label="_"/>
+		<filesystem path="/usr/etc/fonts/conf.d/*" label="_"/>
+		<filesystem path="/opt/etc/" label="_"/>
+		<filesystem path="/opt/etc/fonts/" label="_"/>
+		<filesystem path="/opt/etc/fonts/conf.avail" label="_"/>
+		<filesystem path="/opt/etc/fonts/conf.avail/*" label="*"/>
+		<filesystem path="/usr/system/" label="_"/>
+		<filesystem path="/usr/system/RestoreDir/" label="_"/>
+		<filesystem path="/usr/system/RestoreDir/softreset/" label="_"/>
+		<filesystem path="/usr/system/RestoreDir/softreset_post/" label="_"/>
+		<filesystem path="/etc/opt/upgrade/" label="_"/>
+		<filesystem path="/usr/system/RestoreDir/softreset/*" label="_" exec_label="none"/>
+		<filesystem path="/usr/system/RestoreDir/softreset_post/*" label="_" exec_label="none"/>
+		<filesystem path="/etc/opt/upgrade/*" label="_" exec_label="none"/>
+	</assign>
+</manifest>

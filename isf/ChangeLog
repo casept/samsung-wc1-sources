@@ -1,0 +1,77 @@
+2008-08-22 16:30  Haifeng Deng <haifeng.deng@samsung.com>
+
+  1. : Add NewISE
+  2. : Add IDM\src into ISF
+
+2008-08-15 10:30  Haifeng Deng <haifeng.deng@samsung.com>
+
+  1. : Add SConscript and control.in for xo build
+  2. : Add IDM\input_driver\IDM_Camera into ISF
+
+2008-07-18 17:03  Wei Ye <wei.ye@samsung.com>
+
+	Merge the function of helper manager server into SocketFrontEnd.
+
+2008-07-16 14:30  Haifeng Deng <haifeng.deng@samsung.com>
+
+  1. : Delete docs, tests, X11 FrontEnd, X11 Utility, RawCode IMEngine, FrontEnd Setup, Panel Setup and IMEngine Setup
+  2. : Move SetupUI into Panel process£¬delete Setup Helper£¬only reserve setup function for each ISE
+
+2007-06-26 14:25  James Su <suzhe@tsinghua.org.cn>
+
+	* .: Make 1.4.7 branch.
+
+2007-06-26 03:40  James Su <suzhe@tsinghua.org.cn>
+
+	* : Bump verison to 1.4.7.
+
+2007-06-26 02:37  James Su <suzhe@tsinghua.org.cn>
+
+	* : Fix include file issue.
+
+2007-06-22 18:44  James Su <suzhe@tsinghua.org.cn>
+
+	* : Update po files.
+
+2007-06-22 17:15  James Su <suzhe@tsinghua.org.cn>
+
+	* : Fix high power consumption issue.
+
+2007-06-22 02:35  James Su <suzhe@tsinghua.org.cn>
+
+	* : Add missing headers.
+
+2007-06-22 02:33  James Su <suzhe@tsinghua.org.cn>
+
+	* : Add missing header.
+
+2007-06-22 00:10  James Su <suzhe@tsinghua.org.cn>
+
+	* : Use svn2cl to generate ChangeLog.
+
+2007-06-21 23:47  James Su <suzhe@tsinghua.org.cn>
+
+	* : Fix buggy implementation of Socket read/write/wait methods.
+	  copied from trunk.
+
+2007-06-19 06:21  James Su <suzhe@tsinghua.org.cn>
+
+	* : Add some debug message. Avoid a already focused IC to be
+	  focused again.
+
+2007-06-17 07:18  James Su <suzhe@tsinghua.org.cn>
+
+	* : Make 1.4 branch.
+
+2007-06-17 07:15  James Su <suzhe@tsinghua.org.cn>
+
+	* : Move scim-trunk (the head) to scim/trunk.
+
+2007-06-17 07:13  James Su <suzhe@tsinghua.org.cn>
+
+	* : Rename scim to trunk.
+
+2007-06-17 07:09  James Su <suzhe@tsinghua.org.cn>
+
+	* : Initial import scim 1.4 branch into svn as trunk.
+

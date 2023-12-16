@@ -1,0 +1,596 @@
+
+#define FONT_NAME               "Tizen:style=Regular"
+#define FONT_SIZE               38
+
+#define AUX_FONT_NAME           "Tizen:style=Regular"
+#define AUX_FONT_SIZE           38
+
+#define COLOR_NORMAL_BUTTON     0 0 0 0
+#define COLOR_PRESS_BUTTON      166 166 166 200
+
+#define COLOR_SELECT_TEXT       62 207 255 255
+
+
+color_classes {
+    color_class {
+       name: "text_color";
+       color: COLOR_NORMAL_TEXT;
+       color2: COLOR_NORMAL_TEXT;
+       color3: COLOR_NORMAL_TEXT;
+    }
+    color_class {
+       name: "rect_color";
+       color: COLOR_NORMAL_BUTTON;
+    }
+}
+
+
+collections {
+    group { name: "popup_line";
+        images {
+            image: POPUP_LINE COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: POPUP_LINE;
+                }
+            }
+        }
+    }
+
+    group { name: "seperate_line";
+        images {
+            image: "B09_predictive_vertical_line.png" COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: "B09_predictive_vertical_line.png";
+                }
+            }
+        }
+    }
+
+    group { name: "scroller_bg";
+        images {
+            image: "B09_predictive_on_bg.png" COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: "B09_predictive_on_bg.png";
+                    image.border: 6 6 6 6;
+                }
+            }
+        }
+    }
+
+    group { name: "candidate_bg";
+        images {
+            image: CANDIDATE_BG COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: CANDIDATE_BG;
+                    image.border: BG_IMAGE_BORDER BG_IMAGE_BORDER 41 41;
+                }
+            }
+        }
+    }
+
+    group { name: "preedit_text";
+        images {
+            image: PREEDIT_BG COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: PREEDIT_BG;
+                    image.border: BG_IMAGE_BORDER 12 BG_IMAGE_BORDER BG_IMAGE_BORDER;
+                }
+            }
+            part { name: "preedit";
+                type: TEXT;
+                mouse_events: 0;
+                //effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: COLOR_NORMAL_TEXT;
+                    color_class: "text_color";
+                    text {
+                        text_class: "tizen";
+                        text: "";
+                        font: FONT_NAME;
+                        size: FONT_SIZE;
+                        align: 0 0.5;
+                        min: 1 0;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel1.offset: 16 0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                    rel2.offset: -16 0;
+                }
+            }
+        }
+    }
+
+    group { name: "candidate_object_table";
+        parts {
+            part { name: "bg";
+                type: RECT;
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color: COLOR_NORMAL_BUTTON;
+                }
+                description { state: "pressed" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color: COLOR_PRESS_BUTTON;
+                }
+            }
+        }
+        programs {
+            program { name: "button_click";
+                signal: "mouse,clicked,1";
+                source: "bg";
+                action: SIGNAL_EMIT "candidate_box,action,clicked" "";
+            }
+
+            program { name, "button_press";
+                signal, "mouse,down,1";
+                source, "bg";
+                action, STATE_SET "pressed" 0.0;
+                target, "bg";
+            }
+
+            program { name, "button_release";
+                signal, "mouse,up,1";
+                source, "bg";
+                action, STATE_SET "default" 0.0;
+                target, "bg";
+            }
+        }
+    }
+
+    group { name: "candidate";
+        images {
+            image: BUTTON_NORMAL_BG COMP;
+            image: BUTTON_PRESS_BG COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                type: RECT;
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color_class: "rect_color";
+                }
+            }
+
+            part { name: "candidate";
+                type: TEXT;
+                mouse_events: 0;
+                //effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: COLOR_NORMAL_TEXT;
+                    color_class: "text_color";
+                    text {
+                        text_class: "tizen";
+                        text: "";
+                        font: FONT_NAME;
+                        size: FONT_SIZE;
+                        align: 0.0 0.5;
+                        min: 1 0;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel1.offset: 2 0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                    rel2.offset: -2 0;
+                }
+            }
+        }
+    }
+
+    group { name: "soft_candidate";
+        images {
+            image: BUTTON_NORMAL_BG COMP;
+            image: BUTTON_PRESS_BG COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                type: RECT;
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color_class: "rect_color";
+                }
+                description { state: "pressed" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color: COLOR_PRESS_BUTTON;
+                }
+            }
+
+            part { name: "candidate";
+                type: TEXT;
+                mouse_events: 0;
+                //effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: COLOR_NORMAL_TEXT;
+                    color_class: "text_color";
+                    text {
+                        text_class: "tizen";
+                        text: "Test";
+                        font: FONT_NAME;
+                        size: FONT_SIZE;
+                        align: 0.5 0.5;
+                        min: 1 0;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel1.offset: 11 0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                    rel2.offset: -11 0;
+                }
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    color: COLOR_PRESS_TEXT;
+                }
+            }
+        }
+        programs {
+            program { name: "button_click";
+                signal: "mouse,clicked,1";
+                source: "bg";
+                action: SIGNAL_EMIT "candidate,action,clicked" "";
+            }
+
+            program { name, "button_press";
+                signal, "mouse,down,1";
+                source, "bg";
+                action, STATE_SET "pressed" 0.0;
+                target, "bg";
+                target, "candidate";
+            }
+
+            program { name, "button_release";
+                signal, "mouse,up,1";
+                source, "bg";
+                action, STATE_SET "default" 0.0;
+                target, "bg";
+                target, "candidate";
+                //after, "do_me";
+            }
+
+            program { name, "do_me";
+                //signal, "*";
+                //source, "button_release";
+                action, SIGNAL_EMIT "candidate,action,clicked" "";
+            }
+        }
+    }
+
+    group { name: "more_button";
+
+        images {
+            image: BUTTON_NORMAL_BG COMP;
+            image: BUTTON_PRESS_BG COMP;
+            image: "B09_predictive_icon_arrow_down.png" COMP;
+            image: "B09_predictive_icon_arrow_down_press.png" COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: BUTTON_NORMAL_BG;
+                    image.border: BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER;
+                }
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    image.normal: BUTTON_PRESS_BG;
+                }
+            }
+
+            part { name: "image";
+                type: IMAGE;
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.to: "bg";
+                    rel1.relative: 0.25 0.1875;
+                    rel2.to: "bg";
+                    rel2.relative: 0.75 0.8125;
+                    image.normal: "B09_predictive_icon_arrow_down.png";
+                    fill.smooth: 1;
+                }
+
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    image.normal: "B09_predictive_icon_arrow_down_press.png";
+                }
+            }
+
+            part { name: "button_text";
+                type: TEXT;
+                mouse_events: 0;
+                effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: 255 255 255 255;
+                    text {
+                        //text_class: "button_text_class";
+                        //text: "Close";
+                        font: FONT_NAME;
+                        size: FONT_SIZE;
+                        align: 0.5 0.5;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                }
+            }
+        }
+
+        programs {
+            program { name: "button_click";
+                signal: "mouse,clicked,1";
+                source: "bg";
+                action: SIGNAL_EMIT "button,action,clicked" "";
+            }
+
+            program { name, "button_press";
+                signal, "mouse,down,1";
+                source, "bg";
+                action, STATE_SET "pressed" 0.0;
+                target, "bg";
+                target, "image";
+            }
+
+            program { name, "button_release";
+                signal, "mouse,up,1";
+                source, "bg";
+                action, STATE_SET "default" 0.0;
+                target, "bg";
+                target, "image";
+            }
+        }
+    }
+
+    group { name: "close_button";
+
+        images {
+            image: BUTTON_NORMAL_BG COMP;
+            image: BUTTON_PRESS_BG COMP;
+            image: "B09_predictive_icon_arrow_up.png" COMP;
+            image: "B09_predictive_icon_arrow_up_press.png" COMP;
+        }
+
+        parts {
+            part { name: "bg";
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    image.normal: BUTTON_NORMAL_BG;
+                    image.border: BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER BUTTON_IMAGE_BORDER;
+                }
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    image.normal: BUTTON_PRESS_BG;
+                }
+            }
+
+            part { name: "image";
+                type: IMAGE;
+                mouse_events: 0;
+                description { state: "default" 0.0;
+                    rel1.to: "bg";
+                    rel1.relative: 0.25 0.1875;
+                    rel2.to: "bg";
+                    rel2.relative: 0.75 0.8125;
+                    image.normal: "B09_predictive_icon_arrow_up.png";
+                    fill.smooth: 1;
+                }
+
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    image.normal: "B09_predictive_icon_arrow_up_press.png";
+                }
+            }
+
+            part { name: "button_text";
+                type: TEXT;
+                mouse_events: 0;
+                effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: 255 255 255 255;
+                    text {
+                        //text_class: "button_text_class";
+                        //text: "Close";
+                        font: FONT_NAME;
+                        size: FONT_SIZE;
+                        align: 0.5 0.5;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                }
+            }
+        }
+
+        programs {
+            program { name: "button_click";
+                signal: "mouse,clicked,1";
+                source: "bg";
+                action: SIGNAL_EMIT "button,action,clicked" "";
+            }
+
+            program { name, "button_press";
+                signal, "mouse,down,1";
+                source, "bg";
+                action, STATE_SET "pressed" 0.0;
+                target, "bg";
+                target, "image";
+            }
+
+            program { name, "button_release";
+                signal, "mouse,up,1";
+                source, "bg";
+                action, STATE_SET "default" 0.0;
+                target, "bg";
+                target, "image";
+            }
+        }
+    }
+
+    group { name: "aux";
+
+        parts {
+            part { name: "bg";
+                type: RECT;
+                mouse_events: 1;
+                description { state: "default" 0.0;
+                    color_class: "rect_color";
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                }
+                description { state: "pressed" 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel2.relative: 1.0 1.0;
+                    color: COLOR_PRESS_BUTTON;
+                }
+                description { state: "selected" 0.0;
+                    inherit: "default" 0.0;
+                }
+            }
+
+            part { name: "aux";
+                type: TEXT;
+                mouse_events: 0;
+                //effect: SHADOW;
+                description { state: "default" 0.0;
+                    color: COLOR_NORMAL_TEXT;
+                    color_class: "text_color";
+                    text {
+                        text: "aux";
+                        text_class: "tizen";
+                        font: AUX_FONT_NAME;
+                        size: AUX_FONT_SIZE;
+                        align: 0.5 0.5;
+                        min: 1 0;
+                    }
+                    rel1.to: "bg";
+                    rel1.relative: 0.0 0.0;
+                    rel2.to: "bg";
+                    rel2.relative: 1.0 1.0;
+                }
+                description { state: "pressed" 0.0;
+                    inherit: "default" 0.0;
+                    color: COLOR_PRESS_TEXT;
+                }
+                description { state: "selected" 0.0;
+                    inherit: "default" 0.0;
+                    color: COLOR_SELECT_TEXT;
+                }
+            }
+        }
+
+        programs {
+            program { name: "select";
+                signal, "aux,state,selected";
+                source, "aux";
+                action, STATE_SET "selected" 0.0;
+                target, "aux";
+                target, "bg";
+            }
+
+            program { name: "unselect";
+                signal, "aux,state,unselected";
+                source, "aux";
+                action, STATE_SET "default" 0.0;
+                target, "aux";
+                target, "bg";
+            }
+
+            program { name: "button_click";
+                signal, "mouse,clicked,1";
+                source, "bg";
+                //action, STATE_SET "selected" 0.0;
+                //target, "aux";
+                //target, "bg";
+                after, "do_me";
+            }
+
+            program { name, "button_press";
+                signal, "mouse,down,1";
+                source, "bg";
+                script {
+                    new st[31];
+                    new Float:vl;
+                    get_state (PART:"aux", st, 30, vl);
+                    if (!strcmp (st, "default"))
+                        set_state (PART:"aux", "pressed", 0.0);
+                }
+                action, STATE_SET "pressed" 0.0;
+                target, "bg";
+                target, "aux";
+            }
+
+            program { name, "button_release";
+                signal, "mouse,up,1";
+                source, "bg";
+                script {
+                    new st[31];
+                    new Float:vl;
+                    get_state (PART:"aux", st, 30, vl);
+                    if (!strcmp (st, "pressed"))
+                        set_state (PART:"aux", "default", 0.0);
+                }
+                action, STATE_SET "default" 0.0;
+                target, "bg";
+                target, "aux";
+            }
+
+            program { name, "do_me";
+                signal, "*";
+                source, "button_click";
+                action, SIGNAL_EMIT "aux,action,clicked" "";
+            }
+        }
+    }
+}

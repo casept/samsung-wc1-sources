@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Таңдау"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Барл. таң."
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Жаңа терезеден ашу"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Кесу"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Буфер"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Көшіру"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Сурет көшіру"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Қою"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Таңдау режимі"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Сөз таңдау"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Веб-беттің URL мекенжайын тексеріңіз"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Қателер беті"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Жақтаулар жүктелмеді"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Желіге қалыпты жағдайда қосылмады"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Веб-бетті кейінірек қайта жүктеңіз"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Ең ұқсас себеп төменде берілген"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Веб-бетті алу мүмкін емес. (Веб-бет уақыт төменде болуы немесе орнын жаңа URL мекенжайына ауыстырған болуы мүмкін)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Веб-бет қол жетімді емес"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Веб-бет уақытша қол жетімді емес"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Веб-бет %s алынғанда, төмендегі қате пайда болды."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Дайын"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Сілтеме сақтау"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Алға"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Артқа"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Қайта қосу"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Буферге көшіру"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "URL бейнесін көшіру"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Мультим. қайт. опц. қосу/өш."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Толығымен көру"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Жаңа терезеде бейнені ашу"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Мультимедиа басқ-н көрс./жас."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Электрондық пошта мекенжайын енгізіңіз"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Үтірлермен бөлінген электрондық пошта мекенжайларының тізімін енгізіңіз"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Осы индексті іздеуге болады. Кілтсөздерді енгізіңіз:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Файлды кері жүктеу"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Бірнеше файлды кері жүктеу"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Аудионың URL мекенжайын көшіру"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Суретті жаңа қойындыда ашу"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Сілтемені жаңа қойындыда ашу"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Аудионы жаңа қойындыда ойнату"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Суретті сақтау"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Интернеттен іздеу"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "URL мекенжайын енгізу"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Файл бос болмауы керек"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Жарамсыз пішім енгізілді"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Қате мән енгізілді"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Файлдар таңдалмады"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Плагин жоқ"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Мән кемінде %d болу керек"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Мән %d жоғары болмауы керек"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Сүйретіп апару"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Буферге көшірілді"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Өзгешеліктері"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Жаңарту"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Жіберу"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Сілт.URL мек.көшіру"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Дыбыссыз"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Үзіліс"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Ойнату"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Аудару"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Даусын шығару"
+

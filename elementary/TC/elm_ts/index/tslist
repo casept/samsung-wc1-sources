@@ -1,0 +1,14 @@
+/elm_ts/index/utc_UIFW_elm_index_add_func
+/elm_ts/index/utc_UIFW_elm_index_active_set_func
+/elm_ts/index/utc_UIFW_elm_index_item_append_func
+/elm_ts/index/utc_UIFW_elm_index_item_append_relative_func
+/elm_ts/index/utc_UIFW_elm_index_item_find_func
+/elm_ts/index/utc_UIFW_elm_index_item_go_func
+/elm_ts/index/utc_UIFW_elm_index_item_letter_get_func
+/elm_ts/index/utc_UIFW_elm_index_item_level_set_func
+/elm_ts/index/utc_UIFW_elm_index_item_prepend_func
+/elm_ts/index/utc_UIFW_elm_index_item_prepend_relative_func
+/elm_ts/index/utc_UIFW_elm_index_item_selected_get_func
+/elm_ts/index/utc_UIFW_elm_index_item_sorted_insert_func
+/elm_ts/index/utc_UIFW_elm_index_item_clear_func
+/elm_ts/index/utc_UIFW_elm_index_item_level_get_func

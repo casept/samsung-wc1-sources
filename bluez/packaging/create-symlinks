@@ -1,0 +1,12 @@
+#!/bin/sh
+
+OBEX_ROOT="$1"
+
+cd "$OBEX_ROOT"
+
+ln -sf ../MyDocs/.documents Documents
+ln -sf ../MyDocs/.images Images
+ln -sf ../MyDocs/.sounds "Audio clips"
+ln -sf ../MyDocs/.camera Camera
+ln -sf ../MyDocs/.videos "Video clips"
+ln -sf ../MyDocs Data

@@ -1,0 +1,23 @@
+# - Try to find DRM
+# Once done, this will define
+#
+#  DRM_FOUND - system has DRM_INFO
+#  DRM_INCLUDE_DIRS - the DRM include directories
+#  DRM_LIBRARIES - link these to use DRM_INFO
+
+INCLUDE(FindPkgConfig)
+
+PKG_CHECK_MODULES(PC_DRM
+    libdrm
+)
+
+FIND_PATH(DRM_INCLUDE_DIRS NAMES drm.h
+    HINTS ${PC_DRM_INCLUDE_DIRS} ${PC_DRM_INCLUDEDIR}
+)
+
+FIND_LIBRARY(DRM_LIBRARIES NAMES drm
+    HINTS ${PC_DRM_LIBRARY_DIRS} ${PC_DRM_LIBDIR}
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(DRM DEFAULT_MSG DRM_INCLUDE_DIRS DRM_LIBRARIES)

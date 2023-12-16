@@ -1,0 +1,17 @@
+/elm_ts/entry/utc_UIFW_elm_entry_add_func
+/elm_ts/entry/utc_UIFW_elm_entry_single_line_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_password_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_entry_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_editable_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_selection_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_next_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_prev_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_up_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_down_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_is_format_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_is_visible_format_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_cursor_content_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_context_menu_disabled_get_func
+/elm_ts/entry/utc_UIFW_elm_entry_markup_to_utf8_func
+/elm_ts/entry/utc_UIFW_elm_entry_utf8_to_markup_func
+/elm_ts/entry/utc_UIFW_elm_entry_imf_context_get_func

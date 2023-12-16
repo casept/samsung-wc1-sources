@@ -1,0 +1,26 @@
+[Unit]
+Description=Bluetooth service
+Documentation=man:bluetoothd(8)
+
+[Service]
+Type=dbus
+BusName=org.bluez
+# Start of __TIZEN_PATCH__
+SmackProcessLabel=systemd::script::bluez
+ExecStart=@libexecdir@/bluetoothd -d -C
+# End of __TIZEN_PATCH__
+NotifyAccess=main
+#WatchdogSec=10
+#Restart=on-failure
+# Start of __TIZEN_PATCH__
+#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+# End of __TIZEN_PATCH__
+LimitNPROC=1
+
+[Install]
+WantedBy=bluetooth.target
+# Start of __TIZEN_PATCH__
+# Disabled dbus auto activation for bluez service even though systemd is used.
+# Because pulseaudio module tries to launch bluez by dbus.
+#Alias=dbus-org.bluez.service
+# End of __TIZEN_PATCH__

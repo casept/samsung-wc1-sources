@@ -1,0 +1,34 @@
+<manifest>
+	<define>
+		<domain name="isf"/>
+			<provide>
+				<label name="isf::manager"/>
+			</provide>
+	</define>
+	<assign>
+		<filesystem path="/usr/lib/ecore/immodules/libisf-imf-module.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-1.0.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-1.0.so.8" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-1.0.so.8.2.3" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-x11utils-1.0.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-x11utils-1.0.so.8" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/libscim-x11utils-1.0.so.8.2.3" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/scim-1.0/1.4.0/Config/simple.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/scim-1.0/1.4.0/Config/socket.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/scim-1.0/1.4.0/FrontEnd/socket.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/scim-1.0/1.4.0/FrontEnd/x11.so" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/scim-1.0/1.4.0/IMEngine/socket.so" label="_" exec_label="none"/>
+		<filesystem path="/opt/usr/devel/usr/bin/isf-demo-efl" label="_" exec_label="none"/>
+		<filesystem path="/usr/bin/isf-log" label="_" exec_label="none"/>
+		<filesystem path="/usr/lib/systemd/system/scim.service" label="_" exec_label="none" />
+		<filesystem path="/usr/lib/systemd/system/multi-user.target.wants/scim.service" label="_" exec_label="none" />
+		<filesystem path="/usr/share/locale/*" label="_"/>
+		<filesystem path="/usr/lib/ecore" label="_"/>
+		<filesystem path="/usr/lib/ecore/immodules" label="_"/>
+		<filesystem path="/usr/lib/scim-1.0" label="_"/>
+		<filesystem path="/opt/etc/dump.d/module.d/isf_log_dump.sh" label="_" exec_label="none" />
+	</assign>
+	<request>
+		<domain name="isf"/>
+	</request>
+</manifest>

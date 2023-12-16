@@ -1,0 +1,19 @@
+#!/bin/sh 
+
+case "$1" in 
+update) 
+;; 
+install) 
+echo "install"
+;; 
+configure) 
+;; 
+remove)
+echo "rm -rf @PREFIX@/lib/scim-1.0"
+rm -rf @PREFIX@/lib/scim-1.0
+;; 
+*) 
+;; 
+esac 
+ 
+exit

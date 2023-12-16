@@ -1,0 +1,16 @@
+/elm_ts/popup/utc_UIFW_elm_popup_add_func
+/elm_ts/popup/utc_UIFW_elm_popup_with_buttons_add_func
+/elm_ts/popup/utc_UIFW_elm_popup_desc_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_desc_get_func
+/elm_ts/popup/utc_UIFW_elm_popup_title_label_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_title_label_get_func
+/elm_ts/popup/utc_UIFW_elm_popup_title_icon_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_title_icon_get_func
+/elm_ts/popup/utc_UIFW_elm_popup_content_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_content_get_func
+/elm_ts/popup/utc_UIFW_elm_popup_buttons_add_func
+/elm_ts/popup/utc_UIFW_elm_popup_timeout_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_mode_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_response_func
+/elm_ts/popup/utc_UIFW_elm_popup_orient_set_func
+/elm_ts/popup/utc_UIFW_elm_popup_run_func

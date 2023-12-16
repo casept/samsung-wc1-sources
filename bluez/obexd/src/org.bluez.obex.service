@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.bluez.obex
+Exec=/bin/sh -c 'if [ -z `ps ax | grep -v grep | grep obexd` ] ; then exec /usr/lib/bluetooth/obexd -d --noplugin=mns,mas,ftp,syncevolution,pcsuite,irmc --symlinks -r /opt/usr/media; fi'

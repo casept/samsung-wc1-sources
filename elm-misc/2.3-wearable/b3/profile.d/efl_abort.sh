@@ -1,0 +1,4 @@
+#export ECORE_ERROR_ABORT=1
+#export EINA_LOG_ABORT=1
+#export ELM_ERROR_ABORT=1
+#export EVAS_DEBUG_ABORT=1

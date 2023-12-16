@@ -1,0 +1,171 @@
+#!/usr/bin/python
+#####################################################################
+# Helper script to release
+#####################################################################
+import sys, os
+import getopt
+import signal
+import time
+
+enableDryRun = False
+
+def help():
+    print """
+# Helper Script to release WebKit. #
+
+Usage: release-webkit [OPTIONS]
+
+[OPTIONS]
+   -h, --help          : Print this message.
+   -n, --dry-run       : Don't actually run any commands; just print them.
+   -c, --create-commit : (devel/webkit/upversion branch) Create Release commit and push to gerrit.
+                         If you want to release by latest commit, please 'git pull' before execute this command.
+   -r, --merge-release : (w/master branch) Merge release commit and push to gerrit.
+"""
+
+def execute(command):
+    if enableDryRun:
+        print(command)
+    else:
+        os.system(command)
+
+def openFile(fileName, mode):
+    return open(fileName, mode)
+
+def closeFile(filePtr):
+    filePtr.close()
+
+def getPath():
+    if "TizenScripts" in os.getcwd():
+        return "../"
+    return ""
+
+def checkNewPatch():
+    findFirstCommit = False
+    noNewPatch = False
+    maxCommitCount = "500"
+
+    os.system("git log -n " + maxCommitCount + " > logForCheckNewPatch")
+    logForCheckNewPatch = openFile("logForCheckNewPatch", "r")
+    for line in logForCheckNewPatch:
+        if "commit" in line:
+            if findFirstCommit:
+                break
+            else:
+                findFirstCommit = True
+        else:
+            if findFirstCommit:
+                if "[Release] Webkit" in line:
+                    noNewPatch = True
+
+    closeFile(logForCheckNewPatch)
+    os.system("rm logForCheckNewPatch")
+
+    if noNewPatch:
+        print "There is no new patch after previous release."
+        exit()
+
+def updatePatchVersion(revision, major, minor, issue):
+    path = getPath()
+
+    currentSpec = openFile(path + "packaging/webkit2-efl.spec","r")
+    modifiedSpec = openFile("modifiedSpec","w")
+
+    for line in currentSpec:
+        if "Version:" in line:
+            Version = line.split(".");
+            patchVersion = str(int(Version[2]) + 1)
+
+            changedLine = "Version: " + revision + "_" + major + "." + minor + "." + patchVersion + "." + issue + "\n"
+            modifiedSpec.write(changedLine)
+            print "Modified Version in webkit2-efl.spec to " + major + "." + minor + "." + patchVersion.strip() + "." + issue
+        else:
+            modifiedSpec.write(line)
+
+    closeFile(currentSpec)
+    closeFile(modifiedSpec)
+
+    if enableDryRun:
+        os.system("rm modifiedSpec")
+    else:
+        os.system("chmod 644 modifiedSpec")
+        os.system("mv modifiedSpec " + path + "packaging/webkit2-efl.spec")
+
+    execute("git add " + path + "packaging/webkit2-efl.spec" )
+
+    return patchVersion
+
+def getReleaseCommitId(branch):
+    maxCommitCount = "500"
+
+    os.system("git log -n " + maxCommitCount + " " + branch + " > currentLog")
+    currentLog = openFile("currentLog", "r")
+
+    for line in currentLog:
+        if "commit" in line:
+            commitId = line.replace("commit ","").strip()
+        elif line.find("[Release] Webkit2-efl") == 4:
+            break
+
+    closeFile(currentLog)
+    os.system("rm currentLog")
+    os.system("git log " + commitId + " > patchLog")
+
+    return commitId
+
+def createReleaseCommit():
+    branchName = "devel/webkit/upversion"
+    revision = "152340"
+    majorVersion = "0"
+    minorVersion = "10"
+    issueVersion = "0"
+
+    execute("git checkout " + branchName)
+    checkNewPatch()
+    patchVersion = updatePatchVersion(revision, majorVersion, minorVersion, issueVersion)
+    execute("git commit -m '[Release] Webkit2-efl-" + revision + "_" + majorVersion + "." + minorVersion + "." + patchVersion + "." + issueVersion + "\n[Branch] " + branchName + "'" )
+    execute("git push origin HEAD:refs/for/" + branchName)
+
+    print "[Creating release commit] finished."
+
+def mergeRelaseCommit():
+    branchName = "w/master"
+
+    execute("git checkout " + branchName)
+    execute("git pull --rebase")
+    releaseCommitId = getReleaseCommitId("devel/webkit/upversion")
+    execute("git merge -m 'Merge commit \'" + releaseCommitId + "\' into " + branchName + "' " + releaseCommitId)
+    execute("git commit --amend -m 'Merge commit \'" + releaseCommitId + "\' into " + branchName + "'")
+    execute("git push origin HEAD:refs/for/" + branchName)
+
+    print "[Package release] finished."
+
+def main():
+    global enableDryRun
+    enableCreateCommit = False
+    enableRelease = False
+
+    optlist, args = getopt.getopt(sys.argv[1:], 'hncrm:o', [ 'help', 'dry-run', 'create-commit', 'merge-release'])
+    for opt, var in optlist:
+        if opt in ('--help', '-h'):
+            help()
+            exit()
+        if opt in ('--dry-run', '-n'):
+            enableDryRun = True
+        if opt in ('--create-commit', '-c'):
+            enableCreateCommit = True
+        if opt in ('--merge-release', '-r'):
+            enableRelease = True
+
+    if enableCreateCommit and enableRelease:
+        print "ERROR : This options are can't executed simultaneously"
+        exit()
+
+    if enableCreateCommit:
+        createReleaseCommit()
+    elif enableRelease:
+        mergeRelaseCommit()
+    else:
+        help()
+
+main()

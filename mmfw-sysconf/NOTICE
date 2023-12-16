@@ -1,0 +1,9 @@
+Copyright (c) Samsung Electronics Co., Ltd. All rights reserved.
+Except as noted, this software is licensed under Apache License, Version 2.
+Please, see the LICENSE file for Apache License terms and conditions.
+
+Some parts of mmfw-sysconf are licensed under the GNU Lesser General Public License version 2.1
+See the LICENSE file for LGPL License terms and conditions.
+Specifically, the LGPL parts of mmfw-sysconf are
+ - */etc/*
+ - */usr/share/*

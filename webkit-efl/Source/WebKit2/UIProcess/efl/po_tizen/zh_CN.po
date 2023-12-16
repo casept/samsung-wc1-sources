@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "选择"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "选择全部"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "在新窗口中打开"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "剪切"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "剪贴板"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "复制"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "复制图像"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "粘贴"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "选择模式"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "选择单词"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "检查网页网址"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "错误页面"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "加载帧失败"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "网络连接未正常建立"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "稍后重新加载网页"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "最可能的原因如下"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "无法获取网页。（网页可能临时关闭或已移至新网址）"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "网页不可用"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "网页临时不可用"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "获取网页 %s 时发生以下错误"
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "完成"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "保存链接"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "前进"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "后退"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "刷新"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "复制到剪贴板"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "复制视频 URL"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "启用/禁用重复播放媒体"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "全视图"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "在新窗口中打开视频"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "显示/隐藏媒体控制"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "输入电子邮件地址"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "输入电子邮件地址列表，用逗号分隔"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "您可搜索该索引。输入关键字："
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "上传文件"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "上传多个文件"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "复制音频网址"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "在新标签中打开图像"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "在新标签中打开链接"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "在新标签中播放音频"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "保存图像"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "搜索互联网"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "输入网址"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "字段无法为空白"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "输入的格式无效"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "输入的值无效"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "未选中文件"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "插件缺失"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "数值必须至少为 %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "数值不得高于 %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "拖放"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "已复制到剪贴板"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "详情"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "重置"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "提交"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "复制链接网址"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "静音"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "暂停"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "播放"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "翻译"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "取消静音"
+

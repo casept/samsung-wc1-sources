@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Kiválasztás"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Mind kijel."
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Megnyitás új ablakban"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Kivág"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Vágólap"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Másol"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Kép másolása"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Beilleszt"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Kijelölési mód"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Szó kiválasztása"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Ellenőrizze a weboldal URL-jét"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Hibaoldal"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Nem sikerült betölteni a kereteket"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Nem jött létre a normál hálózati kapcsolat"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Töltse újra az oldalt később"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "A legvalószínűbb ok alább látható"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Nem lehet beolvasni a weboldalt. (Lehet, hogy a weboldal átmenetileg nem működik, vagy új URL-címre költözött)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "A weboldal nem elérhető"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "A weboldal átmenetileg nem elérhető"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "A következő hiba történt a(z) %s weboldal beolvasása során."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Kész"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Hivatkozás mentése"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Előre"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Vissza"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Újratöltés"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Másolás a vágólapra"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Videó URL-jének másolása"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Médiaismétlés Engedélyez./Letilt."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Teljes nézet"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Videó megnyitása új ablakban"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Médiavezérlők megjel./elrejt."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Adja meg az e-mail címet"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Adja meg az e-mail címeket, vesszővel elválasztva őket"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Kereshet az indexben. Adja meg a kulcsszavakat:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Fájl feltöltése"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Több fájl feltöltése"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Hang URL-jének másolása"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Kép megnyitása új lapon"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Hivatkozás megnyitása új lapon"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Hang lejátszása új lapon"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Kép mentése"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Keresés az interneten"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "URL-t írjon be"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "A mező nem maradhat üres"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Érvénytelen formátum"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Érvénytelen érték"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Nincs kiválasztott fájl"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Hiányzó bővítmény"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "A minimális érték %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "A maximális érték %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Húzás"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "A vágólapra másolva"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Részletek"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Nullázás"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Elküld"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "URL másolása"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Néma"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Szünet"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Lejátszás"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Fordítás"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Némítás feloldása"
+

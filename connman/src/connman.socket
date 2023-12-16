@@ -1,0 +1,15 @@
+[Unit]
+Description=DNS Proxy Socket
+Before=connman.service 
+
+[Socket]
+ListenStream=0.0.0.0:53
+FreeBind=true
+SmackLabelIPIn=system::use_internet
+SmackLabelIPOut=system::use_internet
+
+[Socket]
+ListenDatagram=0.0.0.0:53
+FreeBind=true
+SmackLabelIPIn=system::use_internet
+SmackLabelIPOut=system::use_internet

@@ -1,0 +1,9 @@
+<manifest>
+	<assign>
+		<filesystem path="/usr/lib/gstreamer-0.10/*" label="_" exec_label="none" />
+		<filesystem path="/usr/share/license/gstreamer0.10-plugins-extension" label="_" />
+	</assign>
+	<request>
+		<domain name="_" />
+	</request>
+</manifest>

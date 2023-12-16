@@ -1,0 +1,233 @@
+* Thu Sep 19 2013 Chengwei yang <chengwei.yang@intel.com>
+- Now systemd unit file is part of source code
+
+* Wed Sep 18 2013 Chengwei yang <chengwei.yang@intel.com>
+- Fix activate scim.service failed
+
+* Thu Jan 31 2013 Jihoon Kim <jihoon48.kim@samsung.com> submit/master/20130130.000238@1871df6
+- Remove code to hide IME in case of Search, go return key type
+- Remove debian directory
+- [setting] code format
+- [panel] fix logic to create control window
+- [panel] code cleanup
+- [immodule] fix bug not to send will hide ack
+- [immodule] add dlog for debugging
+- disable autoreorder in hangul engine
+- Fixed build break
+- upload isf-2.3.6129-2
+- The feature for synchronization with window manager newly added
+- [setting]fix : reset option couldn't work well
+- fix for GCC 4.7 build
+- Upload isf-2.3.6128
+- [demo] add language demo
+- [immodule] fix bug that language information hasn't be transfered in ISE Context.
+- Remove exit (0) from scim_helper_launcher.cpp
+- [immodule] change input panel state when root window property is changed
+- [immodule] display a variety of event logs in dlog
+- [immodule] remove unused code
+- [immodule] Use notification library instead of syspopup.
+- [demo] fix build warning
+- [immodule] Add dlog related to conformant status and geometry information
+- [demo] code refactoring
+- ignore input panel event when hardware keyboard is connected.
+- upload isf-2.3.6122
+- fix memory leak related to ecore_x_e_window_profile_get
+- Remove unused ISF logs
+- [immodule] fix IME issue not to hide IME in account
+- [immodule] Compare window ID in X window focus out callback function
+- change file permission to 644
+- [immodule] Hide IME after rendering conformant area
+- Add modifications in boilerplate
+- add X window focus out handler for X based application
+- [panel] Call elm_win_raise () when expand button is clicked
+- Update boilerplate
+- [panel] fix candidate window blink issue when candidate window is expanded.
+- [immodule] use ecore_imf API to show or hide for debugging easily
+- [isf-demo-efl] Remove "ocr_ug_api.h" header file
+- [immodule] use dlog for printing error
+- change boilerplate
+- upload isf-2.3.6114
+
+* Mon Jan 14 2013 Jihoon Kim <jihoon48.kim@samsung.com> submit/master/20130110.033407@539fda6
+- Add interface to get imdata from isf_imf_context
+- [demo] Add changed and preedit,changed event
+- [immodule] fix bug state is changed to WILL_SHOW when ecore_imf_context_input_panel_show is called after IME is already shown
+- [immodule] refactoring
+- Hide IME in case of Search, Go, Login, Signin, Join Return key type
+- restore file mode to 644
+
+* Sun Dec 30 2012 Jihoon Kim <jihoon48.kim@samsung.com> submit/master/20121228.061947@732e71f
+- change CSC directory
+- [immodule] refactoring timer delete code
+- Support GBS --no-configure option for shortening build time
+
+* Sun Dec 30 2012 Jihoon Kim <jihoon48.kim@samsung.com> submit/trunk/20121228.062554@33cbfd0
+- fix bug wrong context is used when IME is hidden by flick gesture
+- fix:pressing Home key while in setup module in keyboard setting ug, popup the window to the main page of the ug to avoid syncing ise option data issue remove useless hw_keyboard_selection_view_back_cb() and sw_keyboard_selection_view_back_cb() fix:default value for auto capitalization is true
+- Change font name to "tizen"
+- When target is rotated, donot show candidate window until ISE send ECORE_IMF_INPUT_PANEL_STATE_SHOW; Fix H/W keyboard engine selection issue in case of Japanese IME
+- use elm_win_prop_focus_skip_set API
+- Fix config->write issue according to prevent report
+- Revert "[systemd] changed "scim -d" as simple"
+- [systemd] changed "scim -d" as simple
+- change permission of releasenote.txt
+- Fix bug not to hide IME when ecore_imf_context_del is called
+- Fix initial ISE reading issue
+- Remove redundant geometry events
+- change message of root window property
+- fix PLM bug:isfsetting ug indicator problem
+- Update changelog
+- Implement ISF control feature according to OSP setting requirement
+- refine log format
+- code refactoring
+- Fix the issue 'can't type in password field of chromium browser'
+- fix GTK immodule install directory
+- fix gtk link error
+- remove deprecated API - start_default_ise call
+- Fix the issue 'Unable to input Chinese characters in Firefox or Thunderbird.'
+- Rename programming guide doxygen file
+- Remove unused isf-panel-efl file
+- Fix P121127-4709: Add cursor position checking
+- Expand the size of Ise_Context structure for future use
+- Catch exception
+- Catch exception
+- Check the result of set_nonblock_mode ()
+- Check the result of open_connection ()
+- Donot call unload () when IMEngine loading is failed
+- fix memory leak in set_keyboard_geometry_atom_info
+- Check buf pointer
+- remove S47isf-panel-efl booting script. isf-panel-efl process is launched by xinitrc for supporting X11 frontend
+- handle altgr modifier
+- remove unused code
+- check the result of ecore_x_window_prop_card32_get
+- fix wrong memset problem in IMdkit
+- check the value of service_get_extra_data
+- ecore_x_bell replaces gdk_beep
+- Set correct ic for input_panel_show () and input_panel_hide ()
+- fix prevent issue. c_str() returns temporary pointer
+- [systemd] add missing patch
+- create tag
+- fix BS issue
+- Merge "remove unused code"
+- remove unused code
+- fix build error due to spec file
+- Merge "modify manifest"
+- modify manifest
+- Add focus_in and focus_out for IMControl
+- print called function
+- remove unused code
+- Add ISF logs for no-ise-launching-at-first-boot in emulator
+- Set using_ic in _event_callback_call
+- Start scim instead of isf-panel-efl
+- Give isf-panel service a low oom_adj value to avoid killed
+- Add set_imdata () for keyboard ISE; Add update_displayed_candidate_number, candidate_more_window_show, candidate_more_window_hide for keyboard ISE;
+- Update coding style
+- fix the setup module reload issue
+- Modified to create 3rd party ISE directory, temporarily
+- fix PLM P121127-0347: focusable description item
+- Fix memory leak when show ISE panel
+- Remove ISF log when load/unload ISE module
+- Replace XKeycodeToKeysym () with XkbKeycodeToKeysym ()
+- Add update_cursor_position () for keyboard ISE
+- Fix issue N_SE-13430: Disable check datasum feature for socket to reduce socket transmission delay
+- Fix issue N_SE-13248 candiate show inproperly when keyboard is connected.
+- Update changelog
+- Donot create candidate window when focus in
+- reduce time to process autocapital
+- Update scim_helper.h and scim_panel_client.h for ABI issue
+- Add expand_candidate (), contract_candidate () and update_candidate_item_layout () for keyboard ISE
+- create /etc/scim/conf directory for CSC
+- add a variety of layout in focus movement for test
+- Use virtualkeypad,state,* smart callback of conformant
+- fix information item layout problem
+- Add FLOATING_CANDIDATE_WINDOW in HelperAgent::set_candidate_style ()
+- upload isf_2.3.5920
+- keep the lastest input method even though focus is changed
+- Add Hangul key as trigger event key
+- format and clean source codes
+- add focus movement on pressing 'next' button
+- Add ISF log file to record keyboard ISE and helper ISE load/unload
+- update images
+- Fixed the bug that newly added interface function pointer is not initialized
+- update po
+- Added set_path_info function to HelperModule to support OSP based keyboard
+- Apply indicator change
+- Explicitly unload module before helper ISE process is finished
+- Add request field in manifest file
+- fix PLM P121107-5543 po problem
+- upload pot file
+- Remove unused source codes
+- Replace control_privilege () with set_app_privilege ("isf", NULL, NULL)
+- Change font name to "SLP"
+- load_config before create_ui for ise setup module
+- restore file mode
+- Change uuid
+- fix issue N_SE-11810: ise dose not show when H/W keyboard is connected
+- Call reload_config () when set keyboard ISE
+- Update hardware keyboard after software keyboard is changed
+- fix Nabi issue N_SE-10561 and the setting part problem of N_SE-11100
+- Hide preedit string when soft ISE commit string
+- Move reset () after panel_req_focus_in ()
+- Fix reset defect when hardware keyboard is connected
+- Add color style of preedit feature
+- fix PLM issue P121018-3268 isfsetting language view problem
+- Donot force to commit string in isf_imf_context_reset ()
+- Remove request field in manifest according to the security team's request
+- change Persian to Farsi
+- Remove source codes related with hibernation
+- upload isf-2.3.5817 again
+- apply smack manifest
+- Donot show candidate when update lookup table
+- Remove unused source codes
+- Upload isf package
+- Add license information
+- Added urgent features that OSP applications need
+- upload isf-2.3.5808
+- Change S42isf-panel-efl to S47isf-panel-efl
+- add code to use ecore_x_e_virtual_keyboard_state_get
+- Add/install a systemd service file; package initscript symlinks
+- add spanish punctuations
+- Add IMEngineOption and get_option () for keyboard ISE
+- Fixed autocapital issue:signal_connect_set_caps_mode not call when prediction ON.
+- Add checking condition when change factory
+- Support candidate showing when target is rotated
+- Change S42isf-panel-efl to S47isf-panel-efl
+- Add reset_keyboard_ise () in HelperAgent class
+- Update candidate displaying
+- upload isf 2.3.5717
+- add SIGNIN type
+- Change default mode of autocapital option
+- do not show or hide ISE in case of desktop mode
+- Hide "v" button when only one line candidates
+- add padding at bottom
+- Upload again
+- Restore file mode to 644
+- Add notification of which keyboard ISE is selected by hotkey
+- Fix input panel geometry defect when target is rotating
+- update isf-2.3.5706
+- disable prediction in TERMINAL layout
+- add cursor pos in Ise_Context structure
+- call hide event callback when context is deleted
+- [setting] update po files
+- Merge "Use /home for the datadir instead of /opt/home" into 2.0_beta
+- [immodule] do not emit HIDE state callback
+- [setting] update po files
+- update typo fix if no option for the ise , disable the ise option item instead of popup
+- add code to check keyboard geometry of elm conformant
+- fix coding style
+- add dlog in focus-in handler
+- Add longpress event for soft ISE
+- update po, support 51 languages
+- fix indentation
+- 51 languages
+- set window title
+- change vconf key type from string to bool
+- fix bug not to call hide event callback when context is deleted
+- fix coding style
+- fix the po issue
+- Add set_candidate_style () for HelperAgent class
+- Use /home for the datadir instead of /opt/home
+
+* Wed Sep 12 2012 Patrick McCarty <patrick.mccarty@linux.intel.com> b965032
+- Use /home for the datadir instead of /opt/home
+

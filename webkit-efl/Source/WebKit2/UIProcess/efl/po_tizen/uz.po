@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Tanlash"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Bar. tanla"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Yangi oynada ochish"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Qirq"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Bufer"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Nusxa olish"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Suratdan nusxa olish"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Qo‘shib qo‘yish"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Tanlash rejimi"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "So‘z tanlang"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Veb-sahifa URLini tekshiring"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Xato sahifa"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Hoshiyalarni yuklab bo‘lmadi"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Tarmoq ulanishi yaxshi o‘rnatilmadi"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Veb-sahifani keyinroq qayta yuklash"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Eng mos sabab quyida ko‘rsatilgan"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Veb-sahifani olib bo‘lmaydi. (Veb-sahifa vaqtincha ishlamayotgan yoki boshqa URLga ko‘chirilgan bo‘lishi mumkin)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Veb-sahifadan foydalanib bo‘lmaydi"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Veb-sahifadan vaqtincha foydalanib bo‘lmaydi"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "%s Veb-sahifasi olinayotganda, quyidagi xato yuzaga keldi."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Qilindi"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Linkni saqlash"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Oldinga o‘tish"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Orqaga qaytish"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Qayta yuklash"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Buferga nusxa olish"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Video URLdan nusxa olish"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Media takrorlanishini yoq/o‘ch"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "To‘liq ko‘rinish"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Videoni yangi oynada ochish"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Media nazoratini ko‘rs/yashir"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "E-pochta manzilini kiriting"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Vergul bilan ajratilgan e-pochta manzillari ro‘yxatini kiriting"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Bu indeksni qidirishingiz mumkin. Kalit so‘zlarni kiriting:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Faylni yuklash"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Bir nechta faylni yuklash"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Audio URLsidan nusxa ko‘chir"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Tasvirni yangi panelda ochish"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Havolani yangi panelda ochish"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Audioni yangi panelda o‘ynat"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Rasmni saqlash"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Internetda qidirish"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "URL kiriting"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Maydon bo‘sh bo‘lishi mumkin emas"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Noto‘g‘ri format kiritildi"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Noto‘g‘ri qiymat kiritildi"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Fayllar saqlanmagan"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Plag-in yo‘q"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Qiymat kamida %d bo‘lishi lozim"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Qiymat %d dan ortiq bo‘lmasligi lozim"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Tortib o‘tkazish"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Buferga nusxa olindi"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Tafsilotlar"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Tashlash"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Jo‘natish"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "URL havol. nusxa ol"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Ovozni o‘chirish"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Pauza"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "O‘ynatish"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Tarjima qilish"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Ovozni yoqish"
+

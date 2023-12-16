@@ -1,0 +1,17 @@
+# to profile graphicsContext
+#WebCore/platform/graphics/GraphicsContext.cpp
+#WebCore/platform/graphics/ShadowBlur.cpp
+#WebCore/platform/graphics/cairo/GraphicsContextCairo.cpp
+#WebCore/platform/graphics/skia/GraphicsContextSkia.cpp
+
+# to profile bubblemark
+#WebCore/page/DOMTimer.cpp:fired
+#WebCore/platform/efl/SharedTimerEfl.cpp:timerEvent
+#WebKit/efl/ewk/ewk_view.cpp:_ewk_view_smart_calculate
+
+# for basic test
+WebKit2/WebProcess/WebPage/WebPage.cpp
+WebKit2/WebProcess/WebPage/efl/WebPageEfl.cpp
+WebKit2/UIProcess/efl/WebViewEfl.cpp
+WebKit2/UIProcess/WebPageProxy.cpp
+WebKit2/UIProcess/DrawingAreaProxy.cpp

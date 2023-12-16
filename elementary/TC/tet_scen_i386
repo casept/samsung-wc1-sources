@@ -1,0 +1,58 @@
+all
+	"Test all XO frameworks"
+
+	^elm
+
+##### Scenarios for the frameworks ######
+
+# EFL
+elm
+   :include:/elm_ts/imageslider/tslist
+   :include:/elm_ts/colorselector/tslist
+   :include:/elm_ts/gengrid/tslist
+   :include:/elm_ts/genlist/tslist
+   :include:/elm_ts/button/tslist
+   :include:/elm_ts/popup/tslist
+   :include:/elm_ts/label/tslist
+   :include:/elm_ts/datefield/tslist
+   :include:/elm_ts/calendar/tslist
+   :include:/elm_ts/check/tslist
+   :include:/elm_ts/radio/tslist
+   :include:/elm_ts/toggle/tslist
+   :include:/elm_ts/panes/tslist
+   :include:/elm_ts/index/tslist
+   :include:/elm_ts/nocontents/tslist
+   :include:/elm_ts/scroller/tslist
+   :include:/elm_ts/segmentcontrol/tslist
+   :include:/elm_ts/slider/tslist
+   :include:/elm_ts/multibuttonentry/tslist
+   :include:/elm_ts/box/tslist
+   :include:/elm_ts/entry/tslist
+   :include:/elm_ts/dayselector/tslist
+   :include:/elm_ts/tickernoti/tslist
+   :include:/elm_ts/transit/tslist
+   :include:/elm_ts/actionslider/tslist
+   :include:/elm_ts/ctxpopup/tslist
+   :include:/elm_ts/progressbar/tslist
+   :include:/elm_ts/conformant/tslist
+# below will be deprecated.
+#:include:/elm_ts/stackedicon/tslist
+#:include:/elm_ts/bubble/tslist
+
+#yhkim
+ch 
+	/telephony-framework/sim/unit/uts_tapi_verify_chv
+pn 
+	/telephony-framework/sim/unit/uts_tapi_change_pin1
+cn 
+	/telephony-framework/sim/unit/uts_tapi_pb_get_storage_count
+in 
+	/telephony-framework/sim/unit/uts_tapi_pb_entry_info
+ac 
+	/telephony-framework/sim/unit/uts_tapi_pb_read_access
+ma 
+	/telephony-framework/sim/unit/uts_tapi_pb_rec_modify_access
+da 
+	/telephony-framework/sim/unit/uts_tapi_pb_delete_access
+if 
+	/telephony-framework/sim/unit/uts_tapi_pb_capability_info

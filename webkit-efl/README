@@ -1,0 +1,20 @@
+This branch is for the wearable product commercialization
+
+- How to build
+
+In order to build this on target, you can use one of the commands in below.
+(suggestion) shows some options for better development.
+
+1. target
+gbs build -A armv7l
+(suggestion - orbis) gbs build -A armv7l --include-all --incremental --ccache --define="nodebug 1" --define="sec_product_feature_profile_wearable 1" --define="enable_tools OFF" --define="enable_api_test OFF" --define="sec_product_feature_display_shape CIRCLE"
+(suggestion - ponte) gbs build -A armv7l -P profile.ponte --include-all --incremental --ccache --define="nodebug 1" --define="sec_product_feature_profile_wearable 1" --define="enable_tools OFF" --define="enable_api_test OFF"
+
+2. SDK
+gbs build -A i586 -P profile.sdk --define="sec_product_feature_profile_wearable 1" --define="simulator 1"
+(suggestion - ponte) gbs build -A i586 -P profile.sdk --include-all --incremental --ccache --define="nodebug 1" --define="enable_tools OFF" --define="enable_api_test OFF" --define="sec_product_feature_profile_wearable 1" --define="simulator 1"
+(suggestion - orbis)gbs build -A i586 -P profile.sdk --include-all --incremental --ccache --define="nodebug 1" --define="enable_tools OFF" --define="enable_api_test OFF" --define="sec_product_feature_profile_wearable 1" --define="simulator 1" --define="sec_product_feature_display_shape CIRCLE"
+
+- WIKI page
+http://mobilerndhub.sec.samsung.net/wiki/display/BROWSER/WebKit+policies
+

@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Izvēlēties"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Izv. visu"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Atvērt jaunā logā"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Izgr."
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Starpliktuve"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Kopēt"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Kopēt attēlu"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Ielīmēt"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Izvēles režīms"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Izv. vārdu"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Pārbaudiet tīmekļa lapas vietrādi URL"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Lapas kļūda"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Neizdevās ielādēt rāmjus"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Nepareizi izveidots tīkla savienojums"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Ielādējiet tīmekļa lapu vēlāk no jauna"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Visticamākais iemesls ir norādīts tālāk"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Nevar izgūt tīmekļa lapu (tīmekļa lapa, iespējams, īslaicīgi nedarbojas vai ir pārvietota uz citu vietrādi URL)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Tīmekļa lapa nav pieejama"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Tīmekļa lapa īslaicīgi nav pieejama"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Tīmekļa lapas %s izguves laikā rādās šāda kļūda."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Gatavs"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Saglabāt saiti"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Doties uz priekšu"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Doties atpakaļ"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Ielādēt vēlreiz"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Kopēt starpliktuvē"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Kopēt video URL"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Akt./deakt. multivides atkārt."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Pilns skats"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Atvērt video jaunā logā"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Rādīt/slēpt multivides vadību"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Ievadiet e-pasta adresi"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Ievadiet e-pasta adrešu sarakstu, atdalot tās ar komatiem"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Varat meklēt šajā rādītājā. Ievadiet atslēgvārdus:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Augšupielādēt failu"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Augšupielādēt vairākus failus"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Kopēt audio URL"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Atvērt attēlu jaunā cilnē"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Atvērt saiti jaunā cilnē"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Atskaņot audio jaunā cilnē"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Saglabāt attēlu"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Meklēt internetā"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Ievadiet URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Lauks nevar būt tukšs"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Ievadīts nederīgs formāts"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Ievadīta nederīga vērtība"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Nav izvēlēts neviens fails"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Trūkst spraudņa"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Vērtībai jābūt vismaz %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Vērtība nedrīkst pārsniegt %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Vilkt un nomest"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Kopēts starpliktuvē"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Dati"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Nodzēst"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Iesniegt"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Kopēt saites URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Izslēgt skaņu"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Apturēt"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Atskaņot"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Tulkot"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Ieslēgt skaņu"
+

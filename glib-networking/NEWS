@@ -1,0 +1,256 @@
+2.32.3
+======
+  * proxy/gnome: Fix SOCKS to work when no http proxy is set
+
+  * Updated translations:
+	Greek
+
+2.32.1
+======
+  * gnutls: added /etc/ssl/ca-bundle.pem to the list of files to check
+    for to use as the default CA list. (This is what openSUSE uses.)
+    (#673944, Federico Mena Quintero)
+
+  * Updated translations:
+	Catalan (Valencian), Marathi, Odia, Persian
+
+2.32.0
+======
+  * New/updated translations:
+	Hindi, Japanese, Khmer, Latvian, Malayalam
+
+2.31.22
+=======
+  * Updated translations:
+	British English, Catalan, Finnish, Lithuanian, Portuguese,
+	Telugu
+
+2.31.20
+=======
+  * gnutls: Fixed a linking problem on some platforms when PKCS#11 is
+    enabled. (#670956, Kalev Lember)
+
+  * Updated translations:
+	Assamese, Basque, Belarusian, Brazilian Portuguese, Danish,
+	Estonian, French, German, Hungarian, Italian, Korean, Polish,
+	Russian, Serbian
+
+2.31.16
+=======
+  * gnutls: Fixed a TLS handshaking bug that in particular caused lots
+    of crashes in epiphany. (#658771)
+
+  * tls/tests: Fixed a bug in the pkcs11-pin test that could cause it
+    to spuriously fail
+
+  * Updated translations:
+	Bulgarian, Chinese (traditional), Czech, Japanese,
+	Norwegian bokmål, Turkish, Vietnamese
+
+2.31.6
+======
+  * gnutls
+	* Support gnutls built against nettle instead of gcrypt
+          (#657306)
+
+	* Implement TLS session caching for GTlsServerConnection
+          (#636574)
+
+  * tls/tests: Explicitly request the memory GSettings backend, to
+    avoid warnings in partial jhbuild environments
+
+  * proxy/gnome: Update to use GInetAddressMask
+
+  * Updated translations:
+	Chinese (simplified), Hebrew, Norwegian bokmål, Slovenian,
+	Swedish, Ukranian
+
+2.31.2
+======
+  * gnutls
+	* Added gnutls-pkcs11 backend, which uses gnutls 2.12.8 and
+	  p11-kit (a new optional dependency) to provide access to
+	  PKCS#11 tokens. At the moment, this is only enabled if you
+	  set GIO_USE_TLS=gnutls-pkcs11 in the environment. (Stef,
+	  #656361)
+
+	* GTlsCertificateGnutls can now read unencrypted PKCS#8 keys
+	  (which show "BEGIN PRIVATE KEY" in PEM form) in addition to
+	  the previously-supported PKCS#1 keys ("BEGIN RSA PRIVATE
+	  KEY").
+
+  * Updated translations:
+	Galician, German, Lithuanian, Norwegian bokmål, Spanish,
+	Turkish
+
+2.31.0
+======
+  * gnutls
+	* Bumped required GNUTLS version to 2.11.0 and updated
+	  code for that (Stef, #656903)
+
+	* Fixed a crash when passing a NULL GCancellable to
+	  g_tls_connection_close_async() (Dan, #659786) or a NULL
+	  GError to g_tls_file_database_new().
+
+	* Fixed handling of self-signed CA certificates in
+	  GTlsDatabaseGnutls (Dan, #660508)
+
+	* Added another G_TLS_ERROR_NOT_TLS (aka "dumb server, try
+	  falling back from TLS to SSLv3") case, when the handshake
+	  completes but then packets after that don't decrypt
+	  correctly. (Dan, #662104)
+
+	* Made sure that GTlsConnection:peer-certificate and
+          :peer-certificate-errors get set even when the peer
+          certificate is rejected. (Dan)
+
+  * proxy/gnome
+	* Fixed ignore_hosts handling (Dan, #655581)
+
+	* Fixed configure check so that "--without-gnome-proxy" works.
+	  (Alexandre Rostovtsev, #662203)
+
+	* Fixed tests to only build the gnome proxy test if we're
+	  building the gnome proxy. (Kalev Lember, #662085)
+
+  * New translations:
+	Telugu
+
+2.30.0
+======
+  * Updated translation:
+	Thai
+
+2.29.92
+=======
+  * New/updated translations:
+	Belarusian, Tamil, Japanese
+
+  * gnutls: Fixed a problem when linking against GNUTLS 3.0, where
+    connections would sometimes return the error "The TLS connection
+    was non-properly terminated". (Dan Winship, #659233)
+
+  * gnutls: Plugged a few memory leaks (Dan Winship)
+
+2.29.18
+=======
+  * gnutls: fixed two rehandshaking bugs; one in which a client
+    would erroneously report an error after successfully rehandshaking
+    (Igor Makarov, #653645), and one where initiating an asynchronous
+    rehandshake on the server side would send illegal packets and
+    cause the client to disconnect (Dan Winship).
+
+  * gnutls: made GTlsDatabaseGnutls and GTlsFileDatabaseGnutls
+    properly cancellable (Stef Walter)
+
+  * gnutls: fixed the client-side session cache to not share session
+    IDs between different virtual hosts on the same IP address, which
+    caused problems with some servers. (Dan Winship, #581342)
+
+  * tls: Fixed up the tls test program so it can be run from "make
+    check" (Stef Walter)
+
+  * New translations:
+	Persian
+
+2.29.15
+=======
+  * gnutls: implement GTlsDatabase (Stef Walter, #636572)
+
+  * gnutls: override minimum key length, to allow connecting to HTTP
+    servers with very small keys (eg, on some embedded devices). (Dan
+    Winship, #652284).
+
+  * gnutls: use %COMPAT mode, which makes GNUTLS behave more like
+    OpenSSL/NSS/Windows in a few ways, making it work with certain
+    broken HTTP servers. (Dan Winship, part of #581342)
+
+  * gnutls: fixed a crash when passed a NULL GError (Dan Winship)
+
+2.29.9
+======
+  * Optimized GDBus usage in PACRunner (davidz)
+
+  * Fixed a race condition in GProxyResolverGnome (davidz)
+
+  * Changed configure to --enable-maintainer-mode by default,
+    to match glib
+
+  * New translations:
+	Belarusian, Catalan (Valencian), Esperanto, Finnish,
+	Lithuanian
+
+2.28.6
+======
+  * Fixed some leaks in the gnutls backend
+
+  * New translations:
+	Turkish
+
+2.28.5
+======
+  * New/updated translations:
+	Basque, Brazilian Portuguese, Chinese (Traditional), Danish,
+	Hindi, Kannada, Marathi, Uyghur
+
+2.28.4
+======
+  * Added a new proxy backend, GProxyResolverGnome, that uses
+    GSettings and the network proxy schemas from
+    gsettings-desktop-schemas to provide proxy information (and using
+    a new D-Bus service provided by the libproxy backend to provide
+    PAC/WPAD support).
+
+    If you are building glib-networking in a GNOME 3.0 environment,
+    you should make sure that gsettings-desktop-schemas.pc is
+    available when building, so that this backend gets built.
+
+  * New translations:
+	Assamese, Latvian, Oriya, Serbian
+
+2.28.0
+======
+  * Fixed broken libtool check in autogen.sh that failed for libtool
+    2.4 (Dan Williams)
+
+  * New/updated translations:
+	Bengali (India), Catalan, Chinese (Simplified), Chinese
+	(Traditional), Czech, Dutch, Estonian, Galician, German,
+	Greek, Gujarati, Hebrew, Indonesian, Italian, Korean,
+	Norwegian (Bokmål), Polish, Punjabi, Slovenian, Spanish,
+	Swedish, Uyghur, Ukranian
+
+2.27.90
+=======
+  * Fixed configure script to actually error out if installed glib
+    version is too old (Emilio Pozuelo Monfort)
+
+  * gnutls: updated GTlsClientConnectionGnutls for :accepted-cas type
+    change (Stef Walter)
+  * gnutls: fixed an uninitialized variable (Dan Winship)
+
+2.27.5
+======
+  * gnutls: finish implementing GTlsRehandshakeMode, which was present
+    but non-functional in 2.27.4
+  * gnutls: updates for glib TLS API changes
+  * gnutls: fix some async bugs that caused the main loop to spin
+  * gnutls: implement a client-side session cache, to speed up
+    handshakes
+
+  * Compile with gcc warnings by default
+
+2.27.4
+======
+  * GNUTLS-based implementation of GTlsBackend
+
+2.26.0
+======
+
+  * No changes, just a version bump
+
+2.25.0
+======
+
+  * Initial release, with libproxy-based GProxyResolver

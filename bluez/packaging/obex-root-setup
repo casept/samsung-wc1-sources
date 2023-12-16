@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+ROOT_SETUP=/etc/obex/root-setup.d
+
+OBEX_ROOT="$1"
+
+mkdir -p "$OBEX_ROOT"
+
+if [ -d "$ROOT_SETUP" ]; then
+	run-parts -a "$OBEX_ROOT" "$ROOT_SETUP"
+fi
+
+chmod 0550 "$OBEX_ROOT"

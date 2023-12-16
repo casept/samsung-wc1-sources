@@ -1,0 +1,13 @@
+Index: gst-plugins-good-0.10.29/autogen.sh
+===================================================================
+--- gst-plugins-good-0.10.29.orig/autogen.sh	2011-09-15 14:49:32.512952082 +0900
++++ gst-plugins-good-0.10.29/autogen.sh	2011-09-15 14:49:40.016951607 +0900
+@@ -30,7 +30,7 @@
+ fi
+ 
+ 
+-CONFIGURE_DEF_OPT='--enable-maintainer-mode --enable-gtk-doc'
++CONFIGURE_DEF_OPT='--enable-maintainer-mode'
+ 
+ autogen_options $@
+ 

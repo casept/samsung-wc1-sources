@@ -1,0 +1,23 @@
+#!/bin/bash
+
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_auth_request
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_back_forward_list
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_color_picker
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_context
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_context_history_callbacks
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_context_menu
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_cookie_manager
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_database_manager
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_download_job
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_eina_shared_string
+#Hang LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_favicon_database
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_file_chooser_request
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_object
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_page_group
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_popup_menu
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_refptr_evas_object
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_settings
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_storage_manager
+#Hang LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_text_checker
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_view
+LD_LIBRARY_PATH=/home/developer:$LD_LIBRARY_PATH ./test_ewk2_window_features

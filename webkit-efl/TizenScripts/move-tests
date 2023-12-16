@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sdb push BuildWK2-$1/bin/TestWebKitAPI/EWebKit2/test_* /home/developer
+sdb push BuildWK2-$1/lib/libgtest.so /home/developer
+sdb push BuildWK2-$1/lib/libewk2UnitTestInjectedBundleSample.so /home/developer
+sdb push BuildWK2-$1/WebCore/platform/efl/*/*.edj /home/developer
+sdb push Source/WebKit2/UIProcess/API/efl/tests/resources /home/developer
+sdb push TizenScripts/run-tests /home/developer

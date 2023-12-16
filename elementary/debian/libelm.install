@@ -1,0 +1,15 @@
+debian/tmp/usr/lib/*.so.*
+debian/tmp/usr/lib/*.so
+debian/tmp/usr/lib/edje/*
+debian/tmp/usr/share/elementary/images/*
+debian/tmp/usr/share/elementary/objects/*
+debian/tmp/usr/share/elementary/themes/*
+debian/tmp/usr/share/elementary/config/*
+debian/tmp/usr/share/elementary/config/default/*
+debian/tmp/usr/share/elementary/config/illume/*
+debian/tmp/usr/share/elementary/config/mobile/*
+debian/tmp/usr/share/elementary/config/desktop/*
+debian/tmp/usr/share/elementary/config/standard/*
+debian/tmp/usr/share/icons/elementary.png
+debian/tmp/usr/lib/elementary/*
+debian/tmp/usr/share/locale/*

@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "არჩევა"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "ყველა"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "ახალ გვერდზე გახსნა"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "მოჭრა"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "ბუფერული მეხს."
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "ასლი"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "სურათის ასლის გადაღება"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "ჩასმა"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "რეჟიმის შერჩევა"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "აირჩიეთ სიტყვა"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "შეამოწმეთ ვებგვერდის URL"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "შეცდომის გვერდი"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "ჩარჩოები ვერ ჩამოიტვირთა"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "ქსელთან კავშირი არ დამყარდა ნორმალურად"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "თავიდან ჩამოტვირთეთ ვებგვერდი მოგვიანებით"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "ყველაზე მეტად სავარაუდო მიზეზი მოცემულია ქვემოთ"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "ვებგვერდი ვერ იხსნება. (შეიძლება, ვებგვერდი დროებით მიუწვდომელია, ან გადავიდა ახალ URL-ზე)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "ვებგვერდი მიუწვდომელია"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "ვებგვერდი დროებით მიუწვდომელია"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "როდესაც იტვირთებოდა ვებგვერდი %s, მოხდა შემდეგი შეცდომა."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "შესრულდა"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "ბმულის შენახვა"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "წინ გადასვლა"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "უკან გადასვლა"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "განახლება"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "ასლის შენახვა ბუფერულ მეხსიერებაში"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "ვიდეო URL-ის კოპირება"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "გამეორებულთა გამოჩენა/დამალვა"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "სრული ხედი"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "გახსენით ვიდეო ახალ ფანჯარაში"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "მედიის მართვის გამოჩენა/დამალ."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "შეიყვანეთ ელფოსტის მისამართი"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "შეიყვანეთ ელფოსტის მისამართების სია, გამოყავით მძიმეებით"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "შეგიძლიათ მოძებნოთ ან საძიებელში. შეიყვანეთ საკვანძო სიტყვები:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "ფაილის ატვირთვა"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "რამდენიმე ფაილის ატვირთვა"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "აუდიოს URL-ის კოპირება"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "სურათი გაიხსნას ახალ ჩანართში"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "ბმული გაიხსნას ახალ ჩანართში"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "აუდიოს დაკვრა ახალ ჩანართში"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "სურათის შენახვა"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "ინტერნეტში ძებნა"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "ჩაწერეთ URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "ველები არ უნდა იყოს ცარიელი"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "შეყვანილი ფორმატი არასწორია"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "შეყვანილი მნიშვნელობა არასწორია"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "ფაილები არ არის არჩეული"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "პროგრამული დანამატი აკლია"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "მნიშვნელობა უნდა იყოს მინიმუმ %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "მნიშვნელობა უნდა იყოს მაქსიმუმ %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "აიღეთ და გადაიტანეთ"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "ასლი შენახულია ბუფერში"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "დეტალები"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "გაუქმება"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "გაგზავნა"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "დააკოპირე ბმულის URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "უხმო"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "პაუზა"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "გართობა"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "თარგმნა"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "ხმის ჩართვა"
+

@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "선택"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "모두 선택"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "새 창에서 열기"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "잘라내기"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "클립보드"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "복사"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "이미지 복사"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "붙여넣기"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "선택 모드"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "단어 선택"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "웹 페이지 URL 확인"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "오류 페이지"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "프레임을 불러오지 못하였습니다"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "네트워크에 연결할 수 없습니다"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "나중에 웹 페이지 다시 불러오기"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "가능성이 높은 원인은 아래와 같습니다"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "웹 페이지를 가져올 수 없습니다. (웹 페이지를 일시적으로 사용할 수 없거나 새로운 URL로 이동되었을 수 있습니다.)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "웹 페이지에 연결할 수 없습니다"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "웹 페이지를 일시적으로 사용할 수 없습니다"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "웹 페이지 %s을(를) 가져오는 중에 다음 오류가 발생하였습니다."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "완료"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "링크 저장"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "앞으로 이동"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "뒤로 이동"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "새로고침"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "클립보드에 복사"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "동영상 URL 복사"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "반복 재생 실행 및 해제"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "전체 화면 보기"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "새 창에서 동영상 열기"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "재생 도구 표시 및 숨기기"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "이메일 주소를 입력하세요"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "여러 이메일 주소를 쉼표로 구분하여 입력하세요"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "색인을 검색할 수 있습니다. 검색어를 입력하세요:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "파일 업로드"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "여러 파일 업로드"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "오디오 URL 복사"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "새 탭에서 이미지 열기"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "새 탭에서 링크 열기"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "새 탭에서 오디오 재생"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "이미지 저장"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "인터넷 검색"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "URL을 입력하세요"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "입력란은 비어 있을 수 없습니다"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "입력한 형식이 바르지 않습니다"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "입력한 값이 바르지 않습니다"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "선택한 파일이 없습니다"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "플러그인 없음"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "값이 최소 %d 이상이어야 합니다"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "값이 최대 %d 이하여야 합니다"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "끌어서 놓기"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "클립보드에 복사되었습니다"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "상세 정보"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "초기화"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "전송"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "링크 URL 복사"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "음소거"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "일시 정지"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "재생"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "번역"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "음소거 해제"
+

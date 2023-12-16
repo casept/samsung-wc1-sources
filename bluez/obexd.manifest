@@ -1,0 +1,29 @@
+<manifest>
+    <define>
+        <domain name="obexd"/>
+	<request>
+		<smack request="system::vconf" type="rwxat"/>
+		<smack request="system::share" type="rwxat"/>
+		<smack request="system::ext_storage" type="rwxat"/>
+		<smack request="system::media" type="rwxat"/>
+		<smack request="sys-assert::core" type="rwxat"/>
+		<smack request="ui-gadget::client" type="rwx"/>
+		<smack request="map-agent::dbus" type="rwxat"/>
+		<smack request="pb-agent::dbus" type="rwxat"/>
+		<smack request="dbus" type="rwx"/>
+		<smack request="syslogd" type="w"/>
+		<smack request="sysklogd" type="w"/>
+		<smack request="bluez" type="rw"/>
+	</request>
+	<permit>
+		<smack permit="dbus" type="rwx"/>
+	</permit>
+    </define>
+    <assign>
+        <filesystem path="/usr/lib/obex/plugins/" label="_"/>
+        <filesystem path="/usr/share/dbus-1/services/org.bluez.obex.service" label="_"/>
+    </assign>
+    <request>
+        <domain name="obexd"/>
+    </request>
+</manifest>

@@ -1,0 +1,11 @@
+[Unit]
+Description=Start the input service framework panel
+After=local-fs.target xorg.service e17.service wm_ready.service
+
+[Service]
+ExecStart=/usr/bin/scim -d
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/autotools.mk
+
+DEB_CONFIGURE_SCRIPT := ./autogen.sh
+DEB_MAKE_CLEAN_TARGET := distclean
+DEB_CONFIGURE_EXTRA_FLAGS := --enable-dependency-tracking --disable-doc --disable-web
+DEB_MAKE_EXTRA_ARGS := V=0
+
+CFLAGS += -fPIC -Wall
+LDFLAGS += -Wl,--hash-style=both -Wl,--as-needed
+
+clean::
+	[ ! -f Makefile ] || make distclean || true

@@ -1,0 +1,37 @@
+group "Ea_Theme_Config" struct {
+    value "index" int: 0;
+    group "list" list {
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 198;
+            value "s" int: 91;
+            value "v" int: 60;
+        }
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 202;
+            value "s" int: 70;
+            value "v" int: 30;
+        }
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 195;
+            value "s" int: 74;
+            value "v" int: 84;
+        }
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 198;
+            value "s" int: 20;
+            value "v" int: 95;
+        }
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 206;
+            value "s" int: 51;
+            value "v" int: 48;
+        }
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 190;
+            value "s" int: 90;
+            value "v" int: 62;
+        }
+    }
+    value "font" string: "Tizen";
+    value "size" int: -100;
+}

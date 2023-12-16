@@ -1,0 +1,404 @@
+/*
+    Copyright (C) 2008,2009 INdT - Instituto Nokia de Tecnologia
+    Copyright (C) 2009,2010 ProFUSION embedded systems
+    Copyright (C) 2009,2010 Samsung Electronics
+    Copyright (c) 2012 Intel Corporation. All rights reserved.
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public License
+    along with this library; see the file COPYING.LIB.  If not, write to
+    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+    Boston, MA 02110-1301, USA.
+*/
+
+group {
+   name: "webkit/widget/slider/thumb_vertical";
+   data { item: "scale" "5.0"; } //original 11, 29
+   min: 55 145;
+   max: 55 145;
+
+   images {
+      image: "widget/slider/slider_knob_v.png" COMP;
+      image: "widget/slider/slider_knob_press_v.png" COMP;
+   }
+
+   script {
+      public isEnabled;
+      public isPressed;
+      public isFocused;
+
+      public show() {
+         if (get_int(isEnabled) == 1) {
+            set_state(PART:"img.thumb", "default", 0.0);
+            if (get_int(isFocused) == 1) {
+               set_state(PART:"img.thumb", "pressed", 0.0);
+               if (get_int(isPressed) == 1)
+                  set_state(PART:"img.thumb", "pressed", 0.0);
+            }
+         } else
+            set_state(PART:"img.thumb", "default", 0.0);
+      }
+   }
+
+   parts {
+      part {
+         name: "img.thumb";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         description {
+            state: "default" 0.0;
+            min: 55 145;
+            image {
+               normal: "widget/slider/slider_knob_v.png";
+               border: 6 6 0 0;
+            }
+         }
+         description {
+            state: "pressed" 0.0;
+            inherit: "default" 0.0;
+            image.normal: "widget/slider/slider_knob_press_v.png";
+         }
+      }
+   }
+
+   programs {
+      program {
+         name: "enabled";
+         signal: "enabled";
+         script {
+            set_int(isEnabled, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "pressed";
+         signal: "pressed";
+         script {
+            set_int(isPressed, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "focused";
+         signal: "focused";
+         script {
+            set_int(isFocused, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "reset";
+         signal: "reset";
+         script {
+            set_int(isEnabled, 0);
+            set_int(isPressed, 0);
+            set_int(isFocused, 0);
+            show();
+         }
+      }
+   }
+}
+
+group {
+   name: "webkit/widget/slider/vertical";
+   data { item: "scale" "5.0"; }
+   min: 55 0;/* if > 0, this is the minimum size that will be allocated.
+              * If wants to draw on top, just overflow usign edje's rel1/rel2
+              */
+   max: 55 999999;
+
+   script {
+      public message(Msg_Type:type, id, ...) {
+         if ((id == 0) && (type == MSG_FLOAT_SET)) {
+            new Float:y, Float:sy;
+            y = getfarg(2);
+            sy = getfarg(3);
+
+            if (sy >= 0.0) {
+               set_drag(PART:"img.slider_fill", 1.0, y);
+               set_drag_size(PART:"img.slider_fill", 1.0, sy);
+            }
+         }
+      }
+   }
+
+   images {
+      image: "widget/slider/slider_v.png" COMP;
+      image: "widget/slider/slider_fill_v.png" COMP;
+   }
+
+   parts {
+      part {
+         name: "rect.base";
+         type: RECT;
+         scale: 1;
+         description {
+           min: 55 145;
+           max: 55 999999;
+            state: "default" 0.0;
+            color: 255 255 255 0;
+         }
+      }
+
+      part {
+         name: "rect.clipper";
+         type: RECT;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            color: 255 255 255 255;
+         }
+         description {
+            state: "hidden" 0.0;
+            color: 255 255 255 128;
+         }
+      }
+
+      part {
+         name: "img.slider";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         clip_to: "rect.clipper";
+         description {
+            state: "default" 0.0;
+            min: 25 145;
+            max: 25 999999;
+            rel1.to: "rect.base";
+            rel2.to: "rect.base";
+            image {
+               normal: "widget/slider/slider_v.png";
+               border: 0 0 5 5;
+            }
+        }
+      }
+
+      part {
+         name: "img.slider_fill";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         clip_to: "rect.clipper";
+         dragable {
+            x: 0 0 0;
+            y: 1 1 0;
+            confine: "rect.base";
+         }
+         description {
+            state: "default" 0.0;
+            min: 25 0;
+            max: 25 999999;
+            align: 0.5 0.5;
+            image {
+               normal: "widget/slider/slider_fill_v.png";
+               border: 0 0 5 5;
+            }
+         }
+      }
+   }
+}
+
+group {
+   name: "webkit/widget/slider/thumb_horizontal";
+   data { item: "scale" "5.0"; }
+   min: 145 55;
+   max: 145 55;
+
+   images {
+      image: "widget/slider/slider_knob_h.png" COMP;
+      image: "widget/slider/slider_knob_press_h.png" COMP;
+   }
+
+   script {
+      public isEnabled;
+      public isPressed;
+      public isFocused;
+
+      public show() {
+         if (get_int(isEnabled) == 1) {
+            set_state(PART:"img.thumb", "default", 0.0);
+            if (get_int(isFocused) == 1) {
+               set_state(PART:"img.thumb", "pressed", 0.0);
+               if (get_int(isPressed) == 1)
+                  set_state(PART:"img.thumb", "pressed", 0.0);
+            }
+         } else
+            set_state(PART:"img.thumb", "default", 0.0);
+      }
+   }
+
+   parts {
+      part {
+         name: "img.thumb";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         description {
+            state: "default" 0.0;
+            min: 145 55;
+            image {
+               normal: "widget/slider/slider_knob_h.png";
+               border: 6 6 0 0;
+            }
+         }
+         description {
+            state: "pressed" 0.0;
+            inherit: "default" 0.0;
+            image.normal: "widget/slider/slider_knob_press_h.png";
+         }
+      }
+   }
+
+   programs {
+      program {
+         name: "enabled";
+         signal: "enabled";
+         script {
+            set_int(isEnabled, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "pressed";
+         signal: "pressed";
+         script {
+            set_int(isPressed, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "focused";
+         signal: "focused";
+         script {
+            set_int(isFocused, 1);
+            show();
+         }
+      }
+
+      program {
+         name: "reset";
+         signal: "reset";
+         script {
+            set_int(isEnabled, 0);
+            set_int(isPressed, 0);
+            set_int(isFocused, 0);
+            show();
+         }
+      }
+   }
+}
+
+group {
+   name: "webkit/widget/slider/horizontal";
+   data { item: "scale" "5.0"; }
+   min: 0 55; /* if > 0, this is the minimum size that will be allocated.
+                 * If wants to draw on top, just overflow usign edje's rel1/rel2
+                 */
+   max: 999999 55;
+
+   images {
+      image: "widget/slider/slider_h.png" COMP;
+      image: "widget/slider/slider_fill_h.png" COMP;
+   }
+
+   script {
+      public message(Msg_Type:type, id, ...) {
+         if ((id == 0) && (type == MSG_FLOAT_SET)) {
+            new Float:x, Float:sx;
+            x = getfarg(2);
+            sx = getfarg(3);
+
+            if (sx >= 0.0) {
+               set_drag(PART:"img.slider_fill", x, 0.0);
+               set_drag_size(PART:"img.slider_fill", sx, 1.0);
+            }
+         }
+      }
+   }
+
+   parts {
+      part {
+         name: "rect.base";
+         type: RECT;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: 0 55;
+            max: 999999 55;
+            color: 255 255 255 0;
+         }
+      }
+
+      part {
+         name: "rect.clipper";
+         type: RECT;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            color: 255 255 255 255;
+         }
+         description {
+            state: "hidden" 0.0;
+            color: 255 255 255 128;
+         }
+      }
+
+      part {
+         name: "img.slider";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         clip_to: "rect.clipper";
+         description {
+            state: "default" 0.0;
+            min: 145 25;
+            max: 999999 25;
+            rel1.to: "rect.base";
+            rel2.to: "rect.base";
+            align: 0.5 0.5;
+            image {
+               normal: "widget/slider/slider_h.png";
+               border: 5 5 0 0;
+            }
+         }
+      }
+
+      part {
+         name: "img.slider_fill";
+         type: IMAGE;
+         scale: 1;
+         mouse_events: 0;
+         clip_to: "rect.clipper";
+         dragable {
+            x: 1 1 0;
+            y: 0 0 0;
+            confine: "rect.base";
+         }
+         description {
+            state: "default" 0.0;
+            min: 0 25;
+            max: 999999 25;
+            align: 0.5 0.5;
+            image {
+               normal: "widget/slider/slider_fill_h.png";
+               border: 5 5 0 0;
+            }
+         }
+      }
+   }
+}

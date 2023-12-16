@@ -1,0 +1,232 @@
+Connection Manager
+******************
+
+Copyright (C) 2007-2012  Intel Corporation. All rights reserved.
+
+
+Functionality and features
+==========================
+
+The following features are built-in into Connection Manager:
+	- Generic plugin infrastructure
+	- Device and network abstraction (with basic storage support)
+	- IPv4, IPv4-LL (link-local) and DHCP
+	- IPv6, DHCPv6 and 6to4 tunnels
+	- Advanced routing and DNS configuration
+	- Built-in DNS proxy and intelligent caching
+	- Built-in WISPr hotspot logins and portal detection
+	- Time and timezone configuration (manual and automatic with NTP)
+	- Proxy handling (manual and automatic with WPAD)
+	- Tethering support (USB, Bluetooth and WiFi AP mode)
+	- Detailed statistics handling (home and roaming)
+
+Various plugins can be enabled for networking support:
+	- Ethernet plugin
+	- WiFi plugin with WEP40/WEP128 and WPA/WPA2 (personal and enterprise)
+	- Bluetooth plugin (using BlueZ)
+	- 2G/3G/4G plugin (using oFono)
+
+Also plugins with additional features are available:
+	- Loopback interface setup
+	- PACrunner proxy handling
+	- PolicyKit authorization support
+
+
+Compilation and installation
+============================
+
+In order to compile Connection Manager you need following software packages:
+	- GCC compiler
+	- GLib library
+	- D-Bus library
+	- IP-Tables library
+	- GnuTLS library (optional)
+	- PolicyKit (optional)
+
+To configure run:
+	./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
+
+Configure automatically searches for all required components and packages.
+
+To compile and install run:
+	make && make install
+
+
+Configuration and options
+=========================
+
+For a working system, certain configuration options need to be enabled:
+
+	--disable-ethernet
+
+		Disable support for Ethernet network cards
+
+		By default Ethernet technology support is built-in and
+		enabled. This option can be used to build a small daemon
+		for a specific system if Ethernet support is not required.
+
+	--disable-wifi
+
+		Disable support for WiFi devices
+
+		By default WiFi technology support is built-in and
+		enabled. This option can be used to build a small daemon
+		for a specific system if WiFi support is not required.
+
+		It is safe to build a daemon with WiFi support and no
+		running wpa_supplicant. The start of wpa_supplicant is
+		automatically detected and only a runtime dependency. It
+		is not needed to build ConnMan.
+
+	--disable-bluetooth
+
+		Disable support for Bluetooth devices
+
+		By default Bluetooth technology support is built-in and
+		enabled. This option can be used to build a small daemon
+		for a specific system if Bluetooth support is not required.
+
+		It is safe to build a daemon with Bluetooth support and no
+		running bluetoothd. The start of bluetoothd is automatically
+		detected and only a runtime dependency. It is not needed to
+		build ConnMan.
+
+	--disable-ofono
+
+		Disable support for cellular 2G/3G/4G devices
+
+		By default oFono technology support is built-in and
+		enabled. This option can be used to build a small daemon
+		for a specific system where oFono is not used.
+
+		It is safe to build a daemon with oFono support and no
+		running ofonod. That start of ofonod is automatically
+		detected and only a runtime dependency. It is not needed to
+		build ConnMan.
+
+	--disable-dundee
+
+		Disable support for Bluetooth DUN devices
+
+		By default Bluetooth DUN technology (dundee) support is
+		built-in and enabled. This option can be used to build a
+		small daemon for a specific system where dundee is not used.
+
+		It is safe to build a daemon with dundee support and no
+		running dundee. That start of dundee is automatically
+		detected and only a runtime dependency. It is not needed to
+		build ConnMan.
+
+	--disable-pacrunner
+
+		Disable support for PACrunner proxy handling
+
+		By default PACrunner support is built-in and enabled. This
+		option can be used to build a small daemon for a specific
+		system where PACrunner is not used.
+
+		It is safe to build a daemon with PACrunner support and no
+		pacrunner daemon. It will detect and start a PACrunner
+		process if needed at runtime. The presence is not needed
+		to build ConnMan.
+
+	--disable-loopback
+
+		Disable setup of loopback device
+
+		For distributions with a really minimal init system and no
+		networking scripts this can take care of setting up the
+		loopback device and enabling it.
+
+		It is safe to leave this selected even if networking
+		scripts are in place. It detects an already configured
+		loopback device and leaves it as it is.
+
+	--disable-wispr
+
+		Disable support for WISPr hotspot logins
+
+		For systems with really minimal memory requirements, this
+		will disable the support for WISPr hotspot logins. The code
+		for WISPr will be still compiled into the daemon, but its
+		requirement on GnuTLS for secure connections will be lifted.
+
+		The missing GnuTLS support shrinks the memory requirements
+		by about 30% and for systems that are more stationary and do
+		not log into hotspots this might be a better trade off.
+
+		Disabling WISPr support is not disabling the portal detection
+		support. A portal will still be detected, but instead of being
+		asked for login credentials, the request for a browser session
+		will be made through the agent.
+
+	--enable-polkit
+
+		Enable support for PolicyKit authorization
+
+		This allows to check every D-Bus access against a security
+		policy and so restrict access to certain functionality.
+
+	--enable-nmcompat
+
+		Enable support for NetworkManager compatibility interfaces
+
+		This allows to expose a minimal set of NetworkManager
+		interfaces. It is useful for systems with applications
+		written to use NetworkManager to detect online/offline
+		status and have not yet been converted to use ConnMan.
+
+
+wpa_supplicant configuration
+============================
+
+In order to get wpa_supplicant and Connection Manager working properly
+together you should edit wpa_supplicant .config file and set:
+
+CONFIG_WPS=y
+CONFIG_AP=y
+CONFIG_CTRL_IFACE_DBUS_NEW=y
+
+and, add:
+
+CONFIG_BGSCAN_SIMPLE=y
+
+This last option will enable the support of background scanning while being
+connected, which is necessary when roaming on wifi.
+
+It is recommended to use wpa_supplicant 0.8.x or 1.x or later.
+
+
+VPN
+===
+
+In order to compile pptp and l2tp VPN plugins, you need ppp development
+package.
+
+To run l2tp you will need
+	- xl2tpd, http://www.xelerance.com/services/software/xl2tpd
+
+To run pptp you will need
+	- pptp client, http://pptpclient.sourceforge.net
+
+Both l2tp and pptp also need pppd.
+
+
+OpenVPN
+=======
+
+Up to version 2.2 of OpenVPN, pushing additional routes from the
+server will not always work. Some of the symptons are that additional
+routes will not be set by ConnMan if the uplink is a cellular
+network. While the same setup works well for a WiFi or ethernet
+uplink.
+
+
+Information
+===========
+
+Mailing list:
+	connman@connman.net
+
+For additional information about the project visit ConnMan web site:
+	http://www.connman.net

@@ -1,0 +1,12 @@
+<manifest>
+	<request>
+		<domain name="_"/>
+	</request>
+	<assign>
+		<filesystem path="/opt/usr/devel/usr/bin/pacat" label="_" exec_label="none"/>
+		<filesystem path="/opt/usr/devel/usr/bin/pacat-simple" label="_" exec_label="none"/>
+		<filesystem path="/opt/usr/devel/usr/bin/pacmd" label="_" exec_label="none"/>
+		<filesystem path="/opt/usr/devel/usr/bin/pactl" label="_" exec_label="none"/>
+		<filesystem path="/opt/usr/devel/usr/bin/pamon" label="_" exec_label="none"/>
+	</assign>
+</manifest>

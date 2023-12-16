@@ -1,0 +1,278 @@
+Elementary 1.7.99
+
+Changes since elementary 1.7.98:
+-------------------------
+
+Additions:
+
+   * Add ELM_INPUT_PANEL_RETURN_KEY_TYPE_SIGNIN.
+   * Add elementary_codegen
+   * Add window floating mode api's
+   * Add reorder mode set/get API in Toolbar.
+   * Add the toolbar API which expand the transverse length.
+   * Add a way to know which month is displayed in elm_calendar
+   * Add color picker to elm_colorselector.
+   * Add a search API to list all localisations corresponding to a name in map
+   * Add elm_notify_align_set/get
+   * Add virtualkeypad, clipboard state change signals from conformant.
+   * Add elm_toolbar_item_show/bring_in.
+   * Add "highlighted" and "unhighlighted" callbacks to list, genlist, and gengrid.
+   * Add elm_index smart callback - "language,changed".
+   * Add smart callback signals of a scroller. "vbar,drag", "vbar,press", "vbar,unpress", "hbar,drag", "hbar,press", "hbar,unpress".
+   * Add elm_glview, elm_gengrid smart callback - "language,changed".
+   * Add APIs - elm_object_item_domain_translatable_part_text_set(), elm_object_item_translatable_part_text_get().
+   * Add APIs - elm_object_domain_translatable_part_text_set(), elm_object_translatable_part_text_get().
+   * Add APIs - elm_object_orientation_mode_disabled_set(), elm_object_orientation_mode_disabled_get().
+   * Add the reorder effect in toolbar.
+   * Added new APIs elm_transit_tween_mode_facator_set()/get()
+   * Support widget orientation mode in order to widgets have multiple styles for each window degree.
+   * Add elm_drop_target_add() elm_drop_target_del() and elm_drag_start()
+   * Add the option about sending signals in content_pos_set.
+   * Add omit feature to elm_index.
+   * Add elm_transit_smooth_set(), elm_transit_smooth_get()
+   * Add edje_object_message_signal_process before edje_object_size_min_restricted_calc.
+   * Add elm_object_item_signal_callback_add(), elm_object_item_signal_callback_del().
+   * Add the config ELM_THUMBSCROLL_HOLD_THRESHOLD.
+   * Add elm_naviframe_item_pop_cb_set().
+   * Add elm_widget_newest_focus_order_get for knowing the last object(and its focus order) which got focus.
+   * Add the smart signals in scroller. "scroll,left", "scroll,right", "scroll,up", "scroll,down".
+   * Add four more focus diretions. ELM_FOCUS_UP, ELM_FOCUS_DOWN, ELM_FOCUS_RIGHT, ELM_FOCUS_LEFT.
+   * Add APIs - elm_object_focus_next_object_get, elm_object_focus_next_object_set.
+   * Add API - elm_object_focused_object_get.
+   * Add APIs - elm_entry_input_panel_layout_variation_set/get
+   * Add elm_map smart callback - "language,changed".
+   * Add the repeat_events_set/get for blocking the events of content objects.
+   * Add convenient macros - elm_object_translatable_part_text_set(), elm_object_item_translatable_part_text_set().
+   * Add the API elm_scroller_page_scroll_limit_set/get.
+   * Add elm_mapbuf_auto_set/get.
+   * Add the API elm_scroller_single_direction_set/get.
+   * Add the feature for key events.
+   * Add elm_access_action(), elm_access_action_cb_set()
+   * Add elm_object_domain_part_text_translatable_set(), elm_object_item_domain_part_text_translatable_set().
+   * Support language,changed callback (Fileselector_Button, Fileselector Entry, Spinner.
+   * Add the config elm_scroll_smooth_start_enable.
+   * Add elm_layout smart callback - "language,changed".
+   * The momentum animation time is changed as the amount of flick.
+   * Add elm_entry smart callback - "text,set,done".
+   * Add selection handlers to entry.
+   * Add support elm_object_item_signal_emit() for elm_list.
+   * Add ELM_INPUT_PANEL_LAYOUT_DATETIME.
+   * Add elm_config_glayer_long_tap_start_timeout_set/get, elm_config_glayer_double_tap_timeout_set/get
+   * Add magnifier to entry.
+   * Add "focused" and "unfocused" smart callback for panel, video, web, web2, genlist, hover, index, list, map, photocam, progressbar, radio, scroller, slider, slideshow, spinner, toolbar, win, calendar, check, clock, colorselector, datetime, diskselector, flipselector, gengrid, ctxpopup, fileselector_button, naviframe, player, popup, bubble, button.
+   * Add elm_web_url_set(), elm_web_url_get() and "url,changed" signal for web, web2.
+   * Add elm_fileselector_mime_type_filter_append and elm_fileselector_filters_clear to support mime type filter.
+   * Add the elm_scrollable_interface_content_viewport_resize_cb_set.
+   * added callback call "scroll", "scroll,anim,start", "scroll,anim,stop", "scroll,drag,start", "scroll,drag,stop" in toolar widget.
+   * Add the configuration thumbscroll_flick_distance_tolerance.
+
+Improvements:
+
+   * Toolbar widget is now a scrollable widget.
+   * Entry widget is now a scrollable layout.
+   * Fileselector entry widget is now an elm layout.
+   * Ctxpopup widget is now an elm layout.
+   * Multibutton entry entry is now an elm layout.
+   * Popup widget is now an elm layout.
+   * Panel widget is now an elm layout.
+   * Improve elm map module loading/searching efficiency.
+   * Diskselector handles dyanmic show/hide of icons now like buttons.
+   * Plug widget handles image object deletion
+   * Handle COMPOUND_TEXT cnp
+   * Conformant widget handles displaymode change related with keypad.
+   * Elm_Transit image animation effects supports elm_image object type.
+   * Expand elm_transit_tween_mode ELM_TRANSIT_TWEEN_MODE_DIVISOR_INTERP, ELM_TRANSIT_TWEEN_MODE_BOUNCE, ELM_TRANSIT_TWEEN_MODE_SPRING
+   * Ctxpopup will be dismissed when language is changed.
+   * Popup is now a focusable object.
+   * Improve naviframe to not apply items' style multiple times when theme/styles are changed.
+   * Don't handle the resize objects in widget infrastructure. Actually resize objects are sub objects so we don't need to care them separately. This causes overhead in some cases(ie, theme change..).
+   * Improve support on 64bits system.
+   * Improve gengrid item append performance.
+   * Naviframe works for H/W Back key event.
+   * Naviframe is now supproting focus_direction.
+   * Scroller decides whether the accelerator is on or not, depending on the velocity and the interval time of the flick event.
+   * Ctxpopup is now supporting focus_direction.
+   * Don't try to pop the naviframe item multiple times.
+   * Support language change for widget items (Ctxpopup, Hoversel, Naviframe, Diskselector, List, Menu, Segment_Control, Toolbar, Popup, MultibuttonEntry)
+   * Move cursor when mouse moves with longpress.
+   * Show magnifier when selection handlers are pressed or moved.
+   * Change the method to calculate a distance which be scrolled from linear to sine curve.
+
+Fixes :
+
+   * Fix glview crash even if the object is failed allocating.
+   * Fix the elm_flip to accept proxy object.
+   * Fix wrong parameter for thumbnail error in elm_icon.
+   * Fix missing selected event in elm_index (elm_index_item_selected_set)
+   * Fix the elm_image which is made up of a edje object can call a callback function
+   * Fix the naviframe to delete contents which are preserved_on set if the naviframe is deleted.
+   * Fix the naviframe to clear the title contents when it's item is deleted.
+   * Fix entry to enable have_selection only when a text is actually selected.
+   * Fix the naviframe to clear the text parts when it's item is deleted.
+   * Fix the mapbuf to update it's content correcltly evenif they go outside of the buffer.
+   * Fix the naviframe to resize it's items which are inserted.
+   * Fix the naviframe to send signal emits one time for content show/hide, text show/hide.
+   * Update mapbuf forcely whenever it's states are changed.
+   * Now, dummy object is always smart member of naviframe.
+   * Fix naviframe's resize object problem when item was deleted.
+   * Fix the popup that returned invalid action buttons.
+   * Fix the naviframe to not have crash even if user deletes the naviframe in the transition finished cb.
+   * Fix Don't elm_transit image animation use the image preloading to avoid image flickering.
+   * Fix the image to show the image right now if the image preloading is disabled.
+   * Fix a elm_transit crash issue when user delete all target objects in the effect end callback.
+   * Fix small memory leak in elm_map error path
+   * Focus highlight should not be shown on (0, 0).
+   * Fix the elm_shutdown bug in _elm_shutdown_config.
+   * Fix box layout bug when items with max size force sizes below minimum.
+   * Fix ctxpopup geometry when parent is an elm_win.
+   * Quit the scroll animator if the scroller don't have a bounce and reach a edge.
+   * Fix the scroller show by a page if the page size is set and the region_bring_in or region_show is called.
+   * Fix elc_player crash issue.
+   * Fix the region_show/region_bring_in don't have a limit at a paging movement.
+   * Fix the calculation double type number.
+   * Fix the policy is not changed when the theme is changed.
+   * When entry is disabled, scrolling is also disabled.
+   * Make access object unfocusable when Aaccessibility is disabled.
+   * Fix the scrolled entry in scroller is located wrong position when the cursor is changed.
+   * Fix null pointer access on naviframe item deletion.
+   * Fix the toolbar item clipped problem on reordering items.
+   * Fix elm_object_cursor_theme_search_enabled_set to do as it's name described.
+   * Elm_entry_filter_accept_set function now can recognize tags.
+   * Don't be dead even if a ctxpopup item callback is null.
+   * Fix gengrid does not work under the accessibility.
+   * Fix do not append NULL to genlist focus list.
+   * Fix elm_clock_first_interval_set writes wrong value.
+   * Fix remained ecore timer issue when gesture layer was deleted.
+   * Fix ctxpopup can't be called again in the mobile mode entry.
+   * Fix colorselector color change but when palette item is selected.
+   * Fix elm_colorselector does not emit "changed" when clicked color palatte.
+   * Fix elm_mapbuf to be enabled before it's content is entirely rendered once.     this will reduce the cases that content is not updated in the screen.
+   * Fix elm_colorselector does not update color bar when picker changed color.
+   * Fix navifame to recover the focus for the prev page when top item is deleted.
+   * Up/down step of hour decimal of elm_clock is changed to 12 not to touch hour unit at editing mode.
+   * Remove the keyboard area in the conformant if the keyboard state is off.
+   * Fix colorselector send "changed" signal twice when pressed color bar.
+   * Keep the smart members of the naviframe views whenever resize object is changed. This prevents the dangling view objects of the naviframe and keep the layer consistency.
+   * In case of scroll in scroll, the child scroller have to bounce if parents don't have a bounce.
+   * Fix elm_scroller_page_show bug. It have to save the wanted values to show the wanted page.
+   * Fix non-scrollable entry did not comply focus_highlight data.
+
+
+Removals:
+
+   * All internal widget hooks (and related macros) were removed, due
+     to deprecation. Thus, people using that (unstable) API will have
+     to adapt themselves.
+
+
+Elementary 1.7.5
+
+Changes since Elementary 1.7.4:
+-------------------------
+
+Fixes:
+   * Fix bug where genlist would delete items added during selection callback if a clear was queued
+   * Tooltips now correctly set NETWM tooltip window type
+   * Fix the scroll position is calculated by the size of pan object, not the size of scroller.
+
+
+Elementary 1.7.4
+
+Changes since elementary 1.7.3:
+-------------------------
+
+Fixes:
+
+   * Make sure data is not NULL in elm_interface_scrollable.
+
+
+Elementary 1.7.3
+
+Changes since elementary 1.7.2:
+-------------------------
+
+Fixes:
+
+   * Fix uninitialized data path in elm_flip.
+   * Fix uninitialized data path in elm_gesture_layer.
+   * Fix possible segv in elm_quicklaunch infrastructure.
+
+
+Elementary 1.7.2
+
+Changes since elementary 1.7.1:
+-------------------------
+
+Fixes:
+
+   * Fix promote and demote in genlist when the object isn't yet fully builded
+   * Fix the elm_flip to accept proxy object.
+   * Fix wrong parameter for thumbnail error in elm_icon.
+   * Fix update the min size hint on elm_label after a text set
+   * Fix flip widget who show the two face at same time
+
+
+Changes since elementary 1.7.0:
+-------------------------
+
+Fixes:
+
+   * Now elm_datetime_field_limit_set() can set year limits wihtout problems.
+   * Fix re-order animation when it doesn't end correctly.
+   * Fix popup to apply the same style to the notify sub-widget.
+   * Fix Ctxpopup direction if unknown priority used.
+   * Fix diskselector when bounce off and round enabled.
+   * Fix bubble info field set.
+   * Escape theme filename correctly.
+   * Fix diskselector selection of middle item.
+   * Fix multibuttonentry list corruption.
+   * Fix copy&paste error in elm_flip.
+   * Fix possible invalid memory access in elm_access.
+   * Fix diskselector bug with more than 4 items.
+   * Fix conform widget to be part of focus chain.
+   * Fix genlist reorder mode item not being resized on genlist resize.
+   * Fix on_focus_region() issue.
+   * Fixed gengrid wrong_calc_job parameter.
+   * Fix elm_transit image animation that last few frames are skipped.
+   * FIx elm_transit to accept proxy object.
+
+Changes since Elementary 1.0.0:
+-------------------------
+
+Additions:
+
+   * Focus can be moved in all directions by elm_widget_focus_go function.
+   * Reload theme when it change on disk.
+   * Fileselector: Add a wheel spinner that show/spin while EIO is working
+   * Add elm_map_overlays_get & elm_map_overlay_visible_get functions.
+   * Toolbar: Add elm_toolbar_standard_priority_set/get APIs.
+   * Add elm_object_scroll_hold/freeze_get.
+   * Add ELM_CALENDAR_LAST_DAY_OF_MONTH enum type
+   * Add elm_progressbar_format_function_set API function
+   * Add elm_map_overlay_del_cb_set API function
+   * Add "changed" signal to the progressbar widgets
+   * Use Edje to enable accessibility on TEXTBLOCK.
+   * Initialize Emotion when necessary.
+   * Elm_Win_Trap and elm_win_trap_set() to allow e17 integration.
+   * elm_flip_go_to()
+   * On focus loss, Elm_Spinner properly hide Elm_Entry and display label properly.
+
+Fixes:
+
+   * Genlist : fixed genlist expandable effect bug when we expand/contract items with many children very quickly.
+   * Genlist : realize move items during tree effect only when the item is not in the queue.
+   * Add missing files in the tarball.
+   * Fileselector : honor the folder_only option when using EIO
+   * Segment Selector : do not abuse user object item data.
+   * Image: fixed elm_image_orient_set/get.
+   * QuickLaunch: reset main loop after fork.
+
+Improvements:
+
+   * Allocate once and reuse Evas_Map.
+   * Allow freeze/thaw on Elm_Layout and reduce number of object update.
+   * Defer Elm_Calendar generation until really needed.
+   * Defer Elm_Slider update until really needed.
+
+Removal:
+

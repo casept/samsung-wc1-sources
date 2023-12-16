@@ -1,0 +1,221 @@
+group "Elm_Config" struct {
+  value "config_version" int: 65539;
+  value "engine" string: "software_x11";
+  value "vsync" uchar: 1;
+  value "thumbscroll_enable" uchar: 1;
+  value "thumbscroll_threshold" int: 24;
+  value "thumbscroll_momentum_threshold" double: 100.0;
+  value "thumbscroll_friction" double: 1.0;
+  value "thumbscroll_min_friction" double: 1.0;
+  value "thumbscroll_friction_standard" double: 2000.0;
+  value "thumbscroll_bounce_friction" double: 0.5;
+  value "thumbscroll_bounce_enable" uchar: 0;
+  value "page_scroll_friction" double: 0.5;
+  value "bring_in_scroll_friction" double: 0.5;
+  value "zoom_friction" double: 0.5;
+  value "thumbscroll_border_friction" double: 0.5;
+  value "thumbscroll_sensitivity_friction" double: 1.0;
+  value "thumbscroll_duration" double: 3.0;
+  value "thumbscroll_cubic_bezier_p1_x" double: 0.0;
+  value "thumbscroll_cubic_bezier_p1_y" double: 0.23;
+  value "thumbscroll_cubic_bezier_p2_x" double: 0.18;
+  value "thumbscroll_cubic_bezier_p2_y" double: 1.0;
+  value "scroll_smooth_start_enable" uchar: 0;
+  value "scroll_smooth_amount" double: 0.0;
+  value "scroll_smooth_history_weight" double: 0.3;
+  value "scroll_smooth_future_time" double: 0.0;
+  value "scroll_smooth_time_window" double: 0.2;
+  value "scroll_smooth_time_interval" double: 0.001;
+  value "scale" double: 0.35;
+  value "bgpixmap" int: 0;
+  value "compositing" int: 1;
+  value "font_hinting" int: 2;
+  value "cache_flush_poll_interval" int: 512;
+  value "cache_flush_enable" uchar: 0;
+  value "image_cache" int: 4096;
+  value "font_cache" int: 512;
+  value "edje_cache" int: 32;
+  value "edje_collection_cache" int: 64;
+  value "finger_size" int: 0;
+  value "fps" double: 6000.0;
+  value "theme" string: "tizen-hd";
+  value "modules" string: "ctxpopup_copypasteUI>entry/api:datetime_input_ctxpopup>datetime/api:access_output_tts>access/api";
+  value "tooltip_delay" double: 1.0;
+  value "cursor_engine_only" uchar: 1;
+  value "focus_highlight_enable" uchar: 0;
+  value "focus_highlight_animate" uchar: 1;
+  value "toolbar_shrink_mode" int: 2;
+  value "fileselector_expand_enable" uchar: 0;
+  value "inwin_dialogs_enable" uchar: 0;
+  value "icon_size" int: 32;
+  value "longpress_timeout" double: 0.5;
+  value "effect_enable" uchar: 1;
+  value "password_show_last" uchar: 1;
+  value "password_show_last_timeout" double: 2.0;
+  value "glayer_zoom_finger_enable" uchar: 1;
+  value "glayer_zoom_finger_factor" double: 1.0;
+  value "glayer_zoom_wheel_factor" double: 0.05;
+  value "glayer_zoom_distance_tolerance" double: 1.0;
+  value "glayer_rotate_finger_enable" uchar: 1;
+  value "glayer_rotate_angular_tolerance" double: 0.034906585;
+  value "glayer_line_min_length" double: 1.0;
+  value "glayer_line_distance_tolerance" double: 3.0;
+  value "glayer_line_angular_tolerance" double: 20.0;
+  value "glayer_flick_time_limit_ms" uint: 60; /* 60 ms to finish flick */
+  value "glayer_long_tap_start_timeout" double: 1.2; /* 1.2 sec to start long-tap */
+  value "glayer_double_tap_timeout" double: 0.25; /* Timeout between two mouse downs when doing double click (and more). */
+  value "glayer_continues_enable" uchar: 1;          /* Continues gesture enabled */
+  value "week_start" int: 1;
+  value "weekend_start" int: 6;
+  value "weekend_len" int: 2;
+  value "year_min" int: 2;
+  value "year_max" int: 137;
+  value "selection_clear_enable" uchar: 1;
+  value "item_scroll_align" int: 0;
+  value "item_scroll_align_enable" uchar: 0;
+  value "item_scroll_valign" string: "center"
+  group "color_palette" list {
+     group "Elm_Custom_Palette" struct {
+        value "palette_name" string: "default";
+        group "color_list" list {
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 90;
+              value "b" uint: 18;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 213;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 146;
+              value "g" uint: 255;
+              value "b" uint: 11;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 9;
+              value "g" uint: 186;
+              value "b" uint: 10;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 86;
+              value "g" uint: 201;
+              value "b" uint: 242;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 18;
+              value "g" uint: 83;
+              value "b" uint: 128;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 140;
+              value "g" uint: 53;
+              value "b" uint: 238;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 145;
+              value "b" uint: 145;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 59;
+              value "b" uint: 119;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 133;
+              value "g" uint: 100;
+              value "b" uint: 69;
+              value "a" uint: 255;
+           }
+        }
+     }
+     group "Elm_Custom_Palette" struct {
+        value "palette_name" string: "painting";
+        group "color_list" list {
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 0;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 0;
+              value "g" uint: 255;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 0;
+              value "g" uint: 0;
+              value "b" uint: 255;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 255;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 0;
+              value "g" uint: 255;
+              value "b" uint: 255;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 0;
+              value "b" uint: 255;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 90;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 255;
+              value "g" uint: 180;
+              value "b" uint: 0;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 92;
+              value "g" uint: 142;
+              value "b" uint: 151;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 41;
+              value "g" uint: 68;
+              value "b" uint: 59;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 41;
+              value "g" uint: 46;
+              value "b" uint: 68;
+              value "a" uint: 255;
+           }
+           group "Elm_Color_RGBA" struct {
+              value "r" uint: 68;
+              value "g" uint: 40;
+              value "b" uint: 55;
+              value "a" uint: 255;
+           }
+        }
+     }
+  }
+}

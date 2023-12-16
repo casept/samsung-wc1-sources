@@ -1,0 +1,220 @@
+#define MC_BG_COLOR             0 0 0 0
+
+#define MC_TITLE_TEXT_FONT      "Tizen:style=Regular"
+#define MC_TITLE_TEXT_CLASS     "tizen"
+#define MC_TITLE_TEXT_SIZE      30
+#define MC_TITLE_TEXT_COLOR     255 255 255 255
+
+#define MC_INFO_TEXT_FONT       "Tizen:style=Medium"
+#define MC_INFO_TEXT_CLASS      "tizen"
+#define MC_INFO_TEXT_SIZE       28
+#define MC_INFO_TEXT_COLOR      170 170 170 255
+#define MC_INFO_REC_COLOR       201 213 213 255
+#define MC_KEYBOARD_ICON        "keyboard.png"
+
+#include "edc_image_macro.edc"
+
+collections{
+RESOURCE_IMAGE("keyboardicon.png");
+RESOURCE_IMAGE("noti_icon_keyboard_connected.png");
+
+    group { name: "mini_controller";
+    parts {
+        part { name: "bg";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.0; }
+                rel2 { relative: 1.0 1.0; }
+                min: 0 180;
+                fixed: 0 1;
+                align: 0.0 0.0;
+            }
+        }
+
+        part { name: "touch_bg";
+            type : RECT;
+            mouse_events: 1;
+            repeat_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.0; to: "bg";}
+                rel2 { relative: 1.0 1.0; to: "bg";}
+                color: MC_BG_COLOR;
+                align: 0.0 0.0;
+                visible: 1;
+            }
+        }
+
+        part { name: "padding_top";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel2 { relative: 1 0; to: "bg"; }
+                min: 0 14;
+                fixed: 0 1;
+                align: 0.0 0.0;
+            }
+        }
+
+        part { name: "padding_left";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.0; to: "bg";}
+                rel2 { relative: 0.0 1.0; to: "bg";}
+                min: 16 0;
+                fixed: 1 0;
+                align: 0.0 0.0;
+            }
+        }
+
+        part { name: "padding_right";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 1.0 0.0; to: "bg";}
+                rel2 { relative: 1.0 1.0; to: "bg";}
+                min: 13 0;
+                fixed: 1 0;
+                align: 1.0 0.0;
+            }
+        }
+
+        part { name: "padding_bottom";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0 1; to: "bg"; }
+                rel2 { relative: 1 1; to: "bg"; }
+                min: 0 14;
+                fixed: 0 1;
+                align: 0.0 1.0;
+            }
+        }
+
+        part { name: "keyboard_icon_area";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 1.0 0.0; to: "padding_left"; }
+                rel2 { relative: 1.0 1.0; to: "padding_left"; }
+                min: 70 70;
+                fixed: 1 1;
+                align: 0 0.5;
+            }
+        }
+
+        part { name: "keyboard_icon";
+            type: SWALLOW;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0 0; to: "keyboard_icon_area"; }
+                rel2 { relative: 1 1; to: "keyboard_icon_area"; }
+                min: 70 70;
+                max: 70 70;
+                fixed: 1 1;
+                align: 0.5 0.5;
+                visible: 1;
+            }
+        }
+
+        part { name: "padding_icon_right";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 1.0 0.0; to: "keyboard_icon_area";}
+                rel2 { relative: 1.0 1.0; to: "keyboard_icon_area";}
+                min: 26 0;
+                fixed: 1 0;
+                align: 0.0 0.0;
+            }
+        }
+
+        part { name: "content_area";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 1.0 1.0; to_x: "padding_icon_right"; to_y: "padding_top"; }
+                rel2 { relative: 0.0 0.0; to_x: "padding_right"; to_y: "padding_bottom"; }
+            }
+        }
+
+        part { name: "text_area";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.5; to: "content_area";}
+                rel2 { relative: 1.0 0.5; to: "content_area";}
+                align: 0.0 0.5;
+                min: 0 80;
+            }
+        }
+
+        part { name: "title_text_area";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.0; to: "text_area";}
+                rel2 { relative: 1.0 0.0; to: "text_area";}
+                min: 0 40;
+                align: 0.0 0.0;
+            }
+        }
+
+        part { name: "title_text";
+            type: SWALLOW;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 0.0; to: "title_text_area"; }
+                rel2 { relative: 1.0 1.0; to: "title_text_area"; }
+                align: 0.0 0.5;
+            }
+        }
+
+        part { name: "info_text_area";
+            type: SPACER;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 1.0; to: "title_text"; }
+                rel2 { relative: 1.0 1.0; to: "text_area"; }
+                min: 0 40;
+                align: 0.0 1.0;
+            }
+        }
+
+        part { name: "info_text";
+            type: SWALLOW;
+            scale: 1;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+                rel1 { relative: 0.0 1.0; to: "title_text"; }
+                rel2 { relative: 1.0 1.0; to: "title_text"; }
+                align: 0.0 0.0;
+            }
+        }
+    }
+
+    programs {
+        program {
+            name: "minicontrol.touch.down";
+            signal: "mouse,clicked,1";
+            source: "touch_bg";
+            action: SIGNAL_EMIT "selected" "edje";
+        }
+    }
+}
+

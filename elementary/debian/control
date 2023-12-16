@@ -1,0 +1,34 @@
+Source: elementary
+Section: x11
+Priority: optional
+Maintainer: Jaehwan Kim <jae.hwan.kim@samsung.com>, Chuneon Park <chuneon.park@samsung.com>, Juyung Seo <juyung.seo@samsung.com>, Myungjae Lee <mjae.lee@samsung.com>, Woohyun Jung <wh0705.jung@samsung.com>, Jihoon Kim <jihoon48.kim@samsung.com>, Jeonghyun Yun <jh0506.yun@samsung.com>, Seunggyun Kim <sgyun.kim@samsung.com>, Shinwoo Kim <cinoo.kim@samsung.com>
+Uploaders: Doyoun Kang <doyoun.kang@samsung.com>, Hyoyoung Chang <hyoyoung.chang@samsung.com>, Myoungwoon Kim <myoungwoon.kim@samsung.com>, Shinwoo Kim <cinoo.kim@samsung.com>, Tae-Hwan Kim <the81.kim@samsung.com>
+Build-Depends: debhelper (>= 6), cdbs, libecore-dev, libevas-dev, libeet-dev, libeet-bin, libedje-dev, pkg-config, libtool, libeina-dev, libefreet-dev, libethumb-dev, libappsvc-dev
+Standards-Version: 3.8.1
+Homepage: http://www.enlightenment.org
+
+Package: libelm-dev
+Section: libdevel
+Architecture: any
+Depends: libelm (= ${binary:Version}), libecore-dev, libevas-dev, libeet-dev, libedje-dev, libedbus-dev, libefreet-dev, libethumb-dev
+Description: Elementary - a basic widget set that is easy to use based on EFL for mobile
+ This package contains devel content.
+
+Package: libelm
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Elementary - a basic widget set that is easy to use based on EFL for mobile
+ This package contains a widget toolkit.
+
+Package: libelm-bin
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Elementary - a basic widget set that is easy to use based on EFL for mobile
+ This package contains elementary_test
+
+Package: libelm-dbg
+Section: debug
+Architecture: any
+Depends: libelm (= ${binary:Version})
+Description: Elementary - a basic widget set that is easy to use based on EFL for mobile
+ This package is a debug package

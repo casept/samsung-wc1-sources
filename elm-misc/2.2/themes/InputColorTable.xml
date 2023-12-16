@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InputColorTable>
+	<Theme index="0">
+		<InputColorInfo hue="198" saturation="91" value="60"/>
+		<InputColorInfo hue="202" saturation="70" value="30"/>
+		<InputColorInfo hue="195" saturation="74" value="84"/>
+		<InputColorInfo hue="198" saturation="20" value="95"/>
+		<InputColorInfo hue="206" saturation="51" value="48"/>
+		<InputColorInfo hue="190" saturation="90" value="62"/>
+	</Theme>
+	<Theme index="1">
+		<InputColorInfo hue="218" saturation="56" value="53"/>
+		<InputColorInfo hue="221" saturation="46" value="30"/>
+		<InputColorInfo hue="212" saturation="59" value="91"/>
+		<InputColorInfo hue="200" saturation="20" value="99"/>
+		<InputColorInfo hue="223" saturation="40" value="45"/>
+		<InputColorInfo hue="200" saturation="54" value="87"/>
+	</Theme>
+	<Theme index="2">
+		<InputColorInfo hue="0" saturation="63" value="49"/>
+		<InputColorInfo hue="17" saturation="71" value="21"/>
+		<InputColorInfo hue="0" saturation="60" value="65"/>
+		<InputColorInfo hue="0" saturation="25" value="95"/>
+		<InputColorInfo hue="18" saturation="40" value="36"/>
+		<InputColorInfo hue="10" saturation="50" value="55"/>
+	</Theme>
+	<Theme index="3">
+		<InputColorInfo hue="24" saturation="80" value="64"/>
+		<InputColorInfo hue="31" saturation="77" value="25"/>
+		<InputColorInfo hue="26" saturation="76" value="77"/>
+		<InputColorInfo hue="18" saturation="27" value="95"/>
+		<InputColorInfo hue="33" saturation="45" value="40"/>
+		<InputColorInfo hue="34" saturation="71" value="73"/>
+	</Theme>
+	<Theme index="4">
+		<InputColorInfo hue="253" saturation="62" value="82"/>
+		<InputColorInfo hue="246" saturation="48" value="34"/>
+		<InputColorInfo hue="245" saturation="57" value="91"/>
+		<InputColorInfo hue="243" saturation="25" value="100"/>
+		<InputColorInfo hue="248" saturation="30" value="49"/>
+		<InputColorInfo hue="242" saturation="53" value="91"/>
+	</Theme>
+	<Theme index="5">
+		<InputColorInfo hue="139" saturation="63" value="58"/>
+		<InputColorInfo hue="156" saturation="47" value="25"/>
+		<InputColorInfo hue="139" saturation="69" value="71"/>
+		<InputColorInfo hue="153" saturation="24" value="94"/>
+		<InputColorInfo hue="141" saturation="35" value="45"/>
+		<InputColorInfo hue="139" saturation="69" value="71"/>
+	</Theme>
+	<Theme index="6">
+		<InputColorInfo hue="190" saturation="100" value="44"/>
+		<InputColorInfo hue="196" saturation="50" value="26"/>
+		<InputColorInfo hue="190" saturation="96" value="57"/>
+		<InputColorInfo hue="193" saturation="27" value="95"/>
+		<InputColorInfo hue="190" saturation="35" value="33"/>
+		<InputColorInfo hue="190" saturation="96" value="57"/>
+	</Theme>
+	<Theme index="7">
+		<InputColorInfo hue="39" saturation="33" value="80"/>
+		<InputColorInfo hue="32" saturation="44" value="44"/>
+		<InputColorInfo hue="39" saturation="38" value="78"/>
+		<InputColorInfo hue="29" saturation="15" value="100"/>
+		<InputColorInfo hue="32" saturation="35" value="45"/>
+		<InputColorInfo hue="45" saturation="93" value="85"/>
+	</Theme>
+	<Theme index="8">
+		<InputColorInfo hue="40" saturation="79" value="90"/>
+		<InputColorInfo hue="30" saturation="65" value="33"/>
+		<InputColorInfo hue="30" saturation="88" value="92"/>
+		<InputColorInfo hue="30" saturation="24" value="98"/>
+		<InputColorInfo hue="31" saturation="45" value="40"/>
+		<InputColorInfo hue="38" saturation="90" value="94"/>
+	</Theme>
+	<Theme index="9">
+		<InputColorInfo hue="325" saturation="55" value="67"/>
+		<InputColorInfo hue="335" saturation="53" value="35"/>
+		<InputColorInfo hue="315" saturation="52" value="80"/>
+		<InputColorInfo hue="315" saturation="23" value="95"/>
+		<InputColorInfo hue="335" saturation="40" value="44"/>
+		<InputColorInfo hue="315" saturation="55" value="80"/>
+	</Theme>
+	<Theme index="10">
+		<InputColorInfo hue="73" saturation="71" value="74"/>
+		<InputColorInfo hue="66" saturation="80" value="26"/>
+		<InputColorInfo hue="80" saturation="91" value="84"/>
+		<InputColorInfo hue="63" saturation="23" value="98"/>
+		<InputColorInfo hue="73" saturation="50" value="44"/>
+		<InputColorInfo hue="74" saturation="77" value="80"/>
+	</Theme>
+	<Theme index="11">
+		<InputColorInfo hue="179" saturation="37" value="70"/>
+		<InputColorInfo hue="175" saturation="55" value="27"/>
+		<InputColorInfo hue="185" saturation="52" value="76"/>
+		<InputColorInfo hue="169" saturation="20" value="99"/>
+		<InputColorInfo hue="174" saturation="33" value="44"/>
+		<InputColorInfo hue="196" saturation="85" value="85"/>
+	</Theme>
+	<Theme index="100">
+		<InputColorInfo hue="217" saturation="15" value="47"/>
+		<InputColorInfo hue="219" saturation="26" value="23"/>
+		<InputColorInfo hue="222" saturation="22" value="60"/>
+                <InputColorInfo hue="220" saturation="7" value="84"/>
+                <InputColorInfo hue="223" saturation="14" value="32"/>
+                <InputColorInfo hue="219" saturation="25" value="67"/>
+	</Theme>
+	<Theme index="200">
+		<InputColorInfo hue="217" saturation="18" value="98"/>
+		<InputColorInfo hue="212" saturation="44" value="39"/>
+		<InputColorInfo hue="216" saturation="41" value="83"/>
+                <InputColorInfo hue="207" saturation="12" value="97"/>
+                <InputColorInfo hue="210" saturation="48" value="55"/>
+                <InputColorInfo hue="216" saturation="44" value="95"/>
+	</Theme>
+	<Theme index="201">
+		<InputColorInfo hue="34" saturation="12" value="98"/>
+		<InputColorInfo hue="30" saturation="23" value="34"/>
+		<InputColorInfo hue="34" saturation="35" value="73"/>
+                <InputColorInfo hue="24" saturation="10" value="95"/>
+                <InputColorInfo hue="30" saturation="27" value="50"/>
+                <InputColorInfo hue="40" saturation="64" value="84"/>
+	</Theme>
+	<Theme index="202">
+		<InputColorInfo hue="161" saturation="15" value="91"/>
+		<InputColorInfo hue="167" saturation="35" value="28"/>
+		<InputColorInfo hue="172" saturation="40" value="65"/>
+                <InputColorInfo hue="152" saturation="12" value="97"/>
+                <InputColorInfo hue="168" saturation="42" value="50"/>
+                <InputColorInfo hue="161" saturation="22" value="81"/>
+	</Theme>
+	<Theme index="203">
+		<InputColorInfo hue="87" saturation="23" value="90"/>
+		<InputColorInfo hue="103" saturation="32" value="37"/>
+		<InputColorInfo hue="93" saturation="33" value="74"/>
+                <InputColorInfo hue="75" saturation="13" value="95"/>
+                <InputColorInfo hue="78" saturation="40" value="46"/>
+                <InputColorInfo hue="100" saturation="21" value="83"/>
+	</Theme>
+	<Theme index="204">
+		<InputColorInfo hue="55" saturation="40" value="96"/>
+		<InputColorInfo hue="40" saturation="46" value="47"/>
+		<InputColorInfo hue="50" saturation="43" value="85"/>
+                <InputColorInfo hue="45" saturation="11" value="95"/>
+                <InputColorInfo hue="40" saturation="50" value="47"/>
+                <InputColorInfo hue="60" saturation="38" value="76"/>
+	</Theme>
+</InputColorTable>

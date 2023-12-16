@@ -1,0 +1,13 @@
+#!/bin/sh
+if [ -x /usr/bin/pulseaudio ]; then         
+	# create directory
+	mkdir /tmp/pulseaudio
+	chmod 777 /tmp/pulseaudio
+	# directorty labeling
+	chsmack -a 'pulseaudio' /tmp/pulseaudio
+	# transmute
+	chsmack -t /tmp/pulseaudio
+
+	/usr/bin/pulseaudio --log-level=4 --system -D
+	touch /tmp/hibernation/pulseaudio_ready
+fi

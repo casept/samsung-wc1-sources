@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Selecteer"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Alles sel."
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Openen in nieuw venster"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Knip"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Klembord"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Kopiëren"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Afbeelding kopiëren"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Plakken"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Selectiestand"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Woord selecteren"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "URL webpagina controleren"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Foutpagina"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Kan frames niet laden"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Netwerkverbinding niet normaal tot stand gekomen"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Webpagina later opnieuw laden"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Hieronder wordt de meest waarschijnlijke oorzaak vermeld"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Kan de webpagina niet ophalen. (Webpagina is mogelijk tijdelijk uitgeschakeld of naar een nieuwe URL verplaatst)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Webpagina niet beschikbaar"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Webpagina tijdelijk niet beschikbaar"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "De volgende fout is opgetreden bij het ophalen van webpagina %s."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Gereed"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Koppeling opslaan"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Ga vooruit"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Ga terug"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Opnieuw laden"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Kopiëren naar klembord"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Video-URL kopiëren"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Media herhalen aan/uit"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Volledig scherm"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Video in nieuw venster openen"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Media-instell. weerg./verb."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Geef een e-mailadres op"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Geef een lijst met e-mailadressen op, van elkaar gescheiden door komma´s"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "U kunt zoeken in deze index. Geef trefwoorden op:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Bestand uploaden"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Meerdere bestanden uploaden"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "URL audio kopiëren"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Open afbeelding in nieuw tabbl"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Open koppeling in nieuw tabbl"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Audio afspelen in nieuw tabbl"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Afbeelding opslaan"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Zoeken op internet"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Geef een URL op"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Veld kan niet leeg zijn"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Ongeldige indeling"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Ongeldige waarde"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Er zijn geen bestanden geselecteerd"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Plug-in ontbreekt"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Waarde moet ten minste %d zijn"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Waarde mag niet hoger zijn dan %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Slepen en neerzetten"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Gekopieerd naar klembord"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Gegevens"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Resetten"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Verzenden"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "URL-link kopiëren"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Dempen"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Pauzeren"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Afspelen"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Vertalen"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Niet dempen"
+

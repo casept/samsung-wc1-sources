@@ -1,0 +1,22 @@
+<manifest>
+    <define>
+        <domain name="webkit2-efl"/>
+        <request>
+            <smack request="system::homedir" type="arwxt"/>
+            <smack request="xorg" type="w"/>
+            <smack request="system::use_internet" type="rw"/>
+            <smack request="ail::db" type="rw"/>
+            <smack request="system::vconf" type="arwxt"/>
+        </request>
+        <permit>
+            <smack permit="system::use_internet" type="w"/>
+        </permit>
+    </define>
+    <request>
+        <domain name="_"/>
+    </request>
+    <assign>
+        <filesystem path="/usr/bin/WebProcess" label="webkit2-efl" exec_label="none"/>
+        <filesystem path="/usr/bin/PluginProcess" label="webkit2-efl" exec_label="none"/>
+    </assign>
+</manifest>

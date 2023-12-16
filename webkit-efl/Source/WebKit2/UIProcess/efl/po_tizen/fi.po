@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Valitse"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "V. kaikki"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Avaa uudessa ikkunassa"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Poimi"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Leikepöytä"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Kopioi"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Kopioi kuva"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Liitä"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Valintatila"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Valitse sana"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Tarkista verkkosivun URL-osoite"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Virhesivu"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Kehysten lataaminen epäonnistui"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Verkkoyhteyttä ei ole muodostettu normaalisti"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Lataa verkkosivu myöhemmin uudelleen"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Todennäköisin syy on annettu alla"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Verkkosivua ei voi hakea. (Verkkosivu on ehkä väliaikaisesti poissa käytöstä tai se on siirretty uuteen URL-osoitteeseen)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Verkkosivu ei ole käytettävissä"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Verkkosivu ei tällä hetkellä ole käytettävissä"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Verkkosivua %s haettaessa tapahtui seuraava virhe."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Valmis"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Tallenna linkki"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Siirry eteenpäin"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Siirry taaksepäin"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Lataa uudelleen"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Kopioi leikepöydälle"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Kopioi videon URL-osoite"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Median toisto käyt. / ei käyt."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Täysi näkymä"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Avaa video uudessa ikkunassa"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Näytä/piilota mediasäätimet"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Anna sähköpostiosoite"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Anna sähköpostiosoitteet erottaen ne pilkuilla toisistaan"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Voit hakea tästä hakemistosta. Anna avainsanat:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Lähetä tiedosto"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Lähetä useita tiedostoja"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Kopioi äänen URL-osoite"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Avaa kuva uudessa välilehdessä"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Avaa linkki uudessa välilehd."
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Toista ääni uudessa välilehd."
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Tallenna kuva"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Hae Internetistä"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Anna URL-osoite"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Kenttä ei voi olla tyhjä"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Annettu virheellinen muoto"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Annettu virheellinen arvo"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Tiedostoja ei ole valittu"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Laajennus puuttuu"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Arvon on oltava vähintään %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Arvo ei voi olla suurempi kuin %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Vedä ja pudota"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Kopioitu leikepöydälle"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Yksityiskohdat"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Nollaa"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Lähetä"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Kopioi linkin URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Mykistä"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Tauko"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Toista"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Käännä"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Poista mykistys"
+

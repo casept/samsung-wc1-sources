@@ -1,0 +1,177 @@
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "ျပန္တင္ပါ"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "ပြတ္ဆြဲၿပီးခ်ပါ"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "အသံတိတ္မထားပါ"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "ေရြးပါ"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "အားလံုး ေရြးပါ"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "ဝင္းဒိုး အသစ္ထဲတြင္ ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "ျဖတ္ေတာက္"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "ကလစ္ဘုတ္"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "ရုပ္ပံုကို ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "ကူးထည့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "ေရြးခ်ယ္ျခင္း အေနအထား"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "စာလံုး ေရြးပါ"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "ဝဘ္စာမ်က္ႏွာ URL စစ္ေဆးပါ"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "အမွား စာမ်က္ႏွာ"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "ေဘာင္မ်ား ဖြင့္ရန္ မေအာင္ျမင္။"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "ကြန္ယက္ဆက္သြယ္ျခင္းကို ပံုမွန္ တည္ေဆာက္မထားပါ။"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "ဝဘ္စာမ်က္ႏွာ ျပန္ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "အမ်ားဆံုးျဖစ္ႏိုင္သည့္ အေၾကာင္းရင္းကို ေအာက္မွာေပးထားသည္။"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "ဝဘ္စာမ်က္ႏွာ ျပန္မရယူႏိုင္ပါ။ (ဝဘ္စာမ်က္ႏွာ လက္ရွိ က်ေနသည္ (သို႔) URL အသစ္သို႔ ေရႊ႕ထားသည္။)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "ဝဘ္စာမ်က္ႏွာ မရႏိုင္ပါ။"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "ဝဘ္စာမ်က္ႏွာ ယာယီအားျဖင့္ မရႏိုင္ပါ။"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "ဝဘ္စာမ်က္ႏွာ %s ကို လက္ခံရယူေနစဥ္ ေအာက္ပါအမွား ျဖစ္သြားသည္"
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "ၿပီးပါၿပီ"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "လင့္ခ္ကို သိမ္းပါ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "ကလစ္ဘုတ္သို႔ ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "ဗီဒီယို URL ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "မီဒီယာ ျပန္ေက်ာ့ျခင္း ဖြင့္/ပိတ္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "အျပည့္ ျမင္ကြင္း"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "ဗီဒီယိုကို ဝင္းဒိုးအသစ္ထဲတြင္ ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "မီဒီယာ အထိန္းမ်ား ျပ/ဝွက္ပါ"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "အီးေမးလ္ လိပ္စာ တစ္ခု ထည့္ပါ။"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "ေကာ္မာမ်ား ခံ၍ အီးေမးလ္ လိပ္စာမ်ား စာရင္းတစ္ခု ထည့္ပါ။"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "ဤအညႊန္းကို ရွာႏိုင္သည္။ ကီးစာလံုးမ်ား ထည့္ပါ:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "ဖိုင္ အပ္လုတ္လုပ္ပါ"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "ဖိုင္မ်ား အပ္လုတ္လုပ္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "အသံ URL ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "ပံုကို တဘ္အသစ္ထဲတြင္ ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "လင့္ခ္ကို တဘ္အသစ္ထဲတြင္ ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "တဘ္အသစ္ထဲတြင္ အသံ ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "ပံု သိမ္းဆည္းပါ"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "အင္တာနက္ ရွာပါ"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "URL တစ္ခု ထည့္ပါ။"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Field cannot be blank."
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "အက်ံဳးမဝင္ေသာ ေဖာ္မတ္ ထည့္ထားသည္။"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "အက်ံဳးမဝင္ေသာ တန္ဖိုး ထည့္ထားသည္။"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "ဖိုင္ ေရြးမထားပါ။"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "ပလက္အင္ ေပ်ာက္ေနသည္"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "တန္ဖိုး အနည္းဆံုး %d ရွိရမည္။"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "တန္ဖိုးမွာ %d ထက္ မျမင့္ရပါ။"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "ကလစ္ဘုတ္သို႔ မိတၱဴကူးၿပီးၿပီ"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "အေသးစိတ္"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "ျပန္သတ္မွတ္ပါ"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "တင္သြင္းပါ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "လင့္ခ္ URL ကို ကူးပါ"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "အသံတိတ္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "ရပ္ဆိုင္းပါ"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "ဖြင့္ပါ"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "ဘာသာျပန္ပါ"
+

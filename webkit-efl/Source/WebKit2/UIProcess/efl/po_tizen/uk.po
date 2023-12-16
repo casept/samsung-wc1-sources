@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Вибрати"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Вибр. всі"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Відкрити в новому вікні"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Виріз."
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Буфер обміну"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Копіювати"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Копіювати зображення"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Вставити"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Режим вибору"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Виберіть слово"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Перевірте URL-адресу веб-сторінки"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Сторінка з помилкою"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Не вдалося завантажити рамки"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Не вдалося встановити стандартне підключення до мережі"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Перезавантажте веб-сторінку пізніше"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Наймовірнішу причину наведено нижче"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Неможливо завантажити веб-сторінку. (Веб-сторінка може тимчасово не працювати або її було переміщено на іншу URL-адресу)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Веб-сторінка недоступна"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Веб-сторінка тимчасово недоступна"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Під час завантаження веб-сторінки %s сталася така помилка."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Готово"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Збер. посилання"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Перейти вперед"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Перейти назад"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Перезавантажити"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Копіювати в буфер обміну"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Копіювати URL-адресу відео"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Увімк./вимк. повторення медіа"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Повний екран"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Відкрити відео в новому вікні"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Показ./прихов. керування медіа"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Введіть адресу Email"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Введіть список адрес Еmail, розділяючи їх комами"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Можна здійснити пошук цього індексу. Введіть ключові слова:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Завантажити файл"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Завантажити декілька файлів"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Копіюв. URL-адресу аудіофайла"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Відкрити в новій вкладці"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Відкрити в новій вкладці"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Відкрити в новій вкладці"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Зберегти зображення"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Інтернет-пошук"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Введіть URL-адресу"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Це поле не може бути пустим"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Введено невірний формат"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Введено невірне значення"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Файли не вибрано"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Відсутній підключаємий модуль"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Мінімальне значення: %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Максимальне значення: %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Перетягнути"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Скопійовано в буфер обміну"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Деталі"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Скинути"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Надіслати"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Копіювати URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Вимкнути звук"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Пауза"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Відтворити"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Перекласти"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Увімкнути звук"
+

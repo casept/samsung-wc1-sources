@@ -1,0 +1,4 @@
+group "uxt_theme_font_config_s" struct {
+    value "font" string: "Samsung Sans";
+    value "size" int: -100;
+}

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+### Pre-condition of net-config for TIZEN-ConnMan service
+# Auto-activate net-config before launching connmand
+/usr/bin/dbus-send --system --dest=net.netconfig / net.netconfig.auto.activate
+
+/usr/sbin/connmand

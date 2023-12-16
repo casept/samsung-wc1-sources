@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "اختيار"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "تحديد الكل"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "فتح في نافذة جديدة"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "قص"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "الحافظة"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "نسخ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "نسخ الصورة"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "لصق"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "وضع التحديد"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "تحديد كلمة"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "تحقق من عنوان URL لصفحة الويب"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "خطأ في الصفحة"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "فشل تحميل إطارات"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "لم يتم إنشاء اتصال الشبكة بطريقة عادية"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "إعادة تحميل صفحة الويب لاحقا"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "السبب الأرجح موضح أدناه"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "يتعذر استرداد صفحة الويب. (ربما يوجد عطل مؤقت بصفحة الويب أو تم نقلها إلى عنوان URL جديد)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "صفحة الويب‬ غير متاحة"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "صفحة الويب غير متاحة مؤقتا"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "حدث الخطأ التالي أثناء استرداد صفحة الويب %s."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "تم"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "حفظ الارتباط"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "الانتقال إلى التالي"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "الانتقال إلى السابق"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "إعادة التحميل"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "نسخ إلى الحافظة"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "نسخ URL للفيديو"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "تفعيل/إلغاء تفعيل تكرار الوسائط"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "عرض كامل"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "فتح الفيديو في نافذة جديدة"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "عرض/إخفاء عناصر تحكم بالوسائط"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "أدخل عنوان بريد إلكتروني"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "أدخل قائمة عناوين بريد إلكتروني، مفصولا بينها بفاصلة‬"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "يمكنك البحث عن هذا المؤشر. أدخل الكلمات الأساسية‬:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "تحميل الملف"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "تحميل ملفات متعددة"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "نسخ عنوان URL صوتي"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "فتح صورة في علامة تبويب جديدة"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "فتح رابط في علامة تبويب جديدة"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "تشغيل صوت في علامة تبويب جديدة"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "حفظ الصورة"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "بحث في الإنترنت"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "إدخال عنوان URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "لا يمكن أن يكون الحقل فارغا"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "تم إدخال تنسيق غير صالح"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "تم إدخال قيمة غير صالحة"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "لم يتم تحديد أي ملفات"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "المكون الإضافي مفقود"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "يجب أن تكون القيمة %d على الأقل"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "يجب ألا تزيد القيمة عن %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "سحب وإسقاط"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "تم النسخ إلى الحافظة"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "التفاصيل"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "إرجاع"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "إرسال"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "نسخ عنوان URL للرابط"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "كتم"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "إيقاف مؤقت"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "تشغيل"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "ترجمة"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "إلغاء كتم الصوت"
+

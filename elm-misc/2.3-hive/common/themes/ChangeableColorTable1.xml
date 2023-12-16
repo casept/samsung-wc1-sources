@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeableColorTable num="1">
+	<Theme style="Dark">
+		<ChangeableColorInfo id="B011" inputColor="1" hue="-10" saturation="-27" value="-43" alpha="100" />
+		<ChangeableColorInfo id="B012" inputColor="1" hue="-8" saturation="15" value="-52" alpha="100" />
+		<ChangeableColorInfo id="B013" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B015" inputColor="K" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B016" inputColor="-" hue="0" saturation="0" value="3" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B017" inputColor="-" hue="" saturation="" value="" alpha="" />
+		<ChangeableColorInfo id="B018" inputColor="-" hue="" saturation="" value="" alpha="" />
+		<ChangeableColorInfo id="B017" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B018" inputColor="1" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B0215" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0216" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0216L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0234" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0235" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0236" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0237" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0238L1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0238L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B024" inputColor="W" hue="0" saturation="0" value="0" alpha="55" />
+		<ChangeableColorInfo id="B031" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B032" inputColor="-" hue="0" saturation="0" value="3" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B033P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B041" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B041P" inputColor="1" hue="-5" saturation="-18" value="-29" alpha="100" />
+		<ChangeableColorInfo id="B042" inputColor="1" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B0514" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0514P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B0514S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0517" inputColor="-" hue="0" saturation="0" value="58" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6D" inputColor="-" hue="0" saturation="0" value="96" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6S" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L7" inputColor="-" hue="180" saturation="2" value="95" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0541" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B0541P" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B0541D" inputColor="1" hue="-7" saturation="-2" value="6" alpha="50" />
+		<ChangeableColorInfo id="B0542" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0561L1" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0562L1" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0563L1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0571" inputColor="1" hue="-7" saturation="-2" value="6" alpha="20" />
+		<ChangeableColorInfo id="B061L1" inputColor="1" hue="-12" saturation="10" value="-58" alpha="100" />
+		<ChangeableColorInfo id="B061L2" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L3" inputColor="1" hue="-8" saturation="15" value="-52" alpha="100" />
+		<ChangeableColorInfo id="B062" inputColor="1" hue="33" saturation="42" value="19" alpha="100" />
+		<ChangeableColorInfo id="B061L41" inputColor="1" hue="-12" saturation="10" value="-58" alpha="100" />
+		<ChangeableColorInfo id="B061L41P" inputColor="1" hue="-5" saturation="-18" value="-29" alpha="100" />
+		<ChangeableColorInfo id="B061L42" inputColor="-" hue="173" saturation="45" value="40" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L43" inputColor="W" hue="0" saturation="0" value="0" alpha="20" />
+		<ChangeableColorInfo id="B061L5" inputColor="K" hue="0" saturation="0" value="26" alpha="100" />
+		<ChangeableColorInfo id="B061L7" inputColor="-" hue="355" saturation="70" value="80" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L8" inputColor="-" hue="145" saturation="80" value="60" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L5P" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B061L6" inputColor="K" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B0621L5" inputColor="-" hue="0" saturation="0" value="96" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B063" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B066" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B067L1" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B067L2" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B071" inputColor="1" hue="8" saturation="42" value="-12" alpha="70" />
+		<ChangeableColorInfo id="B0722" inputColor="1" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B0731L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0731L3" inputColor="1" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B0731L4" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0731L5" inputColor="1" hue="0" saturation="0" value="0" alpha="55" />
+		<ChangeableColorInfo id="B0732" inputColor="1" hue="0" saturation="0" value="100" alpha="70" />
+		<ChangeableColorInfo id="B0733" inputColor="1" hue="0" saturation="0" value="100" alpha="70" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0733" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0733L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0733L2" inputColor="1" hue="0" saturation="0" value="0" alpha="25" />
+		<ChangeableColorInfo id="B0734" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B033P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B0731L6" inputColor="-" hue="60" saturation="1" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0731L6P" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B012L1" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B012L2" inputColor="1" hue="0" saturation="-21" value="12" alpha="100" />
+		<ChangeableColorInfo id="B012L3" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B012L3P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B012L4" inputColor="-" hue="0" saturation="0" value="96" alpha="10" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B074" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L1" inputColor="W" hue="0" saturation="0" value="-16" alpha="100" />
+		<ChangeableColorInfo id="F032L1P" inputColor="W" hue="0" saturation="0" value="-16" alpha="100" />
+		<ChangeableColorInfo id="F032L1D" inputColor="W" hue="0" saturation="0" value="-16" alpha="50" />
+		<ChangeableColorInfo id="F032L3" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L3P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L3D" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L4" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F032L5" inputColor="1" hue="-7" saturation="-2" value="-11" alpha="100" />
+		<ChangeableColorInfo id="F032L5P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="F032L5D" inputColor="K" hue="0" saturation="0" value="42" alpha="100" />
+		<ChangeableColorInfo id="F042i" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F044" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F043P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="F043i" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F043iD" inputColor="-" hue="0" saturation="0" value="96" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F052" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F053" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F053P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F053D" inputColor="-" hue="60" saturation="1" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F057" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F059" inputColor="W" hue="0" saturation="0" value="-24" alpha="20" />
+		<ChangeableColorInfo id="F0510" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F060L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="F060L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="F060L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F060L2D" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F060L3" inputColor="W" hue="0" saturation="88" value="-27" alpha="100" />
+		<ChangeableColorInfo id="F060L3D" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F063" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F064" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F061" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F062" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W011E1" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W010" inputColor="1" hue="-19" saturation="-84" value="37" alpha="100" />
+		<ChangeableColorInfo id="W011" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W011P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="W011D" inputColor="-" hue="213" saturation="48" value="75" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W011F" inputColor="1" hue="175" saturation="100" value="53" alpha="100" />
+		<ChangeableColorInfo id="W012E1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W012" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W012P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="W012D" inputColor="-" hue="213" saturation="48" value="75" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W012F" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W0111" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W0112" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W013L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W013L1E1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W013L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W013L1i" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W013L1iE1" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W013L1iD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W014L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W014L1E1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W014L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W014Li" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W014LiE1" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W014LiD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L1" inputColor="-" hue="130" saturation="70" value="70" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L1E1" inputColor="W" hue="0" saturation="0" value="0" alpha="40" />
+		<ChangeableColorInfo id="W015L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W015L1i" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W015L1iD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W016L1i" inputColor="1" hue="-5" saturation="3" value="2" alpha="100" />
+		<ChangeableColorInfo id="W016L1iE1" inputColor="1" hue="-5" saturation="3" value="2" alpha="30" />
+		<ChangeableColorInfo id="W016L1iD" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W015L6E1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L6" inputColor="1" hue="0" saturation="-18" value="23" alpha="100" />
+		<ChangeableColorInfo id="W015L6P" inputColor="1" hue="0" saturation="-18" value="13" alpha="100" />
+		<ChangeableColorInfo id="W015L6D" inputColor="1" hue="0" saturation="-64" value="30" alpha="100" />
+		<ChangeableColorInfo id="W015L7" inputColor="-" hue="0" saturation="0" value="29" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L7P" inputColor="1" hue="0" saturation="-29" value="-14" alpha="100" />
+		<ChangeableColorInfo id="W015L8" inputColor="-" hue="0" saturation="0" value="96" alpha="90" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W016L1" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L1P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W016L2" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L2P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016LD" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W021L1" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W021L2" inputColor="-" hue="0" saturation="0" value="85" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W023" inputColor="1" hue="0" saturation="0" value="0" alpha="80" />
+		<ChangeableColorInfo id="W031L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W031L3" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L1" inputColor="K" hue="0" saturation="0" value="32" alpha="100" />
+		<ChangeableColorInfo id="W062L1D" inputColor="K" hue="0" saturation="0" value="32" alpha="30" />
+		<ChangeableColorInfo id="W062L2" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W062L2P" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W062L21" inputColor="-" hue="0" saturation="0" value="3" alpha="6" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L2D" inputColor="1" hue="0" saturation="20" value="80" alpha="100" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L22" inputColor="-" hue="0" saturation="85" value="88" alpha="6" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L3" inputColor="-" hue="0" saturation="0" value="96" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L31" inputColor="-" hue="0" saturation="0" value="3" alpha="25" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L32" inputColor="-" hue="0" saturation="85" value="88" alpha="45" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062" inputColor="K" hue="0" saturation="0" value="32" alpha="100" />
+		<ChangeableColorInfo id="W062L3" inputColor="1" hue="-1" saturation="12" value="-6" alpha="50" />
+		<ChangeableColorInfo id="W062L4" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W0631" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W0641" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W0661" inputColor="-" hue="205" saturation="17" value="39" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W0671" inputColor="-" hue="270" saturation="6" value="14" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W156" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W157" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W157E1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W158" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W158E1" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W161" inputColor="1" hue="0" saturation="0" value="42" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T020" inputColor="1" hue="-8" saturation="-1" value="8" alpha="100" />
+		<ChangeableColorInfo id="T0203" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0204" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T023" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023S" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T024" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024S" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T024L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024L2P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024L2D" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T025" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T027" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="T028" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0212" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0213" inputColor="-" hue="0" saturation="0" value="0" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0216" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0217" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0221" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0222" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0222L1" inputColor="1" hue="-8" saturation="-1" value="-2" alpha="100" />
+		<ChangeableColorInfo id="T0222L2" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0231" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0232" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T041" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T041P" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T041S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T041D" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042P" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042D" inputColor="-" hue="0" saturation="0" value="96" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T051" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051F" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T052" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T052P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T053F" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T052D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T053" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T054" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0511" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T056" inputColor="-" hue="180" saturation="1" value="82" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T057" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T058" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T059" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0601" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T071" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T094" inputColor="W" hue="0" saturation="0" value="-13" alpha="100" />
+		<ChangeableColorInfo id="T0941" inputColor="K" hue="0" saturation="0" value="6" alpha="100" />
+		<ChangeableColorInfo id="T0942" inputColor="W" hue="0" saturation="0" value="-13" alpha="100" />
+		<ChangeableColorInfo id="T1011" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1011D" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1012" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1013" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1014" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1015" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1016" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1061" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1062" inputColor="W" hue="0" saturation="0" value="-25" alpha="30" />
+		<ChangeableColorInfo id="T1063" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1064" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1065" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1066" inputColor="W" hue="0" saturation="0" value="-25" alpha="30" />
+		<ChangeableColorInfo id="T1067" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1068" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1069" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1070" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111S" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111D" inputColor="-" hue="0" saturation="0" value="96" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T112" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1121" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T113" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T114" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T115" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1117" inputColor="1" hue="-7" saturation="-2" value="7" alpha="100" />
+		<ChangeableColorInfo id="T1117P" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T1117S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1117D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="T120" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T121" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="T1221" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T123" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1232" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1233" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1234" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1234P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1234D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="T1235" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T12351" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T12352" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T126" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T126P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T126D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T127" inputColor="-" hue="0" saturation="0" value="30" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T128" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" maxValue="0" />
+		<ChangeableColorInfo id="T129" inputColor="K" hue="0" saturation="0" value="27" alpha="100" />
+	</Theme>
+	<Theme style="Light">
+		<ChangeableColorInfo id="B011" inputColor="1" hue="-10" saturation="-27" value="-43" alpha="100" />
+		<ChangeableColorInfo id="B012" inputColor="1" hue="8" saturation="15" value="-52" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B013" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B015" inputColor="K" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B016" inputColor="-" hue="0" saturation="0" value="3" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B017" inputColor="-" hue="" saturation="" value="" alpha="" />
+		<ChangeableColorInfo id="B018" inputColor="-" hue="" saturation="" value="" alpha="" />
+		<ChangeableColorInfo id="B017" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B018" inputColor="1" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B0215" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0216" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0216L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0234" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0235" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0236" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0237" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0238L1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0238L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B024" inputColor="W" hue="0" saturation="0" value="0" alpha="55" />
+		<ChangeableColorInfo id="B031" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B032" inputColor="-" hue="0" saturation="0" value="3" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B033P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B041" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B041P" inputColor="1" hue="-5" saturation="-18" value="-29" alpha="100" />
+		<ChangeableColorInfo id="B042" inputColor="1" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B0514" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0514P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B0514S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0517" inputColor="-" hue="0" saturation="0" value="58" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6D" inputColor="-" hue="0" saturation="0" value="96" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6S" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L6P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B052L7" inputColor="-" hue="180" saturation="2" value="95" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0541" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B0541P" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B0541D" inputColor="1" hue="-7" saturation="-2" value="6" alpha="50" />
+		<ChangeableColorInfo id="B0542" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0561L1" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0562L1" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0563L1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0571" inputColor="1" hue="-7" saturation="-2" value="6" alpha="20" />
+		<ChangeableColorInfo id="B061L1" inputColor="1" hue="-12" saturation="10" value="-58" alpha="100" />
+		<ChangeableColorInfo id="B061L2" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L3" inputColor="1" hue="-8" saturation="15" value="-52" alpha="100" />
+		<ChangeableColorInfo id="B062" inputColor="1" hue="33" saturation="42" value="19" alpha="100" />
+		<ChangeableColorInfo id="B061L41" inputColor="1" hue="-12" saturation="10" value="-58" alpha="100" />
+		<ChangeableColorInfo id="B061L41P" inputColor="1" hue="-5" saturation="-18" value="-29" alpha="100" />
+		<ChangeableColorInfo id="B061L42" inputColor="-" hue="173" saturation="45" value="40" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L43" inputColor="W" hue="0" saturation="0" value="0" alpha="20" />
+		<ChangeableColorInfo id="B061L5" inputColor="K" hue="0" saturation="0" value="0" alpha="26" />
+		<ChangeableColorInfo id="B061L7" inputColor="-" hue="355" saturation="70" value="80" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L8" inputColor="-" hue="145" saturation="80" value="60" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B061L5P" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B061L6" inputColor="K" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B0621L5" inputColor="-" hue="0" saturation="0" value="96" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B063" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B066" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="B067L1" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B067L2" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="B071" inputColor="1" hue="8" saturation="42" value="-12" alpha="70" />
+		<ChangeableColorInfo id="B0722" inputColor="1" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B0731L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0731L3" inputColor="1" hue="0" saturation="0" value="0" alpha="70" />
+		<ChangeableColorInfo id="B0731L4" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0731L5" inputColor="1" hue="0" saturation="0" value="0" alpha="55" />
+		<ChangeableColorInfo id="B0732" inputColor="1" hue="0" saturation="0" value="100" alpha="70" />
+		<ChangeableColorInfo id="B0733" inputColor="1" hue="0" saturation="0" value="100" alpha="70" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0733" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0733L1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B0733L2" inputColor="1" hue="0" saturation="0" value="0" alpha="25" />
+		<ChangeableColorInfo id="B0734" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="B033P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B0731L6" inputColor="-" hue="60" saturation="1" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B0731L6P" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="B012L1" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B012L2" inputColor="1" hue="0" saturation="-21" value="12" alpha="100" />
+		<ChangeableColorInfo id="B012L3" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B012L3P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="B012L4" inputColor="-" hue="0" saturation="0" value="96" alpha="10" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="B074" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L1" inputColor="W" hue="0" saturation="0" value="-16" alpha="100" />
+		<ChangeableColorInfo id="F032L1P" inputColor="W" hue="0" saturation="0" value="-16" alpha="100" />
+		<ChangeableColorInfo id="F032L1D" inputColor="W" hue="0" saturation="0" value="-16" alpha="50" />
+		<ChangeableColorInfo id="F032L3" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L3P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L3D" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F032L4" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F032L5" inputColor="1" hue="-7" saturation="-2" value="-11" alpha="100" />
+		<ChangeableColorInfo id="F032L5P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="F032L5D" inputColor="K" hue="0" saturation="0" value="42" alpha="100" />
+		<ChangeableColorInfo id="F042i" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F044" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F043P" inputColor="1" hue="0" saturation="0" value="-11" alpha="100" />
+		<ChangeableColorInfo id="F043i" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F043iD" inputColor="-" hue="0" saturation="0" value="96" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F052" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F053" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F053P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F053D" inputColor="-" hue="60" saturation="1" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F057" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F059" inputColor="W" hue="0" saturation="0" value="-24" alpha="20" />
+		<ChangeableColorInfo id="F0510" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="F060L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="F060L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="F060L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F060L2D" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F060L3" inputColor="W" hue="0" saturation="88" value="-27" alpha="100" />
+		<ChangeableColorInfo id="F060L3D" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F063" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="F064" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F061" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="F062" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W011E1" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W010" inputColor="1" hue="0" saturation="-18" value="23" alpha="100" />
+		<ChangeableColorInfo id="W011" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W011P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="W011D" inputColor="-" hue="213" saturation="48" value="75" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W011F" inputColor="1" hue="175" saturation="100" value="53" alpha="100" />
+		<ChangeableColorInfo id="W012E1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W012" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W012P" inputColor="1" hue="-2" saturation="10" value="-47" alpha="100" />
+		<ChangeableColorInfo id="W012D" inputColor="-" hue="213" saturation="48" value="75" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W012F" inputColor="1" hue="0" saturation="34" value="-30" alpha="100" />
+		<ChangeableColorInfo id="W0111" inputColor="-" hue="142" saturation="67" value="62" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W0112" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W013L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W013L1E1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W013L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W013L1i" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W013L1iE1" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W013L1iD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W014L1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W014L1E1" inputColor="1" hue="-1" saturation="2" value="-21" alpha="100" />
+		<ChangeableColorInfo id="W014L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W014Li" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W014LiE1" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W014LiD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L1" inputColor="-" hue="130" saturation="70" value="70" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L1E1" inputColor="W" hue="0" saturation="0" value="0" alpha="40" />
+		<ChangeableColorInfo id="W015L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W015L1i" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W015L1iD" inputColor="-" hue="0" saturation="0" value="96" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W016L1i" inputColor="1" hue="-5" saturation="3" value="2" alpha="100" />
+		<ChangeableColorInfo id="W016L1iE1" inputColor="1" hue="-5" saturation="3" value="2" alpha="100" />
+		<ChangeableColorInfo id="W016L1iD" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W015L6E1" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L6" inputColor="1" hue="0" saturation="-18" value="23" alpha="100" />
+		<ChangeableColorInfo id="W015L6P" inputColor="1" hue="0" saturation="-18" value="13" alpha="100" />
+		<ChangeableColorInfo id="W015L6D" inputColor="1" hue="0" saturation="-64" value="30" alpha="100" />
+		<ChangeableColorInfo id="W015L7" inputColor="-" hue="0" saturation="0" value="29" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W015L7P" inputColor="1" hue="0" saturation="-29" value="-14" alpha="100" />
+		<ChangeableColorInfo id="W015L8" inputColor="-" hue="0" saturation="0" value="96" alpha="90" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W016L1" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L1P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L1D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W016L2" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016L2P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W016LD" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="W021L1" inputColor="K" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W021L2" inputColor="-" hue="0" saturation="0" value="85" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W023" inputColor="1" hue="0" saturation="0" value="0" alpha="80" />
+		<ChangeableColorInfo id="W031L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W031L3" inputColor="-" hue="0" saturation="0" value="3" alpha="20" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L1" inputColor="K" hue="0" saturation="0" value="32" alpha="100" />
+		<ChangeableColorInfo id="W062L1D" inputColor="K" hue="0" saturation="0" value="32" alpha="30" />
+		<ChangeableColorInfo id="W062L2" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W062L2P" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W062L21" inputColor="-" hue="0" saturation="0" value="3" alpha="6" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L2D" inputColor="1" hue="0" saturation="20" value="80" alpha="100" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L22" inputColor="-" hue="0" saturation="85" value="88" alpha="6" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L3" inputColor="-" hue="0" saturation="0" value="96" alpha="40" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L31" inputColor="-" hue="0" saturation="0" value="3" alpha="25" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062L32" inputColor="-" hue="0" saturation="85" value="88" alpha="45" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W062" inputColor="K" hue="0" saturation="0" value="32" alpha="100" />
+		<ChangeableColorInfo id="W062L3" inputColor="1" hue="-1" saturation="12" value="-6" alpha="50" />
+		<ChangeableColorInfo id="W062L4" inputColor="1" hue="-1" saturation="12" value="-6" alpha="100" />
+		<ChangeableColorInfo id="W0631" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W0641" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W0661" inputColor="-" hue="205" saturation="17" value="39" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W0671" inputColor="-" hue="270" saturation="6" value="14" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W156" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W157" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="W157E1" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W158" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W158E1" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="W161" inputColor="1" hue="0" saturation="0" value="42" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T020" inputColor="1" hue="-8" saturation="-1" value="8" alpha="100" />
+		<ChangeableColorInfo id="T0203" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0204" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T023" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023S" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T023D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T024" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024S" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T024L2" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024L2P" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T024L2D" inputColor="1" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T025" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T027" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T028" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0212" inputColor="-" hue="0" saturation="0" value="100" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0213" inputColor="-" hue="0" saturation="0" value="0" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0216" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0217" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0221" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0222" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T0222L1" inputColor="1" hue="-8" saturation="-1" value="-2" alpha="100" />
+		<ChangeableColorInfo id="T0222L2" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0231" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0232" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T041" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T041P" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T041S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T041D" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042P" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T042D" inputColor="-" hue="0" saturation="0" value="96" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T051" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051F" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T051D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T052" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T052P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T053F" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T052D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T053" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T054" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0511" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T056" inputColor="-" hue="180" saturation="1" value="82" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T057" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T058" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T059" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T0601" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T071" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T094" inputColor="W" hue="0" saturation="0" value="-13" alpha="100" />
+		<ChangeableColorInfo id="T0941" inputColor="K" hue="0" saturation="0" value="6" alpha="100" />
+		<ChangeableColorInfo id="T0942" inputColor="W" hue="0" saturation="0" value="-13" alpha="100" />
+		<ChangeableColorInfo id="T1011" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1011D" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1012" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1013" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1014" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1015" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1016" inputColor="-" hue="0" saturation="85" value="88" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1061" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1062" inputColor="W" hue="0" saturation="0" value="-25" alpha="30" />
+		<ChangeableColorInfo id="T1063" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1064" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1065" inputColor="W" hue="0" saturation="0" value="-25" alpha="100" />
+		<ChangeableColorInfo id="T1066" inputColor="W" hue="0" saturation="0" value="-25" alpha="30" />
+		<ChangeableColorInfo id="T1067" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1068" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1069" inputColor="-" hue="0" saturation="0" value="3" alpha="50" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1070" inputColor="-" hue="0" saturation="0" value="3" alpha="30" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111P" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111S" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T111D" inputColor="-" hue="0" saturation="0" value="96" alpha="60" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T112" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1121" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T113" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T114" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T115" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1117" inputColor="1" hue="-7" saturation="-2" value="7" alpha="100" />
+		<ChangeableColorInfo id="T1117P" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T1117S" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1117D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="T120" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T121" inputColor="1" hue="-7" saturation="-2" value="6" alpha="100" />
+		<ChangeableColorInfo id="T1221" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T123" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1232" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1233" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T1234" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1234P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T1234D" inputColor="W" hue="0" saturation="0" value="0" alpha="30" />
+		<ChangeableColorInfo id="T1235" inputColor="1" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T12351" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T12352" inputColor="-" hue="0" saturation="0" value="96" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T126" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T126P" inputColor="W" hue="0" saturation="0" value="0" alpha="100" />
+		<ChangeableColorInfo id="T126D" inputColor="W" hue="0" saturation="0" value="0" alpha="50" />
+		<ChangeableColorInfo id="T127" inputColor="-" hue="0" saturation="0" value="30" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T128" inputColor="-" hue="0" saturation="0" value="3" alpha="100" fixedHue="true" fixedSaturation="true" fixedValue="true" />
+		<ChangeableColorInfo id="T129" inputColor="K" hue="0" saturation="0" value="27" alpha="100" />
+	</Theme>
+</ChangeableColorTable>

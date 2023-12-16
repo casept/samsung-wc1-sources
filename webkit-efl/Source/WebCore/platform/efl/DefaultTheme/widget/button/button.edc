@@ -1,0 +1,153 @@
+/*
+    Copyright (C) 2008,2009 INdT - Instituto Nokia de Tecnologia
+    Copyright (C) 2009,2010 ProFUSION embedded systems
+    Copyright (C) 2009-2013 Samsung Electronics
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public License
+    along with this library; see the file COPYING.LIB.  If not, write to
+    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+    Boston, MA 02110-1301, USA.
+*/
+
+group { name: "webkit/widget/button";
+   data { item: "scale" "5"; }
+
+   images {
+      image: "widget/button/00_button_01.png" COMP;
+      image: "widget/button/00_button_01_dim.png" COMP;
+      image: "widget/button/00_button_01_focus.png" COMP;
+   }
+
+   script {
+       public isEnabled;
+       public isPressed;
+       public isChecked;
+       public isFocused;
+
+       public show() {
+           if (get_int(isEnabled) == 1) {
+               set_state(PART:"button", "default", 0.0);
+               if (get_int(isFocused) == 1)
+                   set_state(PART:"focus", "focused", 0.0);
+               else
+                   set_state(PART:"focus", "default", 0.0);
+           }
+           else
+               set_state(PART:"button", "disabled", 0.0);
+       }
+   }
+
+   parts {
+      part { name: "button";
+         type: IMAGE;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: 20 20;
+            image {
+               normal: "widget/button/00_button_01.png";
+               border: 5 5 5 5;
+            }
+         }
+         description {
+            state: "disabled" 0.0;
+            inherit: "default" 0.0;
+            image {
+               normal: "widget/button/00_button_01_dim.png";
+               border: 5 5 5 5;
+            }
+         }
+      }
+      part { name: "focus";
+         description {
+            state: "default" 0.0;
+            min: 20 20;
+            visible: 0;
+         }
+         type: IMAGE;
+         scale: 1;
+         description {
+            state: "focused" 0.0;
+            inherit: "default" 0.0;
+            visible: 1;
+            image {
+               normal: "widget/button/00_button_01_focus.png";
+               border: 5 5 5 5;
+            }
+         }
+      }
+
+      part { name: "text_confinement";
+         type: RECT;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            color: 0 0 0 0;
+            rel1 {
+               relative: 0.0 0.0;
+               offset: 5 5;
+            }
+            rel2 {
+               relative: 1.0 1.0;
+               offset: -5 -5;
+            }
+         }
+      }
+   }
+
+   programs {
+      program {
+         name: "enabled";
+         signal: "enabled";
+         script {
+            set_int(isEnabled, 1);
+            show();
+         }
+      }
+      program {
+         name: "pressed";
+         signal: "pressed";
+         script {
+            set_int(isPressed, 1);
+            show();
+         }
+      }
+     program {
+         name: "checked";
+         signal: "checked";
+         script {
+            set_int(isChecked, 1);
+            show();
+         }
+      }
+      program {
+         name: "focused";
+         signal: "focused";
+         script {
+            set_int(isFocused, 1);
+            show();
+         }
+      }
+     program {
+         name: "reset";
+         signal: "reset";
+         script {
+            set_int(isEnabled, 0);
+            set_int(isPressed, 0);
+            set_int(isChecked, 0);
+            set_int(isFocused, 0);
+            show();
+         }
+      }
+   }
+}

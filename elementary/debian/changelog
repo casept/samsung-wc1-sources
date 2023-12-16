@@ -1,0 +1,4162 @@
+elementary (1.0.0+svn.70492slp2+build11) natty; urgency=low
+
+  * [elm_win][elm_config] Added per-window profile to support
+    multi-head display.
+    [elc_naviframe] Return statement wrongly added in a void function
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build11
+
+ -- Gwanglim Lee <gl77.lee@samsung.com>  Wed, 20 Jun 2012 17:09:39 +0900
+
+elementary (1.0.0+svn.70492slp2+build10) unstable; urgency=low
+
+  * Change profile name from extension to desktop
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build10
+
+ -- Seunggyun Kim <sgyun.kim@samsung.com>  Mon, 18 Jun 2012 10:38:44 +0900
+
+elementary (1.0.0+svn.70492slp2+build09) unstable; urgency=low
+
+  * Add APIs for floating mode (app-in-app)
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build09
+
+ -- Doyoun Kang <doyoun.kang@samsung.com>  Tue, 05 Jun 2012 15:20:21 +0900
+
+elementary (1.0.0+svn.70492slp2+build08) unstable; urgency=low
+
+  * Add extension profile and change prfile name from slp to mobile
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build08
+
+ -- Seunggyun Kim <sgyun.kim@samsung.com>  Thu, 31 May 2012 20:15:34 +0900
+
+elementary (1.0.0+svn.70492slp2+build07) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build07
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Thu, 24 May 2012 11:58:18 +0900
+
+elementary (1.0.0+svn.70492slp2+build06) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build06
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 23 May 2012 20:28:32 +0900
+
+elementary (1.0.0+svn.70492slp2+build05) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build05
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 23 May 2012 17:43:09 +0900
+
+elementary (1.0.0+svn.70492slp2+build04) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build04
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 17 May 2012 19:04:44 +0900
+
+elementary (1.0.0+svn.70492slp2+build03) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build03
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 11 May 2012 11:43:18 +0900
+
+elementary (1.0.0+svn.70492slp2+build02) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build02
+
+ -- Jiyoun Park <jy0703.park@samsung.com>  Thu, 03 May 2012 11:01:14 +0900
+
+elementary (1.0.0+svn.70492slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70492slp2+build01
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Thu, 26 Apr 2012 15:01:57 +0900
+
+elementary (1.0.0+svn.70375slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70375slp2+build01
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Mon, 23 Apr 2012 15:15:15 +0900
+
+elementary (1.0.0+svn.70341slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70341slp2+build01
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Fri, 20 Apr 2012 10:42:01 +0900
+
+elementary (1.0.0+svn.70200slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.70200slp2+build01
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Tue, 17 Apr 2012 17:41:39 +0900
+
+elementary (1.0.0+svn.69922slp2+build02) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69922slp2+build02
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Thu, 12 Apr 2012 18:16:03 +0900
+
+elementary (1.0.0+svn.69922slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69922slp2+build01
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Fri, 06 Apr 2012 18:31:19 +0900
+
+elementary (1.0.0+svn.69832slp2+build03) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69832slp2+build03
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 05 Apr 2012 15:02:20 +0900
+
+elementary (1.0.0+svn.69832slp2+build02) unstable; urgency=low
+
+  * Package Upload 
+  *  - bugfix evas ref/unref in item_select
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69832slp2+build02
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Tue, 03 Apr 2012 15:02:34 +0900
+
+elementary (1.0.0+svn.69832slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69832slp2+build01
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Tue, 03 Apr 2012 14:19:37 +0900
+
+elementary (1.0.0+svn.69691slp2+build02) unstable; urgency=low
+
+  * Repackaging
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69691slp2+build02
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 02 Apr 2012 15:10:24 +0900
+
+elementary (1.0.0+svn.69691slp2+build01) unstable; urgency=low
+
+  * Repackaging
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69691slp2+build01
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 02 Apr 2012 14:18:21 +0900
+
+elementary (1.0.0+svn.69448slp2+build06) unstable; urgency=low
+
+  * Repackaging
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build06
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 29 Mar 2012 17:27:41 +0900
+
+elementary (1.0.0+svn.69448slp2+build05) unstable; urgency=low
+
+  * Merge elm_map from upstream
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build05
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Mon, 26 Mar 2012 14:39:09 +0900
+
+elementary (1.0.0+svn.69448slp2+build04) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build04
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 21 Mar 2012 20:38:20 +0900
+
+elementary (1.0.0+svn.69448slp2+build03) unstable; urgency=low
+
+  *    [edje_external] Removed toggle from modules.inc
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build03
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 21 Mar 2012 12:59:58 +0900
+
+elementary (1.0.0+svn.69448slp2+build02) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build02
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Sun, 18 Mar 2012 15:08:01 +0900
+
+elementary (1.0.0+svn.69448slp2+build01) unstable; urgency=low
+
+  * EFL migration
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69448slp2+build01
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Fri, 16 Mar 2012 21:52:36 +0900
+
+elementary (1.0.0+svn.69026slp2+build03) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69026slp2+build03
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 15 Mar 2012 19:02:14 +0900
+
+elementary (1.0.0+svn.69026slp2+build02) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+        Remove controlbar
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69026slp2+build02
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 14 Mar 2012 08:57:11 +0900
+
+elementary (1.0.0+svn.69026slp2+build01) unstable; urgency=low
+
+  * Elementary 1.0 Release Package Upload
+  * Important Changes
+       [naviframe] fix focus problem
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.69026slp2+build01
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Tue, 13 Mar 2012 19:37:24 +0900
+
+elementary (1.0.0+svn.67547slp2+build16) unstable; urgency=low
+
+  * Package upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build16
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Sat, 10 Mar 2012 13:30:12 +0900
+
+elementary (1.0.0+svn.67547slp2+build15) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [index] merged with opensource
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build15
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sat, 10 Mar 2012 12:43:09 +0900
+
+elementary (1.0.0+svn.67547slp2+build14) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [entry] elm_entry_extension_module_data_get is set as none EAPI
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build14
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Mon, 05 Mar 2012 02:23:36 -0500
+
+elementary (1.0.0+svn.67547slp2+build13) unstable; urgency=low
+
+  * [entry] deprecated some APIs
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build13
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Wed, 29 Feb 2012 20:53:38 +0900
+
+elementary (1.0.0+svn.67547slp2+build12) unstable; urgency=low
+
+  * Package upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build12
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 28 Feb 2012 15:04:22 +0900
+
+elementary (1.0.0+svn.67547slp2+build11) unstable; urgency=low
+
+  * Merge opensource els_icon.c bug fix to resolve GUI Builder issue
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build11
+
+ -- Seunggyun Kim <sgyun.kim@samsung.com>  Tue, 28 Feb 2012 12:04:05 +0900
+
+elementary (1.0.0+svn.67547slp2+build10) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [editfield   * Important Changes searchbar] deprecated
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build10
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 27 Feb 2012 21:46:46 +0900
+
+elementary (1.0.0+svn.67547slp2+build09) unstable; urgency=low
+
+  * add checking widtype in calc_job
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build09
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 24 Feb 2012 13:43:35 +0900
+
+elementary (1.0.0+svn.67547slp2+build08) unstable; urgency=low
+
+  * bugfix genlist showitem, calc_job and misc
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build08
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 24 Feb 2012 09:07:49 +0900
+
+elementary (1.0.0+svn.67547slp2+build07) unstable; urgency=low
+
+  * [Map] Tunnig rotate callback because of gesture layer merge
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build07
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Wed, 22 Feb 2012 16:55:20 +0900
+
+elementary (1.0.0+svn.67547slp2+build06) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build06
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 21 Feb 2012 19:28:59 +0900
+
+elementary (1.0.0+svn.67547slp2+build05) unstable; urgency=low
+
+  * add some input panel APIs
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build05
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Tue, 21 Feb 2012 15:56:46 +0900
+
+elementary (1.0.0+svn.67547slp2+build04) unstable; urgency=low
+
+  * add input panel control APIs in entry widget
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build04
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Tue, 21 Feb 2012 13:40:47 +0900
+
+elementary (1.0.0+svn.67547slp2+build03) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build03
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 20 Feb 2012 20:23:22 +0900
+
+elementary (1.0.0+svn.67547slp2+build02) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build02
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 20 Feb 2012 12:05:00 +0900
+
+elementary (1.0.0+svn.67547slp2+build01) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.67547slp2+build01
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 15 Feb 2012 19:03:08 +0900
+
+elementary (1.0.0+svn.61256slp2+build118) unstable; urgency=low
+
+  * Package Upload - add mbe view mode
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build118
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Tue, 07 Feb 2012 10:12:39 +0900
+
+elementary (1.0.0+svn.61256slp2+build117) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build117
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 27 Jan 2012 12:00:43 +0900
+
+elementary (1.0.0+svn.61256slp2+build116) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build116
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 16 Jan 2012 14:51:07 +0900
+
+elementary (1.0.0+svn.61256slp2+build115) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build115
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 12 Jan 2012 18:54:28 +0900
+
+elementary (1.0.0+svn.61256slp2+build114) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       change default theme to 'blue-hd'
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build114
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 12 Jan 2012 16:17:39 +0900
+
+elementary (1.0.0+svn.61256slp2+build113) unstable; urgency=low
+
+  * [Config] Remove code related with ATOM_E_SCALE property get.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build113
+
+ -- Seunggyun Kim <sgyun.kim@samsung.com>  Wed, 04 Jan 2012 19:46:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build112) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Genlist] Enabled group index feature but removed floating effect.
+       [editfield & entry] Removed some deprecated APIs
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build112
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 04 Jan 2012 12:12:53 +0900
+
+elementary (1.0.0+svn.61256slp2+build111) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build111
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Mon, 02 Jan 2012 12:11:37 +0900
+
+elementary (1.0.0+svn.61256slp2+build110) unstable; urgency=low
+
+  * [Genlist] Fixed genlist item positioning issue with group index.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build110
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Tue, 27 Dec 2011 11:31:36 +0900
+
+elementary (1.0.0+svn.61256slp2+build109) unstable; urgency=low
+
+  *    [Genlist] Disabled group index floating behavior.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build109
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Mon, 26 Dec 2011 19:54:53 +0900
+
+elementary (1.0.0+svn.61256slp2+build108) unstable; urgency=low
+
+  * Package upload.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build108
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 26 Dec 2011 19:09:26 +0900
+
+elementary (1.0.0+svn.61256slp2+build107) unstable; urgency=low
+
+  * [Map] Upstream sync (r66413, r66459)
+  * gengrid small bug patch
+  * [elm_gesutre] Upstream sync related with elm_gesture config
+  * removed navigationbar
+  * [copypaste] hide copypaste ctxpopup when entry is scrolled
+  * Merge with upstream r66368
+  *    [ctxpopup] Opensource Merge(r66269): hide ctxpopup when parent size is changed
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build107
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Fri, 23 Dec 2011 18:01:12 +0900
+
+elementary (1.0.0+svn.61256slp2+build106) unstable; urgency=low
+
+  * Package upload.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build106
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 21 Dec 2011 11:26:18 +0900
+
+elementary (1.0.0+svn.61256slp2+build105) unstable; urgency=low
+
+  * Package uplaod based on private git.
+  * Git: slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build105
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Mon, 19 Dec 2011 14:15:31 +0900
+
+elementary (1.0.0+svn.61256slp2+build103) unstable; urgency=low
+
+  * Delete elm_autocapital,autoperiod_allow_all_set APIs
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build103
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Thu, 08 Dec 2011 15:35:37 +0900
+
+elementary (1.0.0+svn.61256slp2+build102) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build102
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 06 Dec 2011 19:57:49 +0900
+
+elementary (1.0.0+svn.61256slp2+build101) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build101
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 05 Dec 2011 21:05:30 +0900
+
+elementary (1.0.0+svn.61256slp2+build100) unstable; urgency=low
+
+  * Package upload : sync nbeat-theme
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build100
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 01 Dec 2011 10:41:48 +0900
+
+elementary (1.0.0+svn.61256slp2+build99) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build99
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 29 Nov 2011 16:17:39 +0900
+
+elementary (1.0.0+svn.61256slp2+build98) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build98
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Mon, 28 Nov 2011 17:18:34 +0900
+
+elementary (1.0.0+svn.61256slp2+build97) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build97
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Mon, 28 Nov 2011 17:03:10 +0900
+
+elementary (1.0.0+svn.61256slp2+build96) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build96
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 23 Nov 2011 13:32:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build95) unstable; urgency=low
+
+  * Sync tooltip API with upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Wed, 23 Nov 2011 10:15:59 +0900
+
+elementary (1.0.0+svn.61256slp2+build94) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build94
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 22 Nov 2011 11:40:30 +0900
+
+elementary (1.0.0+svn.61256slp2+build93) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [elm_panes] This should be rollback git commit -m ! evas_object_hide should be done by application side
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build93
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 22 Nov 2011 11:14:14 +0900
+
+elementary (1.0.0+svn.61256slp2+build92) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build92
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Mon, 21 Nov 2011 19:57:16 +0900
+
+elementary (1.0.0+svn.61256slp2+build91) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build91
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Mon, 21 Nov 2011 18:45:52 +0900
+
+elementary (1.0.0+svn.61256slp2+build90) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build90
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Mon, 21 Nov 2011 18:25:49 +0900
+
+elementary (1.0.0+svn.61256slp2+build89) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build89
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Mon, 21 Nov 2011 17:45:39 +0900
+
+elementary (1.0.0+svn.61256slp2+build88) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [genlist] rollback to previous package for fixing lockup
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build88
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 18 Nov 2011 10:16:35 +0900
+
+elementary (1.0.0+svn.61256slp2+build87) unstable; urgency=low
+
+  * genlist - removing item update when item data set
+  * entry - merged with 65225 for fixing filter problem
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build87
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Thu, 17 Nov 2011 20:41:49 +0900
+
+elementary (1.0.0+svn.61256slp2+build86) unstable; urgency=low
+
+  * Merge toggle changes from upstream
+  * Fix the check control properly
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Tue, 15 Nov 2011 16:47:04 +0900
+
+elementary (1.0.0+svn.61256slp2+build85) unstable; urgency=low
+
+  * reverted elm_check.(it doesn't work. i don't know now)
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build85
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 15 Nov 2011 11:21:37 +0900
+
+elementary (1.0.0+svn.61256slp2+build84) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build84
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 14 Nov 2011 20:57:04 +0900
+
+elementary (1.0.0+svn.61256slp2+build83) unstable; urgency=low
+
+  * Merge accessability and video player changes from upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Mon, 14 Nov 2011 18:16:52 +0900
+
+elementary (1.0.0+svn.61256slp2+build82) unstable; urgency=low
+
+  * Merge menu changes from upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Mon, 14 Nov 2011 14:43:08 +0900
+
+elementary (1.0.0+svn.61256slp2+build81) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build81
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Fri, 11 Nov 2011 20:17:24 +0900
+
+elementary (1.0.0+svn.61256slp2+build79) unstable; urgency=low
+
+  * Merge toolbar from upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Fri, 11 Nov 2011 17:04:22 +0900
+
+elementary (1.0.0+svn.61256slp2+build78) unstable; urgency=low
+
+  * Further incremental merge of upstream changes
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Thu, 10 Nov 2011 15:27:10 +0900
+
+elementary (1.0.0+svn.61256slp2+build77) unstable; urgency=low
+
+  * revert the drepcated APIs 
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build77
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 09 Nov 2011 19:52:21 +0900
+
+elementary (1.0.0+svn.61256slp2+build76) unstable; urgency=low
+
+  * deprecate naviframe 
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build76
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 09 Nov 2011 19:19:24 +0900
+
+elementary (1.0.0+svn.61256slp2+build75) unstable; urgency=low
+
+  * Restore gengrid & fix
+  * Prevent fixes
+  * navigationbar/nativationbarex deprecation
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Wed, 09 Nov 2011 17:42:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build74) unstable; urgency=low
+
+  * elm_gengrid rollback
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build74
+
+ -- JeongHyun Yun <jh0506.yun@samsung.com>  Tue, 09 Nov 2011 13:15:53 -0500
+
+elementary (1.0.0+svn.61256slp2+build73) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build73
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 08 Nov 2011 22:25:41 +0900
+
+elementary (1.0.0+svn.61256slp2+build72) unstable; urgency=low
+
+  * Sync with upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Tue, 08 Nov 2011 16:26:32 +0900
+
+elementary (1.0.0+svn.61256slp2+build71) unstable; urgency=low
+
+  * Remove deprecated macro from elm_genlist_item_selected_set/get
+  * Sync documentation with upstream
+
+ -- Mike McCormack <mj.mccormack@samsung.com>  Mon, 07 Nov 2011 19:10:30 +0900
+
+elementary (1.0.0+svn.61256slp2+build70) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build70
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 07 Nov 2011 17:54:41 +0900
+
+elementary (1.0.0+svn.61256slp2+build69) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [entry] merged with 64721, for fixing scrolled entry bug in searchbar
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build69
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 04 Nov 2011 16:06:22 +0900
+
+elementary (1.0.0+svn.61256slp2+build68) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build68
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 03 Nov 2011 10:52:10 +0900
+
+elementary (1.0.0+svn.61256slp2+build67) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [editfield] delete meaningless signal emit. This can cause focus problem
+       [Genlist] Changed rename mode signal edit timing.
+       [focus] elementary's focus policy was changed, so editfield's structure was changed following that
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build67
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 02 Nov 2011 22:52:59 +0900
+
+elementary (1.0.0+svn.61256slp2+build66) unstable; urgency=low
+
+  * Map: ugernt bug fix
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build66
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Wed, 02 Nov 2011 09:45:36 +0900
+
+elementary (1.0.0+svn.61256slp2+build65) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build65
+
+ -- Myungajae Lee <mjae.lee@samsung.com>  Mon, 31 Oct 2011 21:17:18 +0900
+
+elementary (1.0.0+svn.61256slp2+build64) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build64
+
+ -- Tae-Hwan Kim <the81.kim@samsung.com>  Mon, 31 Oct 2011 09:55:52 +0900
+
+elementary (1.0.0+svn.61256slp2+build63) unstable; urgency=low
+
+  * add elm_genlist_item_fields_update func
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build63
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Thu, 27 Oct 2011 20:14:22 +0900
+
+elementary (1.0.0+svn.61256slp2+build62) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build62
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 26 Oct 2011 19:26:57 +0900
+
+elementary (1.0.0+svn.61256slp2+build61) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build61
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Tue, 25 Oct 2011 21:27:49 +0900
+
+elementary (1.0.0+svn.61256slp2+build60) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build60
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Tue, 25 Oct 2011 21:26:48 +0900
+
+elementary (1.0.0+svn.61256slp2+build59) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build59
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 25 Oct 2011 15:29:32 +0900
+
+elementary (1.0.0+svn.61256slp2+build58) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build58
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 24 Oct 2011 23:16:45 +0900
+
+elementary (1.0.0+svn.61256slp2+build57) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build57
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 24 Oct 2011 18:56:44 +0900
+
+elementary (1.0.0+svn.61256slp2+build56) unstable; urgency=low
+
+  * revert naviframe patch
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build56
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 24 Oct 2011 18:35:20 +0900
+
+elementary (1.0.0+svn.61256slp2+build55) unstable; urgency=low
+
+  * support bubble style
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build55
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 21 Oct 2011 21:00:46 +0900
+
+elementary (1.0.0+svn.61256slp2+build54) unstable; urgency=low
+
+  * Package Uplaod.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build54
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 19 Oct 2011 21:55:06 +0900
+
+elementary (1.0.0+svn.61256slp2+build53) unstable; urgency=low
+
+  * Package Uplaod.
+  * Important Changes
+       [Scroller] merge from upstream revision 64051, but didn't accept data/theme/widgets/ctxpopup.edc
+       [Genlist] Fixed show hook event of smart scroller position received by entry was focused and smart pan resized
+       [Genlist] Revert "[genlist] Added dragging queue for unrealize items that dragging option set by mouse move event"
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build53
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Mon, 17 Oct 2011 19:35:43 +0900
+
+elementary (1.0.0+svn.61256slp2+build52) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Genlist] Upstream merge r64031. elm genlist: Clear
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build52
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 13 Oct 2011 14:23:20 +0900
+
+elementary (1.0.0+svn.61256slp2+build51) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build51
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 12 Oct 2011 22:08:53 +0900
+
+elementary (1.0.0+svn.61256slp2+build50) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build50
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 12 Oct 2011 20:53:17 +0900
+
+elementary (1.0.0+svn.61256slp2+build49) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [Genlist] Fixed datefield style item double realize problem when added for item moving animation.
+       [ctxpopup] compress item
+       [Genlist] Upstream merge r63898. Raise genlist group index when the
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build49
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 12 Oct 2011 01:26:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build48) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build48
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 10 Oct 2011 21:08:54 +0900
+
+elementary (1.0.0+svn.61256slp2+build47) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build47
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 07 Oct 2011 19:22:09 +0900
+
+elementary (1.0.0+svn.61256slp2+build46) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build46
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 06 Oct 2011 19:57:48 +0900
+
+elementary (1.0.0+svn.61256slp2+build45) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build45
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 06 Oct 2011 15:28:39 +0900
+
+elementary (1.0.0+svn.61256slp2+build44) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Genlist] Fixed a unnecessary item block unrealize work
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build44
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 06 Oct 2011 15:23:32 +0900
+
+elementary (1.0.0+svn.61256slp2+build43) unstable; urgency=low
+
+  * Repackaging 
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build43
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 04 Oct 2011 21:54:21 +0900
+
+elementary (1.0.0+svn.61256slp2+build42) unstable; urgency=low
+
+  * EFL NBeat HD Black Theme Release.
+  * Important Changes
+       [els_scroller] svn merge revision 63797 only
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build42
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 04 Oct 2011 17:42:37 +0900
+
+elementary (1.0.0+svn.61256slp2+build41) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build41
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 04 Oct 2011 08:38:07 +0900
+
+elementary (1.0.0+svn.61256slp2+build40) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Genlist] elm genlist: Added genlist event hook boundary check
+       [els_scroller.c] Always check and delete hold_animator on mouse up.
+       [Genlist] Do not unrealize the item if any icon object is focused.
+       [store] Fixed the unrealize problem of added a item
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build40
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 23 Sep 2011 13:14:21 +0900
+
+elementary (1.0.0+svn.61256slp2+build39) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build39
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 22 Sep 2011 09:05:29 +0900
+
+elementary (1.0.0+svn.61256slp2+build38) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build38
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 21 Sep 2011 16:49:09 +0900
+
+elementary (1.0.0+svn.61256slp2+build37) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build37
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Mon, 19 Sep 2011 19:15:52 +0900
+
+elementary (1.0.0+svn.61256slp2+build36) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build36
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Sat, 17 Sep 2011 19:45:56 +0900
+
+elementary (1.0.0+svn.61256slp2+build35) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build35
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Fri, 16 Sep 2011 18:10:34 +0900
+
+elementary (1.0.0+svn.61256slp2+build34) unstable; urgency=low
+
+  * temporal disable smart calc of elm_factory
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build34
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 16 Sep 2011 13:11:49 +0900
+
+elementary (1.0.0+svn.61256slp2+build33) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       Rollback to elementary_1.0.0+svn.61256slp2+build29
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build33
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 16 Sep 2011 11:13:07 +0900
+
+elementary (1.0.0+svn.61256slp2+build32) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build32
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 15 Sep 2011 17:58:04 +0900
+
+elementary (1.0.0+svn.61256slp2+build31) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Button] Applied upstream commit r63378. This fixes conference call issue.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build31
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 15 Sep 2011 15:59:38 +0900
+
+elementary (1.0.0+svn.61256slp2+build30) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Button] Applied upstream commit r63378. This fixes conference call
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build30
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 15 Sep 2011 10:33:43 +0900
+
+elementary (1.0.0+svn.61256slp2+build29) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [elm_win] revert some modifications about focus control
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build29
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 14 Sep 2011 11:05:23 +0900
+
+elementary (1.0.0+svn.61256slp2+build28) unstable; urgency=low
+
+  * Package Upload.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build28
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 08 Sep 2011 19:35:19 +0900
+
+elementary (1.0.0+svn.61256slp2+build27) unstable; urgency=low
+
+  * Package Upload.
+  * Important Changes
+       [Genlist] Fixed reorder issues.
+       [Genlist] Fixed the smart pan scrolling problem when a item reordered
+       [focus] merge with 63245 for fixing focus problem in twitter+Home button
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build27
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 08 Sep 2011 19:32:07 +0900
+
+elementary (1.0.0+svn.61256slp2+build26) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [elm_util] fix bug in _mkup_to_text function
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build26
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 07 Sep 2011 09:51:12 +0900
+
+elementary (1.0.0+svn.61256slp2+build25) unstable; urgency=low
+
+  * Upload Package for EFL core migration
+  * Important Changes
+       [Patch for EFL core migration] Merge branch 'efl_core'
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build25
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 02 Sep 2011 18:47:06 +0900
+
+elementary (1.0.0+svn.61256slp2+build24) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build24
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 02 Sep 2011 13:58:21 +0900
+
+elementary (1.0.0+svn.61256slp2+build23) unstable; urgency=low
+
+  * Upload Package
+  * Important Changes
+       [Genlist] Applied genlist upstream patch r62823. [elementary] genlist_nastiness--
+       [Genlist] Applied upstream r62821 commit. fix bug if pan has been deleted -
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build23
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 02 Sep 2011 13:57:10 +0900
+
+elementary (1.0.0+svn.61256slp2+build22) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build22
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 25 Aug 2011 10:28:24 +0900
+
+elementary (1.0.0+svn.61256slp2+build21) unstable; urgency=low
+
+  * Upload Package
+  * Important Changes
+        Revert "[Genlist] Applied upstream patch r62645."
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build21
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 25 Aug 2011 10:27:28 +0900
+
+elementary (1.0.0+svn.61256slp2+build20) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [editfield] single lined entry should be focused only when clicked   * Important Changes show
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build20
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 24 Aug 2011 17:08:52 +0900
+
+elementary (1.0.0+svn.61256slp2+build19) unstable; urgency=low
+
+  * Recorver elm_navigationbar_title_object_get
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build19
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 24 Aug 2011 08:51:24 +0900
+
+elementary (1.0.0+svn.61256slp2+build18) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build18
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 23 Aug 2011 19:29:51 +0900
+
+elementary (1.0.0+svn.61256slp2+build17) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [editfield] change the location of elm_entry_coursor_end set just after focusing
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build17
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 23 Aug 2011 10:25:59 +0900
+
+elementary (1.0.0+svn.61256slp2+build16) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build16
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 18 Aug 2011 21:28:05 +0900
+
+elementary (1.0.0+svn.61256slp2+build15) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [Store] Removed item list inside store and group item append method changed
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build15
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 18 Aug 2011 17:19:19 +0900
+
+elementary (1.0.0+svn.61256slp2+build14) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [window] fix the wrong signal name matching
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build14
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 11 Aug 2011 18:01:03 +0900
+
+elementary (1.0.0+svn.61256slp2+build13) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+       [window] focus will be changed following the focus state of the canvas : 62247
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build13
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 10 Aug 2011 10:22:01 +0900
+
+elementary (1.0.0+svn.61256slp2+build12) unstable; urgency=low
+
+  * Package Upload
+  * Important Changes
+    Merge "   [searchbar] elm_searchbar_editfield_get func added Change-Id: If9c5ac42ffafe804bdd89859f9b672f81ca8a8c4"
+       [searchbar] elm_searchbar_editfield_get func added
+    Merge "   [Genlist] Upstream partial merge. Reduced diff lines from 4185 to 2325."
+       [Genlist] Upstream partial merge. Reduced diff lines from 4185 to 2325.
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build12
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 09 Aug 2011 10:32:47 +0900
+
+elementary (1.0.0+svn.61256slp2+build11) unstable; urgency=low
+
+  * Package Upload.
+  * [Genlist] Upstream merge r61980, 61981. Fixed item addition routine for group child items.
+  * [Genlist] Add barrier at evas_object_del in sel cb. 
+  * [Multibuttonentry] fix logic: Multibuttonentry remains a text basically except to succeed making button.
+  * [Datefield] Changed callback is called during ctxpopup item selection.
+  * [Entry] Prevent defect fix, free return value from markup_to_text.
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build11
+
+ -- DanielJuyungSeo <juyung.seo@samsung.com>  Thu, 04 Aug 2011 15:18:55 +0900
+
+elementary (1.0.0+svn.61256slp2+build10) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build10
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Wed, 03 Aug 2011 10:34:31 +0900
+
+elementary (1.0.0+svn.61256slp2+build09) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build09
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 29 Jul 2011 20:09:29 +0900
+
+elementary (1.0.0+svn.61256slp2+build08) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build08
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Fri, 29 Jul 2011 21:40:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build07) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build07
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Fri, 29 Jul 2011 21:21:00 +0900
+
+elementary (1.0.0+svn.61256slp2+build06) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build06
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 28 Jul 2011 09:16:13 +0900
+
+elementary (1.0.0+svn.61256slp2+build05) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build05
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 26 Jul 2011 10:16:32 +0900
+
+elementary (1.0.0+svn.61256slp2+build04) unstable; urgency=low
+
+  * Upload Package:animation gif feature
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build04
+
+ -- Jiyoun Park <jy0703.park@samsung.com>  Fri, 22 Jul 2011 22:41:54 +0900
+
+elementary (1.0.0+svn.61256slp2+build03) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build03
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 22 Jul 2011 19:22:38 +0900
+
+elementary (1.0.0+svn.61256slp2+build02) unstable; urgency=low
+
+  * Package Upload : editfield expanding bug was fixed
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build02
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 21 Jul 2011 20:54:13 +0900
+
+elementary (1.0.0+svn.61256slp2+build01) unstable; urgency=low
+
+  * Updated package revision to svn.61256. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.61256slp2+build01
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 21 Jul 2011 16:22:56 +0900
+
+elementary (1.0.0+svn.58393slp2+build54) unstable; urgency=low
+
+  * Sync with ethumb. Added libexif-dev to ethumb.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build54
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 21 Jul 2011 11:04:07 +0900
+
+elementary (1.0.0+svn.58393slp2+build53) unstable; urgency=low
+
+  * [SVN Migration r61256]
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build53
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 21 Jul 2011 10:01:32 +0900
+
+elementary (1.0.0+svn.58393slp2+build52) unstable; urgency=low
+
+  * [SVN Migration r61256]
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build52
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 21 Jul 2011 10:00:49 +0900
+
+elementary (1.0.0+svn.58393slp2+build51) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build51
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 19 Jul 2011 20:44:21 +0900
+
+elementary (1.0.0+svn.58393slp2+build50) unstable; urgency=low
+
+  * Upload Package : Fixed empty list problem of store
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build50
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Tue, 19 Jul 2011 14:35:56 +0900
+
+elementary (1.0.0+svn.58393slp2+build49) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build49
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 18 Jul 2011 22:08:37 +0900
+
+elementary (1.0.0+svn.58393slp2+build48) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build48
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 18 Jul 2011 17:13:35 +0900
+
+elementary (1.0.0+svn.58393slp2+build47) unstable; urgency=low
+
+  * [store] Fixed empty list problem
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build47
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 18 Jul 2011 09:49:41 +0900
+
+elementary (1.0.0+svn.58393slp2+build46) unstable; urgency=low
+
+  * [Genlist] Fixed sweep - mode bug.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build46
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 14 Jul 2011 23:30:19 +0900
+
+elementary (1.0.0+svn.58393slp2+build45) unstable; urgency=low
+
+  * [store] Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build45
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 14 Jul 2011 20:57:42 +0900
+
+elementary (1.0.0+svn.58393slp2+build44) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build44
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 13 Jul 2011 22:57:41 +0900
+
+elementary (1.0.0+svn.58393slp2+build43) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build43
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 13 Jul 2011 20:14:18 +0900
+
+elementary (1.0.0+svn.58393slp2+build42) unstable; urgency=low
+
+  * Package Upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build42
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 11 Jul 2011 16:24:52 +0900
+
+elementary (1.0.0+svn.58393slp2+build41) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build41
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 06 Jul 2011 20:30:19 +0900
+
+elementary (1.0.0+svn.58393slp2+build40) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build40
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 04 Jul 2011 15:29:37 +0900
+
+elementary (1.0.0+svn.58393slp2+build39) unstable; urgency=low
+
+  * [store] Fixed the miss poiter problem of the header list
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build39
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 04 Jul 2011 14:10:26 +0900
+
+elementary (1.0.0+svn.58393slp2+build38) unstable; urgency=low
+
+  * repackaging.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build38
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 01 Jul 2011 17:57:58 +0900
+
+elementary (1.0.0+svn.58393slp2+build37) unstable; urgency=low
+
+  * [store] Fixed the header list free and thread cancel problem.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build37
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 30 Jun 2011 21:34:25 +0900
+
+elementary (1.0.0+svn.58393slp2+build36) unstable; urgency=low
+
+  * [store] Fixed the header list free and thread cancel problem.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build36
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 30 Jun 2011 21:01:10 +0900
+
+elementary (1.0.0+svn.58393slp2+build35) unstable; urgency=low
+
+  * [store] Fixed the crash problem of store item info
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build35
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Wed, 29 Jun 2011 14:29:50 +0900
+
+elementary (1.0.0+svn.58393slp2+build34) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build34
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 28 Jun 2011 19:41:58 +0900
+
+elementary (1.0.0+svn.58393slp2+build33) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build33
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 27 Jun 2011 20:35:25 +0900
+
+elementary (1.0.0+svn.58393slp2+build32) unstable; urgency=low
+
+  * [store] Fixed the store item check
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build32
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 27 Jun 2011 17:03:28 +0900
+
+elementary (1.0.0+svn.58393slp2+build31) unstable; urgency=low
+
+  * [store] Fixed the unnecessary code
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build31
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Fri, 24 Jun 2011 21:29:07 +0900
+
+elementary (1.0.0+svn.58393slp2+build30) unstable; urgency=low
+
+  * [navigationbar] removed internal ecore_job usage 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build30
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 24 Jun 2011 13:51:12 +0900
+
+elementary (1.0.0+svn.58393slp2+build29) unstable; urgency=low
+
+  * [genlist] Fixed rename bug.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build29
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 24 Jun 2011 10:37:42 +0900
+
+elementary (1.0.0+svn.58393slp2+build28) unstable; urgency=low
+
+  * [genlist] Removed some APIs and const.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build28
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 22 Jun 2011 14:24:41 +0900
+
+elementary (1.0.0+svn.58393slp2+build27) unstable; urgency=low
+
+  * Package Upload : temporary modification for setting theme property
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build27
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Mon, 20 Jun 2011 21:47:17 +0900
+
+elementary (1.0.0+svn.58393slp2+build26) unstable; urgency=low
+
+  * Package Upload : elm_notify is merged with open source
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build26
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 20 Jun 2011 10:04:15 +0900
+
+elementary (1.0.0+svn.58393slp2+build25) unstable; urgency=low
+
+  * Package Upload : upload for black theme
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build25
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 17 Jun 2011 22:02:00 +0900
+
+elementary (1.0.0+svn.58393slp2+build24) unstable; urgency=low
+
+  * Package Upload : entry_filter bug fixed
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build24
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 16 Jun 2011 17:34:49 +0900
+
+elementary (1.0.0+svn.58393slp2+build23) unstable; urgency=low
+
+  * Package Upload for elm_pager fixing.
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build23
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 08 Jun 2011 20:14:14 +0900
+
+elementary (1.0.0+svn.58393slp2+build22) unstable; urgency=low
+
+  * Package Upload for base.src and elementar_config
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build22
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 07 Jun 2011 21:23:02 +0900
+
+elementary (1.0.0+svn.58393slp2+build21) unstable; urgency=low
+
+  * [pager] fixed elm_pager_content_bottom_get logic error
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build21
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build21
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Sat, 04 Jun 2011 20:28:05 +0900
+
+elementary (1.0.0+svn.58393slp2+build20) unstable; urgency=low
+
+  * [Genlist] Fixed size issue when _changed_job is called.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build20
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 02 Jun 2011 18:04:51 +0900
+
+elementary (1.0.0+svn.58393slp2+build19) unstable; urgency=low
+
+  * [genlist] Adding freezes and thaws. Upstream merge.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build19
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 02 Jun 2011 11:24:43 +0900
+
+elementary (1.0.0+svn.58393slp2+build18) unstable; urgency=low
+
+  * [controlbar] fixed item afterimage problem
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build18
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 27 May 2011 18:16:41 +0900
+
+elementary (1.0.0+svn.58393slp2+build17) unstable; urgency=low
+
+  * [store] add the store lock
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build17
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 26 May 2011 23:23:13 +0900
+
+elementary (1.0.0+svn.58393slp2+build16) unstable; urgency=low
+
+  * [store] crash and lockup problem fix
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build16
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 26 May 2011 15:35:28 +0900
+
+elementary (1.0.0+svn.58393slp2+build15) unstable; urgency=low
+
+  * Controlbar bug fix
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build15
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 26 May 2011 10:07:45 +0900
+
+elementary (1.0.0+svn.58393slp2+build14) unstable; urgency=low
+
+  * Upload Package
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build14
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 25 May 2011 19:10:32 +0900
+
+elementary (1.0.0+svn.58393slp2+build13) unstable; urgency=low
+
+  * [store] fixed eina list crash problem in fetch func
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build13
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Wed, 25 May 2011 16:19:46 +0900
+
+elementary (1.0.0+svn.58393slp2+build12) unstable; urgency=low
+
+  * [transit] fixed afterimage problem 
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build12
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 24 May 2011 14:22:24 +0900
+
+elementary (1.0.0+svn.58393slp2+build11) unstable; urgency=low
+
+  * [store] fix the store free
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build11
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Tue, 24 May 2011 10:19:43 +0900
+
+elementary (1.0.0+svn.58393slp2+build10) unstable; urgency=low
+
+  * Upload Package - controlbar
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build10
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 23 May 2011 20:31:19 +0900
+
+elementary (1.0.0+svn.58393slp2+build09) unstable; urgency=low
+
+  * [Store] add debug pointe and fix the eina list parameter set
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build09
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 23 May 2011 15:19:30 +0900
+
+elementary (1.0.0+svn.58393slp2+build08) unstable; urgency=low
+
+  * [Navigationbar] updated title clicked events
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build08
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 19 May 2011 15:10:15 +0900
+
+elementary (1.0.0+svn.58393slp2+build07) unstable; urgency=low
+
+  * [Store] Add the store live flag in item fetch and unfetch
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build07
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Wed, 18 May 2011 22:14:38 +0900
+
+elementary (1.0.0+svn.58393slp2+build06) unstable; urgency=low
+
+  * modified to elm_priv.h not to be public
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build06
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 18 May 2011 14:44:51 +0900
+
+elementary (1.0.0+svn.58393slp2+build05) unstable; urgency=low
+
+  * [Store] Fix the crash problem in label get func
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build05
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 16 May 2011 10:40:12 +0900
+
+elementary (1.0.0+svn.58393slp2+build04) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build04
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 16 May 2011 10:40:12 +0900
+
+elementary (1.0.0+svn.58393slp2+build03) unstable; urgency=low
+
+  * Package Upload : commented the vsync modification temporary (elm_win, elm_config, elm_priv)
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build03
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 13 May 2011 19:02:46 +0900
+
+elementary (1.0.0+svn.58393slp2+build02) unstable; urgency=low
+
+  * Package Upload : elm_map modification
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build02
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 13 May 2011 10:50:41 +0900
+
+elementary (1.0.0+svn.58393slp2+build01) unstable; urgency=low
+
+  * Version is updated(58393)
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.58393slp2+build01
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 13 May 2011 10:12:46 +0900
+
+elementary (1.0.0+svn.51480slp2+build174) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build174
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 09 May 2011 17:36:24 +0900
+
+elementary (1.0.0+svn.51480slp2+build173) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build173
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 04 May 2011 19:11:23 +0900
+
+elementary (1.0.0+svn.51480slp2+build172) unstable; urgency=low
+
+  * Fixed elm_util bug.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build172
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 04 May 2011 11:20:46 +0900
+
+elementary (1.0.0+svn.51480slp2+build171) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build171
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 02 May 2011 11:52:54 +0900
+
+elementary (1.0.0+svn.51480slp2+build170) unstable; urgency=low
+
+  * Package Upload : updated transit.
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build170
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sun, 01 May 2011 16:53:36 +0900
+
+elementary (1.0.0+svn.51480slp2+build169) unstable; urgency=low
+
+  * Package Upload : mutibutton entry is opimized
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build169
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Sat, 30 Apr 2011 10:36:46 +0900
+
+elementary (1.0.0+svn.51480slp2+build168) unstable; urgency=low
+
+  * Remove
+  * Git: git:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build168
+
+ -- Myoungwoon Kim <myoungwoon.kim@samsung.com>  Thu, 28 Apr 2011 14:50:27 +0900
+
+elementary (1.0.0+svn.51480slp2+build167) unstable; urgency=low
+
+  * Textdomain should only be used for applications not libs
+  * Git: git:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build167
+
+ -- Myoungwoon Kim <myoungwoon.kim@samsung.com>  Wed, 27 Apr 2011 18:51:45 +0900
+
+elementary (1.0.0+svn.51480slp2+build166) unstable; urgency=low
+
+  * [Genlist] Upstream merge. Added genlist mode feature. This feature
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build166
+    is used as a sweep in SLP.
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 27 Apr 2011 15:34:11 +0900
+
+elementary (1.0.0+svn.51480slp2+build165) unstable; urgency=low
+
+  * Package upload for elm_transit merging
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build165
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 27 Apr 2011 14:09:21 +0900
+
+elementary (1.0.0+svn.51480slp2+build164) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build164
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 26 Apr 2011 18:37:25 +0900
+
+elementary (1.0.0+svn.51480slp2+build163) unstable; urgency=low
+
+  * Elementary Migration with the latest elementary in SVN
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build163
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 26 Apr 2011 16:04:45 +0900
+
+elementary (1.0.0+svn.51480slp2+build162) unstable; urgency=low
+
+  * Elementary Migration with the latest elementary in SVN
+  * Git: git:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build162
+
+ -- Myoungwoon Kim <myoungwoon.kim@samsung.com>  Tue, 26 Apr 2011 13:42:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build161) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build161
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 25 Apr 2011 21:55:12 +0900
+
+elementary (1.0.0+svn.51480slp2+build160) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build160
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Fri, 22 Apr 2011 14:56:37 +0900
+
+elementary (1.0.0+svn.51480slp2+build159) unstable; urgency=low
+
+  * [store] add and fix the APIs of backing store for a item free and sort
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build159
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Fri, 22 Apr 2011 10:31:38 +0900
+
+elementary (1.0.0+svn.51480slp2+build158) unstable; urgency=low
+
+  * Package Upload : _elm_util_mkup_to_text is modified for fixing bug
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build158
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 21 Apr 2011 21:21:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build157) unstable; urgency=low
+
+  * [Gengrid/List/Genlist] Removed clicked signal. Use clicked,double
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build157
+    instead.
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 20 Apr 2011 13:40:21 +0900
+
+elementary (1.0.0+svn.51480slp2+build156) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build156
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 19 Apr 2011 12:05:35 +0900
+
+elementary (1.0.0+svn.51480slp2+build155) unstable; urgency=low
+
+  * Package upload
+  * Git: slp-scm.sec.samsung.net:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build155
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 18 Apr 2011 20:05:18 +0900
+
+elementary (1.0.0+svn.51480slp2+build154) unstable; urgency=low
+
+  * Multibuttonentry: Fix Focus issue
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build154
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 18 Apr 2011 16:49:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build153) unstable; urgency=low
+
+  * Multibuttonentry: Fix Focus issue
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build153
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 18 Apr 2011 16:49:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build152) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build152
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 15 Apr 2011 19:20:36 +0900
+
+elementary (1.0.0+svn.51480slp2+build151) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build151
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Fri, 15 Apr 2011 18:37:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build150) unstable; urgency=low
+
+  * [Store] Fix the cache problem of item data on fetch
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build150
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 14 Apr 2011 20:28:33 +0900
+
+elementary (1.0.0+svn.51480slp2+build149) unstable; urgency=low
+
+  * [Genlist] Upstream merge for signal name change.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build149
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 14 Apr 2011 17:58:10 +0900
+
+elementary (1.0.0+svn.51480slp2+build148) unstable; urgency=low
+
+  * [store] Fix the delete item problem
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build148
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Thu, 14 Apr 2011 10:55:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build147) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build147
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 11 Apr 2011 23:27:26 +0900
+
+elementary (1.0.0+svn.51480slp2+build146) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build146
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 11 Apr 2011 18:25:39 +0900
+
+elementary (1.0.0+svn.51480slp2+build145) unstable; urgency=low
+
+  * [Store] add the APIs of genlist backing store in Elementary header
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build145
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Mon, 11 Apr 2011 13:42:58 +0900
+
+elementary (1.0.0+svn.51480slp2+build144) unstable; urgency=low
+
+  * Remove the sqlite dependenc
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build144
+
+ -- Ilkook Yun <ilkook.yun@samsung.com>  Sat, 09 Apr 2011 23:44:01 +0900
+
+elementary (1.0.0+svn.51480slp2+build143) unstable; urgency=low
+
+  * [Map] Upstream merge. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build143
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 08 Apr 2011 23:13:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build142) unstable; urgency=low
+
+  * [Map] Upstream merge. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build142
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Fri, 08 Apr 2011 22:26:59 +0900
+
+elementary (1.0.0+svn.51480slp2+build141) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build141
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 08 Apr 2011 16:44:07 +0900
+
+elementary (1.0.0+svn.51480slp2+build140) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build140
+
+ -- Shinwoo Kim <cinoo.kim@samsung.com>  Fri, 08 Apr 2011 10:29:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build139) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build139
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 07 Apr 2011 20:00:22 +0900
+
+elementary (1.0.0+svn.51480slp2+build138) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build138
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 31 Mar 2011 19:42:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build137) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build137
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 29 Mar 2011 22:24:26 +0900
+
+elementary (1.0.0+svn.51480slp2+build136) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build136
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 29 Mar 2011 21:19:20 +0900
+
+elementary (1.0.0+svn.51480slp2+build135) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build135
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 29 Mar 2011 15:35:13 +0900
+
+elementary (1.0.0+svn.51480slp2+build134) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build134
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 28 Mar 2011 12:15:35 +0900
+
+elementary (1.0.0+svn.51480slp2+build133) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build133
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 25 Mar 2011 11:38:57 +0900
+
+elementary (1.0.0+svn.51480slp2+build132) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build132
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 24 Mar 2011 20:38:54 +0900
+
+elementary (1.0.0+svn.51480slp2+build131) unstable; urgency=low
+
+  * Package Upload 
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build131
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 22 Mar 2011 22:24:07 +0900
+
+elementary (1.0.0+svn.51480slp2+build130) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build130
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 18 Mar 2011 11:37:23 +0900
+
+elementary (1.0.0+svn.51480slp2+build129) unstable; urgency=low
+
+  * Upload Package (revert elm_pager.c)
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build129
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 17 Mar 2011 22:51:33 +0900
+
+elementary (1.0.0+svn.51480slp2+build128) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build128
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 16 Mar 2011 10:51:14 +0900
+
+elementary (1.0.0+svn.51480slp2+build127) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build127
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 11 Mar 2011 16:55:55 +0900
+
+elementary (1.0.0+svn.51480slp2+build126) unstable; urgency=low
+
+  * CtxPopup bug fix
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build126
+
+ -- Myoungwoon Kim <myoungwoon.kim@samsung.com>  Mon, 07 Mar 2011 09:30:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build125) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build125
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Thu, 03 Mar 2011 16:28:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build124) unstable; urgency=low
+
+  * Upload Package
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build124
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 28 Feb 2011 17:18:12 +0900
+
+elementary (1.0.0+svn.51480slp2+build123) unstable; urgency=low
+
+  * Package Upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build123
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 25 Feb 2011 18:56:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build122) unstable; urgency=low
+
+  * (reupload) Fixed bug for select, selectall in an empty entry.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build122
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 18 Feb 2011 21:02:38 +0900
+
+elementary (1.0.0+svn.51480slp2+build121) unstable; urgency=low
+
+  * Fixed bug for select, selectall in an empty entry
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build121
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Fri, 18 Feb 2011 17:07:54 +0900
+
+elementary (1.0.0+svn.51480slp2+build120) unstable; urgency=low
+
+  * Package upload
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build120
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 18 Feb 2011 14:53:45 +0900
+
+elementary (1.0.0+svn.51480slp2+build119) unstable; urgency=low
+
+  * Fixed elm_pager bug.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build119
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 18 Feb 2011 11:54:07 +0900
+
+elementary (1.0.0+svn.51480slp2+build118) unstable; urgency=low
+
+  * Sync with beat-winset-test.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build118
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 17 Feb 2011 14:05:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build117) unstable; urgency=low
+
+  * Fixed copyandpaste module.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build117
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 11 Feb 2011 21:05:34 +0900
+
+elementary (1.0.0+svn.51480slp2+build116) unstable; urgency=low
+
+  * Rollback header file change.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build116
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 11 Feb 2011 11:20:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build115) unstable; urgency=low
+
+  * Navigationbar_ex : Modified icon set API.
+  * Genlist : Fixed effect_timer clear code.
+  * MultiButtonEntry : Removed the deprecated signals. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build115
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 11 Feb 2011 10:21:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build114) unstable; urgency=low
+
+  * Fixing Genlist Bug
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build114 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 10 Feb 2011 19:44:31 +0900
+
+elementary (1.0.0+svn.51480slp2+build113) unstable; urgency=low
+
+  * Rollback - Popup button list get by Prince
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build113
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 10 Feb 2011 12:32:52 +0900
+
+elementary (1.0.0+svn.51480slp2+build112) unstable; urgency=low
+
+  * version up
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build112
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Thu, 10 Feb 2011 11:10:41 +0900
+
+elementary (1.0.0+svn.51480slp2+build111) unstable; urgency=low
+
+  * Repackaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build111
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 10 Feb 2011 10:32:19 +0900
+
+elementary (1.0.0+svn.51480slp2+build110) unstable; urgency=low
+
+  * Fixed bug in entry text selection
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build110
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 10 Feb 2011 10:07:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build109) unstable; urgency=low
+
+  * On-demand module loading.
+  * Fixed genlist cache bug.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build109
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 09 Feb 2011 13:09:41 +0900
+
+elementary (1.0.0+svn.51480slp2+build108) unstable; urgency=low
+
+  * Fix Genlist Bug with fast scroll.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build108
+  * i
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 09 Feb 2011 13:09:37 +0900
+
+elementary (1.0.0+svn.51480slp2+build107) unstable; urgency=low
+
+  * cache flush enable = 0
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build107 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 07 Feb 2011 12:27:28 +0900
+
+elementary (1.0.0+svn.51480slp2+build106) unstable; urgency=low
+
+  * Cnp_helper Rollback.
+  * Genlist bug fix. (item del, edit mode)
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build106
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 02 Feb 2011 15:05:31 +0900
+
+elementary (1.0.0+svn.51480slp2+build105) unstable; urgency=low
+
+  * Genlist updated 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build105 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 31 Jan 2011 02:33:59 +0900
+
+elementary (1.0.0+svn.51480slp2+build104) unstable; urgency=low
+
+  * Fixed elc_ctxpopup scroller problem 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build104
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 27 Jan 2011 11:56:24 +0900
+
+elementary (1.0.0+svn.51480slp2+build103) unstable; urgency=low
+
+  * Repackaging for sync with beat-winset-test
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build103
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 26 Jan 2011 19:46:25 +0900
+
+elementary (1.0.0+svn.51480slp2+build102) unstable; urgency=low
+
+  * [Genlist] Added Edit mode APIs.
+  * elm_genlist_edit_item_selected_get/set().
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build102
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 26 Jan 2011 11:10:04 +0900
+
+elementary (1.0.0+svn.51480slp2+build101) unstable; urgency=low
+
+  * Genlist Edit Mode Bug Fix.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build101
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 26 Jan 2011 10:40:15 +0900
+
+elementary (1.0.0+svn.51480slp2+build100) unstable; urgency=low
+
+  * Fixed Genlist Reorder.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build100
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 24 Jan 2011 09:35:29 +0900
+
+elementary (1.0.0+svn.51480slp2+build99) unstable; urgency=low
+
+  * Genlist Feature Enhancement. (Sweep, Edit Mode, Reorder, Homogeneous,
+  *   Expandable Effect, Multi Touch, Item Cache, and etc).
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build99
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Sun, 23 Jan 2011 20:57:45 +0900
+
+elementary (1.0.0+svn.51480slp2+build98) unstable; urgency=low
+
+  * fixed popup logic error
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build98
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 19 Jan 2011 22:26:24 +0900
+
+elementary (1.0.0+svn.51480slp2+build97) unstable; urgency=low
+
+  * edje_external bugs are fixed
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build97  
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 19 Jan 2011 17:55:04 +0900
+
+elementary (1.0.0+svn.51480slp2+build96) unstable; urgency=low
+
+  * Deprecated API and winsets are deleted
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build96 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 19 Jan 2011 17:03:51 +0900
+
+elementary (1.0.0+svn.51480slp2+build95) unstable; urgency=low
+
+  * bug fix for genlist, text only mode for clipboard added
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build95
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 19 Jan 2011 10:25:46 +0900
+
+elementary (1.0.0+svn.51480slp2+build94) unstable; urgency=low
+
+  * Controlbar bug fix - view hide
+  * Git: 165.213.180.234:/slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build94
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 13 Jan 2011 14:29:37 +0900
+
+elementary (1.0.0+svn.51480slp2+build93) unstable; urgency=low
+
+  * fixed a ctxpopup bug. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build93
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 12 Jan 2011 20:47:35 +0900
+
+elementary (1.0.0+svn.51480slp2+build92) unstable; urgency=low
+
+  * Packaging for Merge with Upstream.
+  * (elm_priv.h)
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build92 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 12 Jan 2011 14:47:01 +0900
+
+elementary (1.0.0+svn.51480slp2+build91) unstable; urgency=low
+
+  * Packaging for Merge with Upstream.
+  * (Genlist Reordering is disabled.)
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build91
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 12 Jan 2011 13:44:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build90) unstable; urgency=low
+
+  * Packaging for Merge with Upstream
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build90    
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 12 Jan 2011 11:33:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build89) unstable; urgency=low
+
+  * Packaging for fixing elm_pager
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build89   
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 11 Jan 2011 23:11:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build88) unstable; urgency=low
+
+  * Packaging for fixing ctx_popup and elm_config(preload)
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build88  
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 11 Jan 2011 17:43:32 +0900
+
+elementary (1.0.0+svn.51480slp2+build87) unstable; urgency=low
+
+  * Packaging for fixing elm_priv.h bug
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build87 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 05 Jan 2011 13:05:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build86) unstable; urgency=low
+
+  * Packaging for fixing elm_priv.h bug
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build86
+ 
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 05 Jan 2011 12:16:11 +0900
+
+elementary (1.0.0+svn.51480slp2+build85) unstable; urgency=low
+
+  * version up
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build85
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 05 Jan 2011 11:46:34 +0900
+
+elementary (1.0.0+svn.51480slp2+build84) unstable; urgency=low
+
+  * bugfix at elm_{label, entry}
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build84
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 05 Jan 2011 11:36:51 +0900
+
+elementary (1.0.0+svn.51480slp2+build83) unstable; urgency=low
+
+  * Package uplaod for revert
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build83 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 05 Jan 2011 01:06:07 +0900
+
+elementary (1.0.0+svn.51480slp2+build82) unstable; urgency=low
+
+  * Package uplaod for revert
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build82
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 04 Jan 2011 10:59:10 +0900
+
+elementary (1.0.0+svn.51480slp2+build81) unstable; urgency=low
+
+  * Package uplaod for revert
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build81
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 04 Jan 2011 10:17:20 +0900
+
+elementary (1.0.0+svn.51480slp2+build80) unstable; urgency=low
+
+  * Package uplaod for tickernoti bug
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build80
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 03 Jan 2011 21:58:36 +0900
+
+elementary (1.0.0+svn.51480slp2+build79) unstable; urgency=low
+
+  * Package uplaod
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build79
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 27 Dec 2010 17:02:05 +0900
+
+elementary (1.0.0+svn.51480slp2+build78) unstable; urgency=low
+
+  * colorselector added (colorpicker deprecated)
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build78 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 23 Dec 2010 10:44:26 +0900
+
+elementary (1.0.0+svn.51480slp2+build77) unstable; urgency=low
+
+  * controlbar bug fix
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build77
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 20 Dec 2010 12:30:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build76) unstable; urgency=low
+
+  * Packaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build76
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 17 Dec 2010 15:05:12 +0900
+
+elementary (1.0.0+svn.51480slp2+build75) unstable; urgency=low
+
+  * Packaging
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build75
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 16 Dec 2010 21:28:13 +0900
+
+elementary (1.0.0+svn.51480slp2+build74) unstable; urgency=low
+
+  * [elm_genlist] fix multi-touch bs
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build74
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 14 Dec 2010 20:33:34 +0900
+
+elementary (1.0.0+svn.51480slp2+build73) unstable; urgency=low
+
+  * Package upload due to EFL merge.
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build73
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 14 Dec 2010 18:02:56 +0900
+
+elementary (1.0.0+svn.51480slp2+build72) unstable; urgency=low
+
+  * Repackaging due to edje merging. 
+  * Git: 165.213.180.234:slp/pkgs/e/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build72
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 08 Dec 2010 10:51:30 +0900
+
+elementary (1.0.0+svn.51480slp2+build71) unstable; urgency=low
+
+  * Repackaging due to edje merging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build71
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 08 Dec 2010 10:44:13 +0900
+
+elementary (1.0.0+svn.51480slp2+build70) unstable; urgency=low
+
+  * Repackaging due to EFL libraries update.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build70
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 02 Dec 2010 17:36:40 +0900
+
+elementary (1.0.0+svn.51480slp2+build69) unstable; urgency=low
+
+  * Repackaging due to EFL libraries update.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build69
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 02 Dec 2010 15:04:18 +0900
+
+elementary (1.0.0+svn.51480slp2+build68) unstable; urgency=low
+
+  * fixed ctxpopup sizing problem
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build68
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 30 Nov 2010 18:03:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build67) unstable; urgency=low
+
+  * fixed ctxpopup problem.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build67
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 29 Nov 2010 16:55:03 +0900
+
+elementary (1.0.0+svn.51480slp2+build66) unstable; urgency=low
+
+  * Package upload due to segmented control fix
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build66
+
+ -- Seokjae Jeong <seok.j.jeong@samsung.com>  Sat, 27 Nov 2010 14:05:50 +0900
+
+elementary (1.0.0+svn.51480slp2+build65) unstable; urgency=low
+
+  * Package upload due to EFL merge.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build65
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 26 Nov 2010 15:58:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build64) unstable; urgency=low
+
+  * [elm_config] longpress_timeout is added
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build64
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 25 Nov 2010 19:43:25 +0900
+
+elementary (1.0.0+svn.51480slp2+build63) unstable; urgency=low
+
+  * [elm_genlist] fix exponential scroll speed in edit mode and fix pinch zoom click event bug
+  * [elm_genlist] added elm_genlist_item_prepend_with_group api
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build63
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 23 Nov 2010 13:36:06 +0900
+
+elementary (1.0.0+svn.51480slp2+build62) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build62 
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 22 Nov 2010 20:52:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build61) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build61
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 17 Nov 2010 21:48:50 +0900
+
+elementary (1.0.0+svn.51480slp2+build60) unstable; urgency=low
+
+  * Apply quicklaunch works in SVN
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build60
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Tue, 16 Nov 2010 20:21:34 +0900
+
+elementary (1.0.0+svn.51480slp2+build59) unstable; urgency=low
+
+  * Packaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build59
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 16 Nov 2010 14:18:33 +0900
+
+elementary (1.0.0+svn.51480slp2+build58) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build58
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 12 Nov 2010 14:16:02 +0900
+
+elementary (1.0.0+svn.51480slp2+build57) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build57
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 11 Nov 2010 01:16:57 +0900
+
+elementary (1.0.0+svn.51480slp2+build56) unstable; urgency=low
+
+  * fix ctxpopup resizng error
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build56
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 11 Nov 2010 00:52:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build55) unstable; urgency=low
+
+  * fix controlbar label align
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build55
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 10 Nov 2010 15:18:23 +0900
+
+elementary (1.0.0+svn.51480slp2+build54) unstable; urgency=low
+
+  * repackaging for patch about scroller(ON_HOLD)
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build54
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 10 Nov 2010 10:32:15 +0900
+
+elementary (1.0.0+svn.51480slp2+build53) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build53
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Tue, 09 Nov 2010 15:09:50 +0900
+
+elementary (1.0.0+svn.51480slp2+build52) unstable; urgency=low
+
+  * bug fixed and singal added from selectioninfo
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build52
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Tue, 09 Nov 2010 14:31:35 +0900
+
+elementary (1.0.0+svn.51480slp2+build51) unstable; urgency=low
+
+  * bugfix ellipsis is_width_over func
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build51
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 08 Nov 2010 20:48:30 +0900
+
+elementary (1.0.0+svn.51480slp2+build50) unstable; urgency=low
+
+  * bugfix ellipsis is_width_over func
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build50
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 05 Nov 2010 03:13:50 +0000
+
+elementary (1.0.0+svn.51480slp2+build49) unstable; urgency=low
+
+  * merged only elm_photocam with the Elementary - r54152
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build49
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 05 Nov 2010 09:13:42 +0900
+
+elementary (1.0.0+svn.51480slp2+build48) unstable; urgency=low
+
+  * rolled-back elm_label to 11th OCT.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build48
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 04 Nov 2010 23:37:09 +0900
+
+elementary (1.0.0+svn.51480slp2+build47) unstable; urgency=low
+
+  * add controlbar vertical mode
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build47
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 03 Nov 2010 20:09:13 +0900
+
+elementary (1.0.0+svn.51480slp2+build46) unstable; urgency=low
+
+  * add controlbar vertical mode
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build46
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 02 Nov 2010 10:50:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build45) unstable; urgency=low
+
+  * Packaging with many changes.
+  * Please refer git for detail.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build45
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 28 Oct 2010 18:12:35 +0900
+
+elementary (1.0.0+svn.51480slp2+build44) unstable; urgency=low
+
+  * [elm_genlist] Fixed edit mode padding for scale factor.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build44
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 26 Oct 2010 19:51:23 +0900
+
+elementary (1.0.0+svn.51480slp2+build43) unstable; urgency=low
+
+  * [elm_genlist] fix expandalbe list problem
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build43
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 26 Oct 2010 13:35:09 +0900
+
+elementary (1.0.0+svn.51480slp2+build42) unstable; urgency=low
+
+  * beat black theme
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build42
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 25 Oct 2010 21:05:54 +0900
+
+elementary (1.0.0+svn.51480slp2+build41) unstable; urgency=low
+
+  * sync with beat-theme
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build41
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 22 Oct 2010 15:45:19 +0900
+
+elementary (1.0.0+svn.51480slp2+build40) unstable; urgency=low
+
+  * elm_fx changes
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build40
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 22 Oct 2010 14:05:18 +0900
+
+elementary (1.0.0+svn.51480slp2+build39) unstable; urgency=low
+
+  * [entry] add checking current widget at cnp
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build39
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 22 Oct 2010 11:20:30 +0900
+
+elementary (1.0.0+svn.51480slp2+build38) unstable; urgency=low
+
+  * [entry] added copy paste feature - 2 handler selection
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build38
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 20 Oct 2010 22:56:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build37) unstable; urgency=low
+
+  * [els_icon] rotate bug fixed
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build37
+
+ -- Jeonghyun Yun <jh0506.yun@samsung.com>  Wed, 20 Oct 2010 21:06:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build36) unstable; urgency=low
+
+  * [cnp_helper] merge upstream changes
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build36
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Wed, 20 Oct 2010 17:48:25 +0900
+
+elementary (1.0.0+svn.51480slp2+build35) unstable; urgency=low
+
+  * [elm_entry] password tag bug fix 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build35
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 19 Oct 2010 19:21:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build34) unstable; urgency=low
+
+  * [searchbar] fixing height bug and button scale
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build34
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 15 Oct 2010 10:57:19 +0900
+
+elementary (1.0.0+svn.51480slp2+build33) unstable; urgency=low
+
+  * [elm_bubble] Add sweep event.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build33
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 13 Oct 2010 16:52:42 +0900
+
+elementary (1.0.0+svn.51480slp2+build32) unstable; urgency=low
+
+  * Repackaging.
+  * fixed ctxpopup gui breaking error
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build32
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 12 Oct 2010 22:00:22 +0900
+
+elementary (1.0.0+svn.51480slp2+build31) unstable; urgency=low
+
+  * Repackaging.
+  * Add decarta map provider to elm_map.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build31
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 12 Oct 2010 10:45:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build30) unstable; urgency=low
+
+  * Add decarta map provider to elm_map.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build30
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 12 Oct 2010 10:20:45 +0900
+
+elementary (1.0.0+svn.51480slp2+build29) unstable; urgency=low
+
+  * Removed ELM_MODULES setting. ELM_MODULES is moved to elm-misc package.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build29
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Mon, 11 Oct 2010 22:18:00 +0900
+
+elementary (1.0.0+svn.51480slp2+build28) unstable; urgency=low
+
+  * Removed ELM_MODULES setting. ELM_MODULES is moved to elm-misc package.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build28
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 11 Oct 2010 21:36:31 +0900
+
+elementary (1.0.0+svn.51480slp2+build27) unstable; urgency=low
+
+  * added for copy & paste
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build27
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 11 Oct 2010 11:59:07 +0900
+
+elementary (1.0.0+svn.51480slp2+build26) unstable; urgency=low
+
+  * added libxml-dev in dev pkg 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build26
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sat, 09 Oct 2010 00:29:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build25) unstable; urgency=low
+
+  * Separated webview from elementary.
+  * Refer git log for details.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build25
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 08 Oct 2010 20:51:36 +0900
+
+elementary (1.0.0+svn.51480slp2+build24) unstable; urgency=low
+
+  * Enhanced genlist pinch zoom.
+  * Refer git log for other changes.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build24
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 07 Oct 2010 19:05:19 +0900
+
+elementary (1.0.0+svn.51480slp2+build23) unstable; urgency=low
+
+  * Add elm_autocapitalization_allow_all_set, elm_autoperiod_allow_all_set API.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build23
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Wed, 06 Oct 2010 13:25:21 +0900
+
+elementary (1.0.0+svn.51480slp2+build22) unstable; urgency=low
+
+  * Packaging with lots of changes.
+  * Refer git log for details.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build22
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 04 Oct 2010 14:19:21 +0900
+
+elementary (1.0.0+svn.51480slp2+build21) unstable; urgency=low
+
+  * Packaging to enable scale factor.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build21
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 30 Sep 2010 11:24:14 +0900
+
+elementary (1.0.0+svn.51480slp2+build20) unstable; urgency=low
+
+  * Genlist fix for calllog.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build20
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 29 Sep 2010 18:24:37 +0900
+
+elementary (1.0.0+svn.51480slp2+build19) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build19
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 29 Sep 2010 17:12:09 +0900
+
+elementary (1.0.0+svn.51480slp2+build18) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build18
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 29 Sep 2010 08:56:20 +0900
+
+elementary (1.0.0+svn.51480slp2+build17) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build17
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 28 Sep 2010 17:49:21 +0900
+
+elementary (1.0.0+svn.51480slp2+build16) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build16
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 28 Sep 2010 15:49:43 +0900
+
+elementary (1.0.0+svn.51480slp2+build15) unstable; urgency=low
+
+  * [Genlist] Pinch zoom is enhanced.
+  * [ClipBoard] Clipboard is enhanced.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build15
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 28 Sep 2010 14:46:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build14) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build14
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sat, 25 Sep 2010 21:39:52 +0900
+
+elementary (1.0.0+svn.51480slp2+build13) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build13
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 24 Sep 2010 20:04:16 +0900
+
+elementary (1.0.0+svn.51480slp2+build12) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build12
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 21 Sep 2010 11:18:28 +0900
+
+elementary (1.0.0+svn.51480slp2+build11) unstable; urgency=low
+
+  * removed lua 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build11
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 21 Sep 2010 01:25:48 +0900
+
+elementary (1.0.0+svn.51480slp2+build10) unstable; urgency=low
+
+  * repackaging for entry password
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build10
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 20 Sep 2010 20:39:02 +0900
+
+elementary (1.0.0+svn.51480slp2+build09) unstable; urgency=low
+
+  * [entry] support autoperiod
+  * efl-upgrade for dnd
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build09
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Fri, 17 Sep 2010 16:51:27 +0900
+
+elementary (1.0.0+svn.51480slp2+build08) unstable; urgency=low
+
+  * refine entry item checking to elm_entry 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build08
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 17 Sep 2010 11:25:41 +0900
+
+elementary (1.0.0+svn.51480slp2+build07) unstable; urgency=low
+
+  * change entry item checking to elm_entry 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build07
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Fri, 17 Sep 2010 10:24:44 +0900
+
+elementary (1.0.0+svn.51480slp2+build06) unstable; urgency=low
+
+  * Applied elm_webview, els_touch changes.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build06
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 16 Sep 2010 21:38:20 +0900
+
+elementary (1.0.0+svn.51480slp2+build05) unstable; urgency=low
+
+  * Packaging. Please refer git log for more details.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build05
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 16 Sep 2010 11:42:58 +0900
+
+elementary (1.0.0+svn.51480slp2+build04) unstable; urgency=low
+
+  * add as-needed
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build04
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 15 Sep 2010 16:31:01 +0900
+
+elementary (1.0.0+svn.51480slp2+build03) unstable; urgency=low
+
+  * Packaging. Please refer git log for more details.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build03
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 14 Sep 2010 11:59:42 +0900
+
+elementary (1.0.0+svn.51480slp2+build02) unstable; urgency=low
+
+  * efl 1.0 alpha upgrade
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build02
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sat, 11 Sep 2010 02:13:04 +0900
+
+elementary (1.0.0+svn.51480slp2+build01) unstable; urgency=low
+
+  * efl 1.0 alpha upgrade
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_1.0.0+svn.51480slp2+build01
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 31 Aug 2010 22:57:03 +0900
+
+elementary (0.4.0+svn.49550slp2+3build52) unstable; urgency=low
+
+  * repackage for webview
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build52
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Wed, 08 Sep 2010 18:15:30 +0900
+
+elementary (0.4.0+svn.49550slp2+3build51) unstable; urgency=low
+
+  * [elm_theme] Added NULL check to elm_theme_get().
+  * [Elementary.h.in] fix vim modeline. fix indent
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build51
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 08 Sep 2010 12:06:32 +0900
+
+elementary (0.4.0+svn.49550slp2+3build50) unstable; urgency=low
+
+  * [elm_stackedicon] improve performance
+  * [genlist] Code refactoring
+  * [genlist] Added genlist APIs.
+  * [genlist] Disabled item_select when slide menu is opened.
+  * [segment_control] new API is added to elm_segment_control
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build50
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Wed, 08 Sep 2010 03:57:16 +0900
+
+elementary (0.4.0+svn.49550slp2+3build49) unstable; urgency=low
+
+  * [Elementary.h.in]
+  * [elm_ctxpopup.c] updated scroller
+  * [elm_selectioninfo,elm_pagecontrol] Added exception handling
+  * [elm_dayselecotr.c] modified elm_dayselector clicked event_info as Elm_Event_DaySelector_Day*
+  * [label] adding multiline ellipsis style
+  * [label] refine multiline ellipsis
+  * [elm_webview]modify BOUNCE feature
+  * [els_webview]flash file support
+  * [searchbar] adding base_bg event handler
+  * [tickernoti] bugfix for del_hook
+  * [genlist] Added some genlist APIs and checked EINA_DEPRECATED for some APIs.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build49
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Tue, 07 Sep 2010 23:17:41 +0900
+
+elementary (0.4.0+svn.49550slp2+3build48) unstable; urgency=low
+
+  * repackaging. Please refer the git log 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build48
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 07 Sep 2010 15:26:31 +0900 
+elementary (0.4.0+svn.49550slp2+3build47) unstable; urgency=low
+
+  * repackaging. for latest beat-theme. 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build47
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 02 Sep 2010 18:57:11 +0900
+
+elementary (0.4.0+svn.49550slp2+3build46) unstable; urgency=low
+
+  * repackaging. please refer git log. 
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build46
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 31 Aug 2010 15:17:11 +0900
+
+elementary (0.4.0+svn.49550slp2+3build45) unstable; urgency=low
+
+  * repackage for slidingdrawer
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build45
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 30 Aug 2010 23:14:18 +0900
+
+elementary (0.4.0+svn.49550slp2+3build44) unstable; urgency=low
+
+  * repackage for sync
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build44
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Mon, 30 Aug 2010 13:05:14 +0900
+
+elementary (0.4.0+svn.49550slp2+3build43) unstable; urgency=low
+
+  * [webview] discpicker deleted
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build43
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 27 Aug 2010 16:26:09 +0900
+
+elementary (0.4.0+svn.49550slp2+3build42) unstable; urgency=low
+
+  * [bubble] elm_bubble initial release
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build42
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 26 Aug 2010 22:19:28 +0900
+
+elementary (0.4.0+svn.49550slp2+3build41) unstable; urgency=low
+
+  * [elm_popup_add_with_buttons_added with EINA_DEPRECATED]
+    added EINA_DEPRECATED for some  aqua and android widgets. 
+    Made popup when window passed as Evas_Object and api changed to elm_popup_with _buttons_add
+    add elm_webview_default_layout_width_set API
+    [genlist] code refactoring
+    [box] make extended box min size unset in the layout function 
+    [elm_dayselector.c] added new API elm_dayselector_check_state_set
+    [elm_animatedicon] elm_animatedicon is removed
+     ...
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build41
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 26 Aug 2010 19:18:03 +0900
+
+elementary (0.4.0+svn.49550slp2+3build40) unstable; urgency=low
+
+  * Beat Winset updates.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build40
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 25 Aug 2010 09:08:30 +0900
+
+elementary (0.4.0+svn.49550slp2+3build39) unstable; urgency=low
+
+  * Beat Winset Beta Release.
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build39
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 23 Aug 2010 10:47:22 +0900
+
+elementary (0.4.0+svn.49550slp2+3build38) unstable; urgency=low
+
+  * [multibuttonentry]
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build38
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 20 Aug 2010 21:18:03 +0900
+
+elementary (0.4.0+svn.49550slp2+3build37) unstable; urgency=low
+
+  * [controlbar] rollback
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build37
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 19 Aug 2010 20:47:55 +0900
+
+elementary (0.4.0+svn.49550slp2+3build36) unstable; urgency=low
+
+  * add clip set
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build36
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 19 Aug 2010 17:30:22 +0900
+
+elementary (0.4.0+svn.49550slp2+3build35) unstable; urgency=low
+
+  * added dependency for the webkit-engine
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build35
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 19 Aug 2010 09:41:17 +0900
+
+elementary (0.4.0+svn.49550slp2+3build34) unstable; urgency=low
+
+  * [Elemenatry.h.in]
+  * [controlbar] block more item mode
+  * [elm_datefield] bug related to imf commit signal cb
+  * [elm_datefield] ampm mouse down event bug
+  * [dialoguegroup] new style added
+  * [dialoguegroup] sub_obj_add are added for each item
+  * [editfield] bugs are fixed
+  * [elm_ctxpopup.c] on implementing a function that user content set.
+  * [elm_ctxpopup.c] added visual interaction in code temporary.
+  * [src/modules/ctxpopup_copypasteUI/copypaste.c]
+  *        removed elm_object_style_set for the ctxpopup.
+  * [modules/ctxpopup_copypasteUI/copypaste.c]
+  *        added elm_object_style_set for the ctpopup copypaste style.
+  * [ctxpopup_copypasteUI/copypaste.c]
+  *        modified elm_ctxpopup_label_add -> elm_ctxpopup_item_add
+  * [popup_copypasteUI/copypaste.c]
+  *        modified elm_ctxpopup_label_add -> elm_ctxpopup_item_add
+  * [elm_label] fixing ellipsis label to width bug
+  * [elm_label.c] added usage comment to elm_label_text_align_set.
+  * [elm_nocontents] added elm_nocontents
+  * [elm_transit.c] fixed wipe direction, fixed wipe effect bug.
+  * [elm_webview] add libwebkit-engine-dev to debian/control
+  * [elm_webview] remove webview test
+  * [elm_webview] remove glib dependency
+  * [elm_webview] modify webkit option to auto
+  * [elm_webview] enable elm_webview and correct wrong API names
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build34
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 18 Aug 2010 20:05:25 +0900
+
+elementary (0.4.0+svn.49550slp2+3build33) unstable; urgency=low
+
+  * [picker] add time_date
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build33
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 17 Aug 2010 08:56:21 +0900
+
+elementary (0.4.0+svn.49550slp2+3build32) unstable; urgency=low
+
+  * [segment_control] fixed click callback bug
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build32
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 16 Aug 2010 21:40:15 +0900
+
+elementary (0.4.0+svn.49550slp2+3build31) unstable; urgency=low
+
+  * [controlbar] fix label bug, add animation effect
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build31
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Sun, 15 Aug 2010 14:45:47 +0900
+
+elementary (0.4.0+svn.49550slp2+3build30) unstable; urgency=low
+
+  * [dialoguegroup & editfield] modified for 0.7
+  * [Elm_index] Support added if only single level required.
+  * [pager]: removed animation from the first page.
+  * [elm_label] adding multiline ellipsis
+  * [controlbar] change item move animation and box structure
+  * [gengrid] modified for theme setting
+  * [elm_slider] modified
+  * [elm_animator.c]
+  * [elm_transit.c]
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build30
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 09 Aug 2010 23:43:49 +0900
+
+elementary (0.4.0+svn.49550slp2+3build29) unstable; urgency=low
+
+  * repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build29
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 05 Aug 2010 19:56:44 +0900
+
+elementary (0.4.0+svn.49550slp2+3build28) unstable; urgency=low
+
+  * [elm_tab] dim hide
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build28
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 04 Aug 2010 15:14:11 +0900
+
+elementary (0.4.0+svn.49550slp2+3build27) unstable; urgency=low
+
+  * [elm_editfield] rollback for kessler
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build27
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 30 Jul 2010 11:08:55 +0900
+
+elementary (0.4.0+svn.49550slp2+3build26) unstable; urgency=low
+
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build26
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 29 Jul 2010 19:58:47 +0900
+
+elementary (0.4.0+svn.49550slp2+3build25) unstable; urgency=low
+
+  * [Segment Control] Resizing issue fixed.
+  * [elm_ctxpopup.c]
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build25
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 26 Jul 2010 09:41:13 +0900
+
+elementary (0.4.0+svn.49550slp2+3build24) unstable; urgency=low
+
+  * [els_touch] commit initial els_touch file which will be used by elm_webview
+  * [popup]: standardization for contribution
+  * [elm_slider] hold scroller during draging
+  * [elm_main] Temporary set ELM_MODULES.
+  * [actionslider] fix formatting
+  * [elm_ctxpopup.c] fixed computation size problem.
+  * [controlbar, searchbar, slider] fix formatting
+  * [editfield] fix formatting
+  * [scrolled_entry] remove warning
+  * [ScrollBar (Handler)] Modified to smooth handler movement.
+  * [elm_dialoguegroup] modified for editfield design, fixing bugs
+  * [entry copypaste]- not scrolling issue after copy paste resolved.
+  * [entry] remove unused variable
+  * [Elementary.h.in] fix formatting
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build24
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 22 Jul 2010 21:10:18 +0900
+
+elementary (0.4.0+svn.49550slp2+3build23) unstable; urgency=low
+
+  * elm_dialoguegroup API change
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build23
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Tue, 20 Jul 2010 16:59:38 +0900
+
+elementary (0.4.0+svn.49550slp2+3build22) unstable; urgency=low
+
+  * Repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build22
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 19 Jul 2010 10:44:38 +0900
+
+elementary (0.4.0+svn.49550slp2+3build21) unstable; urgency=low
+
+  * Repackaging
+  * Git: 165.213.180.234:/git/slp/pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build21
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 15 Jul 2010 14:48:43 +0900
+
+elementary (0.4.0+svn.49550slp2+3build20) unstable; urgency=low
+
+  * Repackaging
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build20
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 14 Jul 2010 10:05:43 +0900
+
+elementary (0.4.0+svn.49550slp2+3build19) unstable; urgency=low
+
+  * Repackaging
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build19
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 14 Jul 2010 08:35:01 +0900
+
+elementary (0.4.0+svn.49550slp2+3build18) unstable; urgency=low
+
+  * [animator] prevent critical a bug.  
+  * [coverflow] fixed landspace mode bug. 
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build18
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 13 Jul 2010 23:07:03 +0900
+
+elementary (0.4.0+svn.49550slp2+3build17) unstable; urgency=low
+
+  * [softkey] Indentation using Ecliplse Ecoding style for Eclipse.
+  * [softkey] Modified softkey toresolve crashes in applications.
+  * [popup] theme hook modifications.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build17
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 13 Jul 2010 22:43:23 +0900
+
+elementary (0.4.0+svn.49550slp2+3build16) unstable; urgency=low
+
+  * repackaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build16
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 12 Jul 2010 19:51:42 +0900
+
+elementary (0.4.0+svn.49550slp2+3build15) unstable; urgency=low
+
+  * modify _theme_hook in elm_entry.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build15
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Fri, 09 Jul 2010 20:01:36 +0900
+
+elementary (0.4.0+svn.49550slp2+3build14) unstable; urgency=low
+
+  * Add APIs related to input panel in the scrolled entry.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build14
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Fri, 09 Jul 2010 09:27:49 +0900
+
+elementary (0.4.0+svn.49550slp2+3build13) unstable; urgency=low
+
+  * Add APIs related to input panel.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build13
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Thu, 08 Jul 2010 17:50:35 +0900
+
+elementary (0.4.0+svn.49550slp2+3build12) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build12
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 07 Jul 2010 17:02:01 +0900
+
+elementary (0.4.0+svn.49550slp2+3build11) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build11
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 23 Jun 2010 17:23:16 +0900
+
+elementary (0.4.0+svn.49550slp2+3build10) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build10
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 18 Jun 2010 23:10:03 +0900
+
+elementary (0.4.0+svn.49550slp2+3build09) unstable; urgency=low
+
+  * Applied ethumb package changes.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build09
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 18 Jun 2010 17:45:00 +0900
+
+elementary (0.4.0+svn.49550slp2+3build08) unstable; urgency=low
+
+  * Applied titlebar changes.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build08
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 17 Jun 2010 11:38:34 +0900
+
+elementary (0.4.0+svn.49550slp2+3build07) unstable; urgency=low
+
+  * Contextual Popup bug fixed.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build07
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 16 Jun 2010 18:41:31 +0900
+
+elementary (0.4.0+svn.49550slp2+3build06) unstable; urgency=low
+
+  * Genlist bug fix.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build06
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Tue, 15 Jun 2010 15:23:06 +0900
+
+elementary (0.4.0+svn.49550slp2+3build05) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build05
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Tue, 15 Jun 2010 11:42:57 +0900
+
+elementary (0.4.0+svn.49550slp2+3build04) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build04
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 10 Jun 2010 21:09:41 +0900
+
+elementary (0.4.0+svn.49550slp2+3build03) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build03
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 10 Jun 2010 21:04:24 +0900
+
+elementary (0.4.0+svn.49550slp2+3build02) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3build02
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  목, 10  6월 2010 21:00:52 +0900
+
+elementary (0.4.0+svn.49550slp2+3) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+3
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.com>  Thu, 10 Jun 2010 20:46:54 +0900
+
+elementary (0.4.0+svn.49550slp2+2) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+2
+
+ -- Daniel Juyung Seo <juyung.seo@samsung.net>  Thu, 10 Jun 2010 20:46:08 +0900
+
+elementary (0.4.0+svn.49550slp2+1) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL-pkgs/elementary
+  * Tag: elementary_0.4.0+svn.49550slp2+1
+
+ -- Daniel Juyung Seo <juyung.seo@smasung.net>  Thu, 10 Jun 2010 20:45:23 +0900
+
+elementary (0.4.0+svn.49550slp2+0) unstable; urgency=low
+
+  * Update opensource EFL from SVN
+  * SVN revision: 49550 (Total EFL revision: 49550)
+  * Tag: 0.4.0+svn.49550slp2+0
+
+ -- Daniel Juyung Seo <juyung.seo@smasung.net>  Thu, 10 Jun 2010 15:50:42 +0900
+
+elementary (0.4.0+svn20100304slp2+18) unstable; urgency=low
+
+  * tab bug fix, add animator and transit
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+18
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 06 May 2010 10:13:42 +0900
+
+elementary (0.4.0+svn20100304slp2+17) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+17
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 26 Apr 2010 11:59:26 +0900
+
+elementary (0.4.0+svn20100304slp2+16) unstable; urgency=low
+
+  * fix elm_button , add dependency efreet-dev
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+16
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Sun, 25 Apr 2010 13:21:19 +0900
+
+elementary (0.4.0+svn20100304slp2+15) unstable; urgency=low
+
+  * debian/control changed.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+15
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Sat, 24 Apr 2010 18:56:03 +0900
+
+elementary (0.4.0+svn20100304slp2+14) unstable; urgency=low
+
+  * Packaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+14
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 23 Apr 2010 19:36:42 +0900
+
+elementary (0.4.0+svn20100304slp2+13) unstable; urgency=low
+
+  * Updated package version due to tag
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+13
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 16 Apr 2010 11:38:00 +0900
+
+elementary (0.4.0+svn20100304slp2+12) unstable; urgency=low
+
+  * Updated package version due to tag
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+12
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 15 Apr 2010 20:35:00 +0900
+
+elementary (0.4.0+svn20100304slp2+11) unstable; urgency=low
+
+  * Bug fix - entry cursor position
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+11
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Thu, 15 Apr 2010 19:53:00 +0900
+
+elementary (0.4.0+svn20100304slp2+10) unstable; urgency=low
+
+  * Support autocapitalization
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+10
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Wed, 14 Apr 2010 18:12:14 +0900
+
+elementary (0.4.0+svn20100304slp2+9) unstable; urgency=low
+
+  * Hor_scroller : Patch for horizontal scroller from jinny.yoon@samsung.com.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+9
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 14 Apr 2010 17:11:34 +0900
+
+elementary (0.4.0+svn20100304slp2+8) unstable; urgency=low
+
+  * elm genlist main stream item queue handler rollback (by Mr.Govi)
+  * Tag: elementary_0.4.0+svn20100304slp2+8
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Tue, 14 Apr 2010 15:11:00 +0900
+
+elementary (0.4.0+svn20100304slp2+7) unstable; urgency=low
+
+  * elm_tab, elm_colorpicker bug fix
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+7
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 13 Apr 2010 17:03:54 +0900
+ 
+elementary (0.4.0+svn20100304slp2+6) unstable; urgency=low
+
+  * Patch for horizontal scroller.
+  * Genlist : Group header support added.
+  * Popup : Popup widget added.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+6
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 09 Apr 2010 20:08:33 +0900
+
+elementary (0.4.0+svn20100304slp2+5) unstable; urgency=low
+
+  * Repackaging.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+5
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 05 Apr 2010 20:45:51 +0900
+
+elementary (0.4.0+svn20100304slp2+4) unstable; urgency=low
+
+  * Patch for horizontal scroller.
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/EFL
+  * Tag: elementary_0.4.0+svn20100304slp2+4
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 05 Apr 2010 20:28:33 +0900
+
+elementary (0.4.0+svn20100304slp2+3) unstable; urgency=low
+
+  * rollback - elm_entry : removed <br> related bug fix
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Sat, 27 Mar 2010 18:35:00 +0900
+
+elementary (0.4.0+svn20100304slp2+2) unstable; urgency=low
+
+  * elm_genlist rollback
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 26 Mar 2010 21:42:43 +0900
+
+elementary (0.4.0+svn20100304slp2+1) unstable; urgency=low
+
+  * change package version
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 25 Mar 2010 14:57:50 +0900
+
+elementary (0.4.0+svn20100304-5) unstable; urgency=low
+
+  * Genlist "selected", "longpressed" callback bug fix.
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 24 Mar 2010 18:01:12 +0900
+
+elementary (0.4.0+svn20100304-4) unstable; urgency=low
+
+  * softkey bug fix - reported by myfile
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 23 Mar 2010 15:55:40 +0900
+
+elementary (0.4.0+svn20100304-3) unsyable; urgency=low
+
+  * Editfield Bug is fixed
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Fri, 19 Mar 2010 23:53:20 +0900
+
+elementary (0.4.0+svn20100304-2) unstable; urgency=low
+
+  * tab API add, diskcontroller bug fix, genlist bug fix etc.
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 19 Mar 2010 13:36:57 +0900
+
+elementary (0.4.0+svn20100304-1) unstable; urgency=low
+
+  * EFL_update_revision_46864
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 10 Mar 2010 16:06:40 +0900
+
+elementary (0.4.0+svn20100203-19) unstable; urgency=low
+
+  * Merge source (based on svn rev.46421)
+
+ -- Doyoun Kang <doyoun.kang@samsung.com>  Thu, 04 Mar 2010 12:11:40 +0900
+
+elementary (0.4.0+svn20100203-18) unstable; urgency=low
+
+  * updated ctxpopup
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Wed, 03 Mar 2010 20:40:38 +0900
+
+elementary (0.4.0+svn20100203-17) unstable; urgency=low
+
+  * diskcontroller bug fix
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 03 Mar 2010 19:28:34 +0900
+
+elementary (0.4.0+svn20100203-16) unstable; urgency=low
+
+  * updated picker, tab..
+
+ -- Chuneon.park <chuneon.park@samsung.com>  Tue, 02 Mar 2010 14:56:28 +0900
+
+elementary (0.4.0+svn20100203-15) unstable; urgency=low
+
+  * updated elm_tab
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 19 Feb 2010 21:10:31 +0900
+
+elementary (0.4.0+svn20100203-14) unstable; urgency=low
+
+  * Repackaging (previous one is not uploaded well)
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Thu, 18 Feb 2010 23:31:33 +0900
+
+elementary (0.4.0+svn20100203-13) unstable; urgency=low
+
+  * Updated
+
+ -- WooHyun Jung <wh0705.jung@samsung.com>  Thu, 18 Feb 2010 20:12:49 +0900
+
+elementary (0.4.0+svn20100203-12) unstable; urgency=low
+
+  * table API added (clear, unpack), elm_object_focus: steal focus
+
+ -- Wonguk Jeong <wonguk.jeong@samsung.com>  Wed, 17 Feb 2010 15:58:01 +0900
+
+elementary (0.4.0+svn20100203-11) unstable; urgency=low
+
+  * Updated ctxpopup.
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 12 Feb 2010 21:00:39 +0900
+
+elementary (0.4.0+svn20100203-10) unstable; urgency=low
+
+  * Updated ctxpopup positioning. 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 12 Feb 2010 13:27:23 +0900
+
+elementary (0.4.0+svn20100203-9) unstable; urgency=low
+
+  * Updated ctxpopup 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 12 Feb 2010 11:39:15 +0900
+
+elementary (0.4.0+svn20100203-8) unstable; urgency=low
+
+  * elm_win_transperent apply
+
+ -- Jaehwan <jae.hwan.kim@samsung.com>  Thu, 11 Feb 2010 15:44:46 +0900
+
+elementary (0.4.0+svn20100203-7) unstable; urgency=low
+
+  * bug-fixed - timepicker (time is not same between am_pm mode and mmilitary mode when mode is changed by elm_timepicker_show_am_pm_set() (wonguk.jeong)
+    disccontroller - first item is not called (Jaehwan Kim)
+
+ -- Wonguk Jeong <wonguk.jeong@samsung.com>  Tue, 09 Feb 2010 19:21:43 +0900
+
+elementary (0.4.0+svn20100203-6) unstable; urgency=low
+
+  * add rotate with resize (elm_win) - by Sangjin Lee
+
+ -- Wonguk Jeong <wonguk.jeong@samsung.com>  Mon, 08 Feb 2010 14:43:22 +0900
+
+elementary (0.4.0+svn20100203-5) unstable; urgency=low
+
+  * add debug package
+
+ -- Wonguk Jeong <wonguk.jeong@samsung.com>  Mon, 08 Feb 2010 14:07:21 +0900
+
+elementary (0.4.0+svn20100203-4) unstable; urgency=low
+
+  * [diskcontroller] bug fix
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Sat, 06 Feb 2010 02:59:21 +0900
+
+elementary (0.4.0+svn20100203-3) unstable; urgency=low
+
+  * [elm_ctxpopup.c] removed arrow image and modified for multi-resolution.
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 05 Feb 2010 14:06:59 +0900
+
+elementary (0.4.0+svn20100203-2) unstable; urgency=low
+
+  * repack
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 04 Feb 2010 20:36:22 +0900
+
+elementary (0.4.0+svn20100203-1) unstable; urgency=low
+
+  * EFL_update_revision_45828
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Wed, 03 Feb 2010 16:39:25 +0900
+
+elementary (0.4.0+svn20100119-11) unstable; urgency=low
+
+  * [elm_ctxpopup.c] added "ctxpopup,hide" smart callback
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 28 Jan 2010 20:22:46 +0900
+
+elementary (0.4.0+svn20100119-10) unstable; urgency=low
+
+  * [elm_softkey.c] added elm_softkey_item_callback_set() 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Thu, 28 Jan 2010 19:28:46 +0900
+
+elementary (0.4.0+svn20100119-9) unstable; urgency=low
+
+  * [elm_ctxpopup.c] added doxygen code. 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 25 Jan 2010 17:14:04 +0900
+
+elementary (0.4.0+svn20100119-8) unstable; urgency=low
+
+  * [default.edc] changed entry cursor shape to vertical bar
+
+ -- Myungjae Lee <mjae.lee@samsung.com>  Sun, 24 Jan 2010 20:58:00 +0900
+
+elementary (0.4.0+svn20100119-7) unstable; urgency=low
+
+  * [elm_ctxpopup.c] added invalidation function 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Sun, 24 Jan 2010 19:19:56 +0900
+
+elementary (0.4.0+svn20100119-6) unstable; urgency=low
+
+  * all winset font change
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Sun, 24 Jan 2010 00:40:10 +0900
+
+elementary (0.4.0+svn20100119-5) unstable; urgency=low
+
+  * [elm_ctxpopup.c] added elm_ctxpopup_item_icon_get() func
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 22 Jan 2010 20:56:00 +0900
+
+elementary (0.4.0+svn20100119-4) unstable; urgency=low
+
+  * [elm_ctxpopup.c] Added elm_ctxpopup_item_label_get() func.
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 22 Jan 2010 20:45:33 +0900
+
+elementary (0.4.0+svn20100119-3) unstable; urgency=low
+
+  * [elm_ctxpopup.c] fixed internal bug
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Fri, 22 Jan 2010 19:39:48 +0900
+
+elementary (0.4.0+svn20100119-2) unstable; urgency=low
+
+  * build config
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Fri, 22 Jan 2010 10:03:02 +0900
+
+elementary (0.4.0+svn20100119-1) unstable; urgency=low
+
+  * EFL_update_revision_45322
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Tue, 19 Jan 2010 20:44:52 +0900
+
+elementary (0.4.0+svn20100118-1) unstable; urgency=low
+
+  * Added elm_ctxpopup.c in Makefile.am to build it. 
+
+ -- ChunEon Park <chuneon.park@samsung.com>  Mon, 18 Jan 2010 18:47:56 +0900
+
+elementary (0.4.0+svn20100114-1) unstable; urgency=low
+
+  * support disable mode in softkey
+
+ -- Jihoon Kim <jihoon48.kim@samsung.com>  Thu, 14 Jan 2010 19:15:21 +0900
+
+elementary (0.4.0+svn20100108-1) unstable; urgency=low
+
+  * change the enumeration of actionslider
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Fri, 08 Jan 2010 08:57:25 +0900
+
+elementary (0.4.0+svn20100107-1) unstable; urgency=low
+
+  * Add aquila winset in Elementary
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Thu, 07 Jan 2010 17:56:00 +0900
+
+elementary (0.4.0+svn20100105-1) unstable; urgency=low
+
+  * modify actionslider enum types
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 05 Jan 2010 15:27:25 +0900
+
+elementary (0.4.0+svn20100104-1) unstable; urgency=low
+
+  * add winset APIs
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 04 Jan 2010 18:04:56 +0900
+
+elementary (0.4.0+svn20091229-1) unstable; urgency=low
+
+  * update EFL
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Tue, 29 Dec 2009 14:27:07 +0900
+
+elementary (0.4.0+svn20091112-5) unstable; urgency=low
+
+  * i386 build
+
+ -- youmin.ha <sangho.g.park@samsung.com>  Mon, 30 Nov 2009 09:50:47 +0900
+
+elementary (0.4.0+svn20091112-4) unstable; urgency=low
+
+  * add dependency libefreet-dev to dev
+
+ -- sangho.g.park <sangho.g.park@samsung.com>  Fri, 13 Nov 2009 14:17:37 +0900
+
+elementary (0.4.0+svn20091112-3) unstable; urgency=low
+
+  * add dependency libefreet-dev
+
+ -- sangho.g.park <sangho.g.park@samsung.com>  Fri, 13 Nov 2009 14:10:37 +0900
+
+elementary (0.4.0+svn20091112-2) unstable; urgency=low
+
+  * add dependency libedbus-dev
+
+ -- sangho.g.park <sangho.g.park@samsung.com>  Fri, 13 Nov 2009 11:41:37 +0900
+
+
+elementary (0.4.0+svn20091112-1) unstable; urgency=low
+
+  * a SVN release.
+
+ -- sangho.g.park <sangho.g.park@samsung.com>  Fri, 13 Nov 2009 09:42:37 +0900
+
+elementary (0.4.0+svnYYYYMMDD-1) unstable; urgency=low
+
+  * a SVN release.
+
+ -- quaker <quaker66@gmail.com>  Fri, 23 May 2009 15:52:37 +0100

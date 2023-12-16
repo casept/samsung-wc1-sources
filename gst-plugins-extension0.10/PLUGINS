@@ -1,0 +1,60 @@
+# This file is descriptions of the plugins which are included in gstreamer0.10-plugins-ext.
+# If any plugin is added to the gstreamer0.10-plugins-ext, that shoud be described in this file.
+#
+#
+# Orignal by Yejin Cho <cho.yejin@samsung.com>
+# Created by yejin Cho <cho.yejin@samsung.com>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PLUGIN			Registered Elements				Description
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+asfdemux		asfdemux, rtspwms, rtpasfdepay, asfmux		Demuxes and muxes audio and video in Microsofts ASF format plugin
+avsyssrc		avsysaudiosrc, avsysvideosrc			AV system video/audio source plugin
+avsyssink		avsysaudiosink, avsysvideosink, avsysmemsink	AV system video/audio sink plugin
+dnse			dnse						Samsung audio filters plugin
+sound3d			sound3d						Audio plugin
+soundeq			soundeq						Audio plugin
+soundreverb		soundreverb					Audio plugin
+drmsrc			drmsrc						Plugin to read data from standad/DRM file
+encodebin		encodebin					Extension encoder bin plugin
+exifwriter		exifwriter					Exchangable image file format in JPEG format using exiflib plugin
+ffmux			ffmux_*_ext					FFMPEG muxer plugin
+ffmpegaudioresample	ffaudioresample					FFMPEG Audioresampler plugin
+httpsrc			httpsrc						Http client source plugin
+imagereader		imagereader					Plugin to read data from file and if it reaches EOS automatically restarts from begining by seeking
+ippjpegenc		ippjpegenc					IPP JPEG encoder plugin
+ippvideoscale		ippvideoscale					Resizes video plugin
+mfch263			mfch263enc, xomfch263dec			MFC H.263 decoder/encoder plugin
+mfch264			mfch264enc					MFC H.264 encoder plugin
+mfch264			mfch264dec					MFC H.264 decoder plugin
+mfcmpeg4		mfcmpeg4enc, mfcmpeg4dec			MFC MPEG4 decoder/encoder plugin
+mfcvc1			mfcvc1dec					MFC VC-1 decoder plugin
+mpegaudioparse		xingmux, mp3parse				MPEG-1 layer 1/2/3 audio stream parse plugin
+overlaysink		overlaysink					Overlay sink plugin 
+ns			noisesuppressor					Samsun audio filters plugin - Noise suppressor
+ppvideoscale		ppvideoscale					Resizes video plugin
+queuereader		queuereader					Plugin to read data from queue
+queuewriter.		queuewriter					Plugin to write data to  queue
+secrtspsrc		secrtspsrc					Samsung streaming source plugin
+sound			soundsrc, soundsink				Sound source/sink plugin
+toggle			toggle						Base transform plugin
+videomute		videomute					Super plugin for sink
+s263d			s263d						H.263 hardware decoder plugin
+s263e			s263e						H.263 hardware encoder plugin
+s264d			s264d						H.264 hardware decoder plugin
+smp4vd			smp4vd						MPEG4 hardware decoder plugin
+smp4ve			smp4ve						MPEG4 hardware encoder plugin
+aacdec			secdec_aac					Samsung AAC software decoder plugin
+amrdec			secdec_amr					Samsung AMR software decoder plugin
+amrenc			secenc_amr					Samsung AMR software encoder plugin
+amrpar			secamrnb_par					Samsung AMR software parse plugin
+midiparse		midiparse					Samsung MIDI software parse plugin
+mp3dec			secdec_mp3					Samsung MP3 software decoder plugin
+mp3decV2		secdec_mp3					Samsung MP3 software decoder plugin version 2
+oggdec			secdec_ogg					Samsung Ogg(Vorbis only) software decoder plugin
+wmadec			secdec_wm					Samsung WMA software decoder plugin
+secgif			secgif_dec					Samsung GIF software decoder plugin
+secjpeg			secjpeg_dec, secjpeg_dec			Samsung JPEG software decoder/encoder plugin
+secmp3			secdec_mp3					Samsung MP3 decoder and ID3 tags parser plugin
+secpng			secpng_dec					Samsung PNG decoder plugin
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------

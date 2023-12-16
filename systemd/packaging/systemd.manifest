@@ -1,0 +1,13 @@
+<manifest>
+  <request>
+    <domain name="_"/>
+  </request>
+  <assign>
+    <filesystem path="/bin/*" label="_" exec_label="none" />
+    <filesystem path="/sbin/*" label="_" exec_label="none" />
+    <filesystem path="/usr/bin/*" label="_" exec_label="none" />
+    <filesystem path="/usr/sbin/*" label="_" exec_label="none" />
+    <filesystem path="/usr/lib/systemd/systemd-*" label="systemd" exec_label="systemd" />
+    <filesystem path="/usr/lib/systemd/systemd-bootchart" label="_" exec_label="_" />
+  </assign>
+</manifest>

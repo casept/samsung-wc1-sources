@@ -1,0 +1,15 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+localedir=/usr/share/locale
+datadir=@datadir@
+sysconfdir=@sysconfdir@
+
+
+Name: ISF
+Description: Input Service Framework
+Version: @ISF_VERSION@
+Requires: 
+Libs: -L${libdir} -lscim@SCIM_EPOCH@
+Cflags: -I${includedir}/scim@SCIM_EPOCH@

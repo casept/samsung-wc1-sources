@@ -1,0 +1,178 @@
+<manifest>
+	<define>
+		<domain name="connman"/>
+		<provide>
+			<label name="connman::get"/>
+			<label name="connman::set"/>
+			<label name="connman::profile"/>
+			<label name="connman::admin"/>
+		</provide>
+		<request>
+			<smack request="_" type="rwx"/>
+			<smack request="dbus" type="rwx"/>
+			<smack request="wifi-loader" type="rwx"/>
+			<smack request="net-config" type="rwx"/>
+			<smack request="wpasupplicant" type="rwx"/>
+			<smack request="system::use_internet" type="rw"/>
+			<smack request="telephony_framework::api_private" type="rwx"/>
+			<smack request="telephony_framework::api_ps_public" type="rwx"/>
+			<smack request="telephony_framework::api_ps_private" type="rwx"/>
+			<smack request="telephony_framework::api_ps_profile" type="rwx"/>
+			<smack request="csa::dir" type="rwx"/>
+		</request>
+		<permit>
+			<smack permit="dbus" type="rwx"/>
+			<smack permit="system::use_internet" type="rw"/>
+		</permit>
+	</define>
+	<assign>
+		<filesystem path="/usr/lib/systemd/system/connman.service" label="_"/>
+		<filesystem path="/usr/lib/systemd/system/multi-user.target.wants/connman.service" label="_"/>
+		<filesystem path="/usr/share/dbus-1/system-services/net.connman.service" label="_"/>
+		<filesystem path="/usr/sbin/connman.service" label="_" exec_label="none"/>
+		<filesystem path="/usr/share/license/connman" label="_"/>
+		<dbus name="net.connman" own="connman" bus="system">
+			<node name="/">
+			<interface name="net.connman.Manager">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="GetTechnologies">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="GetProperties">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="GetServices">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+			</interface>
+			<interface name="net.connman.Service">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="Connect">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+				<method name="Disconnect">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+				<method name="SetProperty">
+					<annotation name="net.connman.smack" value="connman::profile"/>
+				</method>
+				<method name="GetProperties">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="Remove">
+					<annotation name="net.connman.smack" value="connman::profile"/>
+				</method>
+				<signal name="PropertyChanged">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</signal>
+			</interface>
+			<interface name="net.connman.Technology">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="Scan">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+			</interface>
+			<interface name="net.connman.Clock">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Provider">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Session">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Agent">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Error">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Notification">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Debug">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Counter">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Task">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			</node>
+		</dbus>
+		<dbus name="net.connman" own="connman" bus="system">
+			<node name="/net/connman/*">
+			<interface name="net.connman.Manager">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="GetTechnologies">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="GetProperties">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="GetServices">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+			</interface>
+			<interface name="net.connman.Service">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="Connect">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+				<method name="Disconnect">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+				<method name="SetProperty">
+					<annotation name="net.connman.smack" value="connman::profile"/>
+				</method>
+				<method name="GetProperties">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</method>
+				<method name="Remove">
+					<annotation name="net.connman.smack" value="connman::profile"/>
+				</method>
+				<signal name="PropertyChanged">
+					<annotation name="net.connman.smack" value="connman::get"/>
+				</signal>
+			</interface>
+			<interface name="net.connman.Technology">
+				<annotation name="net.connman.smack" value="connman"/>
+				<method name="Scan">
+					<annotation name="net.connman.smack" value="connman::set"/>
+				</method>
+			</interface>
+			<interface name="net.connman.Clock">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Provider">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Session">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Agent">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Error">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Notification">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Debug">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Counter">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			<interface name="net.connman.Task">
+				<annotation name="net.connman.smack" value="connman"/>
+			</interface>
+			</node>
+		</dbus>
+	</assign>
+	<request>
+		<domain name="connman"/>
+	</request>
+</manifest>

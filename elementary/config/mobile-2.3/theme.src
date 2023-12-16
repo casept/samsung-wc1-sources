@@ -1,0 +1,12 @@
+group "Ea_Theme_Config" struct {
+    value "index" int: 0;
+    group "list" list {
+        group "Ea_Theme_Color_hsv" struct {
+            value "h" int: 199;
+            value "s" int: 86;
+            value "v" int: 58;
+        }
+    }
+    value "font" string: "Tizen";
+    value "size" int: -100;
+}

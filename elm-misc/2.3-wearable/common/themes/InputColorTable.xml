@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InputColorTable>
+	<Theme index="0">
+		<InputColorInfo hue="207" saturation="75" value="16"/>
+		<InputColorInfo hue="209" saturation="100" value="36"/>
+		<InputColorInfo hue="207" saturation="91" value="37"/>
+		<InputColorInfo hue="205" saturation="54" value="99"/>
+	</Theme>
+	<Theme index="1">
+		<InputColorInfo hue="30" saturation="17" value="14"/>
+		<InputColorInfo hue="33" saturation="27" value="29"/>
+		<InputColorInfo hue="30" saturation="34" value="35"/>
+		<InputColorInfo hue="34" saturation="100" value="100"/>
+	</Theme>
+	<Theme index="100">
+		<InputColorInfo hue="192" saturation="97" value="82"/>
+		<InputColorInfo hue="192" saturation="30" value="95"/>
+		<InputColorInfo hue="191" saturation="45" value="97"/>
+		<InputColorInfo hue="0" saturation="0" value="98"/>
+	</Theme>
+	<Theme index="101">
+		<InputColorInfo hue="27" saturation="87" value="100"/>
+		<InputColorInfo hue="32" saturation="33" value="95"/>
+		<InputColorInfo hue="32" saturation="55" value="100"/>
+		<InputColorInfo hue="0" saturation="0" value="98"/>
+	</Theme>
+</InputColorTable>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InputColorTable>
+	<Themes name="A">
+		<Theme index="0">
+			<InputColorInfo hue="151" saturation="58" value="81"/>
+		</Theme>
+	</Themes>
+</InputColorTable>

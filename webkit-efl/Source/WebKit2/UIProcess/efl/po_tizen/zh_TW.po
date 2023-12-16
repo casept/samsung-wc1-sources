@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "選擇"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "選擇所有"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "於新視窗開啟"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "剪下"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "剪貼簿"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "複製"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "複製圖像"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "貼上"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "選項模式"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "選擇字詞"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "檢查網頁網址"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "錯誤頁面"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "無法載入框架"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "網路連接未正常建立"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "稍候重新載入網頁"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "可能導致此問題的原因如下"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "無法取得網頁。（網頁可能暫時關閉或遷移至新的網址）"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "網頁不可用"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "網頁暫時不可用"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "取得網頁 %s 時，發生以下錯誤"
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "完成"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "儲存連結"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "往前"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "往後"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "重新載入"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "複製到剪貼簿"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "複製影片網址"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "啟用/停用重複媒體"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "完整檢視"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "於新視窗開啟影片"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "顯示/隱藏媒體控制"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "輸入電子郵件地址"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "輸入電子郵件地址清單，以逗號分隔"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "可搜尋此指數。輸入關鍵字："
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "上傳檔案"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "上傳多個檔案"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "複製音訊網址"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "在新分頁中開啟圖像"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "在新分頁中開啟連結"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "在新分頁中播放音訊"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "儲存圖像"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "搜尋網際網路"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "輸入網址"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "欄位不得空白"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "輸入的格式無效"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "輸入的值無效"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "未選擇檔案"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "外掛程式遺失"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "值至少需為 %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "值不可高於 %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "拖放"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "複製到剪貼簿"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "詳細資料"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "重設"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "提交"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "複製連結網址"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "靜音"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "暫停"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "播放"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "翻譯"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "取消靜音"
+

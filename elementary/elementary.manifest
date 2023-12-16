@@ -1,0 +1,9 @@
+<manifest>
+	<request>
+		<domain name="_"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/share/locale/*" label="_"/>
+		<filesystem path="/opt/etc/dump.d/module.d/ui_log_dump.sh" label="_" exec_label="none" />
+	</assign>
+</manifest>

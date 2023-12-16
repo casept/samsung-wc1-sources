@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>%errorPageTitle%</title>
+<style type=text/css>
+#body {
+ background-color: #fff;
+ margin: 0;
+ padding: 0;
+}
+#Content {
+padding:15px;
+}
+#Box {
+ background: #fff;
+ width: 80%%;
+ min-width: 150px;
+ max-width: 750px;
+ margin: auto;
+ padding: 15px;
+ border: 3px solid #eee;
+ border-radius: 10px;
+ word-wrap:break-word
+}
+#errorTitle {
+font-size:100%%;
+}
+#errorMsg {
+font-size:70%%;
+}
+</style>
+</head>
+<body bgcolor="#CFCFCF">
+<div id=Content>
+<div id=errorTitle>
+<p id=TitleText><strong>%errorMessageTitle%</strong></p>
+</div>
+<div id=errorMsg>
+<script type='text/javascript'>
+<!--errorMessage-->
+document.write("<p>%errorMessage%</p>");
+<!--errorCause-->
+document.write("<p><ul><li><strong>%errorCause%</strong></ul></br>");
+<!--errorSuggestions-->
+document.write("%errorSuggestionsHeader% <ul><li>%errorSuggestions1%</li><li>%errorSuggestions2%</li><li>%errorSuggestions3%</li></ul></p>");
+</script>
+</div>
+</div>
+</body>
+</html>

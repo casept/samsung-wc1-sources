@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Выбрать"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Выбр. все"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Открыть в новом окне"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Вырезать"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Буфер обмена"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Копировать"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Копировать изображение"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Вставить"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Режим выделения"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Выберите слово"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Проверьте URL веб-страницы"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Страница ошибки"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Сбой загрузки фреймов"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Сетевое подключение установлено с ошибками"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Перезагрузите веб-страницу позднее"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Ниже указана наиболее вероятная причина"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Невозможно получить веб-страницу. (Возможно, она временно не работает или перемещена на новый URL)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Веб-страница недоступна"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Веб-страница временно недоступна"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "При получении веб-страницы %s произошла следующая ошибка."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Готово"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Сохранить ссылку"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Вперед"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Назад"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Обновить"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Копировать в буфер обмена"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Скопировать URL-адрес видео"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Вкл./выкл. повтор воспр."
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Во весь экран"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Открыть видео в новом окне"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Показать/скрыть упр. воспр."
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Введите адрес электронной почты"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Введите список адресов электронной почты, разделенных запятыми"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Этот индекс поддерживает поиск. Введите ключевые слова:"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Отправить файл"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Отправить несколько файлов"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Копировать URL аудиофайла"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Открыть в новой вкладке"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Открыть ссылку в новой вкладке"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Воспроизвести в новой вкладке"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Сохранить изображение"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Поиск в Интернете"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Введите URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Поле не может быть пустым"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Указан недопустимый формат"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Значение недопустимо"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Файлы не выбраны"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Отсутствует дополнительный модуль"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Минимальное значение: %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Максимальное значение: %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Перетащить"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Скопировано в буфер обмена"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Свойства"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Сброс"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Отправить"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Копировать URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Отключить звук"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Пауза"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Воспроизвести"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Перевести"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Включить звук"
+

@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Ընտրել"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Ընտրել բլր"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Բացել նոր պատուհանում"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Կտրել"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Գզրոց"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Պատճենել"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Պատճենել պատկեր"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Տեղադրել"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Ընտրության ռեժիմ"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Ընտրել բառ"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Ստուգեք կայքէջի URL-ը"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Սխալի էջ"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Չհաջողվեց բեռնել շրջանակներ"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Ցանցային միացումը նորմալ չի հաստատվել"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Կայքէջը վերաբեռնեք ավելի ուշ"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "Առավել հավանական պատճառը տրված է ստորև"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Անհնար է առբերել կայքէջը: (Հնարավոր է՝ կայքէջը ժամանակավորապես փակվել է կամ տեղափոխվել է նոր URL)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Կայքէջը մատչելի չէ"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Կայքէջը ժամանակավորապես մատչելի չէ"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Հետևյալ սխալը տեղի ունեցավ %s կայքէջն առբերելու ընթացքում:"
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "Արված է"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Պահպանել հղումը"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Անցնել առաջ"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Անցնել հետ"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Վերաբեռնել"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Պատճենել փոխանակման բունկերի մեջ"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Պատճենել տեսանյութի URL-ն"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Միաց./անջատ. կրկնվող տեսաձայն"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Ամբողջական տեսք"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Բացել տեսանյութը նոր պատուհան."
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Ցուց./թաքց. տեսաձայն կառավար"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Մուտքագրել էլփոստի հասցե"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Մուտքագրել ստորակետերով բաժանված էլփոստի հասցեների ցուցակ"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Կարող եք որոնել այս ցուցիչը: Մուտքագրեք հիմնաբառեր՝"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Վերբեռնել ֆայլ"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Վերբեռնել մեկից ավելի ֆայլեր"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Պատճենել ձայնանյութի URL"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Պատկերը բացել նոր ներդիրում"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Հղումը բացել նոր ներդիրում"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Ձյննյութ նվգրկել նոր ներդիրում"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Պահպանել պատկեր"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Որոնում ինտերնետում"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Մուտքագրեք URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Դաշտը չի կարող դատարկ լինել"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Անվավեր ձևաչափ է մուտքագրվել"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Անվավեր արժեք է մուտքագրվել"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Ոչ մի ֆայլ չի ընտրվել"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Ծրագրային ընդլայնումը բացակայում է"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "Արժեքը պետք է լինի առնվազն %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "Արժեքը պետք է լինի %d-ից մեծ"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Քարշել և թողնել"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Պատճենվել է գզրոցի մեջ"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Մանրամասներ"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Զրոյացնել"
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Ներկայացնել"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Պատճենել հղման URL"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Խլացնել"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Դադար"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Նվագարկել"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Թարգմանել"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Միացնել ձայնը"
+

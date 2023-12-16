@@ -1,0 +1,15 @@
+
+[global]
+OfflineMode=false
+
+[WiFi]
+Enable=false
+
+[Bluetooth]
+Enable=true
+
+[Wired]
+Enable=true
+
+[Cellular]
+Enable=true

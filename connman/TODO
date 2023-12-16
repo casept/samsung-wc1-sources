@@ -1,0 +1,135 @@
+Background
+==========
+
+- Priority scale: High, Medium and Low
+
+- Complexity scale: C1, C2, C4 and C8.
+   The complexity scale is exponential, with complexity 1 being the
+   lowest complexity. Complexity is a function of both task 'complexity'
+   and task 'scope'.
+
+
+Core
+====
+
+- Session API implementation
+
+   Priority: High
+   Complexity: C4
+   Owner: Daniel Wagner <daniel.wagner@bmw-carit.de>
+   Owner: Patrik Flykt <patrik.flykt@linux.intel.com>
+
+   The session API should provide a connection abstraction in order to
+   prioritize applications network accesses, prevent or allow network
+   and bearer roaming, or provide applications with a way to request
+   for periodic network connections. On-demand connections will be
+   implemented through this API as well.
+   See http://www.mail-archive.com/connman@connman.net/msg01653.html
+
+
+- Personal firewall
+
+   Priority: Low
+   Complexity: C8
+   Owner: Tomasz Bursztyka <tomasz.bursztyka@linux.intel.com>
+
+   Discuss and implement a basic and safe firewalling strategy into
+   Connman. Provide a D-Bus API for personal firewalling.
+
+
+- PACRunner extensions
+
+   Priority: Low
+   Complexity: C4
+
+   Support more URI schemes, support multiple connections, tighter
+   security integration.
+
+
+- Favorite service migration removal
+
+  Priority: Medium
+  Complexity: C1
+  When: 12/2012
+
+  Remove service migration code that moves services from default.profile
+  to the current directory-based structure.
+
+
+WiFi
+====
+
+- EAP-AKA/SIM
+
+   Priority: Medium
+   Complexity: C2
+   Owner: Samuel Ortiz <sameo@linux.intel.com>
+
+   This EAP is needed for SIM card based network authentication.
+   ConnMan here plays a minor role: Once wpa_supplicant is set up for
+   starting and EAP-AKA/SIM authentication, it will talk to a SIM card
+   through its pcsc-lite API.
+
+
+- EAP-FAST
+
+   Priority: Low
+   Complexity: C1
+
+
+- WiFi p2p
+
+   Priority: Medium
+   Complexity: C2
+
+
+- Previous WPS pin code sending
+
+  Priority: Medium
+  Complexity: C2
+
+  Provide previous WPS pin code in PreviousPassphrase field if WPS was used.
+
+
+Bluetooth
+=========
+
+
+Cellular
+========
+
+
+VPN
+===
+
+- IPsec
+
+   Priority: Medium
+   Complexity: C4
+   Owner: Jukka Rissanen <jukka.rissanen@linux.intel.com>
+
+
+Tools
+=====
+
+- Command line tool
+
+   Priority: Low
+   Complexity: C4
+   Owner: Patrik Flykt <patrik.flykt@linux.intel.com>
+
+   For platforms not running python, it could prove useful to provide them
+   with a native single binary command line tool.
+
+
+User Interface
+==============
+
+- GNOME3 UI
+
+   Priority: Low
+   Complexity: C4
+   Owner: Alok Barsode <alok.barsode@linux.intel.com>
+
+   A GNOME3 shell user interface would make it easier for mainstream distros
+   users to use ConnMan.

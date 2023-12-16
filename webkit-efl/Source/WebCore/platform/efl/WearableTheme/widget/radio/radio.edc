@@ -1,0 +1,185 @@
+/*
+    Copyright (C) 2008,2009 INdT - Instituto Nokia de Tecnologia
+    Copyright (C) 2009,2010 ProFUSION embedded systems
+    Copyright (C) 2009,2013 Samsung Electronics
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public License
+    along with this library; see the file COPYING.LIB.  If not, write to
+    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+    Boston, MA 02110-1301, USA.
+*/
+
+group { name: "webkit/widget/radio";
+
+   min: 56 56;
+
+   images {
+      image: "widget/radio/tw_btn_radio_holo_dark.png" COMP;
+      image: "widget/radio/tw_btn_radiobox_holo_dark.png" COMP;
+      image: "widget/radio/tw_btn_radiobox_focus_line.png" COMP;
+   }
+
+   script {
+       public isEnabled;
+       public isPressed;
+       public isChecked;
+
+       public show() {
+           if (get_int(isChecked) == 1) {
+               if (get_int(isEnabled) == 1) {
+                   if (get_int(isPressed) == 0) {
+                       set_state(PART:"radiobox", "enabled", 0.0);
+                       set_state(PART:"radio", "enabled", 0.0);
+                   } else {
+                       set_state(PART:"radiobox", "pressed", 0.0);
+                       set_state(PART:"radio", "pressed", 0.0);
+                   }
+               } else {
+                   set_state(PART:"radiobox", "disabled", 0.0);
+                   set_state(PART:"radio", "disabled", 0.0);
+               }   
+           } else {
+               set_state(PART:"radio", "default", 0.0);
+               if (get_int(isEnabled) == 1) {
+                   if (get_int(isPressed) == 0)
+                       set_state(PART:"radiobox", "enabled", 0.0);
+                   else
+                       set_state(PART:"radiobox", "pressed", 0.0);
+               } else {
+                   set_state(PART:"radiobox", "disabled", 0.0);
+               }
+           }
+       }   
+   }
+
+   parts {
+      part { name: "radiobox";
+         type: IMAGE;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: 56 56;
+            max: 56 56;
+            image {
+               normal: "widget/radio/tw_btn_radiobox_holo_dark.png";
+            }
+            visible: 0;
+         }
+         description {
+            state: "enabled" 0.0;
+            inherit: "default" 0.0;
+            color: 21 17 11 255;
+            visible: 1;
+         }
+         description {
+            state: "pressed" 0.0;
+            inherit: "default" 0.0;
+            color: 102 85 31 255;
+            visible: 1;
+         }
+         description {
+            state: "disabled" 0.0;
+            inherit: "default" 0.0;
+            color: 102 85 31 80;
+            visible: 1;
+         }
+      }
+      part { name: "radio";
+         type: IMAGE;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: 56 56;
+            max: 56 56;
+            image {
+               normal: "widget/radio/tw_btn_radio_holo_dark.png";
+            }
+            visible: 0;
+         }
+         description {
+            state: "enabled" 0.0;
+            inherit: "default" 0.0;
+            color: 255 115 0 255;
+            visible: 1;
+         }
+         description {
+            state: "pressed" 0.0;
+            inherit: "default" 0.0;
+            color: 225 225 225 255;
+            visible: 1;
+         }
+         description {
+            state: "disabled" 0.0;
+            inherit: "default" 0.0;
+            color: 255 115 0 125;
+            visible: 1;
+         }
+      }
+      part { name: "focus";
+         type: IMAGE;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            min: 56 56;
+            max: 56 56;
+            image {
+               normal: "widget/radio/tw_btn_radiobox_focus_line.png";
+            }
+            color: 225 225 225 255;
+         }
+      }
+   }
+
+   programs {
+      program {
+         name: "enabled";
+         signal: "enabled";
+         script {
+            set_int(isEnabled, 1);
+            show();
+         }
+      }
+      program {
+         name: "pressed";
+         signal: "pressed";
+         script {
+            set_int(isPressed, 1);
+            show();
+         }
+      }
+     program {
+         name: "checked";
+         signal: "checked";
+         script {
+            set_int(isChecked, 1);
+            show();
+         }
+      }
+      program {
+         name: "hovered";
+         signal: "hovered";
+         script {
+         }
+      }
+     program {
+         name: "reset";
+         signal: "reset";
+         script {
+            set_int(isEnabled, 0);
+            set_int(isPressed, 0);
+            set_int(isChecked, 0);
+            show();
+         }
+      }
+   }
+}

@@ -1,0 +1,13 @@
+<manifest>
+	<request>
+		<domain name="_"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/bin/elementary_codegen" exec_label="none" />
+		<filesystem path="/usr/bin/elementary_config" exec_label="none" />
+		<filesystem path="/usr/bin/elementary_quicklaunch" exec_label="none" />
+		<filesystem path="/usr/bin/elementary_run" exec_label="none" />
+		<filesystem path="/usr/bin/elementary_test" exec_label="none" />
+		<filesystem path="/usr/bin/elementary_testql" exec_label="none" />
+	</assign>
+</manifest>

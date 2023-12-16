@@ -1,0 +1,22 @@
+# - Try to find ewebkit2-ext
+# Once done, this will define
+#
+#  WKEXT_FOUND - system has WKEXT
+#  WKEXT_INCLUDE_DIRS - the WKEXT include directories
+#  WKEXT_LIBRARIES - link these to use WKEXT
+
+INCLUDE(FindPkgConfig)
+
+PKG_CHECK_MODULES(PC_WKEXT
+    ewebkit2-ext
+)
+
+FIND_PATH(WKEXT_INCLUDE_DIRS NAMES wkext.h
+    HINTS ${PC_WKEXT_INCLUDE_DIRS} ${PC_WKEXT_INCLUDEDIR}
+)
+FIND_LIBRARY(WKEXT_LIBRARIES NAMES ewebkit2-ext
+    HINTS ${PC_WKEXT_LIBRARY_DIRS} ${PC_WKEXT_LIBDIR}
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(WKEXT DEFAULT_MSG WKEXT_INCLUDE_DIRS WKEXT_LIBRARIES)

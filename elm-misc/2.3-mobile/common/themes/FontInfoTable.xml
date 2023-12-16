@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FontInfoTable>
+	<FontInfo id="T020" typeface="Samsung Condensed" style="R" size="36" />
+	<FontInfo id="T0203" typeface="Samsung Condensed" style="R" size="30" />
+	<FontInfo id="T0204" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T023" style="R" size="30" giant="true" />
+	<FontInfo id="T023P" style="R" size="30" giant="true" />
+	<FontInfo id="T023D" style="R" size="30" giant="true" />
+	<FontInfo id="T024" style="R" size="24" />
+	<FontInfo id="T024S" style="R" size="24" />
+	<FontInfo id="T024P" style="R" size="24" />
+	<FontInfo id="T024D" style="R" size="24" />
+	<FontInfo id="T024L1" style="R" size="24" />
+	<FontInfo id="T024L1P" style="R" size="24" />
+	<FontInfo id="T024L1D" style="R" size="24" />
+	<FontInfo id="T024L2" style="R" size="24" />
+	<FontInfo id="T024L2P" style="R" size="24" />
+	<FontInfo id="T024L2D" style="R" size="24" />
+	<FontInfo id="T0231" style="R" size="30" />
+	<FontInfo id="T0231P" style="R" size="30" />
+	<FontInfo id="T0231D" style="R" size="30" />
+	<FontInfo id="T027L1" style="R" size="27" />
+	<FontInfo id="T027L2" style="R" size="27" />
+	<FontInfo id="T0222L1" style="R" size="30" />
+	<FontInfo id="T0222L2" style="L" size="24" />
+	<FontInfo id="T042" style="R" size="27" />
+	<FontInfo id="T042P" style="R" size="27" />
+	<FontInfo id="T042D" style="R" size="27" />
+	<FontInfo id="T042S" style="R" size="27" />
+	<FontInfo id="T033" style="R" size="30" />
+	<FontInfo id="T033P" style="R" size="30" />
+	<FontInfo id="T033D" style="R" size="30" />
+	<FontInfo id="T043" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T043P" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T043F" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T043D" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T044" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T044P" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T044F" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T044D" typeface="Samsung Condensed" style="M" size="22" />
+	<FontInfo id="T051L1" style="R" size="30" />
+	<FontInfo id="T051L1P" style="R" size="30" />
+	<FontInfo id="T051L1D" style="R" size="30" />
+	<FontInfo id="T051L2" style="R" size="30" />
+	<FontInfo id="T051L2P" style="R" size="30" />
+	<FontInfo id="T051L2D" style="R" size="30" />
+	<FontInfo id="T059L1" style="R" size="30" />
+	<FontInfo id="T059L2" style="R" size="30" />
+	<FontInfo id="T0511" style="R" size="33" />
+	<FontInfo id="T057L1" style="R" size="21" />
+	<FontInfo id="T057L1P" style="R" size="21" />
+	<FontInfo id="T057L1D" style="R" size="21" />
+	<FontInfo id="T057L2" style="R" size="21" />
+	<FontInfo id="T057L2P" style="R" size="21" />
+	<FontInfo id="T057L2D" style="R" size="21" />
+	<FontInfo id="T057L3" style="R" size="30" />
+	<FontInfo id="T057L3P" style="R" size="30" />
+	<FontInfo id="T057L3D" style="R" size="30" />
+	<FontInfo id="T0601" style="R" size="24" />
+	<FontInfo id="T0601P" style="R" size="24" />
+	<FontInfo id="T0601D" style="R" size="24" />
+	<FontInfo id="T1011" style="R" size="30" giant="true" />
+	<FontInfo id="T1011D" style="R" size="30" giant="true" />
+	<FontInfo id="T1012" style="R" size="30" giant="true" />
+	<FontInfo id="T1013" style="R" size="30" giant="true" />
+	<FontInfo id="T1014" style="R" size="30" giant="true" />
+	<FontInfo id="T1015" style="R" size="30" giant="true" />
+	<FontInfo id="T1061" style="R" size="30" />
+	<FontInfo id="T1062" style="R" size="30" />
+	<FontInfo id="T1063" style="R" size="30" />
+	<FontInfo id="T1064" style="R" size="30" />
+	<FontInfo id="T1065" style="R" size="30" />
+	<FontInfo id="T1066" style="R" size="30" />
+	<FontInfo id="T1067" style="R" size="30" />
+	<FontInfo id="T1068" style="R" size="30" />
+	<FontInfo id="T1069" style="R" size="30" />
+	<FontInfo id="T1070" style="R" size="30" />
+	<FontInfo id="T111" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T111P" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T111S" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T111D" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T112" style="R" size="21" />
+	<FontInfo id="T1121" style="R" size="21" />
+	<FontInfo id="T113" style="B" size="18" />
+	<FontInfo id="T113P" style="B" size="18" />
+	<FontInfo id="T114" style="R" size="39" />
+	<FontInfo id="T115" style="R" size="54" />
+	<FontInfo id="T116" style="M" size="33" />
+	<FontInfo id="T1117" typeface="Samsung Condensed" style="R" size="27" />
+	<FontInfo id="T1117P" typeface="Samsung Condensed" style="R" size="27" />
+	<FontInfo id="T1117S" typeface="Samsung Condensed" style="R" size="27" />
+	<FontInfo id="T1117D" typeface="Samsung Condensed" style="R" size="27" />
+	<FontInfo id="T120L1" style="R" size="27" />
+	<FontInfo id="T120L2" style="R" size="30" />
+	<FontInfo id="T121" typeface="Samsung Condensed" style="R" size="30" />
+	<FontInfo id="T1211" typeface="Samsung Condensed" style="R" size="21" />
+	<FontInfo id="T1221" style="R" size="27" />
+	<FontInfo id="T123" style="R" size="30" giant="true" />
+	<FontInfo id="T1232" style="L" size="90" />
+	<FontInfo id="T1232P" style="L" size="90" />
+	<FontInfo id="T1232D" style="L" size="90" />
+	<FontInfo id="T1233" style="L" size="60" />
+	<FontInfo id="T1233P" style="L" size="60" />
+	<FontInfo id="T1233D" style="L" size="60" />
+	<FontInfo id="T1234" style="R" size="42" />
+	<FontInfo id="T1234P" style="R" size="42" />
+	<FontInfo id="T1234D" style="R" size="42" />
+	<FontInfo id="T1234S" style="R" size="42" />
+	<FontInfo id="T1235" style="R" size="30" />
+	<FontInfo id="T1235P" style="R" size="30" />
+	<FontInfo id="T1235D" style="R" size="30" />
+	<FontInfo id="T1236" style="R" size="30" giant="true" />
+	<FontInfo id="T1236P" style="R" size="30" giant="true" />
+	<FontInfo id="T1236D" style="R" size="30" giant="true" />
+	<FontInfo id="T12351" style="R" size="27" giant="true" />
+	<FontInfo id="T12351P" style="R" size="27" giant="true" />
+	<FontInfo id="T12351D" style="R" size="27" giant="true" />
+	<FontInfo id="T12351E1" style="R" size="27" giant="true" />
+	<FontInfo id="T125L1" style="R" size="21" />
+	<FontInfo id="T125L1P" style="R" size="21" />
+	<FontInfo id="T125L1D" style="R" size="21" />
+	<FontInfo id="T124E1" style="R" size="21" />
+	<FontInfo id="T126" style="R" size="30" />
+	<FontInfo id="T126P" style="R" size="30" />
+	<FontInfo id="T126D" style="R" size="30" />
+	<FontInfo id="T127" style="R" size="24" />
+	<FontInfo id="T127P" style="R" size="24" />
+	<FontInfo id="T127D" style="R" size="24" />
+	<FontInfo id="T128" style="R" size="24" giant="true" />
+	<FontInfo id="T129" style="R" size="24" giant="true" />
+	<FontInfo id="T129P" style="R" size="24" giant="true" />
+	<FontInfo id="T129D" style="R" size="24" giant="true" />
+	<FontInfo id="T131" style="R" size="30" />
+	<FontInfo id="T131P" style="R" size="30" />
+	<FontInfo id="T131D" style="R" size="30" />
+	<FontInfo id="T130" style="R" size="24" />
+	<FontInfo id="T130P" style="R" size="24" />
+	<FontInfo id="T130D" style="R" size="24" />
+	<FontInfo id="T132" style="R" size="27" />
+	<FontInfo id="T132P" style="R" size="27" />
+	<FontInfo id="T132D" style="R" size="27" />
+</FontInfoTable>

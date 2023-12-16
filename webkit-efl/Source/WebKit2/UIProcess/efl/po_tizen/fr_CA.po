@@ -1,0 +1,183 @@
+msgid "IDS_WEBVIEW_OPT_SELECT_ABB"
+msgstr "Sélectionner"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_ALL_ABB"
+msgstr "Sélectionner tout"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IN_NEW_WINDOW_ABB"
+msgstr "Ouvrir ds nouv fenêtre"
+
+msgid "IDS_WEBVIEW_OPT_CUT_ABB"
+msgstr "Couper"
+
+msgid "IDS_WEBVIEW_OPT_CLIPBOARD"
+msgstr "Presse-papiers"
+
+msgid "IDS_WEBVIEW_OPT_COPY"
+msgstr "Copier"
+
+msgid "IDS_WEBVIEW_OPT_COPY_IMAGE"
+msgstr "Copier l'image"
+
+msgid "IDS_WEBVIEW_OPT_PASTE"
+msgstr "Coller"
+
+msgid "IDS_WEBVIEW_OPT_SELECTION_MODE_ABB"
+msgstr "Mode de sélection"
+
+msgid "IDS_WEBVIEW_OPT_SELECT_WORD"
+msgstr "Sélectionner un mot"
+
+msgid "IDS_WEBVIEW_BODY_CHECK_WEB_PAGE_URL"
+msgstr "Vérifier URL de la page Web"
+
+msgid "IDS_WEBVIEW_BODY_ERROR_PAGE"
+msgstr "Page d'erreur"
+
+msgid "IDS_WEBVIEW_BODY_FAILED_TO_LOAD_FRAMES"
+msgstr "Impossible de charger les images"
+
+msgid "IDS_WEBVIEW_BODY_NETWORK_CONNECTION_NOT_ESTABLISHED_NORMALLY"
+msgstr "Connexion réseau non établie normalement"
+
+msgid "IDS_WEBVIEW_BODY_RELOAD_WEB_PAGE_LATER"
+msgstr "Recharger la page Web plus tard"
+
+msgid "IDS_WEBVIEW_BODY_THE_MOST_LIKELY_CAUSE_IS_GIVEN_BELOW"
+msgstr "La cause la plus probable est indiquée ci-dessous"
+
+msgid "IDS_WEBVIEW_BODY_UNABLE_TO_RETRIEVE_WEB_PAGE_HWEB_PAGE_MIGHT_BE_TEMPORARILY_DOWN_OR_HAVE_MOVED_TO_NEW_URL"
+msgstr "Impossible de récupérer la page Web. (La page Web est peut-être temporairement en panne ou a été déplacée vers une autre URL)"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_NOT_AVAILABLE"
+msgstr "Page Web non disponible"
+
+msgid "IDS_WEBVIEW_BODY_WEB_PAGE_TEMPORARILY_NOT_AVAILABLE"
+msgstr "Page Web temporairement indisponible"
+
+msgid "IDS_WEBVIEW_BODY_WHILE_RETRIEVING_WEB_PAGE_PS_FOLLOWING_ERROR_OCCURRED"
+msgstr "Lors de la récupération de la page Web %s, l'erreur suivante s'est produite."
+
+msgid "IDS_WEBVIEW_BUTTON_DONE"
+msgstr "OK"
+
+msgid "IDS_BR_BODY_SAVE_LINK"
+msgstr "Enregistrer le lien"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_FORWARD"
+msgstr "Page suivante"
+
+msgid "IDS_BR_OPT_NAVIGATE_GO_BACKWARD"
+msgstr "Page précédente"
+
+msgid "IDS_BR_OPT_RELOAD"
+msgstr "Recharger"
+
+msgid "IDS_WEBVIEW_OPT_COPY_TO_CLIPBOARD"
+msgstr "Copier dans le presse-papier"
+
+msgid "IDS_WEBVIEW_OPT_COPY_VIDEO_URL_ABB"
+msgstr "Copier l'URL de la vidéo"
+
+msgid "IDS_WEBVIEW_OPT_ENABLE_DISABLE_REPEAT_MEDIA_ABB"
+msgstr "Act./Désact. répét. contenu"
+
+msgid "IDS_WEBVIEW_OPT_FULL_VIEW_ABB"
+msgstr "Plein écran"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_VIDEO_IN_NEW_WINDOW_ABB"
+msgstr "Ouvrir vidéo ds nvelle fenêtre"
+
+msgid "IDS_WEBVIEW_OPT_SHOW_HIDE_MEDIA_CONTROLS_ABB"
+msgstr "Aff./Masq. commandes médias"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_AN_EMAIL_ADDRESS"
+msgstr "Entrer une adresse courriel"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_LIST_OF_EMAIL_ADDRESSES_SEPARATED_BY_COMMAS"
+msgstr "Entrez une liste d'adresses courriel séparées par des virgules"
+
+msgid "IDS_WEBVIEW_BODY_YOU_CAN_SEARCH_THIS_INDEX_ENTER_KEYWORDS_C"
+msgstr "Vous pouvez rechercher cet indice. Entrez les mots-clés :"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_FILE"
+msgstr "Charger un fichier"
+
+msgid "IDS_WEBVIEW_BUTTON_UPLOAD_MULTIPLE_FILES"
+msgstr "Charger plusieurs fichiers"
+
+msgid "IDS_WEBVIEW_OPT_COPY_AUDIO_URL_ABB"
+msgstr "Copier l'URL d'un flux audio"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_IMAGE_IN_NEW_TAB_ABB"
+msgstr "Ouvrir img dans nouvel onglet"
+
+msgid "IDS_WEBVIEW_OPT_OPEN_LINK_IN_NEW_TAB_ABB"
+msgstr "Ouvrir lien dans nouvel onglet"
+
+msgid "IDS_WEBVIEW_OPT_PLAY_AUDIO_IN_NEW_TAB_ABB"
+msgstr "Lire audio dans nouvel onglet"
+
+msgid "IDS_WEBVIEW_OPT_SAVE_IMAGE_ABB"
+msgstr "Enregistrer l'image"
+
+msgid "IDS_WEBVIEW_OPT_SEARCH_THE_INTERNET_ABB"
+msgstr "Rechercher sur Internet"
+
+msgid "IDS_WEBVIEW_BODY_ENTER_A_URL"
+msgstr "Entrez une URL"
+
+msgid "IDS_WEBVIEW_BODY_FIELD_CANNOT_BE_BLANK"
+msgstr "Ce champ ne peut pas être vide"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_FORMAT_ENTERED"
+msgstr "Format non valide entré"
+
+msgid "IDS_WEBVIEW_BODY_INVALID_VALUE_ENTERED"
+msgstr "Valeur non valide saisie"
+
+msgid "IDS_WEBVIEW_BODY_NO_FILES_HAVE_BEEN_SELECTED"
+msgstr "Aucun fichier n'a été sélectionné"
+
+msgid "IDS_WEBVIEW_BODY_PLUG_IN_MISSING"
+msgstr "Plugiciel manquant"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_AT_LEAST_PD"
+msgstr "La valeur minimale est %d"
+
+msgid "IDS_WEBVIEW_BODY_VALUE_MUST_BE_NO_HIGHER_THAN_PD"
+msgstr "La valeur maximale est %d"
+
+msgid "IDS_BR_OPT_DRAG_AND_DROP"
+msgstr "Glisser et déposer"
+
+msgid "IDS_WEBVIEW_BODY_COPIED_TO_CLIPBOARD"
+msgstr "Copié dans le presse-papier"
+
+msgid "IDS_WEBVIEW_BODY_DETAILS"
+msgstr "Détails"
+
+msgid "IDS_WEBVIEW_BUTTON_RESET"
+msgstr "Réinit."
+
+msgid "IDS_WEBVIEW_BUTTON_SUBMIT"
+msgstr "Soumettre"
+
+msgid "IDS_WEBVIEW_OPT_COPY_LINK_URL_ABB"
+msgstr "Copier l'URL du lien"
+
+msgid "IDS_WEBVIEW_OPT_MUTE"
+msgstr "Muet"
+
+msgid "IDS_WEBVIEW_OPT_PAUSE"
+msgstr "Pause"
+
+msgid "IDS_WEBVIEW_OPT_PLAY"
+msgstr "Lire"
+
+msgid "IDS_WEBVIEW_OPT_TRANSLATE_ABB"
+msgstr "Traduire"
+
+msgid "IDS_WEBVIEW_OPT_UNMUTE"
+msgstr "Activer le son"
+

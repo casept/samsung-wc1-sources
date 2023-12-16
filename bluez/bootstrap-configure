@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [ -f config.status ]; then
+	make maintainer-clean
+fi
+
+./bootstrap && \
+    ./configure --enable-maintainer-mode \
+		--enable-debug \
+		--prefix=/usr \
+		--mandir=/usr/share/man \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--enable-manpages \
+		--enable-experimental \
+		--enable-android \
+		--enable-sixaxis \
+		--disable-datafiles $*

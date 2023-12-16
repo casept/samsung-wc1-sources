@@ -1,0 +1,11 @@
+Package: gst-plugins-extention-@MACHINE@
+Priority: optional
+Version: @VERSION@
+Section: middleware
+Architecture: @ARCH@
+Maintainer: Heechul jeon <heechul.jeon@samsung.com>
+Source: xo
+Depends:
+Description: Gstreamer package for multimedia framework middleware package
+
+:

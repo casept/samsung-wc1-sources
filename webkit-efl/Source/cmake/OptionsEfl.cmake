@@ -1,0 +1,568 @@
+set(PROJECT_VERSION_MAJOR 0)
+set(PROJECT_VERSION_MINOR 1)
+set(PROJECT_VERSION_PATCH 0)
+set(PROJECT_VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH} CACHE STRING "Project Version")
+
+message("${PROJECT_VERSION}")
+
+add_definitions(-DBUILDING_EFL__=1)
+
+if (NOT DEFINED ENABLE_WEBKIT2)
+    set(ENABLE_WEBKIT2 ON)
+endif ()
+
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Debug" AND NOT SHARED_CORE)
+    message(FATAL_ERROR "Turn on the SHARED_CORE flag to make a debug build - e.g.\n build-webkit --efl --debug --cmakeargs=\"-DSHARED_CORE=ON\".\n")
+endif ()
+
+find_package(Cairo 1.10.2 REQUIRED)
+find_package(Fontconfig 2.8.0 REQUIRED)
+find_package(Sqlite REQUIRED)
+find_package(LibXml2 2.8.0 REQUIRED)
+find_package(LibXslt 1.1.7 REQUIRED)
+find_package(ICU REQUIRED)
+find_package(Threads REQUIRED)
+find_package(JPEG REQUIRED)
+find_package(PNG REQUIRED)
+find_package(ZLIB REQUIRED)
+
+find_package(GLIB 2.32.3 REQUIRED COMPONENTS gio gobject gthread)
+find_package(LibSoup 2.38.1 REQUIRED)
+
+set(WTF_USE_ICU_UNICODE 1)
+set(WTF_USE_SOUP 1)
+
+add_definitions(-DWTF_USE_GLIB=1)
+add_definitions(-DWTF_USE_SOUP=1)
+add_definitions(-DWTF_USE_ICU_UNICODE=1)
+add_definitions(-DWTF_USE_CAIRO=1)
+add_definitions(-DWTF_USE_CROSS_PLATFORM_CONTEXT_MENUS=1)
+ 
+set(WTF_OUTPUT_NAME wtf_efl)
+set(JavaScriptCore_OUTPUT_NAME javascriptcore_efl)
+set(WebCore_OUTPUT_NAME webcore_efl)
+set(WebKit_OUTPUT_NAME ewebkit)
+set(WebKit2_OUTPUT_NAME ewebkit2)
+
+set(DATA_INSTALL_DIR "share/${WebKit_OUTPUT_NAME}-${PROJECT_VERSION_MAJOR}" CACHE PATH "Installation path for theme data")
+set(VERSION_SCRIPT "-Wl,--version-script,${CMAKE_MODULE_PATH}/eflsymbols.filter")
+set(THEME_INSTALL_PATH "/usr/share/edje/webkit.edj")
+set(LEGACY_THEME_INSTALL_PATH "/usr/share/edje/legacyWebkit.edj")
+
+WEBKIT_OPTION_BEGIN()
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_3D_RENDERING ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ACCELERATED_OVERFLOW_SCROLLING ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ACCESSIBILITY OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_API_TESTS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_BATTERY_STATUS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_BLOB ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS3_TEXT ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_DEVICE_ADAPTATION ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_FILTERS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_SCROLL_SNAP ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CUSTOM_SCHEME_HANDLER ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_DATALIST_ELEMENT ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_DOWNLOAD_ATTRIBUTE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_DEVICE_ORIENTATION ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_FAST_MOBILE_SCROLLING OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_FILTERS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_FULLSCREEN_API ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INDEXED_DATABASE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_COLOR ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_DATE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_TIME ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_LLINT ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MEDIA_CAPTURE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MEMORY_SAMPLER OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MICRODATA OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MOUSE_CURSOR_SCALE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_NAVIGATOR_CONTENT_UTILS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_NETSCAPE_PLUGIN_API ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_NETWORK_INFO OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ORIENTATION_EVENTS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_PAGE_VISIBILITY_API ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_RESOLUTION_MEDIA_QUERY ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_REQUEST_ANIMATION_FRAME ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SCRIPTED_SPEECH OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SECCOMP_FILTERS OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SHARED_WORKERS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SPEECH_SYNTHESIS OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SPELLCHECK OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TOUCH_EVENTS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TOUCH_SLIDER ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_USERSELECT_ALL ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_VIBRATION ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_VIDEO ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_VIDEO_TRACK ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_VIEW_MODE_CSS_MEDIA ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_WEB_AUDIO ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_WEB_TIMING ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_WEBGL ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_XHR_TIMEOUT ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(WTF_USE_TILED_BACKING_STORE ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(USE_SYSTEM_MALLOC ON)
+ 
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MEDIA_SOURCE OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ENCRYPTED_MEDIA OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ENCRYPTED_MEDIA_V2 OFF)
+
+#--------------------------------------------------------------------------------------
+# Define Tizen Specific WebKit Features
+#--------------------------------------------------------------------------------------
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_SUPPORT "Enable Tizen Support" OFF)
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_MOBILE_PROFILE "Enable Tizen mobile profile" OFF)
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_TV_PROFILE "Enable Tizen TV profile" OFF)
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_WEARABLE_PROFILE "Enable Tizen wearable profile" OFF)
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_WEBPROCESS_MEM_TRACK "Enable memory tracking for WebProcess" ON)
+
+if (ENABLE_TIZEN_SUPPORT)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_CLIPBOARD "Enable Tizen Clipboard API for Tizen" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_PASTEBOARD "Enable Tizen Pasteboard API for Tizen" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_CSS_ALIASES "Enable Specifying CSS Property Aliases in Tizen" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_ENCRYPTED_MEDIA_V2 "Enable EME Tizen implementation" OFF)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_EXTENSIBLE_API "Enable Tizen extensible api" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_MSE "Enable Tizen Media Source Extension" OFF)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_RESET_PATH "Enable reset path" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_SCREEN_ORIENTATION_SUPPORT "Enable Screen Orientation support" ON)  # FIXME: This option should be synced with ORIENTATION_EVENTS.
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_SUPPORT_WEBAPP_META_TAG "Enable apple meta tag" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_TEXT_SELECTION "Text selection in WebKit 2" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_MSE_VIDEO_FIX "Enable fix for video playing" ON)
+
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_PREFERRED_VIEWING_DISTANCE_CSS_MEDIA "Add preferred-viewing-distance media query feature" ON)
+    WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_GEOMETRIC_SHAPE_CSS_MEDIA "Add geometric-shape media query feature" ON)
+endif ()
+WEBKIT_OPTION_DEFINE(ENABLE_TIZEN_CIRCLE_DISPLAY "Enable Tizen circle display" OFF)
+
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_FILE_SYSTEM OFF)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_LEGACY_NOTIFICATIONS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MEDIA_STREAM ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_NOTIFICATIONS ON)
+WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_STYLE_SCOPED ON)
+
+if ("${TIZEN_PROFILE}" STREQUAL "WEARABLE")
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TIZEN_WEARABLE_PROFILE ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SPEECH_SYNTHESIS ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SCRIPTED_SPEECH OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ACCESSIBILITY OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_ICONDATABASE OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MATHML OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SQL_DATABASE OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_XSLT OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TIZEN_TEXT_SELECTION OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CONTEXT_MENUS OFF)
+elseif ("${TIZEN_PROFILE}" STREQUAL "MOBILE")
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TIZEN_MOBILE_PROFILE ON)
+elseif ("${TIZEN_PROFILE}" STREQUAL "TV")
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TIZEN_TV_PROFILE ON)
+
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_GAMEPAD ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_GEOLOCATION ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_MONTH ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_WEEK ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_INPUT_TYPE_DATETIMELOCAL ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TOUCH_EVENTS OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TOUCH_SLIDER OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_POINTER_LOCK ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SCRIPTED_SPEECH ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_SPEECH_SYNTHESIS ON)
+else ()
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_IMAGE_SET ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_REGIONS ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_STICKY_POSITION ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_CSS_VARIABLES ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_DOM4_EVENTS_CONSTRUCTOR ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_DRAG_SUPPORT ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_GAMEPAD OFF)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_GEOLOCATION ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_LINK_PREFETCH ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_MHTML ON)
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TEMPLATE_ELEMENT ON)
+endif ()
+
+if ("${TIZEN_DISPLAY_SHAPE}" STREQUAL "CIRCLE")
+    WEBKIT_OPTION_DEFAULT_PORT_VALUE(ENABLE_TIZEN_CIRCLE_DISPLAY ON)
+endif ()
+
+# FIXME: Perhaps we need a more generic way of defining dependencies between features.
+# VIDEO_TRACK depends on VIDEO.
+if (NOT ENABLE_VIDEO AND ENABLE_VIDEO_TRACK)
+    message(STATUS "Disabling VIDEO_TRACK since VIDEO support is disabled.")
+    set(ENABLE_VIDEO_TRACK OFF)
+endif ()
+WEBKIT_OPTION_END()
+
+# -----------------------------------------------------------------------------
+# Start TIZEN definition
+# -----------------------------------------------------------------------------
+if (ENABLE_TIZEN_SUPPORT)
+    add_definitions(-DWTF_PLATFORM_TIZEN=1)
+    macro (TIZEN_OPTION_EXPAND _option)
+        if (${_option})
+            string(REGEX REPLACE "ENABLE_" "" _N ${_option})
+            set(ENABLE_TIZEN_${_N} 1)
+            add_definitions(-DENABLE_TIZEN_${_N}=1)
+        endif ()
+    endmacro ()
+
+    TIZEN_OPTION_EXPAND(ENABLE_BATTERY_STATUS)
+    TIZEN_OPTION_EXPAND(ENABLE_CUSTOM_SCHEME_HANDLER)
+    TIZEN_OPTION_EXPAND(ENABLE_DEVICE_ORIENTATION)
+    TIZEN_OPTION_EXPAND(ENABLE_DRAG_SUPPORT)
+    TIZEN_OPTION_EXPAND(ENABLE_GEOLOCATION)
+    TIZEN_OPTION_EXPAND(ENABLE_INDEXED_DATABASE)
+    TIZEN_OPTION_EXPAND(ENABLE_MEDIA_STREAM)
+    TIZEN_OPTION_EXPAND(ENABLE_NAVIGATOR_CONTENT_UTILS)
+    TIZEN_OPTION_EXPAND(ENABLE_NOTIFICATIONS)
+    TIZEN_OPTION_EXPAND(ENABLE_ORIENTATION_EVENTS)
+    TIZEN_OPTION_EXPAND(ENABLE_POINTER_LOCK)
+    TIZEN_OPTION_EXPAND(ENABLE_SPEECH_SYNTHESIS) # Wojciech Bielawski (w.bielawski) : W3C WebSpeech API implementation. Michal Debski (m.debski) : TV profile adjustments.
+    TIZEN_OPTION_EXPAND(ENABLE_SQL_DATABASE)
+    TIZEN_OPTION_EXPAND(ENABLE_STYLE_SCOPED)
+    TIZEN_OPTION_EXPAND(ENABLE_VIDEO)
+    TIZEN_OPTION_EXPAND(ENABLE_WEB_AUDIO)
+
+    set (ENABLE_TIZEN_KEYGEN ON)
+    add_definitions(-DENABLE_TIZEN_KEYGEN=1)
+
+    set (ENABLE_TIZEN_PASTEBOARD ON)
+    add_definitions(-DENABLE_TIZEN_PASTEBOARD=1)
+
+    if (ENABLE_VIDEO)
+        set (ENABLE_TIZEN_GSTREAMER_VIDEO ON)
+        add_definitions(-DENABLE_TIZEN_GSTREAMER_VIDEO=1)
+
+        set (ENABLE_TIZEN_GSTREAMER_AUDIO ON)
+        add_definitions(-DENABLE_TIZEN_GSTREAMER_AUDIO=1)
+    endif ()
+
+    if (ENABLE_TIZEN_MEDIA_STREAM)
+        set (ENABLE_TIZEN_MEDIA_STREAM_RECORDER ON)
+        add_definitions(-DENABLE_TIZEN_MEDIA_STREAM_RECORDER=1)
+    endif ()
+
+    # Set user agent for Tizen. Original commit id is f82b9efdceadfd53be23dc84839f0a4837a0b3e3.
+    set (ENABLE_TIZEN_USER_AGENT ON)
+    add_definitions(-DENABLE_TIZEN_USER_AGENT=1)
+
+    if (ENABLE_TIZEN_EMULATOR)
+        add_definitions(-DENABLE_TIZEN_EMULATOR=1)
+    endif ()
+
+    # Eunmi Lee(eunmi15.lee): Improve gesture performance.
+    # 1. Get estimated current position using history.
+    # 2. Wake up GPU when screen is touched.
+    # 3. Enable 2 CPU when screen is touched.
+    set (ENABLE_TIZEN_IMPROVE_GESTURE_PERFORMANCE ON)
+    add_definitions(-DENABLE_TIZEN_IMPROVE_GESTURE_PERFORMANCE=1)
+
+    # Jongseok Yang(js45.yang@samsung.com), Kwangyong Choi (ky0.choi@samsung.net), Eunmi Lee (eunmi15.lee@samsung.com)
+    # Support HW more/back keys.
+    set (ENABLE_TIZEN_HW_MORE_BACK_KEY ON)
+    add_definitions(-DENABLE_TIZEN_HW_MORE_BACK_KEY=1)
+
+    if (ENABLE_TIZEN_WEARABLE_PROFILE)
+        # Sanghyup Lee(sh53.lee@samsung.com)
+        # To play sound when user try to capture image or record by using camera.
+        add_definitions(-DENABLE_TIZEN_CAMERA_SHOOTING_SOUND=1)
+    endif ()
+ 
+    set(THEME_BINARY_DIR ${CMAKE_BINARY_DIR}/WebCore/platform/efl/DefaultTheme)
+    set(LEGACY_THEME_BINARY_DIR ${CMAKE_BINARY_DIR}/WebCore/platform/efl/WearableTheme)
+endif ()
+
+file(MAKE_DIRECTORY ${THEME_BINARY_DIR})
+file(MAKE_DIRECTORY ${LEGACY_THEME_BINARY_DIR})
+
+if (ENABLE_TIZEN_SUPPORT)
+add_definitions(-DDATA_DIR="${CMAKE_INSTALL_PREFIX}/${DATA_INSTALL_DIR}"
+                -DTEST_THEME_DIR="/home/developer")
+else ()
+add_definitions(-DDATA_DIR="${CMAKE_INSTALL_PREFIX}/${DATA_INSTALL_DIR}"
+                -DTEST_THEME_DIR="${THEME_BINARY_DIR}")
+endif ()
+# -----------------------------------------------------------------------------
+# End TIZEN definition
+# -----------------------------------------------------------------------------
+
+option(ENABLE_ECORE_X "Enable Ecore_X specific usage (cursor, bell)" ON)
+if (ENABLE_ECORE_X)
+    # We need Xext.h to disable Xlib error messages  when running WTR on Xvfb.
+    # These errors are dumped on stderr and makes the test driver thinks that
+    # the test case has failed.
+    find_package(X11 REQUIRED)
+
+    list(APPEND ECORE_ADDITIONAL_COMPONENTS X)
+    add_definitions(-DHAVE_ECORE_X)
+    add_definitions(-DWTF_PLATFORM_X11=1)
+    add_definitions(-DMOZ_X11)
+endif ()
+
+if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
+    set(CMAKE_CXX_ARCHIVE_CREATE "<CMAKE_AR> cruT <TARGET> <LINK_FLAGS> <OBJECTS>")
+    set(CMAKE_C_ARCHIVE_CREATE "<CMAKE_AR> cruT <TARGET> <LINK_FLAGS> <OBJECTS>")
+    set(CMAKE_CXX_ARCHIVE_APPEND "<CMAKE_AR> ruT <TARGET> <LINK_FLAGS> <OBJECTS>")
+    set(CMAKE_C_ARCHIVE_APPEND "<CMAKE_AR> ruT <TARGET> <LINK_FLAGS> <OBJECTS>")
+endif ()
+
+find_package(Eo QUIET)
+if (EO_FOUND)
+    add_definitions(-DWTF_USE_EO=1)
+
+    # EFL 1.8 provides FooConfig.cmake and it is preferred because FindFoo.cmake's
+    # tricky check routine for version is not availiable on EFL 1.8.
+    # But FindFoo.cmake is still required to support EFL 1.7 and config mode of CMake
+    # is supported after CMake 2.8.8.
+    # So, just disabled version requirement if CMake version is lower than 2.8.8 to
+    # build with EFL 1.8. Eo probably guarantee their version.
+    if (NOT (CMAKE_VERSION VERSION_LESS 2.8.8))
+       set(EFL_CONFIG_MODE CONFIG)
+       set(EFL_REQUIRED_VERSION 1.8)
+    endif ()
+else ()
+    set(EFL_REQUIRED_VERSION 1.7)
+endif ()
+
+find_package(Eina ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+find_package(Evas ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+find_package(Ecore ${EFL_REQUIRED_VERSION} COMPONENTS Evas File Input Imf Imf_Evas ${ECORE_ADDITIONAL_COMPONENTS} ${EFL_CONFIG_MODE})
+find_package(Edje ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+find_package(Eet ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+find_package(Efreet ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+
+if ((NOT ENABLE_TIZEN_SUPPORT) OR ENABLE_GAMEPAD)
+    find_package(Eeze ${EFL_REQUIRED_VERSION} REQUIRED ${EFL_CONFIG_MODE})
+endif ()
+
+find_package(Freetype2 2.4.2 REQUIRED)
+find_package(HarfBuzz 0.9.2 REQUIRED)
+add_definitions(-DWTF_USE_FREETYPE=1)
+add_definitions(-DWTF_USE_HARFBUZZ=1)
+
+if (ENABLE_WEBKIT2 AND ENABLE_NETSCAPE_PLUGIN_API)
+    set(ENABLE_PLUGIN_PROCESS 1)
+endif ()
+
+if (NOT ENABLE_SVG)
+    set(ENABLE_SVG_FONTS 0)
+endif ()
+
+if (ENABLE_TIZEN_SUPPORT)
+    find_package(DBus REQUIRED)
+endif ()
+
+if (ENABLE_TIZEN_GSTREAMER_AUDIO OR (ENABLE_BATTERY_STATUS AND NOT ENABLE_TIZEN_BATTERY_STATUS))
+    find_package(DBus REQUIRED)
+    find_package(E_DBus 1.6 COMPONENTS EUKit)
+endif ()
+
+if (ENABLE_VIDEO OR ENABLE_WEB_AUDIO)
+    set(GSTREAMER_COMPONENTS app pbutils)
+    set(WTF_USE_GSTREAMER 1)
+    if (ENABLE_TIZEN_GSTREAMER_VIDEO)
+        add_definitions(-DWTF_USE_GSTREAMER=1)
+    else ()
+        add_definitions(-DWTF_USE_GSTREAMER=1 -DGST_API_VERSION_1=1)
+    endif ()
+
+    if (ENABLE_VIDEO)
+        list(APPEND GSTREAMER_COMPONENTS video)
+    endif ()
+
+    if (ENABLE_WEB_AUDIO)
+        list(APPEND GSTREAMER_COMPONENTS audio fft)
+        add_definitions(-DWTF_USE_WEBAUDIO_GSTREAMER=1)
+    endif ()
+
+    if (ENABLE_TIZEN_GSTREAMER_VIDEO)
+        find_package(GStreamerTizen REQUIRED COMPONENTS ${GSTREAMER_COMPONENTS})
+    else ()
+        find_package(GStreamer 1.0.5 REQUIRED COMPONENTS ${GSTREAMER_COMPONENTS})
+    endif()
+endif ()
+
+if (WTF_USE_TILED_BACKING_STORE)
+    add_definitions(-DWTF_USE_ACCELERATED_COMPOSITING=1)
+
+    add_definitions(-DWTF_USE_COORDINATED_GRAPHICS=1)
+
+    set(WTF_USE_TEXTURE_MAPPER 1)
+    add_definitions(-DWTF_USE_TEXTURE_MAPPER=1)
+
+    set(WTF_USE_3D_GRAPHICS 1)
+    add_definitions(-DWTF_USE_3D_GRAPHICS=1)
+
+    set(ENABLE_3D_RENDERING 1)
+    add_definitions(-DENABLE_3D_RENDERING=1)
+else ()
+    # Disable 3D graphics and WEBGL if tiled backing is disabled
+    set(ENABLE_WEBGL 0)
+    set(WTF_USE_3D_GRAPHICS 0)
+    add_definitions(-DWTF_USE_3D_GRAPHICS=0)
+endif ()
+
+if (ENABLE_WEBGL OR WTF_USE_TILED_BACKING_STORE)
+    set(USE_GRAPHICS_SURFACE 1)
+    add_definitions(-DWTF_USE_GRAPHICS_SURFACE=1)
+
+    option(ENABLE_GLES2 "Enable GLES Support")
+    if (ENABLE_GLES2)
+        find_package(GLES REQUIRED)
+
+        set(WTF_USE_OPENGL_ES_2 1)
+        add_definitions(-DWTF_USE_OPENGL_ES_2=1)
+    else ()
+        find_package(OpenGL REQUIRED)
+
+        set(WTF_USE_OPENGL 1)
+        add_definitions(-DWTF_USE_OPENGL=1)
+    endif ()
+
+    option(ENABLE_EGL "Enable EGL Support")
+    if (ENABLE_EGL)
+        find_package(EGL REQUIRED)
+        set(WTF_USE_EGL 1)
+        add_definitions(-DWTF_USE_EGL=1)
+    else ()
+        CHECK_INCLUDE_FILES("GL/glx.h" OPENGLX_FOUND)
+        add_definitions(-DWTF_USE_GLX=1)
+    endif ()
+endif ()
+
+if (ENABLE_WEBGL AND OPENGLX_FOUND)
+    if (NOT X11_Xcomposite_FOUND OR NOT X11_Xrender_FOUND)
+        # FIXME: Add support for NOT X11_Xcomposite for GLX
+        message(FATAL_ERROR "To use WebGL with GLX support requires X11_Xcomposite.")
+    endif ()
+endif ()
+
+if (ENABLE_INSPECTOR)
+    set(WEB_INSPECTOR_DIR "${DATA_INSTALL_DIR}/inspector")
+    add_definitions(-DWEB_INSPECTOR_DIR=\"${CMAKE_BINARY_DIR}/${WEB_INSPECTOR_DIR}\")
+    add_definitions(-DWEB_INSPECTOR_INSTALL_DIR=\"${CMAKE_INSTALL_PREFIX}/${WEB_INSPECTOR_DIR}\")
+endif ()
+
+if (ENABLE_SECCOMP_FILTERS)
+    find_package(LibSeccomp REQUIRED)
+endif ()
+
+set(CPACK_SOURCE_GENERATOR TBZ2)
+
+# Optimize binary size for release builds by removing dead sections on unix/gcc
+if (CMAKE_COMPILER_IS_GNUCC AND UNIX AND NOT APPLE)
+    set(CMAKE_C_FLAGS_RELEASE "-ffunction-sections -fdata-sections ${CMAKE_C_FLAGS_RELEASE}")
+    set(CMAKE_CXX_FLAGS_RELEASE "-ffunction-sections -fdata-sections -fno-rtti -fvisibility-inlines-hidden ${CMAKE_CXX_FLAGS_RELEASE}")
+    set(CMAKE_SHARED_LINKER_FLAGS_RELEASE "-Wl,--gc-sections ${CMAKE_SHARED_LINKER_FLAGS_RELEASE}")
+endif ()
+
+if (ENABLE_SPELLCHECK)
+    find_package(Enchant REQUIRED)
+endif ()
+
+if (ENABLE_ACCESSIBILITY)
+    find_package(EAIL 1.0.0 REQUIRED)
+    find_package(ATK 2.8.0 REQUIRED)
+else ()
+    add_definitions(-DHAVE_ACCESSIBILITY=0)
+endif ()
+
+if (ENABLE_INDEXED_DATABASE)
+    find_package(LevelDB) #Tried to find system level db
+    if (NOT LEVELDB_FOUND)
+        # Use static leveldb in webkit
+        set(WTF_USE_LEVELDB 1)
+    endif ()
+
+    add_definitions(-DWTF_USE_LEVELDB=1)
+endif ()
+
+if (ENABLE_SCRIPTED_SPEECH)
+    find_package(STT REQUIRED)
+    add_definitions(-DENABLE_SCRIPTED_SPEECH=1)
+endif ()
+
+IF (ENABLE_SPEECH_SYNTHESIS)
+    find_package(TTS REQUIRED)
+    add_definitions(-DENABLE_SPEECH_SYNTHESIS=1)
+ENDIF ()
+
+# -----------------------------------------------------------------------------
+# Checking Tizen dependencies.
+# -----------------------------------------------------------------------------
+if (ENABLE_TIZEN_SUPPORT)
+
+    if (ENABLE_TIZEN_WEARABLE_PROFILE)
+        string(REPLACE "-O3" "-O2" CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE}")
+        string(REPLACE "-O3" "-O2" CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
+    endif ()
+
+    if (ENABLE_TIZEN_MOBILE_PROFILE)
+        set(CAPI_ADDITIONAL_COMPONENTS NETWORK_CONNECTION TELEPHONY_NETWORK_INFO)
+    endif ()
+
+    find_package(CAPI REQUIRED COMPONENTS ${CAPI_ADDITIONAL_COMPONENTS})
+    find_package(VConf REQUIRED)
+    find_package(DRM REQUIRED)
+    find_package(TBM REQUIRED)
+    find_package(DRI2 REQUIRED)
+    find_package(Dlog)
+    find_package(EDBUS REQUIRED)
+    find_package(DBUS-1 REQUIRED)
+    find_package(Feedback)
+
+    # FIXME : We should remove Elementary from ewebkit
+    find_package(Elementary REQUIRED)
+
+    find_package(UIExtension REQUIRED)
+
+    if (ENABLE_TIZEN_CIRCLE_DISPLAY)
+        find_package(EFLExtension REQUIRED)
+    endif()
+    find_package(EflExt REQUIRED)
+
+    if (ENABLE_TIZEN_KEYGEN)
+        find_package(OpenSSL REQUIRED)
+    endif ()
+
+    if(ENABLE_TIZEN_GEOLOCATION)
+        find_package(Tizen-Location-Manager REQUIRED)
+    endif()
+
+    if(ENABLE_TIZEN_GSTREAMER_AUDIO)
+        find_package(ASM REQUIRED)
+        find_package(MMSOUND REQUIRED)
+        find_package(SESSION REQUIRED)
+    endif()
+
+    if (ENABLE_TIZEN_HW_MORE_BACK_KEY)
+        find_package(EflAssist REQUIRED)
+    endif ()
+
+    find_package(WidgetService REQUIRED)
+endif ()
+
+if (ENABLE_TIZEN_WEBPROCESS_MEM_TRACK)
+    find_package(AUL REQUIRED)
+endif()
+
+if (ENABLE_WEBKIT2)
+    if (NOT ENABLE_TIZEN_EMULATOR)
+        set(WTF_USE_TIZEN_PLATFORM_SURFACE 1)
+        add_definitions(-DWTF_USE_TIZEN_PLATFORM_SURFACE=1)
+    endif ()
+
+    # This macro collects all changes that are needed to run layout tests on TIZEN:
+    # 1. Elementary library needs to be initialized by WebKitTestRunner due to WebKit uses it.
+    # 2. libTestRunnerInjectedBundle.so unnecessary links of WebCoreTestSupport.
+    # 3. FONTS_CONF_DIR_ENV has to be set in order to load fonts configuration.
+    # 4. Skip downloading dependencies by jhbuild. Tizen has own specific packages.
+    set(ENABLE_LAYOUT_TESTS 1)
+    add_definitions(-DENABLE_LAYOUT_TESTS=1)
+endif ()
+
+if(DLOG_FOUND)
+    add_definitions(-DENABLE_TIZEN_DLOG_SUPPORT=1)
+endif()
+
+if(FEEDBACK_FOUND)
+    add_definitions(-DENABLE_TIZEN_UI_TAP_SOUND=1)
+endif()

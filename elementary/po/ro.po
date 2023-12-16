@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+################# Not necessary to match the IDS, just merge to other languages. It can be removed after cleaning the code ##############
+#: src/lib/elc_fileselector.c
+msgid "Up"
+msgstr ""
+
+#: src/lib/elc_fileselector.c
+msgid "Home"
+msgstr ""
+
+#: src/lib/elc_fileselector.c
+msgid "OK"
+msgstr ""
+
+#: src/lib/elc_popup.c
+msgid "Popup_list"
+msgstr " "
+
+#: src/lib/elm_bubble.c
+msgid "Bubble"
+msgstr ""
+
+#: src/lib/elm_button.c
+msgid "Clicked"
+msgstr " "
+
+#: src/lib/elm_check.c
+msgid "State"
+msgstr " "
+
+#: src/lib/elm_calendar.c
+msgid "%B %Y"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar item"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar decrement button"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar increment button"
+msgstr ""
+
+#: src/lib/elm_calendar.c
+msgid "calendar month"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "clock increment button for am,pm"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "clock decrement button for am,pm"
+msgstr ""
+
+#: src/lib/elm_clock.c
+msgid "State: Editable"
+msgstr " "
+
+#: src/lib/elm_clock.c
+msgid "Clock"
+msgstr ""
+
+#: src/lib/elm_colorselector.c
+msgid "color selector palette item"
+msgstr ""
+
+#: src/lib/elm_entry.c
+msgid "State: Not Editable"
+msgstr " "
+
+#: src/lib/elm_entry.c
+msgid ", Not Editable"
+msgstr " "
+
+#: src/lib/elm_colorselector.c
+msgid "Alpha control slider"
+msgstr " "
+
+#: src/lib/elm_diskselector.c
+msgid "diskselector item"
+msgstr ""
+
+#: src/lib/elm_label.c
+msgid "Label"
+msgstr " "
+
+#: src/lib/elm_progressbar.c
+msgid "progressbar"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "incremented"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "decremented"
+msgstr " "
+
+#: src/lib/elm_spinner.c
+msgid "spinner increment button"
+msgstr ""
+
+#: src/lib/elm_spinner.c
+msgid "spinner decrement button"
+msgstr ""
+
+#: src/lib/elm_toolbar.c
+msgid "Separator"
+msgstr ""
+
+#: src/lib/elm_toolbar.c
+msgid "Has menu"
+msgstr ""
+#####################For detection of RTL language, if this language supports RTL the translated string should be "default:TRL"##########
+#: src/lib/elm_config.c, elm_win.c
+msgid "default:LTR"
+msgstr ""
+#########################################################################################################################################
+msgid "IDS_SMEMO_BODY_BLACK"
+msgstr "Negru"
+
+msgid "IDS_SMEMO_BODY_BLUE_VIOLET"
+msgstr "Violet albastru"
+
+msgid "IDS_SMEMO_BODY_CORAL"
+msgstr "Coral"
+
+msgid "IDS_SMEMO_BODY_DARK_BLUE"
+msgstr "Albastru închis"
+
+msgid "IDS_SMEMO_BODY_DARK_GREY"
+msgstr "Gri închis"
+
+msgid "IDS_SMEMO_BODY_FOREST_GREEN"
+msgstr "Verde de pădure"
+
+msgid "IDS_SMEMO_BODY_HOTPINK"
+msgstr "Roz aprins"
+
+msgid "IDS_SMEMO_BODY_LIME_GREEN"
+msgstr "Verde lime"
+
+msgid "IDS_SMEMO_BODY_PLUM"
+msgstr "Prună"
+
+msgid "IDS_SMEMO_BODY_RED"
+msgstr "Roşu"
+
+msgid "IDS_SMEMO_BODY_ROYAL_BLUE"
+msgstr "Albastru intens"
+
+msgid "IDS_SMEMO_BODY_SKY_BLUE"
+msgstr "Azuriu"
+
+msgid "IDS_SMEMO_BODY_TOMATO"
+msgstr "Roşie"
+
+msgid "IDS_SMEMO_BODY_WHITE"
+msgstr "Alb"
+
+msgid "IDS_SMEMO_BODY_YELLOW"
+msgstr "Galben"
+
+msgid "IDS_TPLATFORM_BODY_BRIGHTNESS_CONTROL_SLIDER_T_TALKBACK"
+msgstr "Glisor control luminozitate"
+
+msgid "IDS_ACCS_BODY_DATE_TTS"
+msgstr "Dată"
+
+msgid "IDS_ACCS_BODY_PD_CHARACTERS_TTS"
+msgstr "%d caractere."
+
+msgid "IDS_ACCS_BODY_PD_M_DAY"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_HOUR"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_MINUTES"
+msgstr "%d"
+
+msgid "IDS_ACCS_BODY_PD_M_YEAR"
+msgstr "%d"
+
+msgid "IDS_CLOCK_BUTTON_SPINNER"
+msgstr "Rotire"
+
+msgid "IDS_COM_BODY_CLIPBOARD"
+msgstr "Clipboard"
+
+msgid "IDS_COM_BODY_COPY"
+msgstr "Copiere"
+
+msgid "IDS_COM_BODY_CUT"
+msgstr "Tăiere"
+
+msgid "IDS_COM_BODY_DECREASE_DAY"
+msgstr "Descreştere zi"
+
+msgid "IDS_COM_BODY_DECREASE_HOUR"
+msgstr "Descreştere oră"
+
+msgid "IDS_COM_BODY_DECREASE_MINUTE"
+msgstr "Descreştere minut"
+
+msgid "IDS_COM_BODY_DECREASE_MONTH"
+msgstr "Descreştere lună"
+
+msgid "IDS_COM_BODY_DECREASE_YEAR"
+msgstr "Descreştere an"
+
+msgid "IDS_COM_BODY_INCREASE_DAY"
+msgstr "Creştere zi"
+
+msgid "IDS_COM_BODY_INCREASE_HOUR"
+msgstr "Creştere oră"
+
+msgid "IDS_COM_BODY_INCREASE_MINUTE"
+msgstr "Creştere minut"
+
+msgid "IDS_COM_BODY_INCREASE_MONTH"
+msgstr "Creştere lună"
+
+msgid "IDS_COM_BODY_INCREASE_YEAR"
+msgstr "Creştere an"
+
+msgid "IDS_COM_BODY_PASTE"
+msgstr "Lipire"
+
+msgid "IDS_COM_BODY_SELECT_ALL"
+msgstr "Selectare toate"
+
+msgid "IDS_COM_POP_SET"
+msgstr "Afişare"
+
+msgid "IDS_COM_POP_TITLE"
+msgstr "Titlu"
+
+msgid "IDS_COM_SK_SELECT"
+msgstr "Selectare"
+
+msgid "IDS_IDLE_BODY_TAP_TO_CHANGE"
+msgstr "Atingeţi pentru a modifica."
+
+msgid "IDS_MSG_HEADER_TRANSLATE"
+msgstr "Traducere"
+
+msgid "IDS_SCR_BODY_FLICK_UP_AND_DOWN_TO_ADJUST_PS_OR_DOUBLE_TAP_TO_OPEN_KEYBOARD_T_TTS"
+msgstr "Glisaţi în sus şi în jos pentru a ajusta %s sau atingeţi de două ori pentru a deschide tastatura."
+
+msgid "IDS_SCR_BODY_LANDSCAPE_MODE"
+msgstr "Mod Peisaj"
+
+msgid "IDS_SCR_BODY_PORTRAIT_MODE_TTS"
+msgstr "Modul Portret"
+
+msgid "IDS_SCR_OPT_CENTRAL_POP_UP_TTS"
+msgstr "Fereastră pop-up centrală"
+
+msgid "IDS_SCR_OPT_MENU_POP_UP_TTS"
+msgstr "Fereastră pop-up meniu"
+
+msgid "IDS_SMEMO_BODY_CUSTOM_COLOUR_PALETTE"
+msgstr "Paletă de culori personalizate"
+
+msgid "IDS_SMEMO_BODY_TAP_TO_APPLY_T_TTS"
+msgstr "Atingeţi pentru a aplica."
+
+msgid "IDS_ST_BODY_DOUBLE_TAP_TO_CLOSE_THE_MENU_T_TTS"
+msgstr "Atingeţi de două ori pentru a închide meniul."
+
+msgid "IDS_ST_HEADER_COLOUR_PICKER_ABB"
+msgstr "Selector de culori"
+
+msgid "IDS_TPLATFORM_BODY_COLOUR_CONTROL_SLIDER_T_TALKBACK"
+msgstr "Glisor control culoare"
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_ENABLE_FAST_SCROLLING_T_TTS"
+msgstr "Atingeţi de două ori pentru a activa derularea rapidă."
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_MOVE_TO_CONTENT_T_TTS"
+msgstr "Atingeţi de două ori pentru a muta în conţinut."
+
+msgid "IDS_TPLATFORM_BODY_FAST_SCROLL_BAR_T_TTS"
+msgstr "Bară de derulare rapidă"
+
+msgid "IDS_TPLATFORM_BODY_HOUR_LC"
+msgstr "oră"
+
+msgid "IDS_TPLATFORM_BODY_PD_PERCENT_T_TTS"
+msgstr "%d la sută"
+
+msgid "IDS_TPLATFORM_BODY_POP_UP_HEADER_T_TALKBACK"
+msgstr "Antet fereastră de tip pop-up"
+
+msgid "IDS_TPLATFORM_BODY_SATURATION_CONTROL_SLIDER_T_TALKBACK"
+msgstr "Glisor control saturaţie"
+
+msgid "IDS_TPLATFORM_BODY_SELECTED_T_TTS"
+msgstr "Selectat"
+
+msgid "IDS_TPLATFORM_BODY_TAB_T_TTS"
+msgstr "Filă"
+
+msgid "IDS_TPLATFORM_BODY_TEXT_IN_BODY_OF_POP_UP_T_TALKBACK"
+msgstr "Text în corpul ferestrei de tip pop-up"
+
+msgid "IDS_TPLATFORM_HEADER_SET_DATE"
+msgstr "Setaţi data"
+
+msgid "IDS_TPLATFORM_HEADER_SET_TIME"
+msgstr "Setaţi ora"
+
+msgid "IDS_TPLATFORM_BODY_DOUBLE_TAP_TO_EDIT_THE_RECIPIENTS_T_TTS"
+msgstr "Atingeţi de două ori pentru a edita destinatarii."
+
+msgid "IDS_TPLATFORM_BODY_ICON"
+msgstr "Pictogramă"
+
+msgid "IDS_ACCS_BODY_DOUBLE_TAP_TO_CLOSE_DRAWER_MENU_TTS"
+msgstr "Atingeţi de două ori pentru a închide meniul derulant."
+
+msgid "IDS_TPLATFORM_BODY_A_DRAWER_IS_OPEN_T_TTS"
+msgstr "Este deschis un panou."
+
+msgid "IDS_ACCS_BODY_BUTTON_TTS"
+msgstr "Buton"
+
+msgid "IDS_ACCS_BODY_DISABLED_TTS"
+msgstr "S-a dezactivat."
+
+msgid "IDS_ACCS_BODY_TICKBOX_TTS"
+msgstr "Casetă de selectare"
+
+msgid "IDS_ACCS_OPT_NOT_SELECTED_TTS"
+msgstr "Neselectat"
+
+msgid "IDS_ACCS_OPT_SELECTED_TTS"
+msgstr "Selectată"
+
+msgid "IDS_ACCS_OPT_TICKED_TTS"
+msgstr "Bifat"
+
+msgid "IDS_ACCS_OPT_UNTICKED_TTS"
+msgstr "Debifat"
+
+msgid "IDS_COM_BODY_AM"
+msgstr "AM"
+
+msgid "IDS_COM_BODY_MINUTE"
+msgstr "Minut"
+
+msgid "IDS_COM_BODY_PM"
+msgstr "PM"
+
+msgid "IDS_COM_BODY_PROCESSING_ING"
+msgstr "Se procesează..."
+
+msgid "IDS_SCR_OPT_CURSOR_AT_BEGINNING_OF_TEXT_TTS"
+msgstr "Cursorul la începutul textului"
+
+msgid "IDS_SCR_OPT_CURSOR_AT_END_OF_TEXT_TTS"
+msgstr "Cursorul la sfârşitul textului"
+
+msgid "IDS_TPLATFORM_BODY_CONTEXTUAL_POP_UP_T_TTS"
+msgstr "Fereastră de tip pop-up contextuală"
+
+msgid "IDS_TPLATFORM_BODY_EDITING_T_TTS"
+msgstr "Se editează."
+
+msgid "IDS_TPLATFORM_BODY_EDIT_FIELD_M_NOUN_T_TTS"
+msgstr "Editaţi câmpul"
+
+msgid "IDS_TPLATFORM_BODY_FLICK_UP_AND_DOWN_TO_ADJUST_THE_POSITION_T_TTS"
+msgstr "Deplasaţi în sus şi în jos pentru a ajusta poziţia."
+
+msgid "IDS_TPLATFORM_BODY_OFF"
+msgstr "Oprit"
+
+msgid "IDS_TPLATFORM_BODY_ON"
+msgstr "Pornit"
+
+msgid "IDS_TPLATFORM_BODY_ON_OFF_BUTTON_T_TTS"
+msgstr "Buton pornit/oprit"
+
+msgid "IDS_TPLATFORM_BODY_SLIDER_T_TTS"
+msgstr "Cursor"
+
+msgid "WDS_ST_OPT_DAY_ABB"
+msgstr "Zi"
+
+msgid "WDS_ST_OPT_HRS_ABB"
+msgstr "Ore"
+
+msgid "WDS_ST_OPT_MINS_ABB"
+msgstr "Minute"
+
+msgid "WDS_ST_OPT_MONTH_ABB"
+msgstr "Lună"
+
+msgid "WDS_ST_OPT_YEAR_ABB"
+msgstr "An"
+
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Anulare"
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_P1SS_TO_ADJUST_P2SS"
+msgstr "Rotiţi %1$s pentru a ajusta %2$s."
+
+msgid "IDS_COM_BODY_RADIO_BUTTON_T_TTS"
+msgstr "Buton radio"
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_CHANGE"
+msgstr "Atingeţi de două ori pentru a modifica."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_CLOSE_THE_POP_UP"
+msgstr "Atingeţi de două ori pentru a închide fereastra pop-up."
+
+msgid "WDS_TTS_TBBODY_DOUBLE_TAP_TO_EDIT"
+msgstr "Atingeţi de două ori pentru a edita."
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_PS_TO_NAVIGATE_ITEMS"
+msgstr "Rotiţi %s pentru a naviga prin elemente."
+
+msgid "WDS_TTS_TBBODY_ROTATE_THE_PS_TO_SEARCH_INDEX"
+msgstr "Rotiţi %s pentru indexul de căutare."
+
+msgid "WDS_TTS_TBOPT_ALERT"
+msgstr "Alertă"
+
+msgid "WDS_TTS_TBOPT_INDEX_SCROLL"
+msgstr "Derulare index"
+
+msgid "WDS_TTS_TBOPT_MORE_OPTIONS"
+msgstr "Mai multe opţiuni"
+
+msgid "WDS_TTS_TBOPT_PICKER"
+msgstr "Selector"
+
+msgid "WDS_TTS_TBOPT_SELECT_MODE_POP_UP"
+msgstr "Selectaţi modul pop-up"
+
+msgid "IDS_ST_BODY_P1SD_OF_P2SD_TTS"
+msgstr "%1$d din %2$d."
+
+msgid "WDS_ST_HEADER_HR_ABB"
+msgstr "H"
+
+msgid "WDS_ST_HEADER_MIN_ABB"
+msgstr "Min."
+
+msgid "WDS_ST_HEADER_SEC_ABB"
+msgstr "Sec."
